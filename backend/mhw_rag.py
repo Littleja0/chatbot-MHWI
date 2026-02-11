@@ -19,32 +19,45 @@ STORAGE_PATH = Path("storage")
 # Instância global do motor
 _query_engine = None
 
-def setup_rag_engine():
+def setup_rag_engine(progress_callback=None):
     """
-    Inicializa o motor de RAG e configura a instância global.
+    Inicializa o motor de RAG e configura a instância global com feedback.
     """
     global _query_engine
     if _query_engine is not None:
         return _query_engine
 
+    def report(text, progress):
+        if progress_callback:
+            progress_callback(text, progress)
+        print(f"[{progress}%] {text}")
+
     if not RAG_PATH.exists():
-        print(f"Erro: Pasta {RAG_PATH} não encontrada!")
+        report("Erro: Pasta 'rag' não encontrada!", 100)
         return None
 
     if STORAGE_PATH.exists() and any(STORAGE_PATH.iterdir()):
-        print("Carregando índice RAG existente da pasta storage...")
+        report("Carregando base de dados RAG existente...", 90)
         storage_context = StorageContext.from_defaults(persist_dir=str(STORAGE_PATH))
         index = load_index_from_storage(storage_context)
     else:
-        print("Criando novo índice RAG a partir dos arquivos XML (isso pode demorar uma vez)...")
+        report("Iniciando indexação (isso ocorre apenas na 1ª vez)...", 85)
+        
+        # Lista arquivos para dar feedback real
+        xml_files = list(RAG_PATH.glob("*.xml"))
+        report(f"Lendo {len(xml_files)} arquivos de dados do jogo...", 87)
+        
         reader = SimpleDirectoryReader(input_dir=str(RAG_PATH), required_exts=[".xml"])
         documents = reader.load_data()
         
+        report("Gerando índice de inteligência (Embeddings)...", 92)
+        # Este é o passo mais demorado
         index = VectorStoreIndex.from_documents(documents)
         
+        report("Salvando base de dados para uso futuro...", 98)
         STORAGE_PATH.mkdir(exist_ok=True)
         index.storage_context.persist(persist_dir=str(STORAGE_PATH))
-        print("Índice RAG persistido e pronto.")
+        report("Base de dados pronta!", 100)
 
     _query_engine = index.as_query_engine(similarity_top_k=5)
     return _query_engine

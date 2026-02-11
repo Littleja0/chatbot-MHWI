@@ -1,5 +1,6 @@
 import sys
 import os
+from pathlib import Path
 
 # Ajustar sys.path IMEDIATAMENTE para encontrar módulos na raiz
 if getattr(sys, 'frozen', False):
@@ -287,10 +288,11 @@ if __name__ == "__main__":
                 time.sleep(2)
 
             # Transição para o App principal
-            on_progress("Carregando base de dados RAG...", 90)
+            is_first_rag = not os.path.exists("storage") or not any(Path("storage").iterdir() if Path("storage").exists() else [])
+            
             try:
-                # Inicializa o motor RAG (cria índice se não existir)
-                mhw_rag.setup_rag_engine()
+                # Inicializa o motor RAG enviando o callback para feedback na Splash
+                mhw_rag.setup_rag_engine(progress_callback=on_progress)
             except Exception as e:
                 print(f"Erro ao inicializar RAG: {e}")
             
