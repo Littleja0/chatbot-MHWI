@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <weapon_melody_text>
   <DATA_RECORD>
     <id>1</id>
@@ -9,10 +9,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>1</id>
+    <lang_id>ja</lang_id>
+    <name>自分強化</name>
+    <effect1>移動速度ＵＰ</effect1>
+    <effect2>はじかれ無効＆攻撃力ＵＰ</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>fr</lang_id>
+    <name>Auto-amélioration</name>
+    <effect1>Vitesse de déplacement +</effect1>
+    <effect2>Annule déviation attaque / Bonus attaque</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>it</lang_id>
+    <name>Automiglioramento</name>
+    <effect1>Aumenta velocità movimenti</effect1>
+    <effect2>Aumenta attacco / Annulla respinta attacchi</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>de</lang_id>
+    <name>Selbstverbesserung</name>
+    <effect1>Bewegungsgeschwindigkeit hoch</effect1>
+    <effect2>Angriff hoch + Angriffsablenkungsschutz</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>es</lang_id>
+    <name>Automejora</name>
+    <effect1>Movimiento veloz</effect1>
+    <effect2>Anti rebote de ataques y ataque mejorado</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
     <lang_id>pt</lang_id>
     <name>Autoaprimoramento</name>
     <effect1>Mais Velocidade de Movimento</effect1>
     <effect2>Mais Ataque + Prev. de Deflexão de Atq.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>pl</lang_id>
+    <name>Samodoskonalenie</name>
+    <effect1>Szybszy Ruch</effect1>
+    <effect2>Wzrost Ataku + Zapobieganie Odbijaniu Ataków</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ru</lang_id>
+    <name>Самосовершенствование</name>
+    <effect1>Ускорение</effect1>
+    <effect2>Усиление атаки + запрет отраженных атак</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ko</lang_id>
+    <name>자기 강화</name>
+    <effect1>이동 속도 UP</effect1>
+    <effect2>튕겨내기 무효＆공격력 UP</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>zh</lang_id>
+    <name>自我強化</name>
+    <effect1>移動速度UP</effect1>
+    <effect2>彈武無效＆攻擊力UP</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ar</lang_id>
+    <name>التحسّن الذاتي</name>
+    <effect1>تسرّع الحركة</effect1>
+    <effect2>زيادة الهجوم + منع انحراف الهجوم</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>2</id>
@@ -23,10 +93,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>2</id>
+    <lang_id>ja</lang_id>
+    <name>攻撃力ＵＰ【小】</name>
+    <effect1>攻撃力ＵＰ【小】</effect1>
+    <effect2>攻撃力ＵＰ【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus attaque (P)</name>
+    <effect1>Bonus attaque (P)</effect1>
+    <effect2>Bonus attaque (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta attacco (S)</name>
+    <effect1>Aumenta attacco (S)</effect1>
+    <effect2>Aumenta attacco (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>de</lang_id>
+    <name>Angriff hoch (S)</name>
+    <effect1>Angriff hoch (S)</effect1>
+    <effect2>Angriff hoch (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>es</lang_id>
+    <name>Mejora de ataque (P)</name>
+    <effect1>Mejora de ataque (P)</effect1>
+    <effect2>Mejora de ataque (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
     <lang_id>pt</lang_id>
     <name>Mais Ataque (P)</name>
     <effect1>Mais Ataque (P)</effect1>
     <effect2>Mais Ataque (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>pl</lang_id>
+    <name>Wzrost Ataku (M)</name>
+    <effect1>Wzrost Ataku (M)</effect1>
+    <effect2>Wzrost Ataku (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление атаки (S)</name>
+    <effect1>Усиление атаки (S)</effect1>
+    <effect2>Усиление атаки (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ko</lang_id>
+    <name>공격력 UP【소】</name>
+    <effect1>공격력 UP【소】</effect1>
+    <effect2>공격력 UP【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>zh</lang_id>
+    <name>攻擊力UP【小】</name>
+    <effect1>攻擊力UP【小】</effect1>
+    <effect2>攻擊力UP【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة الهجوم (ض)</name>
+    <effect1>زيادة الهجوم (ض)</effect1>
+    <effect2>زيادة الهجوم (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>3</id>
@@ -37,10 +177,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>3</id>
+    <lang_id>ja</lang_id>
+    <name>攻撃力ＵＰ【大】</name>
+    <effect1>攻撃力ＵＰ【大】</effect1>
+    <effect2>攻撃力ＵＰ【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus attaque (G)</name>
+    <effect1>Bonus attaque (G)</effect1>
+    <effect2>Bonus attaque (MAX)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta attacco (L)</name>
+    <effect1>Aumenta attacco (L)</effect1>
+    <effect2>Aumenta attacco (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>de</lang_id>
+    <name>Angriff hoch (L)</name>
+    <effect1>Angriff hoch (L)</effect1>
+    <effect2>Angriff hoch (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>es</lang_id>
+    <name>Mejora de ataque (G)</name>
+    <effect1>Mejora de ataque (G)</effect1>
+    <effect2>Mejora de ataque (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
     <lang_id>pt</lang_id>
     <name>Mais Ataque (G)</name>
     <effect1>Mais Ataque (G)</effect1>
     <effect2>Mais Ataque (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>pl</lang_id>
+    <name>Wzrost Ataku (D)</name>
+    <effect1>Wzrost Ataku (D)</effect1>
+    <effect2>Wzrost Ataku (BD)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление атаки (L)</name>
+    <effect1>Усиление атаки (L)</effect1>
+    <effect2>Усиление атаки (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ko</lang_id>
+    <name>공격력 UP【대】</name>
+    <effect1>공격력 UP【대】</effect1>
+    <effect2>공격력 UP【특대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>zh</lang_id>
+    <name>攻擊力UP【大】</name>
+    <effect1>攻擊力UP【大】</effect1>
+    <effect2>攻擊力UP【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة الهجوم (ك)</name>
+    <effect1>زيادة الهجوم (ك)</effect1>
+    <effect2>زيادة الهجوم (ك ج)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>4</id>
@@ -51,10 +261,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>4</id>
+    <lang_id>ja</lang_id>
+    <name>体力ＵＰ【小】</name>
+    <effect1>体力ＵＰ【小】</effect1>
+    <effect2>体力ＵＰ延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus vie (P)</name>
+    <effect1>Bonus vie (P)</effect1>
+    <effect2>Bonus vie : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta salute (S)</name>
+    <effect1>Aumenta salute (S)</effect1>
+    <effect2>Aumenta salute (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>de</lang_id>
+    <name>Gesundheitsboost (S)</name>
+    <effect1>Gesundheitsboost (S)</effect1>
+    <effect2>Gesundheitsboost Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>es</lang_id>
+    <name>Bonus salud (P)</name>
+    <effect1>Bonus salud (P)</effect1>
+    <effect2>Bonus salud extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
     <lang_id>pt</lang_id>
     <name>Reforço de Vida (P)</name>
     <effect1>Reforço de Vida (P)</effect1>
     <effect2>Reforço de Vida Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Zdrowia (M)</name>
+    <effect1>Wzmocnienie Zdrowia (M)</effect1>
+    <effect2>Przedłużone Wzmocnienie Zdrowia</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление здоровья (S)</name>
+    <effect1>Усиление здоровья (S)</effect1>
+    <effect2>Улучшенное усиление здоровья</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ko</lang_id>
+    <name>체력 UP【소】</name>
+    <effect1>체력 UP【소】</effect1>
+    <effect2>체력 UP 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>zh</lang_id>
+    <name>體力UP【小】</name>
+    <effect1>體力UP【小】</effect1>
+    <effect2>延長體力UP</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز الصحة (ض)</name>
+    <effect1>تعزيز الصحة (ض)</effect1>
+    <effect2>مدّ تعزيز الصحة</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>5</id>
@@ -65,10 +345,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>5</id>
+    <lang_id>ja</lang_id>
+    <name>体力ＵＰ【大】</name>
+    <effect1>体力ＵＰ【大】</effect1>
+    <effect2>体力ＵＰ延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus vie (G)</name>
+    <effect1>Bonus vie (G)</effect1>
+    <effect2>Bonus vie : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta salute (L)</name>
+    <effect1>Aumenta salute (L)</effect1>
+    <effect2>Aumenta salute (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>de</lang_id>
+    <name>Gesundheitsboost (L)</name>
+    <effect1>Gesundheitsboost (L)</effect1>
+    <effect2>Gesundheitsboost Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>es</lang_id>
+    <name>Bonus salud (G)</name>
+    <effect1>Bonus salud (G)</effect1>
+    <effect2>Bonus salud extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
     <lang_id>pt</lang_id>
     <name>Reforço de Vida (G)</name>
     <effect1>Reforço de Vida (G)</effect1>
     <effect2>Reforço de Vida Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Zdrowia (D)</name>
+    <effect1>Wzmocnienie Zdrowia (D)</effect1>
+    <effect2>Przedłużone Wzmocnienie Zdrowia</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление здоровья (L)</name>
+    <effect1>Усиление здоровья (L)</effect1>
+    <effect2>Улучшенное усиление здоровья</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ko</lang_id>
+    <name>체력 UP【대】</name>
+    <effect1>체력 UP【대】</effect1>
+    <effect2>체력 UP 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>zh</lang_id>
+    <name>體力UP【大】</name>
+    <effect1>體力UP【大】</effect1>
+    <effect2>延長體力UP</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز الصحة (ك)</name>
+    <effect1>تعزيز الصحة (ك)</effect1>
+    <effect2>مدّ تعزيز الصحة</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>6</id>
@@ -79,10 +429,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>6</id>
+    <lang_id>ja</lang_id>
+    <name>スタミナ消費軽減【短】</name>
+    <effect1>スタミナ消費軽減【短】</effect1>
+    <effect2>スタミナ消費軽減延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>fr</lang_id>
+    <name>Endurance illimitée (P)</name>
+    <effect1>Endurance illimitée (P)</effect1>
+    <effect2>Endurance illimitée : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>it</lang_id>
+    <name>Riduce consumo resistenza (S)</name>
+    <effect1>Riduce consumo resistenza (S)</effect1>
+    <effect2>Riduce consumo resistenza (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>de</lang_id>
+    <name>Ausdauernutzung reduziert (S)</name>
+    <effect1>Ausdauernutzung reduziert (S)</effect1>
+    <effect2>Ausdauernutzung reduziert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>es</lang_id>
+    <name>Anti gasto de resistencia (P)</name>
+    <effect1>Anti gasto de resistencia (P)</effect1>
+    <effect2>Anti gasto de resistencia extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
     <lang_id>pt</lang_id>
     <name>Gasto de Vigor Reduzido (P)</name>
     <effect1>Gasto de Vigor Reduzido (P)</effect1>
     <effect2>Gasto de Vigor Reduzido Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>pl</lang_id>
+    <name>Mniejsze Zużycie Wytrz. (M)</name>
+    <effect1>Mniejsze Zużycie Wytrz. (M)</effect1>
+    <effect2>Przedłużone Mniejsze Zużycie Wytrz.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление выносливости (S)</name>
+    <effect1>Усиление выносливости (S)</effect1>
+    <effect2>Улучшенное усиление выносливости</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ko</lang_id>
+    <name>스태미나 소비 경감【짧음】</name>
+    <effect1>스태미나 소비 경감【짧음】</effect1>
+    <effect2>스태미나 소비 경감 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>zh</lang_id>
+    <name>耐力消耗減少【短】</name>
+    <effect1>耐力消耗減少【短】</effect1>
+    <effect2>延長耐力消耗減少</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ar</lang_id>
+    <name>تقليل استخدام قوة التحمل (ض)</name>
+    <effect1>تقليل استخدام قوة التحمل (ض)</effect1>
+    <effect2>مدّ تقليل استخدام قوة التحمل</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>7</id>
@@ -93,10 +513,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>7</id>
+    <lang_id>ja</lang_id>
+    <name>スタミナ消費軽減【長】</name>
+    <effect1>スタミナ消費軽減【長】</effect1>
+    <effect2>スタミナ消費軽減延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>fr</lang_id>
+    <name>Endurance illimitée (G)</name>
+    <effect1>Endurance illimitée (G)</effect1>
+    <effect2>Endurance illimitée : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>it</lang_id>
+    <name>Riduce consumo resistenza (L)</name>
+    <effect1>Riduce consumo resistenza (L)</effect1>
+    <effect2>Riduce consumo resistenza (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>de</lang_id>
+    <name>Ausdauernutzung reduziert (L)</name>
+    <effect1>Ausdauernutzung reduziert (L)</effect1>
+    <effect2>Ausdauernutzung reduziert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>es</lang_id>
+    <name>Anti gasto de resistencia (G)</name>
+    <effect1>Anti gasto de resistencia (G)</effect1>
+    <effect2>Anti gasto de resistencia extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
     <lang_id>pt</lang_id>
     <name>Gasto de Vigor Reduzido (G)</name>
     <effect1>Gasto de Vigor Reduzido (G)</effect1>
     <effect2>Gasto de Vigor Reduzido Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>pl</lang_id>
+    <name>Mniejsze Zużycie Wytrz. (D)</name>
+    <effect1>Mniejsze Zużycie Wytrz. (D)</effect1>
+    <effect2>Przedłużone Mniejsze Zużycie Wytrz.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление выносливости (L)</name>
+    <effect1>Усиление выносливости (L)</effect1>
+    <effect2>Улучшенное усиление выносливости</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ko</lang_id>
+    <name>스태미나 소비 경감【긺】</name>
+    <effect1>스태미나 소비 경감【긺】</effect1>
+    <effect2>스태미나 소비 경감 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>zh</lang_id>
+    <name>耐力消耗減少【長】</name>
+    <effect1>耐力消耗減少【長】</effect1>
+    <effect2>延長耐力消耗減少</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ar</lang_id>
+    <name>تقليل استخدام قوة التحمل (ك)</name>
+    <effect1>تقليل استخدام قوة التحمل (ك)</effect1>
+    <effect2>مدّ تقليل استخدام قوة التحمل</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>8</id>
@@ -107,10 +597,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>8</id>
+    <lang_id>ja</lang_id>
+    <name>風圧無効</name>
+    <effect1>風圧無効</effect1>
+    <effect2>風圧無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>fr</lang_id>
+    <name>Anti-bourrasque</name>
+    <effect1>Anti-bourrasque</effect1>
+    <effect2>Anti-bourrasque : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>it</lang_id>
+    <name>Annulla pressione vento</name>
+    <effect1>Annulla pressione vento</effect1>
+    <effect2>Annulla pressione vento (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>de</lang_id>
+    <name>Winddruck negiert</name>
+    <effect1>Winddruck negiert</effect1>
+    <effect2>Winddruck negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>es</lang_id>
+    <name>Niega ráfagas de viento</name>
+    <effect1>Niega ráfagas de viento</effect1>
+    <effect2>Niega ráfagas de viento extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
     <lang_id>pt</lang_id>
     <name>Pressão de Vento Negada</name>
     <effect1>Pressão de Vento Negada</effect1>
     <effect2>Pressão de Vento Negação Est.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Wiatru</name>
+    <effect1>Neutralizacja Wiatru</effect1>
+    <effect2>Długa Neutralizacja Wiatru</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ru</lang_id>
+    <name>Отмена давления ветра</name>
+    <effect1>Отмена давления ветра</effect1>
+    <effect2>Улучшенная отмена давления ветра</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ko</lang_id>
+    <name>풍압 무효</name>
+    <effect1>풍압 무효</effect1>
+    <effect2>풍압 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>zh</lang_id>
+    <name>風壓無效</name>
+    <effect1>風壓無效</effect1>
+    <effect2>風壓無效延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ar</lang_id>
+    <name>تم إبطال ضغط الرياح</name>
+    <effect1>تم إبطال ضغط الرياح</effect1>
+    <effect2>مدّ إبطال ضغط الرياح</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>9</id>
@@ -121,10 +681,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>9</id>
+    <lang_id>ja</lang_id>
+    <name>風圧完全無効</name>
+    <effect1>風圧完全無効</effect1>
+    <effect2>風圧完全無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>fr</lang_id>
+    <name>Anti-bourrasque total</name>
+    <effect1>Anti-bourrasque total</effect1>
+    <effect2>Anti-bourrasque total : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>it</lang_id>
+    <name>Annulla pressione vento totale</name>
+    <effect1>Annulla pressione vento totale</effect1>
+    <effect2>Annulla pressione vento totale (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>de</lang_id>
+    <name>Jeden Winddruck negiert</name>
+    <effect1>Jeden Winddruck negiert</effect1>
+    <effect2>Jeden Winddruck negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>es</lang_id>
+    <name>Niega toda ráfaga de viento</name>
+    <effect1>Niega toda ráfaga de viento</effect1>
+    <effect2>Niega toda ráfaga de viento extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
     <lang_id>pt</lang_id>
     <name>Toda a Pressão de Vento Negada</name>
     <effect1>Toda a Pressão de Vento Negada</effect1>
     <effect2>Toda a Pressão de Vento Negada Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Wiatru</name>
+    <effect1>Neutralizacja Wiatru</effect1>
+    <effect2>Długa Neutralizacja Wiatru</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ru</lang_id>
+    <name>Отмена всего давления ветра</name>
+    <effect1>Отмена всего давления ветра</effect1>
+    <effect2>Улучшенная отмена всего давления ветра</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ko</lang_id>
+    <name>풍압 완전 무효</name>
+    <effect1>풍압 완전 무효</effect1>
+    <effect2>풍압 완전 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>zh</lang_id>
+    <name>風壓完全無效</name>
+    <effect1>風壓完全無效</effect1>
+    <effect2>風壓完全無效延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ar</lang_id>
+    <name>تم إبطال كل ضغوط الرياح</name>
+    <effect1>تم إبطال كل ضغوط الرياح</effect1>
+    <effect2>مدّ إبطال كل ضغوط الرياح</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>10</id>
@@ -135,10 +765,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>10</id>
+    <lang_id>ja</lang_id>
+    <name>防御力ＵＰ【小】</name>
+    <effect1>防御力ＵＰ【小】</effect1>
+    <effect2>防御力ＵＰ【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus défense (P)</name>
+    <effect1>Bonus défense (P)</effect1>
+    <effect2>Bonus défense (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Fisica (S)</name>
+    <effect1>Aumenta DIF Fisica (S)</effect1>
+    <effect2>Aumenta DIF Fisica (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>de</lang_id>
+    <name>Verteidigung hoch (S)</name>
+    <effect1>Verteidigung hoch (S)</effect1>
+    <effect2>Verteidigung hoch (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>es</lang_id>
+    <name>Mejora de defensa (P)</name>
+    <effect1>Mejora de defensa (P)</effect1>
+    <effect2>Mejora de defensa (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
     <lang_id>pt</lang_id>
     <name>Mais Defesa (P)</name>
     <effect1>Mais Defesa (P)</effect1>
     <effect2>Mais Defesa (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>pl</lang_id>
+    <name>Wzrost Obrony (M)</name>
+    <effect1>Wzrost Obrony (M)</effect1>
+    <effect2>Wzrost Obrony (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление защиты (S)</name>
+    <effect1>Усиление защиты (S)</effect1>
+    <effect2>Усиление защиты (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ko</lang_id>
+    <name>방어력 UP【소】</name>
+    <effect1>방어력 UP【소】</effect1>
+    <effect2>방어력 UP【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>zh</lang_id>
+    <name>防禦力UP【小】</name>
+    <effect1>防禦力UP【小】</effect1>
+    <effect2>防禦力UP【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة الدفاع (ض)</name>
+    <effect1>زيادة الدفاع (ض)</effect1>
+    <effect2>زيادة الدفاع (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>11</id>
@@ -149,10 +849,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>11</id>
+    <lang_id>ja</lang_id>
+    <name>防御力ＵＰ【大】</name>
+    <effect1>防御力ＵＰ【大】</effect1>
+    <effect2>防御力ＵＰ【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus défense (G)</name>
+    <effect1>Bonus défense (G)</effect1>
+    <effect2>Bonus défense (MAX)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Fisica (L)</name>
+    <effect1>Aumenta DIF Fisica (L)</effect1>
+    <effect2>Aumenta DIF Fisica (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>de</lang_id>
+    <name>Verteidigung hoch (L)</name>
+    <effect1>Verteidigung hoch (L)</effect1>
+    <effect2>Verteidigung hoch (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>es</lang_id>
+    <name>Mejora de defensa (G)</name>
+    <effect1>Mejora de defensa (G)</effect1>
+    <effect2>Mejora de defensa (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
     <lang_id>pt</lang_id>
     <name>Mais Defesa (G)</name>
     <effect1>Mais Defesa (G)</effect1>
     <effect2>Mais Defesa (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>pl</lang_id>
+    <name>Wzrost Obrony (D)</name>
+    <effect1>Wzrost Obrony (D)</effect1>
+    <effect2>Wzrost Obrony (BD)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление защиты (L)</name>
+    <effect1>Усиление защиты (L)</effect1>
+    <effect2>Усиление защиты (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ko</lang_id>
+    <name>방어력 UP【대】</name>
+    <effect1>방어력 UP【대】</effect1>
+    <effect2>방어력 UP【특대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>zh</lang_id>
+    <name>防禦力UP【大】</name>
+    <effect1>防禦力UP【大】</effect1>
+    <effect2>防禦力UP【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة الدفاع (ك)</name>
+    <effect1>زيادة الدفاع (ك)</effect1>
+    <effect2>زيادة الدفاع (ك ج)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>12</id>
@@ -163,10 +933,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>12</id>
+    <lang_id>ja</lang_id>
+    <name>特殊装具消費軽減【短】</name>
+    <effect1>特殊装具消費軽減【短】</effect1>
+    <effect2>特殊装具消費軽減延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>fr</lang_id>
+    <name>Durabilité outils (P)</name>
+    <effect1>Durabilité outils (P)</effect1>
+    <effect2>Durabilité outils : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>it</lang_id>
+    <name>Riduzione consumo strumenti (S)</name>
+    <effect1>Riduzione consumo strumenti (S)</effect1>
+    <effect2>Riduce consumo strumenti (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>de</lang_id>
+    <name>Werkzeugverbrauch reduziert (S)</name>
+    <effect1>Werkzeugverbrauch reduziert (S)</effect1>
+    <effect2>Werkzeugverbrauch reduziert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>es</lang_id>
+    <name>Uso reducido herramienta (P)</name>
+    <effect1>Uso reducido herramienta (P)</effect1>
+    <effect2>Uso reducido herramienta extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
     <lang_id>pt</lang_id>
     <name>Uso de Ferramenta Reduzido (P)</name>
     <effect1>Uso de Ferramenta Reduzido (P)</effect1>
     <effect2>Uso de Ferramenta Reduzido Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>pl</lang_id>
+    <name>Mniejsze Zużycie Narzędzi (M)</name>
+    <effect1>Mniejsze Zużycie Narzędzi (M)</effect1>
+    <effect2>Przedłużone Mniejsze Zużycie Narzędzi</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ru</lang_id>
+    <name>Защита инструментов (S)</name>
+    <effect1>Защита инструментов (S)</effect1>
+    <effect2>Улучшенная защита инструментов</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ko</lang_id>
+    <name>특수 장비 소비 경감【짧음】</name>
+    <effect1>특수 장비 소비 경감【짧음】</effect1>
+    <effect2>특수 장비 소비 경감 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>zh</lang_id>
+    <name>特殊裝備消耗減少【短】</name>
+    <effect1>特殊裝備消耗減少【短】</effect1>
+    <effect2>延長特殊裝備消耗減少</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ar</lang_id>
+    <name>تقليل استنزاف استخدام الأداة (ض)</name>
+    <effect1>تقليل استنزاف استخدام الأداة (ض)</effect1>
+    <effect2>مدّ تقليل استنزاف استخدام الأداة</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>13</id>
@@ -177,10 +1017,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>13</id>
+    <lang_id>ja</lang_id>
+    <name>特殊装具消費軽減【長】</name>
+    <effect1>特殊装具消費軽減【長】</effect1>
+    <effect2>特殊装具消費軽減延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>fr</lang_id>
+    <name>Durabilité outils (G)</name>
+    <effect1>Durabilité outils (G)</effect1>
+    <effect2>Durabilité outils : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>it</lang_id>
+    <name>Riduzione consumo strumenti (L)</name>
+    <effect1>Riduzione consumo strumenti (L)</effect1>
+    <effect2>Riduce consumo strumenti (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>de</lang_id>
+    <name>Werkzeugverbrauch reduziert (L)</name>
+    <effect1>Werkzeugverbrauch reduziert (L)</effect1>
+    <effect2>Werkzeugverbrauch reduziert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>es</lang_id>
+    <name>Uso reducido herramienta (G)</name>
+    <effect1>Uso reducido herramienta (G)</effect1>
+    <effect2>Uso reducido herramienta extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
     <lang_id>pt</lang_id>
     <name>Uso de Ferramenta Reduzido (G)</name>
     <effect1>Uso de Ferramenta Reduzido (G)</effect1>
     <effect2>Uso de Ferramenta Reduzido Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>pl</lang_id>
+    <name>Mniejsze Zużycie Narzędzi (D)</name>
+    <effect1>Mniejsze Zużycie Narzędzi (D)</effect1>
+    <effect2>Przedłużone Mniejsze Zużycie Narzędzi</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ru</lang_id>
+    <name>Защита инструментов (L)</name>
+    <effect1>Защита инструментов (L)</effect1>
+    <effect2>Улучшенная защита инструментов</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ko</lang_id>
+    <name>특수 장비 소비 경감【긺】</name>
+    <effect1>특수 장비 소비 경감【긺】</effect1>
+    <effect2>특수 장비 소비 경감 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>zh</lang_id>
+    <name>特殊裝備消耗減少【長】</name>
+    <effect1>特殊裝備消耗減少【長】</effect1>
+    <effect2>延長特殊裝備消耗減少</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ar</lang_id>
+    <name>تقليل استنزاف استخدام الأداة (ك)</name>
+    <effect1>تقليل استنزاف استخدام الأداة (ك)</effect1>
+    <effect2>مدّ تقليل استنزاف استخدام الأداة</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>14</id>
@@ -191,9 +1101,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>14</id>
+    <lang_id>ja</lang_id>
+    <name>体力回復【小】</name>
+    <effect1>体力回復【小】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>fr</lang_id>
+    <name>Récupération vie (P)</name>
+    <effect1>Récupération vie (P)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>it</lang_id>
+    <name>Recupero salute (S)</name>
+    <effect1>Recupero salute (S)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>de</lang_id>
+    <name>Gesundheitserholung (S)</name>
+    <effect1>Gesundheitserholung (S)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>es</lang_id>
+    <name>Recuperación salud (P)</name>
+    <effect1>Recuperación salud (P)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
     <lang_id>pt</lang_id>
     <name>Regeneração de Vida (P)</name>
     <effect1>Regeneração de Vida (P)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>pl</lang_id>
+    <name>Regeneracja Zdrowia (M)</name>
+    <effect1>Regeneracja Zdrowia (M)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ru</lang_id>
+    <name>Восстановление здоровья (S)</name>
+    <effect1>Восстановление здоровья (S)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ko</lang_id>
+    <name>체력 회복【소】</name>
+    <effect1>체력 회복【소】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>zh</lang_id>
+    <name>體力回復【小】</name>
+    <effect1>體力回復【小】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ar</lang_id>
+    <name>تعافي الصحة (ض)</name>
+    <effect1>تعافي الصحة (ض)</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -205,9 +1185,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>15</id>
+    <lang_id>ja</lang_id>
+    <name>体力回復【大】</name>
+    <effect1>体力回復【大】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>fr</lang_id>
+    <name>Récupération vie (G)</name>
+    <effect1>Récupération vie (G)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>it</lang_id>
+    <name>Recupero salute (L)</name>
+    <effect1>Recupero salute (L)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>de</lang_id>
+    <name>Gesundheitserholung (L)</name>
+    <effect1>Gesundheitserholung (L)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>es</lang_id>
+    <name>Recuperación salud (G)</name>
+    <effect1>Recuperación salud (G)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
     <lang_id>pt</lang_id>
     <name>Regeneração de Vida (G)</name>
     <effect1>Regeneração de Vida (G)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>pl</lang_id>
+    <name>Regeneracja Zdrowia (D)</name>
+    <effect1>Regeneracja Zdrowia (D)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ru</lang_id>
+    <name>Восстановление здоровья (L)</name>
+    <effect1>Восстановление здоровья (L)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ko</lang_id>
+    <name>체력 회복【대】</name>
+    <effect1>체력 회복【대】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>zh</lang_id>
+    <name>體力回復【大】</name>
+    <effect1>體力回復【大】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ar</lang_id>
+    <name>تعافي الصحة (ك)</name>
+    <effect1>تعافي الصحة (ك)</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -219,9 +1269,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>16</id>
+    <lang_id>ja</lang_id>
+    <name>体力回復【小】＆解毒</name>
+    <effect1>体力回復【小】＆解毒</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>fr</lang_id>
+    <name>Récup. vie (P) / Antidote</name>
+    <effect1>Récup. vie (P) / Antidote</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>it</lang_id>
+    <name>Recupero salute (S) + Resistenza veleno</name>
+    <effect1>Recupero salute (S) + Resistenza veleno</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>de</lang_id>
+    <name>Gesundheitserholung (S) + Gegengift</name>
+    <effect1>Gesundheitserholung (S) + Gegengift</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>es</lang_id>
+    <name>Recup. salud (P) + antídoto</name>
+    <effect1>Recup. salud (P) + antídoto</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
     <lang_id>pt</lang_id>
     <name>Reg. de Vida (P) + Antídoto</name>
     <effect1>Reg. de Vida (P) + Antídoto</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>pl</lang_id>
+    <name>Reg. Zdrowia (M) + Antidotum</name>
+    <effect1>Reg. Zdrowia (M) + Antidotum</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ru</lang_id>
+    <name>В. здоровья (S) + Противоядие</name>
+    <effect1>В. здоровья (S) + Противоядие</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ko</lang_id>
+    <name>체력 회복【소】＆해독</name>
+    <effect1>체력 회복【소】＆해독</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>zh</lang_id>
+    <name>體力回復【小】＆解毒</name>
+    <effect1>體力回復【小】＆解毒</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ar</lang_id>
+    <name>تعافي الصحة (ض) + ترياق</name>
+    <effect1>تعافي الصحة (ض) + ترياق</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -233,9 +1353,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>17</id>
+    <lang_id>ja</lang_id>
+    <name>体力回復【中】＆解毒</name>
+    <effect1>体力回復【中】＆解毒</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>fr</lang_id>
+    <name>Récup. vie (M) / Antidote</name>
+    <effect1>Récup. vie (M) / Antidote</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>it</lang_id>
+    <name>Recupero salute (M) + Resistenza veleno</name>
+    <effect1>Recupero salute (M) + Resistenza veleno</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>de</lang_id>
+    <name>Gesundheitserholung (M) + Gegengift</name>
+    <effect1>Gesundheitserholung (M) + Gegengift</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>es</lang_id>
+    <name>Recup. salud (M) + antídoto</name>
+    <effect1>Recup. salud (M) + antídoto</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
     <lang_id>pt</lang_id>
     <name>Reg. de Vida (M) + Antídoto</name>
     <effect1>Reg. de Vida (M) + Antídoto</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>pl</lang_id>
+    <name>Reg. Zdrowia (D) + Antidotum</name>
+    <effect1>Reg. Zdrowia (D) + Antidotum</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ru</lang_id>
+    <name>В. здоровья (M) + Противоядие</name>
+    <effect1>В. здоровья (M) + Противоядие</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ko</lang_id>
+    <name>체력 회복【중】＆해독</name>
+    <effect1>체력 회복【중】＆해독</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>zh</lang_id>
+    <name>體力回復【中】＆解毒</name>
+    <effect1>體力回復【中】＆解毒</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ar</lang_id>
+    <name>تعافي الصحة (م) + ترياق</name>
+    <effect1>تعافي الصحة (م) + ترياق</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -247,10 +1437,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>18</id>
+    <lang_id>ja</lang_id>
+    <name>体力回復速度ＵＰ【小】</name>
+    <effect1>体力回復速度ＵＰ【小】</effect1>
+    <effect2>体力回復速度ＵＰ延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>fr</lang_id>
+    <name>Vitesse récupération (P)</name>
+    <effect1>Vitesse récupération (P)</effect1>
+    <effect2>Vitesse récupération : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>it</lang_id>
+    <name>Velocità di recupero (S)</name>
+    <effect1>Velocità di recupero (S)</effect1>
+    <effect2>Velocità di recupero (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>de</lang_id>
+    <name>Erholungsgeschwindigkeit (S)</name>
+    <effect1>Erholungsgeschwindigkeit (S)</effect1>
+    <effect2>Erholungsgeschwindigkeit Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>es</lang_id>
+    <name>Recuperación rápida (P)</name>
+    <effect1>Recuperación rápida (P)</effect1>
+    <effect2>Recuperación rápida extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
     <lang_id>pt</lang_id>
     <name>Velocidade Regeneração (P)</name>
     <effect1>Velocidade Regeneração (P)</effect1>
     <effect2>Velocidade Regeneração Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>pl</lang_id>
+    <name>Szybkość Regeneracji (M)</name>
+    <effect1>Szybkość Regeneracji (M)</effect1>
+    <effect2>Przedłużona Szybkość Regeneracji</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ru</lang_id>
+    <name>Скорость восстановления (S)</name>
+    <effect1>Скорость восстановления (S)</effect1>
+    <effect2>Улучшенная скорость восстановления</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ko</lang_id>
+    <name>체력 회복 속도 UP【소】</name>
+    <effect1>체력 회복 속도 UP【소】</effect1>
+    <effect2>체력 회복 속도 UP 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>zh</lang_id>
+    <name>體力回復速度UP【小】</name>
+    <effect1>體力回復速度UP【小】</effect1>
+    <effect2>延長體力回復速度UP</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ar</lang_id>
+    <name>سرعة التعافي (ض)</name>
+    <effect1>سرعة التعافي (ض)</effect1>
+    <effect2>مدّ سرعة التعافي</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>19</id>
@@ -261,10 +1521,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>19</id>
+    <lang_id>ja</lang_id>
+    <name>体力回復速度ＵＰ【大】</name>
+    <effect1>体力回復速度ＵＰ【大】</effect1>
+    <effect2>体力回復速度ＵＰ延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>fr</lang_id>
+    <name>Vitesse récupération (G)</name>
+    <effect1>Vitesse récupération (G)</effect1>
+    <effect2>Vitesse récupération : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>it</lang_id>
+    <name>Velocità di recupero (L)</name>
+    <effect1>Velocità di recupero (L)</effect1>
+    <effect2>Velocità di recupero (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>de</lang_id>
+    <name>Erholungsgeschwindigkeit (L)</name>
+    <effect1>Erholungsgeschwindigkeit (L)</effect1>
+    <effect2>Erholungsgeschwindigkeit Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>es</lang_id>
+    <name>Recuperación rápida (G)</name>
+    <effect1>Recuperación rápida (G)</effect1>
+    <effect2>Recuperación rápida extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
     <lang_id>pt</lang_id>
     <name>Velocidade Regeneração (G)</name>
     <effect1>Velocidade Regeneração (G)</effect1>
     <effect2>Velocidade Regeneração Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>pl</lang_id>
+    <name>Szybkość Regeneracji (D)</name>
+    <effect1>Szybkość Regeneracji (D)</effect1>
+    <effect2>Przedłużona Szybkość Regeneracji</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ru</lang_id>
+    <name>Скорость восстановления (L)</name>
+    <effect1>Скорость восстановления (L)</effect1>
+    <effect2>Улучшенная скорость восстановления</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ko</lang_id>
+    <name>체력 회복 속도 UP【대】</name>
+    <effect1>체력 회복 속도 UP【대】</effect1>
+    <effect2>체력 회복 속도 UP 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>zh</lang_id>
+    <name>體力回復速度UP【大】</name>
+    <effect1>體力回復速度UP【大】</effect1>
+    <effect2>延長體力回復速度UP</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ar</lang_id>
+    <name>سرعة التعافي (ك)</name>
+    <effect1>سرعة التعافي (ك)</effect1>
+    <effect2>مدّ سرعة التعافي</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>20</id>
@@ -275,10 +1605,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>20</id>
+    <lang_id>ja</lang_id>
+    <name>聴覚保護【小】</name>
+    <effect1>聴覚保護【小】</effect1>
+    <effect2>聴覚保護【小】延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>fr</lang_id>
+    <name>Protection ouïe (P)</name>
+    <effect1>Protection ouïe (P)</effect1>
+    <effect2>Protection ouïe (P) : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>it</lang_id>
+    <name>Protezione udito (S)</name>
+    <effect1>Protezione udito (S)</effect1>
+    <effect2>Protezione udito (S) (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>de</lang_id>
+    <name>Ohrstöpsel (S)</name>
+    <effect1>Ohrstöpsel (S)</effect1>
+    <effect2>Ohrstöpsel (S) Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>es</lang_id>
+    <name>Anti rugidos (P)</name>
+    <effect1>Anti rugidos (P)</effect1>
+    <effect2>Anti rugidos (P) extendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
     <lang_id>pt</lang_id>
     <name>Tampões (P)</name>
     <effect1>Tampões (P)</effect1>
     <effect2>Tampões (P) Estendidos</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>pl</lang_id>
+    <name>Zatyczki do Uszu (M)</name>
+    <effect1>Zatyczki do Uszu (M)</effect1>
+    <effect2>Trwające Zatyczki do Uszu (M)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ru</lang_id>
+    <name>Наушники (S)</name>
+    <effect1>Наушники (S)</effect1>
+    <effect2>Улучшенные наушники (S)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ko</lang_id>
+    <name>청각 보호【소】</name>
+    <effect1>청각 보호【소】</effect1>
+    <effect2>청각 보호【소】연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>zh</lang_id>
+    <name>聽覺保護【小】</name>
+    <effect1>聽覺保護【小】</effect1>
+    <effect2>延長聽覺保護【小】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ar</lang_id>
+    <name>سدادات أذن (ض)</name>
+    <effect1>سدادات أذن (ض)</effect1>
+    <effect2>مدّ سدادات الأذن (ض)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>21</id>
@@ -289,10 +1689,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>21</id>
+    <lang_id>ja</lang_id>
+    <name>聴覚保護【大】</name>
+    <effect1>聴覚保護【大】</effect1>
+    <effect2>聴覚保護【大】延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>fr</lang_id>
+    <name>Protection ouïe (G)</name>
+    <effect1>Protection ouïe (G)</effect1>
+    <effect2>Protection ouïe (G) : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>it</lang_id>
+    <name>Protezione udito (L)</name>
+    <effect1>Protezione udito (L)</effect1>
+    <effect2>Protezione udito (L) (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>de</lang_id>
+    <name>Ohrstöpsel (L)</name>
+    <effect1>Ohrstöpsel (L)</effect1>
+    <effect2>Ohrstöpsel (L) Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>es</lang_id>
+    <name>Anti rugidos (G)</name>
+    <effect1>Anti rugidos (G)</effect1>
+    <effect2>Anti rugidos (G) extendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
     <lang_id>pt</lang_id>
     <name>Tampões (G)</name>
     <effect1>Tampões (G)</effect1>
     <effect2>Tampões (G) Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>pl</lang_id>
+    <name>Zatyczki do Uszu (D)</name>
+    <effect1>Zatyczki do Uszu (D)</effect1>
+    <effect2>Trwające Zatyczki do Uszu (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ru</lang_id>
+    <name>Наушники (L)</name>
+    <effect1>Наушники (L)</effect1>
+    <effect2>Улучшенные наушники (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ko</lang_id>
+    <name>청각 보호【대】</name>
+    <effect1>청각 보호【대】</effect1>
+    <effect2>청각 보호【대】연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>zh</lang_id>
+    <name>聽覺保護【大】</name>
+    <effect1>聽覺保護【大】</effect1>
+    <effect2>延長聽覺保護【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ar</lang_id>
+    <name>سدادات أذن (ك)</name>
+    <effect1>سدادات أذن (ك)</effect1>
+    <effect2>مدّ سدادات أذن (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>22</id>
@@ -303,10 +1773,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>22</id>
+    <lang_id>ja</lang_id>
+    <name>精霊王の加護</name>
+    <effect1>精霊王の加護</effect1>
+    <effect2>精霊王の加護延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>fr</lang_id>
+    <name>Protection divine</name>
+    <effect1>Protection divine</effect1>
+    <effect2>Protection divine : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>it</lang_id>
+    <name>Protezione divina</name>
+    <effect1>Protezione divina</effect1>
+    <effect2>Protezione divina (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>de</lang_id>
+    <name>Göttlicher Schutz</name>
+    <effect1>Göttlicher Schutz</effect1>
+    <effect2>Göttlicher Schutz Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>es</lang_id>
+    <name>Protección divina</name>
+    <effect1>Protección divina</effect1>
+    <effect2>Protección divina extendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
     <lang_id>pt</lang_id>
     <name>Proteção Divina</name>
     <effect1>Proteção Divina</effect1>
     <effect2>Proteção Divina Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>pl</lang_id>
+    <name>Boska Ochrona</name>
+    <effect1>Boska Ochrona</effect1>
+    <effect2>Przedłużona Boska Ochrona</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ru</lang_id>
+    <name>Божественная защита</name>
+    <effect1>Божественная защита</effect1>
+    <effect2>Улучшенная божественная защита</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ko</lang_id>
+    <name>정령왕의 가호</name>
+    <effect1>정령왕의 가호</effect1>
+    <effect2>정령왕의 가호 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>zh</lang_id>
+    <name>精靈王的加護</name>
+    <effect1>精靈王的加護</effect1>
+    <effect2>延長精靈王的加護</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ar</lang_id>
+    <name>حماية مقدسة</name>
+    <effect1>حماية مقدسة</effect1>
+    <effect2>مدّ الحماية المقدسة</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>23</id>
@@ -317,10 +1857,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>23</id>
+    <lang_id>ja</lang_id>
+    <name>導蟲追跡力強化</name>
+    <effect1>ガイドレベル＋１</effect1>
+    <effect2>ガイドレベル＋１延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus naviciole</name>
+    <effect1>Niveau naviciole +1</effect1>
+    <effect2>Niveau naviciole +1 : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>it</lang_id>
+    <name>Potenzia insetti guida</name>
+    <effect1>Livello insetti guida +1</effect1>
+    <effect2>Livello insetti guida +1 (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>de</lang_id>
+    <name>Spähkäfer-Kraft hoch</name>
+    <effect1>Spähkäfer-Stufe +1</effect1>
+    <effect2>Spähkäfer-Stufe +1 Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>es</lang_id>
+    <name>Mejora de Lafarillos</name>
+    <effect1>Nv. de Lafarillos +1</effect1>
+    <effect2>Nv. de Lafarillos +1 extendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
     <lang_id>pt</lang_id>
     <name>Fortalecimento de Guialumes</name>
     <effect1>Nível de Guialumes +1</effect1>
     <effect2>Nível de Guialumes +1 Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>pl</lang_id>
+    <name>Mocniejszy Zwiad</name>
+    <effect1>Poziom Świetlików Zwiadowczych +1</effect1>
+    <effect2>Przedłużony Poz. Świetlików Zwiad. +1</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление светлячков</name>
+    <effect1>Уровень светлячка +1</effect1>
+    <effect2>Улучшение уровня светлячка +1</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ko</lang_id>
+    <name>안내벌레 추적력 강화</name>
+    <effect1>가이드 레벨+1</effect1>
+    <effect2>가이드 레벨+1 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>zh</lang_id>
+    <name>導蟲追蹤力強化</name>
+    <effect1>導引等級＋１</effect1>
+    <effect2>延長導引等級＋１</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة قوة ذبابة الاستطلاع</name>
+    <effect1>ذبابة الاستطلاع مستوى +1</effect1>
+    <effect2>مدّ ذبابة الاستطلاع مستوى +1</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>24</id>
@@ -331,10 +1941,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>24</id>
+    <lang_id>ja</lang_id>
+    <name>地形ダメージ無効</name>
+    <effect1>地形ダメージ無効</effect1>
+    <effect2>地形ダメージ無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>fr</lang_id>
+    <name>Dégâts environ. annulés</name>
+    <effect1>Dégâts environ. annulés</effect1>
+    <effect2>Dégâts environ. annulés : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>it</lang_id>
+    <name>Annulla danni ambientali</name>
+    <effect1>Annulla danni ambientali</effect1>
+    <effect2>Annulla danni ambientali (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>de</lang_id>
+    <name>Umgebungsschaden negiert</name>
+    <effect1>Umgebungsschaden negiert</effect1>
+    <effect2>Umgebungsschaden negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>es</lang_id>
+    <name>Niega daño entorno</name>
+    <effect1>Niega daño entorno</effect1>
+    <effect2>Niega daño entorno extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
     <lang_id>pt</lang_id>
     <name>Dano de Ambiente Negado</name>
     <effect1>Dano de Ambiente Negado</effect1>
     <effect2>Dano de Ambiente Negado Estendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Środowiska</name>
+    <effect1>Neutralizacja Środowiska</effect1>
+    <effect2>Przedłużona Neutralizacja Środowiska</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ru</lang_id>
+    <name>Отмена урона окружением</name>
+    <effect1>Отмена урона окружением</effect1>
+    <effect2>Улучшение отмены урона окружением</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ko</lang_id>
+    <name>지형 데미지 무효</name>
+    <effect1>지형 데미지 무효</effect1>
+    <effect2>지형 데미지 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>zh</lang_id>
+    <name>地形傷害無效</name>
+    <effect1>地形傷害無效</effect1>
+    <effect2>延長地形傷害無效</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ar</lang_id>
+    <name>إبطال أضرار البيئة</name>
+    <effect1>إبطال أضرار البيئة</effect1>
+    <effect2>مدّ إبطال أضرار البيئة</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>25</id>
@@ -345,10 +2025,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>25</id>
+    <lang_id>ja</lang_id>
+    <name>気絶無効</name>
+    <effect1>気絶無効</effect1>
+    <effect2>気絶無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>fr</lang_id>
+    <name>Anti-étourdissement</name>
+    <effect1>Anti-étourdissement</effect1>
+    <effect2>Anti-étourdissement : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>it</lang_id>
+    <name>Annulla stordimento</name>
+    <effect1>Annulla stordimento</effect1>
+    <effect2>Annulla stordimento (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>de</lang_id>
+    <name>Betäuben negiert</name>
+    <effect1>Betäuben negiert</effect1>
+    <effect2>Betäuben negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>es</lang_id>
+    <name>Niega aturdimiento</name>
+    <effect1>Niega aturdimiento</effect1>
+    <effect2>Niega aturdimiento extendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
     <lang_id>pt</lang_id>
     <name>Atordoamento Negado</name>
     <effect1>Atordoamento Negado</effect1>
     <effect2>Negação de Atordoamento Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Ogłuszenia</name>
+    <effect1>Neutralizacja Ogłuszenia</effect1>
+    <effect2>Przedłużona Neutralizacja Ogłuszenia</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ru</lang_id>
+    <name>Нейтрализация оглушения</name>
+    <effect1>Нейтрализация оглушения</effect1>
+    <effect2>Улучшенная нейтрализация оглушения</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ko</lang_id>
+    <name>기절 무효</name>
+    <effect1>기절 무효</effect1>
+    <effect2>기절 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>zh</lang_id>
+    <name>昏厥無效</name>
+    <effect1>昏厥無效</effect1>
+    <effect2>延長昏厥無效</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ar</lang_id>
+    <name>تم إبطال الصعق</name>
+    <effect1>تم إبطال الصعق</effect1>
+    <effect2>مدّ إبطال الصعق</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>26</id>
@@ -359,10 +2109,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>26</id>
+    <lang_id>ja</lang_id>
+    <name>麻痺無効</name>
+    <effect1>麻痺無効</effect1>
+    <effect2>麻痺無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>fr</lang_id>
+    <name>Anti-paralysie</name>
+    <effect1>Anti-paralysie</effect1>
+    <effect2>Anti-paralysie : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>it</lang_id>
+    <name>Annulla paralisi</name>
+    <effect1>Annulla paralisi</effect1>
+    <effect2>Annulla paralisi (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>de</lang_id>
+    <name>Lähmung negiert</name>
+    <effect1>Lähmung negiert</effect1>
+    <effect2>Lähmung negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>es</lang_id>
+    <name>Niega parálisis</name>
+    <effect1>Niega parálisis</effect1>
+    <effect2>Niega parálisis extendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
     <lang_id>pt</lang_id>
     <name>Paralisia Negada</name>
     <effect1>Paralisia Negada</effect1>
     <effect2>Negação de Paralisia Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Paraliżu</name>
+    <effect1>Neutralizacja Paraliżu</effect1>
+    <effect2>Przedłużona Neutralizacja Paraliżu</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ru</lang_id>
+    <name>Нейтрализация паралича</name>
+    <effect1>Нейтрализация паралича</effect1>
+    <effect2>Улучшенная нейтрализация паралича</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ko</lang_id>
+    <name>마비 무효</name>
+    <effect1>마비 무효</effect1>
+    <effect2>마비 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>zh</lang_id>
+    <name>麻痺無效</name>
+    <effect1>麻痺無效</effect1>
+    <effect2>延長麻痺無效</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ar</lang_id>
+    <name>تم إبطال الشلل</name>
+    <effect1>تم إبطال الشلل</effect1>
+    <effect2>مدّ إبطال الشلل</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>27</id>
@@ -373,10 +2193,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>27</id>
+    <lang_id>ja</lang_id>
+    <name>振動無効</name>
+    <effect1>振動無効</effect1>
+    <effect2>振動無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>fr</lang_id>
+    <name>Anti-séisme</name>
+    <effect1>Anti-séisme</effect1>
+    <effect2>Anti-séisme : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>it</lang_id>
+    <name>Annulla sisma</name>
+    <effect1>Annulla sisma</effect1>
+    <effect2>Annulla sisma (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>de</lang_id>
+    <name>Erschütterungen negiert</name>
+    <effect1>Erschütterungen negiert</effect1>
+    <effect2>Erschütterungen negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>es</lang_id>
+    <name>Niega temblores</name>
+    <effect1>Niega temblores</effect1>
+    <effect2>Niega temblores extendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
     <lang_id>pt</lang_id>
     <name>Tremores Negados</name>
     <effect1>Tremores Negados</effect1>
     <effect2>Negação de Tremores Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Wstrząsów</name>
+    <effect1>Neutralizacja Wstrząsów</effect1>
+    <effect2>Przedłużona Neutralizacja Wstrząsów</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ru</lang_id>
+    <name>Нейтрализация тряски</name>
+    <effect1>Нейтрализация тряски</effect1>
+    <effect2>Улучшенная нейтрализация тряски</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ko</lang_id>
+    <name>진동 무효</name>
+    <effect1>진동 무효</effect1>
+    <effect2>진동 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>zh</lang_id>
+    <name>震動無效</name>
+    <effect1>震動無效</effect1>
+    <effect2>延長震動無效</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ar</lang_id>
+    <name>تم إبطال الزلازل</name>
+    <effect1>تم إبطال الزلازل</effect1>
+    <effect2>مدّ إبطال الزلازل</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>28</id>
@@ -387,10 +2277,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>28</id>
+    <lang_id>ja</lang_id>
+    <name>泥軽減＆水場・深雪適応</name>
+    <effect1>泥軽減＆水場・深雪適応</effect1>
+    <effect2>泥軽減＆水場・深雪適応延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>fr</lang_id>
+    <name>Immunité boue/eau/neige</name>
+    <effect1>Immunité boue/eau/neige</effect1>
+    <effect2>Immunité boue/eau/neige : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>it</lang_id>
+    <name>Resistenza melma/acqua/neve</name>
+    <effect1>Resistenza melma/acqua/neve</effect1>
+    <effect2>Resistenza melma/acqua/neve (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>de</lang_id>
+    <name>Schlamm/Wasser/Schnee-Widerstand</name>
+    <effect1>Schlamm/Wasser/Schnee-Widerstand</effect1>
+    <effect2>Schlamm/Wasser/Schnee-Widerstand-Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>es</lang_id>
+    <name>Anti fango/agua/nieve profunda</name>
+    <effect1>Anti fango/agua/nieve profunda</effect1>
+    <effect2>Anti fango/agua/nieve profunda ext.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
     <lang_id>pt</lang_id>
     <name>Res. Muco/Água/Neve Prof.</name>
     <effect1>Res. Muco/Água/Neve Prof.</effect1>
     <effect2>Res. Muco/Água/Neve Prof. Estend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>pl</lang_id>
+    <name>Odporność na błoto/wodę/śnieg</name>
+    <effect1>Odporność na błoto/wodę/śnieg</effect1>
+    <effect2>Przedłuż. odp. na błoto/wodę/śnieg</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление снегу/воде/илу</name>
+    <effect1>Сопротивление снегу/воде/илу</effect1>
+    <effect2>Улучш. сопрот. снегу/воде/илу</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ko</lang_id>
+    <name>진흙 경감&amp;물가/쌓인 눈 적응</name>
+    <effect1>진흙 경감&amp;물가/쌓인 눈 적응</effect1>
+    <effect2>진흙 경감&amp;물가/쌓인 눈 적응 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>zh</lang_id>
+    <name>減輕泥＆適應水場‧深雪</name>
+    <effect1>減輕泥＆適應水場‧深雪</effect1>
+    <effect2>減輕泥＆適應水場‧深雪延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ar</lang_id>
+    <name>مقاومة وحل/مياه/ثلوج كثيفة</name>
+    <effect1>مقاومة وحل/مياه/ثلوج كثيفة</effect1>
+    <effect2>مدّ مقاومة وحل/مياه/ثلوج كثيفة</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>29</id>
@@ -401,10 +2361,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>29</id>
+    <lang_id>ja</lang_id>
+    <name>火属性防御強化【小】</name>
+    <effect1>火属性防御強化【小】</effect1>
+    <effect2>火属性防御強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance feu (P)</name>
+    <effect1>Bonus résistance feu (P)</effect1>
+    <effect2>Bonus résistance feu (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Fuoco (S)</name>
+    <effect1>Aumenta DIF Fuoco (S)</effect1>
+    <effect2>Aumenta DIF Fuoco (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>de</lang_id>
+    <name>Feuerwiderstand-Boost (S)</name>
+    <effect1>Feuerwiderstand-Boost (S)</effect1>
+    <effect2>Feuerwiderstand-Boost (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al fuego (P)</name>
+    <effect1>Bonus resistencia al fuego (P)</effect1>
+    <effect2>Bonus resistencia al fuego (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência a Fogo (P)</name>
     <effect1>Reforço Resistência a Fogo (P)</effect1>
     <effect2>Reforço Resistência a Fogo (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Ogień (M)</name>
+    <effect1>Wzmocnienie Odp. na Ogień (M)</effect1>
+    <effect2>Wzmocnienie Odp. na Ogień (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление огню (S)</name>
+    <effect1>Сопротивление огню (S)</effect1>
+    <effect2>Сопротивление огню (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ko</lang_id>
+    <name>불속성 방어 강화【소】</name>
+    <effect1>불속성 방어 강화【소】</effect1>
+    <effect2>불속성 방어 강화【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>zh</lang_id>
+    <name>火屬性防禦強化【小】</name>
+    <effect1>火屬性防禦強化【小】</effect1>
+    <effect2>火屬性防禦強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة النار (ض)</name>
+    <effect1>تعزيز مقاومة النار (ض)</effect1>
+    <effect2>تعزيز مقاومة النار (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>30</id>
@@ -415,10 +2445,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>30</id>
+    <lang_id>ja</lang_id>
+    <name>火属性防御強化【大】</name>
+    <effect1>火属性防御強化【大】</effect1>
+    <effect2>火属性防御強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance feu (G)</name>
+    <effect1>Bonus résistance feu (G)</effect1>
+    <effect2>Bonus résistance feu (MAX)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Fuoco (L)</name>
+    <effect1>Aumenta DIF Fuoco (L)</effect1>
+    <effect2>Aumenta DIF Fuoco (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>de</lang_id>
+    <name>Feuerwiderstand-Boost (L)</name>
+    <effect1>Feuerwiderstand-Boost (L)</effect1>
+    <effect2>Feuerwiderstand-Boost (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al fuego (G)</name>
+    <effect1>Bonus resistencia al fuego (G)</effect1>
+    <effect2>Bonus resistencia al fuego (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência a Fogo (G)</name>
     <effect1>Reforço Resistência a Fogo (G)</effect1>
     <effect2>Reforço Resistência a Fogo (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Ogień (D)</name>
+    <effect1>Wzmocnienie Odp. na Ogień (D)</effect1>
+    <effect2>Wzmocnienie Odp. na Ogień (BD)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление огню (L)</name>
+    <effect1>Сопротивление огню (L)</effect1>
+    <effect2>Сопротивление огню (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ko</lang_id>
+    <name>불속성 방어 강화【대】</name>
+    <effect1>불속성 방어 강화【대】</effect1>
+    <effect2>불속성 방어 강화【특대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>zh</lang_id>
+    <name>火屬性防禦強化【大】</name>
+    <effect1>火屬性防禦強化【大】</effect1>
+    <effect2>火屬性防禦強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة النار (ك)</name>
+    <effect1>تعزيز مقاومة النار (ك)</effect1>
+    <effect2>تعزيز مقاومة النار (ك ج)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>31</id>
@@ -429,10 +2529,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>31</id>
+    <lang_id>ja</lang_id>
+    <name>水属性防御強化【小】</name>
+    <effect1>水属性防御強化【小】</effect1>
+    <effect2>水属性防御強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance eau (P)</name>
+    <effect1>Bonus résistance eau (P)</effect1>
+    <effect2>Bonus résistance eau (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Acqua (S)</name>
+    <effect1>Aumenta DIF Acqua (S)</effect1>
+    <effect2>Aumenta DIF Acqua (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>de</lang_id>
+    <name>Wasserwiderstand-Boost (S)</name>
+    <effect1>Wasserwiderstand-Boost (S)</effect1>
+    <effect2>Wasserwiderstand-Boost (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al agua (P)</name>
+    <effect1>Bonus resistencia al agua (P)</effect1>
+    <effect2>Bonus resistencia al agua (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência a Água (P)</name>
     <effect1>Reforço Resistência a Água (P)</effect1>
     <effect2>Reforço Resistência a Água (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Wodę (M)</name>
+    <effect1>Wzmocnienie Odp. na Wodę (M)</effect1>
+    <effect2>Wzmocnienie Odp. na Wodę (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление воде (S)</name>
+    <effect1>Сопротивление воде (S)</effect1>
+    <effect2>Сопротивление воде (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ko</lang_id>
+    <name>물속성 방어 강화【소】</name>
+    <effect1>물속성 방어 강화【소】</effect1>
+    <effect2>물속성 방어 강화【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>zh</lang_id>
+    <name>水屬性防禦強化【小】</name>
+    <effect1>水屬性防禦強化【小】</effect1>
+    <effect2>水屬性防禦強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة الماء (ض)</name>
+    <effect1>تعزيز مقاومة الماء (ض)</effect1>
+    <effect2>تعزيز مقاومة الماء (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>32</id>
@@ -443,10 +2613,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>32</id>
+    <lang_id>ja</lang_id>
+    <name>水属性防御強化【大】</name>
+    <effect1>水属性防御強化【大】</effect1>
+    <effect2>水属性防御強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance eau (G)</name>
+    <effect1>Bonus résistance eau (G)</effect1>
+    <effect2>Bonus résistance eau (MAX)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Acqua (L)</name>
+    <effect1>Aumenta DIF Acqua (L)</effect1>
+    <effect2>Aumenta DIF Acqua (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>de</lang_id>
+    <name>Wasserwiderstand-Boost (L)</name>
+    <effect1>Wasserwiderstand-Boost (L)</effect1>
+    <effect2>Wasserwiderstand-Boost (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al agua (G)</name>
+    <effect1>Bonus resistencia al agua (G)</effect1>
+    <effect2>Bonus resistencia al agua (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência a Água (G)</name>
     <effect1>Reforço Resistência a Água (G)</effect1>
     <effect2>Reforço Resistência a Água (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Wodę (D)</name>
+    <effect1>Wzmocnienie Odp. na Wodę (D)</effect1>
+    <effect2>Wzmocnienie Odp. na Wodę (BD)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление воде (L)</name>
+    <effect1>Сопротивление воде (L)</effect1>
+    <effect2>Сопротивление воде (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ko</lang_id>
+    <name>물속성 방어 강화【대】</name>
+    <effect1>물속성 방어 강화【대】</effect1>
+    <effect2>물속성 방어 강화【특대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>zh</lang_id>
+    <name>水屬性防禦強化【大】</name>
+    <effect1>水屬性防禦強化【大】</effect1>
+    <effect2>水屬性防禦強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة الماء (ك)</name>
+    <effect1>تعزيز مقاومة الماء (ك)</effect1>
+    <effect2>تعزيز مقاومة الماء (ك ج)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>33</id>
@@ -457,10 +2697,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>33</id>
+    <lang_id>ja</lang_id>
+    <name>雷属性防御強化【小】</name>
+    <effect1>雷属性防御強化【小】</effect1>
+    <effect2>雷属性防御強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance foudre (P)</name>
+    <effect1>Bonus résistance foudre (P)</effect1>
+    <effect2>Bonus résistance foudre (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Tuono (S)</name>
+    <effect1>Aumenta DIF Tuono (S)</effect1>
+    <effect2>Aumenta DIF Tuono (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>de</lang_id>
+    <name>Donnerwiderstand-Boost (S)</name>
+    <effect1>Donnerwiderstand-Boost (S)</effect1>
+    <effect2>Donnerwiderstand-Boost (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al rayo (P)</name>
+    <effect1>Bonus resistencia al rayo (P)</effect1>
+    <effect2>Bonus resistencia al rayo (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência a Raio (P)</name>
     <effect1>Reforço Resistência a Raio (P)</effect1>
     <effect2>Reforço Resistência a Raio (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmoc. Odp. na Pioruny (M)</name>
+    <effect1>Wzmoc. Odp. na Pioruny (M)</effect1>
+    <effect2>Wzmoc. Odp. na Pioruny (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление грозе (S)</name>
+    <effect1>Сопротивление грозе (S)</effect1>
+    <effect2>Сопротивление грозе (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ko</lang_id>
+    <name>번개속성 방어 강화【소】</name>
+    <effect1>번개속성 방어 강화【소】</effect1>
+    <effect2>번개속성 방어 강화【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>zh</lang_id>
+    <name>雷屬性防禦強化【小】</name>
+    <effect1>雷屬性防禦強化【小】</effect1>
+    <effect2>雷屬性防禦強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة الرعد (ض)</name>
+    <effect1>تعزيز مقاومة الرعد (ض)</effect1>
+    <effect2>تعزيز مقاومة الرعد (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>34</id>
@@ -471,10 +2781,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>34</id>
+    <lang_id>ja</lang_id>
+    <name>雷属性防御強化【大】</name>
+    <effect1>雷属性防御強化【大】</effect1>
+    <effect2>雷属性防御強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance foudre (G)</name>
+    <effect1>Bonus résistance foudre (G)</effect1>
+    <effect2>Bonus résistance foudre (MAX)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Tuono (L)</name>
+    <effect1>Aumenta DIF Tuono (L)</effect1>
+    <effect2>Aumenta DIF Tuono (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>de</lang_id>
+    <name>Donnerwiderstand-Boost (L)</name>
+    <effect1>Donnerwiderstand-Boost (L)</effect1>
+    <effect2>Donnerwiderstand-Boost (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al rayo (G)</name>
+    <effect1>Bonus resistencia al rayo (G)</effect1>
+    <effect2>Bonus resistencia al rayo (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência a Raio (G)</name>
     <effect1>Reforço Resistência a Raio (G)</effect1>
     <effect2>Reforço Resistência a Raio (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmoc. Odp. na Pioruny (D)</name>
+    <effect1>Wzmoc. Odp. na Pioruny (D)</effect1>
+    <effect2>Wzmoc. Odp. na Pioruny (BD)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление грозе (L)</name>
+    <effect1>Сопротивление грозе (L)</effect1>
+    <effect2>Сопротивление грозе (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ko</lang_id>
+    <name>번개속성 방어 강화【대】</name>
+    <effect1>번개속성 방어 강화【대】</effect1>
+    <effect2>번개속성 방어 강화【특대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>zh</lang_id>
+    <name>雷屬性防禦強化【大】</name>
+    <effect1>雷屬性防禦強化【大】</effect1>
+    <effect2>雷屬性防禦強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة الرعد (ك)</name>
+    <effect1>تعزيز مقاومة الرعد (ك)</effect1>
+    <effect2>تعزيز مقاومة الرعد (ك ج)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>35</id>
@@ -485,10 +2865,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>35</id>
+    <lang_id>ja</lang_id>
+    <name>氷属性防御強化【小】</name>
+    <effect1>氷属性防御強化【小】</effect1>
+    <effect2>氷属性防御強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance glace (P)</name>
+    <effect1>Bonus résistance glace (P)</effect1>
+    <effect2>Bonus résistance glace (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Ghiaccio (S)</name>
+    <effect1>Aumenta DIF Ghiaccio (S)</effect1>
+    <effect2>Aumenta DIF Ghiaccio (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>de</lang_id>
+    <name>Eiswiderstand-Boost (S)</name>
+    <effect1>Eiswiderstand-Boost (S)</effect1>
+    <effect2>Eiswiderstand-Boost (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al hielo (P)</name>
+    <effect1>Bonus resistencia al hielo (P)</effect1>
+    <effect2>Bonus resistencia al hielo (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência a Gelo (P)</name>
     <effect1>Reforço Resistência a Gelo (P)</effect1>
     <effect2>Reforço Resistência a Gelo (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Lód (M)</name>
+    <effect1>Wzmocnienie Odp. na Lód (M)</effect1>
+    <effect2>Wzmocnienie Odp. na Lód (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление льду (S)</name>
+    <effect1>Сопротивление льду (S)</effect1>
+    <effect2>Сопротивление льду (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ko</lang_id>
+    <name>얼음속성 방어 강화【소】</name>
+    <effect1>얼음속성 방어 강화【소】</effect1>
+    <effect2>얼음속성 방어 강화【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>zh</lang_id>
+    <name>冰屬性防禦強化【小】</name>
+    <effect1>冰屬性防禦強化【小】</effect1>
+    <effect2>冰屬性防禦強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة الثلج (ض)</name>
+    <effect1>تعزيز مقاومة الثلج (ض)</effect1>
+    <effect2>تعزيز مقاومة الثلج (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>36</id>
@@ -499,10 +2949,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>36</id>
+    <lang_id>ja</lang_id>
+    <name>氷属性防御強化【大】</name>
+    <effect1>氷属性防御強化【大】</effect1>
+    <effect2>氷属性防御強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance glace (G)</name>
+    <effect1>Bonus résistance glace (G)</effect1>
+    <effect2>Bonus résistance glace (MAX)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Ghiaccio (L)</name>
+    <effect1>Aumenta DIF Ghiaccio (L)</effect1>
+    <effect2>Aumenta DIF Ghiaccio (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>de</lang_id>
+    <name>Eiswiderstand-Boost (L)</name>
+    <effect1>Eiswiderstand-Boost (L)</effect1>
+    <effect2>Eiswiderstand-Boost (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al hielo (G)</name>
+    <effect1>Bonus resistencia al hielo (G)</effect1>
+    <effect2>Bonus resistencia al hielo (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência a Gelo (G)</name>
     <effect1>Reforço Resistência a Gelo (G)</effect1>
     <effect2>Reforço Resistência a Gelo (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Lód (D)</name>
+    <effect1>Wzmocnienie Odp. na Lód (D)</effect1>
+    <effect2>Wzmocnienie Odp. na Lód (BD)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление льду (L)</name>
+    <effect1>Сопротивление льду (L)</effect1>
+    <effect2>Сопротивление льду (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ko</lang_id>
+    <name>얼음속성 방어 강화【대】</name>
+    <effect1>얼음속성 방어 강화【대】</effect1>
+    <effect2>얼음속성 방어 강화【특대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>zh</lang_id>
+    <name>冰屬性防禦強化【大】</name>
+    <effect1>冰屬性防禦強化【大】</effect1>
+    <effect2>冰屬性防禦強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة الثلج (ك)</name>
+    <effect1>تعزيز مقاومة الثلج (ك)</effect1>
+    <effect2>تعزيز مقاومة الثلج (ك ج)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>37</id>
@@ -513,10 +3033,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>37</id>
+    <lang_id>ja</lang_id>
+    <name>龍属性防御強化【小】</name>
+    <effect1>龍属性防御強化【小】</effect1>
+    <effect2>龍属性防御強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance dragon (P)</name>
+    <effect1>Bonus résistance dragon (P)</effect1>
+    <effect2>Bonus résistance dragon (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Drago (S)</name>
+    <effect1>Aumenta DIF Drago (S)</effect1>
+    <effect2>Aumenta DIF Drago (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>de</lang_id>
+    <name>Drachenwiderstand-Boost (S)</name>
+    <effect1>Drachenwiderstand-Boost (S)</effect1>
+    <effect2>Drachenwiderstand-Boost (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al draco (P)</name>
+    <effect1>Bonus resistencia al draco (P)</effect1>
+    <effect2>Bonus resistencia al draco (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência Dragão (P)</name>
     <effect1>Reforço Resistência Dragão (P)</effect1>
     <effect2>Reforço Resistência Dragão (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Smoki (M)</name>
+    <effect1>Wzmocnienie Odp. na Smoki (M)</effect1>
+    <effect2>Wzmocnienie Odp. na Smoki (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление дракону (S)</name>
+    <effect1>Сопротивление дракону (S)</effect1>
+    <effect2>Сопротивление дракону (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ko</lang_id>
+    <name>용속성 방어 강화【소】</name>
+    <effect1>용속성 방어 강화【소】</effect1>
+    <effect2>용속성 방어 강화【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>zh</lang_id>
+    <name>龍屬性防禦強化【小】</name>
+    <effect1>龍屬性防禦強化【小】</effect1>
+    <effect2>龍屬性防禦強化【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة التنين (ض)</name>
+    <effect1>تعزيز مقاومة التنين (ض)</effect1>
+    <effect2>تعزيز مقاومة التنين (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>38</id>
@@ -527,10 +3117,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>38</id>
+    <lang_id>ja</lang_id>
+    <name>龍属性防御強化【大】</name>
+    <effect1>龍属性防御強化【大】</effect1>
+    <effect2>龍属性防御強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance dragon (G)</name>
+    <effect1>Bonus résistance dragon (G)</effect1>
+    <effect2>Bonus résistance dragon (MAX)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta DIF Drago (L)</name>
+    <effect1>Aumenta DIF Drago (L)</effect1>
+    <effect2>Aumenta DIF Drago (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>de</lang_id>
+    <name>Drachenwiderstand-Boost (L)</name>
+    <effect1>Drachenwiderstand-Boost (L)</effect1>
+    <effect2>Drachenwiderstand-Boost (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>es</lang_id>
+    <name>Bonus resistencia al draco (G)</name>
+    <effect1>Bonus resistencia al draco (G)</effect1>
+    <effect2>Bonus resistencia al draco (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
     <lang_id>pt</lang_id>
     <name>Reforço Resistência Dragão (G)</name>
     <effect1>Reforço Resistência Dragão (G)</effect1>
     <effect2>Reforço Resistência Dragão (XG)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Smoki (D)</name>
+    <effect1>Wzmocnienie Odp. na Smoki (D)</effect1>
+    <effect2>Wzmocnienie Odp. na Smoki (BD)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление дракону (L)</name>
+    <effect1>Сопротивление дракону (L)</effect1>
+    <effect2>Сопротивление дракону (XL)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ko</lang_id>
+    <name>용속성 방어 강화【대】</name>
+    <effect1>용속성 방어 강화【대】</effect1>
+    <effect2>용속성 방어 강화【특대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>zh</lang_id>
+    <name>龍屬性防禦強化【大】</name>
+    <effect1>龍屬性防禦強化【大】</effect1>
+    <effect2>龍屬性防禦強化【特大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز مقاومة التنين (ك)</name>
+    <effect1>تعزيز مقاومة التنين (ك)</effect1>
+    <effect2>تعزيز مقاومة التنين (ك ج)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>39</id>
@@ -541,10 +3201,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>39</id>
+    <lang_id>ja</lang_id>
+    <name>属性攻撃力ＵＰ</name>
+    <effect1>属性攻撃力ＵＰ【小】</effect1>
+    <effect2>属性攻撃力ＵＰ【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus attaque élémentaire</name>
+    <effect1>Bonus attaque élémentaire (P)</effect1>
+    <effect2>Bonus attaque élémentaire (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta attacco elementale</name>
+    <effect1>Aumenta attacco elementale (S)</effect1>
+    <effect2>Aumenta attacco elementale (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>de</lang_id>
+    <name>Elementangriff-Boost</name>
+    <effect1>Elementangriff-Boost (S)</effect1>
+    <effect2>Elementangriff-Boost (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>es</lang_id>
+    <name>Bonus ataques elementales</name>
+    <effect1>Bonus ataques elementales (P)</effect1>
+    <effect2>Bonus ataques elementales (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
     <lang_id>pt</lang_id>
     <name>Reforço de Ataque Elemental</name>
     <effect1>Reforço de Ataque Elemental (P)</effect1>
     <effect2>Reforço de Ataque Elemental (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Ataku Żywiołowego</name>
+    <effect1>Wzmocnienie Ataku Żywiołowego (M)</effect1>
+    <effect2>Wzmocnienie Ataku Żywiołowego (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление атаки стихией</name>
+    <effect1>Усиление атаки стихией (S)</effect1>
+    <effect2>Усиление атаки стихией (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ko</lang_id>
+    <name>속성 공격력 UP</name>
+    <effect1>속성 공격력 UP【소】</effect1>
+    <effect2>속성 공격력 UP【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>zh</lang_id>
+    <name>屬性攻擊力UP</name>
+    <effect1>屬性攻擊力UP【小】</effect1>
+    <effect2>屬性攻擊力UP【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ar</lang_id>
+    <name>تعزيز الهجوم العنصري</name>
+    <effect1>تعزيز الهجوم العنصري (ض)</effect1>
+    <effect2>تعزيز الهجوم العنصري (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>40</id>
@@ -555,10 +3285,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>40</id>
+    <lang_id>ja</lang_id>
+    <name>全属性やられ無効</name>
+    <effect1>全属性やられ無効</effect1>
+    <effect2>全属性やられ無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>fr</lang_id>
+    <name>Anti-fléau</name>
+    <effect1>Anti-fléau</effect1>
+    <effect2>Anti-fléau : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>it</lang_id>
+    <name>Annulla malus</name>
+    <effect1>Annulla malus</effect1>
+    <effect2>Annulla malus (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>de</lang_id>
+    <name>Pest negiert</name>
+    <effect1>Pest negiert</effect1>
+    <effect2>Pest negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>es</lang_id>
+    <name>Niega plagas</name>
+    <effect1>Niega plagas</effect1>
+    <effect2>Anti plagas extendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
     <lang_id>pt</lang_id>
     <name>Flagelos Negados</name>
     <effect1>Flagelos Negados</effect1>
     <effect2>Negação de Flagelo Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Plagi</name>
+    <effect1>Neutralizacja Plagi</effect1>
+    <effect2>Przedłużona Neutralizacja Plagi</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ru</lang_id>
+    <name>Снятие порчи</name>
+    <effect1>Снятие порчи</effect1>
+    <effect2>Улучшенное снятие порчи</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ko</lang_id>
+    <name>모든 속성 피해 무효</name>
+    <effect1>모든 속성 피해 무효</effect1>
+    <effect2>모든 속성 피해 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>zh</lang_id>
+    <name>全屬性異常狀態無效</name>
+    <effect1>全屬性異常狀態無效</effect1>
+    <effect2>延長全屬性異常狀態無效</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ar</lang_id>
+    <name>تم إبطال الوباء</name>
+    <effect1>تم إبطال الوباء</effect1>
+    <effect2>مدّ إبطال الزلازل</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>41</id>
@@ -569,9 +3369,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>41</id>
+    <lang_id>ja</lang_id>
+    <name>高周波</name>
+    <effect1>高周波</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>fr</lang_id>
+    <name>Ondes soniques</name>
+    <effect1>Ondes soniques</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>it</lang_id>
+    <name>Onde sonore</name>
+    <effect1>Onde sonore</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>de</lang_id>
+    <name>Schallwellen</name>
+    <effect1>Schallwellen</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>es</lang_id>
+    <name>Ondas sónicas</name>
+    <effect1>Ondas sónicas</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
     <lang_id>pt</lang_id>
     <name>Ondas Sônicas</name>
     <effect1>Ondas Sônicas</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>pl</lang_id>
+    <name>Fale Akustyczne</name>
+    <effect1>Fale Akustyczne</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ru</lang_id>
+    <name>Звуковые волны</name>
+    <effect1>Звуковые волны</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ko</lang_id>
+    <name>고주파</name>
+    <effect1>고주파</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>zh</lang_id>
+    <name>高週波</name>
+    <effect1>高週波</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ar</lang_id>
+    <name>موجات سونيك</name>
+    <effect1>موجات سونيك</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -583,9 +3453,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>42</id>
+    <lang_id>ja</lang_id>
+    <name>全旋律効果延長</name>
+    <effect1>全旋律効果延長</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus durée des mélodies</name>
+    <effect1>Bonus durée des mélodies</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>it</lang_id>
+    <name>Estensione effetti melodie</name>
+    <effect1>Estensione effetti melodie</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>de</lang_id>
+    <name>Alle Medodie-Effekte Zeitbonus</name>
+    <effect1>Alle Medodie-Effekte Zeitbonus</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>es</lang_id>
+    <name>Efecto de melodías extendido</name>
+    <effect1>Efecto de melodías extendido</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
     <lang_id>pt</lang_id>
     <name>Todos Efeitos de Melodia Est.</name>
     <effect1>Todos Efeitos de Melodia Est.</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>pl</lang_id>
+    <name>Przedłużenie Efektów Melodii</name>
+    <effect1>Przedłużenie Efektów Melodii</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ru</lang_id>
+    <name>Улучшенное влияние мелодий</name>
+    <effect1>Улучшенное влияние мелодий</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ko</lang_id>
+    <name>모든 선율 효과 연장</name>
+    <effect1>모든 선율 효과 연장</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>zh</lang_id>
+    <name>延長全旋律效果</name>
+    <effect1>延長全旋律效果</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ar</lang_id>
+    <name>مدّ كل تأثيرات اللحن</name>
+    <effect1>مدّ كل تأثيرات اللحن</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -597,10 +3537,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>43</id>
+    <lang_id>ja</lang_id>
+    <name>のけぞり無効</name>
+    <effect1>のけぞり無効</effect1>
+    <effect2>のけぞり無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>fr</lang_id>
+    <name>Anti-chutes</name>
+    <effect1>Anti-chutes</effect1>
+    <effect2>Anti-chutes : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>it</lang_id>
+    <name>Annulla respinta</name>
+    <effect1>Annulla respinta</effect1>
+    <effect2>Annulla respinta (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>de</lang_id>
+    <name>Rückschläge negiert</name>
+    <effect1>Rückschläge negiert</effect1>
+    <effect2>Rückschläge negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>es</lang_id>
+    <name>Anti empuje al recibir ataques</name>
+    <effect1>Anti empuje al recibir ataques</effect1>
+    <effect2>Anti empujes extendido</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
     <lang_id>pt</lang_id>
     <name>Empurrões Negados</name>
     <effect1>Empurrões Negados</effect1>
     <effect2>Negação de Empurrão Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Odepchnięć</name>
+    <effect1>Neutralizacja Odepchnięć</effect1>
+    <effect2>Przedł. Neutr. Odepchnięcia</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ru</lang_id>
+    <name>Нейтрализация сбивания с ног</name>
+    <effect1>Нейтрализация сбивания с ног</effect1>
+    <effect2>Улучш. нейт-ция сбивания с ног</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ko</lang_id>
+    <name>움츠리기 무효</name>
+    <effect1>움츠리기 무효</effect1>
+    <effect2>움츠리기 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>zh</lang_id>
+    <name>後仰無效</name>
+    <effect1>後仰無效</effect1>
+    <effect2>後仰無效延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ar</lang_id>
+    <name>تم إبطال التراجع</name>
+    <effect1>تم إبطال التراجع</effect1>
+    <effect2>تم مدّ إبطال التراجع</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>44</id>
@@ -611,10 +3621,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>44</id>
+    <lang_id>ja</lang_id>
+    <name>攻撃力＆防御力ＵＰ【小】</name>
+    <effect1>攻撃力ＵＰ【小】＆防御力ＵＰ【小】</effect1>
+    <effect2>攻撃力ＵＰ【大】＆防御力ＵＰ【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus attaque + défense (P)</name>
+    <effect1>Bonus attaque + défense (P)</effect1>
+    <effect2>Bonus attaque + défense (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta attacco e difesa (S)</name>
+    <effect1>Aumenta attacco e difesa (S)</effect1>
+    <effect2>Aumenta attacco (L) / difesa (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>de</lang_id>
+    <name>Angriff und Verteidigung hoch (S)</name>
+    <effect1>Angriff und Verteidigung hoch (S)</effect1>
+    <effect2>Angriff hoch (L) / Verteidigung hoch (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>es</lang_id>
+    <name>Mejora ataque/defensa (P)</name>
+    <effect1>Mejora ataque/defensa (P)</effect1>
+    <effect2>Mejora ataque (G)/defensa (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
     <lang_id>pt</lang_id>
     <name>Mais Ataque e Defesa (P)</name>
     <effect1>Mais Ataque e Defesa (P)</effect1>
     <effect2>Mais Ataque (G)/Defesa (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>pl</lang_id>
+    <name>Wzrost Ataku i Obrony (M)</name>
+    <effect1>Wzrost Ataku i Obrony (M)</effect1>
+    <effect2>Wzrost Ataku (D) / Wzrost Obrony (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ru</lang_id>
+    <name>Усиление атаки и защиты (S)</name>
+    <effect1>Усиление атаки и защиты (S)</effect1>
+    <effect2>Усиление атаки и защиты (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ko</lang_id>
+    <name>공격력＆방어력 UP【소】</name>
+    <effect1>공격력 UP【소】＆방어력 UP【소】</effect1>
+    <effect2>공격력 UP【대】＆방어력 UP【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>zh</lang_id>
+    <name>攻擊力＆防禦力UP【小】</name>
+    <effect1>攻擊力UP【小】＆防禦力UP【小】</effect1>
+    <effect2>攻擊力UP【大】＆防禦力UP【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة الهجوم والدفاع (ض)</name>
+    <effect1>زيادة الهجوم والدفاع (ض)</effect1>
+    <effect2>زيادة الهجوم (ك)/ زيادة الدفاع (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>45</id>
@@ -625,10 +3705,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>45</id>
+    <lang_id>ja</lang_id>
+    <name>全属性耐性値ＵＰ</name>
+    <effect1>全属性耐性値ＵＰ【小】</effect1>
+    <effect2>全属性耐性値ＵＰ【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus résistance fléaux</name>
+    <effect1>Bonus résistance fléaux (P)</effect1>
+    <effect2>Bonus résistance fléaux (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta resistenza malus</name>
+    <effect1>Aumenta resistenza malus (S)</effect1>
+    <effect2>Aumenta resistenza malus (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>de</lang_id>
+    <name>Pestwiderstand hoch</name>
+    <effect1>Pestwiderstand hoch (S)</effect1>
+    <effect2>Pestwiderstand hoch (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>es</lang_id>
+    <name>Mejora la resistencia a plagas</name>
+    <effect1>Mejora resistencia a plagas (P)</effect1>
+    <effect2>Mejora resistencia a plagas (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
     <lang_id>pt</lang_id>
     <name>Mais Resistência a Flagelo</name>
     <effect1>Mais Resistência a Flagelo (P)</effect1>
     <effect2>Mais Resistência a Flagelo (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie Odp. na Plagę</name>
+    <effect1>Wzmocnienie Odporności na Plagę (M)</effect1>
+    <effect2>Wzmocnienie Odporności na Plagę (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ru</lang_id>
+    <name>Сопротивление порче</name>
+    <effect1>+ к сопротивлению порче (S)</effect1>
+    <effect2>Сопротивление порче (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ko</lang_id>
+    <name>모든 속성 내성치 UP</name>
+    <effect1>모든 속성 내성치 UP【소】</effect1>
+    <effect2>모든 속성 내성치 UP【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>zh</lang_id>
+    <name>全屬性耐性值UP</name>
+    <effect1>全屬性耐性值UP【小】</effect1>
+    <effect2>全屬性耐性值UP【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة مقاومة الوباء</name>
+    <effect1>زيادة مقاومة الوباء (ض)</effect1>
+    <effect2>زيادة مقاومة الوباء (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>46</id>
@@ -639,10 +3789,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>46</id>
+    <lang_id>ja</lang_id>
+    <name>会心率ＵＰ＆体力回復【小】</name>
+    <effect1>会心率ＵＰ【小】＆体力回復【小】</effect1>
+    <effect2>会心率ＵＰ【大】＆体力回復【小】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus affinité / Récup. vie (P)</name>
+    <effect1>Bonus affinité (P) / Récup. vie (P)</effect1>
+    <effect2>Bonus affinité (G) / Récup. vie (P)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta affinità / Recupero salute (S)</name>
+    <effect1>Aumenta affinità (S) / Recupero salute (S)</effect1>
+    <effect2>Aumenta affinità (L) / Recupero salute (S)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>de</lang_id>
+    <name>Affinität hoch / Gesundheitserholung (S)</name>
+    <effect1>Affinität hoch (S) / Gesundheitserholung (S)</effect1>
+    <effect2>Affinität hoch (L) / Gesundheitserholung (S)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>es</lang_id>
+    <name>Recup. afinidad/salud (P)</name>
+    <effect1>Recup. afinidad (P)/salud (P)</effect1>
+    <effect2>Recup. afinidad (G)/salud (P)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
     <lang_id>pt</lang_id>
     <name>Mais Afinidade/Reg. Vida (P)</name>
     <effect1>Mais Afinidade (P)/Reg. de Vida (P)</effect1>
     <effect2>Mais Afinidade (G)/Reg. de Vida (P)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>pl</lang_id>
+    <name>Wzr. Zgodn. i Reg. Zdrowia (M)</name>
+    <effect1>Wzrost Zgodności (M) / Reg. Zdrowia (M)</effect1>
+    <effect2>Wzrost Zgodności (D) / Reg. Zdrowia (M)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ru</lang_id>
+    <name>Мастерство/Восстановление (S)</name>
+    <effect1>Мастерство и восстановление (S)</effect1>
+    <effect2>Мастерство (L)/Восстановление (S)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ko</lang_id>
+    <name>회심률 UP＆체력 회복【소】</name>
+    <effect1>회심률 UP【소】＆체력 회복【소】</effect1>
+    <effect2>회심률 UP【대】＆체력 회복【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>zh</lang_id>
+    <name>會心率UP＆體力回復【小】</name>
+    <effect1>會心率UP【小】＆體力回復【小】</effect1>
+    <effect2>會心率UP【大】＆體力回復【小】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة النسبة وتعافي الصحة (ض)</name>
+    <effect1>زيادة النسبة (ض)/ تعافي الصحة (ض)</effect1>
+    <effect2>زيادة النسبة (ك)/ تعافي الصحة (ض)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>47</id>
@@ -653,10 +3873,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>47</id>
+    <lang_id>ja</lang_id>
+    <name>全状態異常無効</name>
+    <effect1>全状態異常無効</effect1>
+    <effect2>全状態異常無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>fr</lang_id>
+    <name>Anti-afflictions</name>
+    <effect1>Anti-afflictions</effect1>
+    <effect2>Anti-afflictions : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>it</lang_id>
+    <name>Annulla alterazioni di stato</name>
+    <effect1>Annulla alterazioni di stato</effect1>
+    <effect2>Annulla alterazioni di stato (estensione)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>de</lang_id>
+    <name>Alle anorm. Status negiert</name>
+    <effect1>Alle anorm. Status negiert</effect1>
+    <effect2>Anorm. Status negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>es</lang_id>
+    <name>Anti estados alterados</name>
+    <effect1>Anti estados alterados</effect1>
+    <effect2>Anti estados alterados extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
     <lang_id>pt</lang_id>
     <name>Todo Efeito Negativo Negado</name>
     <effect1>Todo Efeito Negativo Negado</effect1>
     <effect2>Negação de Efeito Negativo Estendida</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>pl</lang_id>
+    <name>Neutralizacja Szk. Efektów</name>
+    <effect1>Neutralizacja Szk. Efektów</effect1>
+    <effect2>Przedłużona Neutralizacja Szk. Efektów</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ru</lang_id>
+    <name>Нейтр-ция всех нег. статусов</name>
+    <effect1>Нейтр-ция всех нег. статусов</effect1>
+    <effect2>Улучшенная нейтрализация недуга</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ko</lang_id>
+    <name>모든 상태 이상 무효</name>
+    <effect1>모든 상태 이상 무효</effect1>
+    <effect2>모든 상태 이상 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>zh</lang_id>
+    <name>全狀態異常無效</name>
+    <effect1>全狀態異常無效</effect1>
+    <effect2>延長全狀態異常無效</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ar</lang_id>
+    <name>تم إبطال جميع الاعتلالات</name>
+    <effect1>تم إبطال جميع الاعتلالات</effect1>
+    <effect2>مدّ إبطال الزلازل</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>48</id>
@@ -667,10 +3957,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>48</id>
+    <lang_id>ja</lang_id>
+    <name>聴覚保護【小】＆風圧無効</name>
+    <effect1>聴覚保護【小】＆風圧無効</effect1>
+    <effect2>聴覚保護【小】＆風圧無効延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>fr</lang_id>
+    <name>Protection ouïe (P) / Anti-bourrasque</name>
+    <effect1>Protection ouïe (P) / Anti-bourrasque</effect1>
+    <effect2>Protection ouïe (P) / Anti-bourrasque : durée étendue</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>it</lang_id>
+    <name>Protezione udito (S) / Annulla pressione vento</name>
+    <effect1>Protezione udito (S) / Annulla pressione vento</effect1>
+    <effect2>Protezione udito (S) / Annulla pressione vento</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>de</lang_id>
+    <name>Ohrstöpsel (S) / Winddruck negiert</name>
+    <effect1>Ohrstöpsel (S) / Winddruck negiert</effect1>
+    <effect2>Ohrstöpsel (S) / Winddruck negiert Zeitbonus</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>es</lang_id>
+    <name>Anti rugidos (P)/Niega ráfagas viento</name>
+    <effect1>Anti rugidos (P)/Niega ráfagas viento</effect1>
+    <effect2>Anti rugidos (P)/Niega viento extend.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
     <lang_id>pt</lang_id>
     <name>Tampões (S)/Pr. de Vento Neg.</name>
     <effect1>Tampões (S)/Pr. de Vento Neg.</effect1>
     <effect2>Tampões (S) / Pr. de Vento Negada Est.</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>pl</lang_id>
+    <name>Zatyczki (M) / Neutr. Wiatru (M)</name>
+    <effect1>Zatyczki (M) / Neutr. Wiatru (M)</effect1>
+    <effect2>Zatyczki (M) / Długa Neutr. Wiatru</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ru</lang_id>
+    <name>Наушники (S)/отм. давл. ветра</name>
+    <effect1>Наушники (S)/отм. давл. ветра</effect1>
+    <effect2>Наушн. (S)/улчш. отмн давл. Ветра</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ko</lang_id>
+    <name>청각 보호【소】＆풍압 무효</name>
+    <effect1>청각 보호【소】＆풍압 무효</effect1>
+    <effect2>청각 보호【소】＆풍압 무효 연장</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>zh</lang_id>
+    <name>聽覺保護【小】＆風壓無效</name>
+    <effect1>聽覺保護【小】＆風壓無效</effect1>
+    <effect2>聽覺保護【小】＆風壓無效延長</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ar</lang_id>
+    <name>سدادات الأذن (ص) / إبطال ضغط الرياح</name>
+    <effect1>سدادات الأذن (ص) / إبطال ضغط الرياح</effect1>
+    <effect2>سدادات الأذن (ص) / مدّ إبطال ضغط الرياح</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>49</id>
@@ -681,10 +4041,80 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>49</id>
+    <lang_id>ja</lang_id>
+    <name>状態異常攻撃力ＵＰ</name>
+    <effect1>状態異常攻撃力ＵＰ【小】</effect1>
+    <effect2>状態異常攻撃力ＵＰ【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus afflictions</name>
+    <effect1>Bonus afflictions (P)</effect1>
+    <effect2>Bonus afflictions (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>it</lang_id>
+    <name>Aumenta attacco stato</name>
+    <effect1>Aumenta attacco stato (S)</effect1>
+    <effect2>Aumenta attacco stato (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>de</lang_id>
+    <name>Anormaler Statusangriff verbessert</name>
+    <effect1>Anormaler Statusangriff hoch (S)</effect1>
+    <effect2>Anormaler Statusangriff hoch (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>es</lang_id>
+    <name>Mejora ataques estados alterados</name>
+    <effect1>Mejora ataq. estado alterado (P)</effect1>
+    <effect2>Mejora ataq. estado alterado (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
     <lang_id>pt</lang_id>
     <name>Status Anormais de Ataque Aum.</name>
     <effect1>Mais Status Anormais de Ataque (P)</effect1>
     <effect2>Mais Status Anormais de Ataque (G)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>pl</lang_id>
+    <name>Mocniejsze Szkodliwe Efekty</name>
+    <effect1>Mocniejsze Szkodliwe Efekty Ataków (M)</effect1>
+    <effect2>Mocniejsze Szkodliwe Efekty Ataków (D)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ru</lang_id>
+    <name>Бонус к атаке с ан. статусом</name>
+    <effect1>+ к атаке с аномальн. статусом (S)</effect1>
+    <effect2>Бонус к атаке с ан. статусом (L)</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ko</lang_id>
+    <name>상태 이상 공격력 UP</name>
+    <effect1>상태 이상 공격력 UP【소】</effect1>
+    <effect2>상태 이상 공격력 UP【대】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>zh</lang_id>
+    <name>狀態異常攻擊力UP</name>
+    <effect1>狀態異常攻擊力UP【小】</effect1>
+    <effect2>狀態異常攻擊力UP【大】</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة هجوم الوضعية الغريبة</name>
+    <effect1>زيادة هجوم الوضعية الغريبة (ض)</effect1>
+    <effect2>زيادة هجوم الوضعية الغريبة (ك)</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>50</id>
@@ -695,9 +4125,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>50</id>
+    <lang_id>ja</lang_id>
+    <name>体力回復【中】</name>
+    <effect1>体力回復【中】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>fr</lang_id>
+    <name>Récupération vie (M)</name>
+    <effect1>Récupération vie (M)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>it</lang_id>
+    <name>Recupero salute (M)</name>
+    <effect1>Recupero salute (M)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>de</lang_id>
+    <name>Gesundheitserholung (M)</name>
+    <effect1>Gesundheitserholung (M)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>es</lang_id>
+    <name>Recupera salud (M)</name>
+    <effect1>Recupera salud (M)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
     <lang_id>pt</lang_id>
     <name>Regeneração de Vida (M)</name>
     <effect1>Regeneração de Vida (M)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>pl</lang_id>
+    <name>Regeneracja zdrowia (Ś)</name>
+    <effect1>Regeneracja zdrowia (Ś)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ru</lang_id>
+    <name>Восстановление здоровья (M)</name>
+    <effect1>Восстановление здоровья (M)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ko</lang_id>
+    <name>체력 회복【중】</name>
+    <effect1>체력 회복【중】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>zh</lang_id>
+    <name>體力回復【中】</name>
+    <effect1>體力回復【中】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ar</lang_id>
+    <name>استعادة الصحة (م)</name>
+    <effect1>استعادة الصحة (م)</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -709,9 +4209,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>51</id>
+    <lang_id>ja</lang_id>
+    <name>響周波【打】</name>
+    <effect1>響周波【打】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>fr</lang_id>
+    <name>Onde d'écho à impact</name>
+    <effect1>Onde d'écho à impact</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>it</lang_id>
+    <name>Onda eco impatto</name>
+    <effect1>Onda eco impatto</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>de</lang_id>
+    <name>Einschlagsecho-Welle</name>
+    <effect1>Einschlagsecho-Welle</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>es</lang_id>
+    <name>Onda sónica de impacto</name>
+    <effect1>Onda sónica de impacto</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
     <lang_id>pt</lang_id>
     <name>Onda de Eco de Impacto</name>
     <effect1>Onda de Eco de Impacto</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>pl</lang_id>
+    <name>Fala uderzeniowa echa</name>
+    <effect1>Fala uderzeniowa echa</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ru</lang_id>
+    <name>Волна ударного отзвука</name>
+    <effect1>Волна ударного отзвука</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ko</lang_id>
+    <name>향주파【타】</name>
+    <effect1>향주파【타】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>zh</lang_id>
+    <name>響週波【打】</name>
+    <effect1>響週波【打】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ar</lang_id>
+    <name>أثر موجة الصدى</name>
+    <effect1>أثر موجة الصدى</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -723,9 +4293,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>52</id>
+    <lang_id>ja</lang_id>
+    <name>響周波【龍】</name>
+    <effect1>響周波【龍】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>fr</lang_id>
+    <name>Onde d'écho "Dragon"</name>
+    <effect1>Onde d'écho "Dragon"</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>it</lang_id>
+    <name>Onda eco "drago”</name>
+    <effect1>Onda eco "drago”</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>de</lang_id>
+    <name>Echo-Welle "Drachen"</name>
+    <effect1>Echo-Welle "Drachen"</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>es</lang_id>
+    <name>Onda sónica "Dragón"</name>
+    <effect1>Onda sónica "Dragón"</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
     <lang_id>pt</lang_id>
     <name>Onda de Eco "Dragão"</name>
     <effect1>Onda de Eco "Dragão"</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>pl</lang_id>
+    <name>Fala echa "Smok"</name>
+    <effect1>Fala echa "Smok"</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ru</lang_id>
+    <name>Волна отзвука "Дракон"</name>
+    <effect1>Волна отзвука "Дракон"</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ko</lang_id>
+    <name>향주파【용】</name>
+    <effect1>향주파【용】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>zh</lang_id>
+    <name>響週波【龍】</name>
+    <effect1>響週波【龍】</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ar</lang_id>
+    <name>"تنين" موجة الصدى</name>
+    <effect1>"تنين" موجة الصدى</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -737,9 +4377,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>53</id>
+    <lang_id>ja</lang_id>
+    <name>スタミナ最大値UP＆回復</name>
+    <effect1>スタミナ最大値UP＆回復</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus : endurance max / récupération vie</name>
+    <effect1>Bonus : endurance max / récupération vie</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>it</lang_id>
+    <name>Bonus resistenza massima + recupero</name>
+    <effect1>Bonus resistenza massima + recupero</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>de</lang_id>
+    <name>Max. Ausdauer hoch + Erholung</name>
+    <effect1>Max. Ausdauer hoch + Erholung</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>es</lang_id>
+    <name>Recuperación + resistencia máxima+</name>
+    <effect1>Recuperación + resistencia máxima+</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
     <lang_id>pt</lang_id>
     <name>Aumento Vigor Máximo + Recuperação</name>
     <effect1>Aumento Vigor Máximo + Recuperação</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>pl</lang_id>
+    <name>Maks. wytrzymałość + regeneracja</name>
+    <effect1>Maks. wytrzymałość + regeneracja</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ru</lang_id>
+    <name>Повышение макс. выносл. + восстан.</name>
+    <effect1>Повышение макс. выносл. + восстан.</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ko</lang_id>
+    <name>스태미나 최대치 UP&amp;회복</name>
+    <effect1>스태미나 최대치 UP&amp;회복</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>zh</lang_id>
+    <name>耐力最大值UP＆回復</name>
+    <effect1>耐力最大值UP＆回復</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة أقصى قوة تحمل + تعافٍ</name>
+    <effect1>زيادة أقصى قوة تحمل + تعافٍ</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -751,9 +4461,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>54</id>
+    <lang_id>ja</lang_id>
+    <name>体力継続回復</name>
+    <effect1>体力継続回復</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>fr</lang_id>
+    <name>Récupération vie : durée étendue</name>
+    <effect1>Récupération vie : durée étendue</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>it</lang_id>
+    <name>Recupero salute (estensione)</name>
+    <effect1>Recupero salute (estensione)</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>de</lang_id>
+    <name>Verbesserte Gesundheitserholung</name>
+    <effect1>Verbesserte Gesundheitserholung</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>es</lang_id>
+    <name>Recuperación de salud extendida</name>
+    <effect1>Recuperación de salud extendida</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
     <lang_id>pt</lang_id>
     <name>Regeneração de Vida Estendida</name>
     <effect1>Regeneração de Vida Estendida</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>pl</lang_id>
+    <name>Przedłużona regeneracja zdrowia</name>
+    <effect1>Przedłużona regeneracja zdrowia</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ru</lang_id>
+    <name>Расшир. восстановление здоровья</name>
+    <effect1>Расшир. восстановление здоровья</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ko</lang_id>
+    <name>체력 지속 회복</name>
+    <effect1>체력 지속 회복</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>zh</lang_id>
+    <name>體力持續回復</name>
+    <effect1>體力持續回復</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ar</lang_id>
+    <name>شفاء ممتد</name>
+    <effect1>شفاء ممتد</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -765,9 +4545,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>55</id>
+    <lang_id>ja</lang_id>
+    <name>自分強化【速】＆回避性能UP</name>
+    <effect1>自分強化【速】＆回避性能UP</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus : vitesse / invulnérabilité</name>
+    <effect1>Bonus : vitesse / invulnérabilité</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>it</lang_id>
+    <name>Bonus velocità + schivata</name>
+    <effect1>Bonus velocità + schivata</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>de</lang_id>
+    <name>Geschw-Boost + Unverwundbarkeit hoch</name>
+    <effect1>Geschw-Boost + Unverwundbarkeit hoch</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>es</lang_id>
+    <name>Bonus velocidad + int. de evasión+</name>
+    <effect1>Bonus velocidad + int. de evasión+</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
     <lang_id>pt</lang_id>
     <name>Ref. Velocid. + Mais Tempo Esquiva</name>
     <effect1>Ref. Velocid. + Mais Tempo Esquiva</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmoc. szybkości + dł. okres uniku</name>
+    <effect1>Wzmoc. szybkości + dł. okres uniku</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ru</lang_id>
+    <name>Усил. скор. + увелич. окна уклон.</name>
+    <effect1>Усил. скор. + увелич. окна уклон.</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ko</lang_id>
+    <name>자기 강화【속】&amp;회피 성능 UP</name>
+    <effect1>자기 강화【속】&amp;회피 성능 UP</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>zh</lang_id>
+    <name>自我強化【速】＆迴避性能UP</name>
+    <effect1>自我強化【速】＆迴避性能UP</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ar</lang_id>
+    <name>معزز السرعة + زيادة فترة التفادي</name>
+    <effect1>معزز السرعة + زيادة فترة التفادي</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -779,9 +4629,79 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>56</id>
+    <lang_id>ja</lang_id>
+    <name>属性系効果UP</name>
+    <effect1>属性系効果UP</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>fr</lang_id>
+    <name>Bonus : efficacité élémentaire</name>
+    <effect1>Bonus : efficacité élémentaire</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>it</lang_id>
+    <name>Bonus efficacia elementale</name>
+    <effect1>Bonus efficacia elementale</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>de</lang_id>
+    <name>Elementeffektivität hoch</name>
+    <effect1>Elementeffektivität hoch</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>es</lang_id>
+    <name>Efectividad elemental+</name>
+    <effect1>Efectividad elemental+</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
     <lang_id>pt</lang_id>
     <name>Mais Eficácia Elemental</name>
     <effect1>Mais Eficácia Elemental</effect1>
     <effect2>N/A</effect2>
   </DATA_RECORD>
-  </weapon_melody_text>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>pl</lang_id>
+    <name>Wzmocnienie skuteczności żywiołów</name>
+    <effect1>Wzmocnienie skuteczności żywiołów</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ru</lang_id>
+    <name>Увеличение эффективности стихий</name>
+    <effect1>Увеличение эффективности стихий</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ko</lang_id>
+    <name>속성계 효과 UP</name>
+    <effect1>속성계 효과 UP</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>zh</lang_id>
+    <name>屬性類效果UP</name>
+    <effect1>屬性類效果UP</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ar</lang_id>
+    <name>زيادة فاعلية العنصر</name>
+    <effect1>زيادة فاعلية العنصر</effect1>
+    <effect2>N/A</effect2>
+  </DATA_RECORD>
+</weapon_melody_text>

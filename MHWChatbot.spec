@@ -3,10 +3,10 @@
 
 a = Analysis(
     ['backend\\main.py'],
-    pathex=[],
+    pathex=['backend'],
     binaries=[],
-    datas=[('backend/splash.html', 'backend')],
-    hiddenimports=[],
+    datas=[('backend/splash.html', 'backend'), ('.env', '.')],
+    hiddenimports=['rag_pipeline', 'rag_loader'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

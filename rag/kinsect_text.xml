@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kinsect_text>
   <DATA_RECORD>
     <id>1</id>
@@ -7,8 +7,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>1</id>
+    <lang_id>ja</lang_id>
+    <name>クルドローンⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>fr</lang_id>
+    <name>Torturoptède</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>it</lang_id>
+    <name>Culldrone I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>de</lang_id>
+    <name>Keulendrohn I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>es</lang_id>
+    <name>Culldrone I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
     <lang_id>pt</lang_id>
     <name>Abatelha I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>pl</lang_id>
+    <name>Trutniobójca I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ru</lang_id>
+    <name>Трутень-убийца 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ko</lang_id>
+    <name>쿨드론Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>zh</lang_id>
+    <name>切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ar</lang_id>
+    <name>كولدرون I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>2</id>
@@ -17,8 +67,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>2</id>
+    <lang_id>ja</lang_id>
+    <name>クルドローンⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>fr</lang_id>
+    <name>Torturoptède II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>it</lang_id>
+    <name>Culldrone II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>de</lang_id>
+    <name>Keulendrohn II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>es</lang_id>
+    <name>Culldrone II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
     <lang_id>pt</lang_id>
     <name>Abatelha II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>pl</lang_id>
+    <name>Trutniobójca II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ru</lang_id>
+    <name>Трутень-убийца 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ko</lang_id>
+    <name>쿨드론Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>zh</lang_id>
+    <name>切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ar</lang_id>
+    <name>كولدرون II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>3</id>
@@ -27,8 +127,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>3</id>
+    <lang_id>ja</lang_id>
+    <name>クルドローンⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>fr</lang_id>
+    <name>Torturoptède III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>it</lang_id>
+    <name>Culldrone III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>de</lang_id>
+    <name>Keulendrohn III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>es</lang_id>
+    <name>Culldrone III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
     <lang_id>pt</lang_id>
     <name>Abatelha III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>pl</lang_id>
+    <name>Trutniobójca III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ru</lang_id>
+    <name>Трутень-убийца 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ko</lang_id>
+    <name>쿨드론Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>zh</lang_id>
+    <name>切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ar</lang_id>
+    <name>كولدرون III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>4</id>
@@ -37,8 +187,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>4</id>
+    <lang_id>ja</lang_id>
+    <name>アルマスタッグⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>fr</lang_id>
+    <name>Alucanide</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>it</lang_id>
+    <name>Alucanid I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>de</lang_id>
+    <name>Zangenkäfer I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>es</lang_id>
+    <name>Lucanidrone I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
     <lang_id>pt</lang_id>
     <name>Alucnídeo I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>pl</lang_id>
+    <name>Alucanid I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ru</lang_id>
+    <name>Алуканид 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ko</lang_id>
+    <name>아르마스태그Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>zh</lang_id>
+    <name>威力型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ar</lang_id>
+    <name>ألوكانيد I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>5</id>
@@ -47,8 +247,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>5</id>
+    <lang_id>ja</lang_id>
+    <name>アルマスタッグⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>fr</lang_id>
+    <name>Alucanide II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>it</lang_id>
+    <name>Alucanid II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>de</lang_id>
+    <name>Zangenkäfer II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>es</lang_id>
+    <name>Lucanidrone II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
     <lang_id>pt</lang_id>
     <name>Alucnídeo II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>pl</lang_id>
+    <name>Alucanid II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ru</lang_id>
+    <name>Алуканид 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ko</lang_id>
+    <name>아르마스태그Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>zh</lang_id>
+    <name>威力型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ar</lang_id>
+    <name>ألوكانيد II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>6</id>
@@ -57,8 +307,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>6</id>
+    <lang_id>ja</lang_id>
+    <name>アルマスタッグⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>fr</lang_id>
+    <name>Alucanide III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>it</lang_id>
+    <name>Alucanid III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>de</lang_id>
+    <name>Zangenkäfer III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>es</lang_id>
+    <name>Lucanidrone III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
     <lang_id>pt</lang_id>
     <name>Alucnídeo III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>pl</lang_id>
+    <name>Alucanid III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ru</lang_id>
+    <name>Алуканид 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ko</lang_id>
+    <name>아르마스태그Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>zh</lang_id>
+    <name>威力型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ar</lang_id>
+    <name>ألوكانيد III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>7</id>
@@ -67,8 +367,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>7</id>
+    <lang_id>ja</lang_id>
+    <name>モナークブルスタッグⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>fr</lang_id>
+    <name>Alucanide royal</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>it</lang_id>
+    <name>Alucanid reale I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>de</lang_id>
+    <name>Königszangenkäfer I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>es</lang_id>
+    <name>Lucanidrone Rex I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
     <lang_id>pt</lang_id>
     <name>Alucnídeo Monarca I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>pl</lang_id>
+    <name>Alucanid królewski I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ru</lang_id>
+    <name>Алуканид-монарх 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ko</lang_id>
+    <name>모나크블스태그Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>zh</lang_id>
+    <name>威力特化型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ar</lang_id>
+    <name>مونارك ألوكانيد I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>8</id>
@@ -77,8 +427,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>8</id>
+    <lang_id>ja</lang_id>
+    <name>モナークブルスタッグⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>fr</lang_id>
+    <name>Alucanide royal II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>it</lang_id>
+    <name>Alucanid reale II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>de</lang_id>
+    <name>Königszangenkäfer II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>es</lang_id>
+    <name>Lucanidrone Rex II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
     <lang_id>pt</lang_id>
     <name>Alucnídeo Monarca II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>pl</lang_id>
+    <name>Alucanid królewski II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ru</lang_id>
+    <name>Алуканид-монарх 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ko</lang_id>
+    <name>모나크블스태그Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>zh</lang_id>
+    <name>威力特化型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ar</lang_id>
+    <name>مونارك ألوكانيد II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>9</id>
@@ -87,8 +487,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>9</id>
+    <lang_id>ja</lang_id>
+    <name>モナークブルスタッグⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>fr</lang_id>
+    <name>Alucanide royal III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>it</lang_id>
+    <name>Alucanid reale III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>de</lang_id>
+    <name>Königszangenkäfer III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>es</lang_id>
+    <name>Lucanidrone Rex III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
     <lang_id>pt</lang_id>
     <name>Alucnídeo Monarca III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>pl</lang_id>
+    <name>Alucanid królewski III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ru</lang_id>
+    <name>Алуканид-монарх 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ko</lang_id>
+    <name>모나크블스태그Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>zh</lang_id>
+    <name>威力特化型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ar</lang_id>
+    <name>مونارك ألوكانيد III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>10</id>
@@ -97,8 +547,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>10</id>
+    <lang_id>ja</lang_id>
+    <name>レジナヴォランテⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>fr</lang_id>
+    <name>Impérialoptère</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>it</lang_id>
+    <name>Empresswing I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>de</lang_id>
+    <name>Kaiserinnenflügel I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>es</lang_id>
+    <name>Emperatriz I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
     <lang_id>pt</lang_id>
     <name>Imperatrasa I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>pl</lang_id>
+    <name>Cesarzyk I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ru</lang_id>
+    <name>Крыло императрицы 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ko</lang_id>
+    <name>레지나볼란테Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>zh</lang_id>
+    <name>威力平衡型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ar</lang_id>
+    <name>إمبريسوينغ I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>11</id>
@@ -107,8 +607,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>11</id>
+    <lang_id>ja</lang_id>
+    <name>レジナヴォランテⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>fr</lang_id>
+    <name>Impérialoptère II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>it</lang_id>
+    <name>Empresswing II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>de</lang_id>
+    <name>Kaiserinnenflügel II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>es</lang_id>
+    <name>Emperatriz II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
     <lang_id>pt</lang_id>
     <name>Imperatrasa II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>pl</lang_id>
+    <name>Cesarzyk II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ru</lang_id>
+    <name>Крыло императрицы 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ko</lang_id>
+    <name>레지나볼란테Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>zh</lang_id>
+    <name>威力平衡型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ar</lang_id>
+    <name>إمبريسوينغ II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>12</id>
@@ -117,18 +667,118 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>12</id>
+    <lang_id>ja</lang_id>
+    <name>レジナヴォランテⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>fr</lang_id>
+    <name>Impérialoptère III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>it</lang_id>
+    <name>Empresswing III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>de</lang_id>
+    <name>Kaiserinnenflügel III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>es</lang_id>
+    <name>Emperatriz III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
     <lang_id>pt</lang_id>
     <name>Imperatrasa III</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>12</id>
+    <lang_id>pl</lang_id>
+    <name>Cesarzyk III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ru</lang_id>
+    <name>Крыло императрицы 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ko</lang_id>
+    <name>레지나볼란테Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>zh</lang_id>
+    <name>威力平衡型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ar</lang_id>
+    <name>إمبريسوينغ III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>13</id>
     <lang_id>en</lang_id>
     <name>Rigiprayne I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>13</id>
+    <lang_id>ja</lang_id>
+    <name>ガシルドーレⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>fr</lang_id>
+    <name>Rigiphage</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>it</lang_id>
+    <name>Rigiprayne I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>de</lang_id>
+    <name>Rigianbeter I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>es</lang_id>
+    <name>Hymanopteros I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
     <lang_id>pt</lang_id>
     <name>Rigiprayne I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>pl</lang_id>
+    <name>Twardoból I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ru</lang_id>
+    <name>Ригипрайн 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ko</lang_id>
+    <name>가실도레Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>zh</lang_id>
+    <name>體力型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ar</lang_id>
+    <name>ريغيبراين I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>14</id>
@@ -137,18 +787,118 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>14</id>
+    <lang_id>ja</lang_id>
+    <name>ガシルドーレⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>fr</lang_id>
+    <name>Rigiphage II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>it</lang_id>
+    <name>Rigiprayne II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>de</lang_id>
+    <name>Rigianbeter II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>es</lang_id>
+    <name>Hymanopteros II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
     <lang_id>pt</lang_id>
     <name>Rigiprayne II</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>14</id>
+    <lang_id>pl</lang_id>
+    <name>Twardoból II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ru</lang_id>
+    <name>Ригипрайн 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ko</lang_id>
+    <name>가실도레Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>zh</lang_id>
+    <name>體力型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ar</lang_id>
+    <name>ريغيبراين II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>15</id>
     <lang_id>en</lang_id>
     <name>Rigiprayne III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>15</id>
+    <lang_id>ja</lang_id>
+    <name>ガシルドーレⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>fr</lang_id>
+    <name>Rigiphage III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>it</lang_id>
+    <name>Rigiprayne III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>de</lang_id>
+    <name>Rigianbeter III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>es</lang_id>
+    <name>Hymanopteros III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
     <lang_id>pt</lang_id>
     <name>Rigiprayne III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>pl</lang_id>
+    <name>Twardoból III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ru</lang_id>
+    <name>Ригипрайн 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ko</lang_id>
+    <name>가실도레Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>zh</lang_id>
+    <name>體力型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ar</lang_id>
+    <name>ريغيبراين III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>16</id>
@@ -157,18 +907,118 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>16</id>
+    <lang_id>ja</lang_id>
+    <name>ドゥンクラープⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>fr</lang_id>
+    <name>Armurophage</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>it</lang_id>
+    <name>Cancadaman I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>de</lang_id>
+    <name>Dauerflieger I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>es</lang_id>
+    <name>Cancadamán I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
     <lang_id>pt</lang_id>
     <name>Cancadaman I</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>16</id>
+    <lang_id>pl</lang_id>
+    <name>Puchotwór I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ru</lang_id>
+    <name>Канкадаман 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ko</lang_id>
+    <name>둔크라프Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>zh</lang_id>
+    <name>體力特化型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ar</lang_id>
+    <name>كانكادامان I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>17</id>
     <lang_id>en</lang_id>
     <name>Cancadaman II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>17</id>
+    <lang_id>ja</lang_id>
+    <name>ドゥンクラープⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>fr</lang_id>
+    <name>Armurophage II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>it</lang_id>
+    <name>Cancadaman II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>de</lang_id>
+    <name>Dauerflieger II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>es</lang_id>
+    <name>Cancadamán II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
     <lang_id>pt</lang_id>
     <name>Cancadaman II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>pl</lang_id>
+    <name>Puchotwór II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ru</lang_id>
+    <name>Канкадаман 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ko</lang_id>
+    <name>둔크라프Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>zh</lang_id>
+    <name>體力特化型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ar</lang_id>
+    <name>كانكادامان II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>18</id>
@@ -177,18 +1027,118 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>18</id>
+    <lang_id>ja</lang_id>
+    <name>ドゥンクラープⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>fr</lang_id>
+    <name>Armurophage III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>it</lang_id>
+    <name>Cancadaman III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>de</lang_id>
+    <name>Dauerflieger III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>es</lang_id>
+    <name>Cancadamán III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
     <lang_id>pt</lang_id>
     <name>Cancadaman III</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>18</id>
+    <lang_id>pl</lang_id>
+    <name>Puchotwór III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ru</lang_id>
+    <name>Канкадаман 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ko</lang_id>
+    <name>둔크라프Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>zh</lang_id>
+    <name>體力特化型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ar</lang_id>
+    <name>كانكادامان III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>19</id>
     <lang_id>en</lang_id>
     <name>Fiddlebrix I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>19</id>
+    <lang_id>ja</lang_id>
+    <name>ウカドゥーレⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>fr</lang_id>
+    <name>Lamobrix</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>it</lang_id>
+    <name>Fiddlebrix I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>de</lang_id>
+    <name>Mauschelbrix I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>es</lang_id>
+    <name>Gladiador I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
     <lang_id>pt</lang_id>
     <name>Fiddlebrix I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>pl</lang_id>
+    <name>Dłubogruz I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ru</lang_id>
+    <name>Брикс-обманщик 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ko</lang_id>
+    <name>우카드레Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>zh</lang_id>
+    <name>體力平衡型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ar</lang_id>
+    <name>فيدلبريكس I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>20</id>
@@ -197,8 +1147,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>20</id>
+    <lang_id>ja</lang_id>
+    <name>ウカドゥーレⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>fr</lang_id>
+    <name>Lamobrix II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>it</lang_id>
+    <name>Fiddlebrix II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>de</lang_id>
+    <name>Mauschelbrix II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>es</lang_id>
+    <name>Gladiador II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
     <lang_id>pt</lang_id>
     <name>Fiddlebrix II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>pl</lang_id>
+    <name>Dłubogruz II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ru</lang_id>
+    <name>Брикс-обманщик 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ko</lang_id>
+    <name>우카드레Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>zh</lang_id>
+    <name>體力平衡型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ar</lang_id>
+    <name>فيدلبريكس II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>21</id>
@@ -207,8 +1207,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>21</id>
+    <lang_id>ja</lang_id>
+    <name>ウカドゥーレⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>fr</lang_id>
+    <name>Lamobrix III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>it</lang_id>
+    <name>Fiddlebrix III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>de</lang_id>
+    <name>Mauschelbrix III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>es</lang_id>
+    <name>Gladiador III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
     <lang_id>pt</lang_id>
     <name>Fiddlebrix III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>pl</lang_id>
+    <name>Dłubogruz III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ru</lang_id>
+    <name>Брикс-обманщик 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ko</lang_id>
+    <name>우카드레Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>zh</lang_id>
+    <name>體力平衡型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ar</lang_id>
+    <name>فيدلبريكس III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>22</id>
@@ -217,8 +1267,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>22</id>
+    <lang_id>ja</lang_id>
+    <name>カゼキリバネⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>fr</lang_id>
+    <name>Zéphyropode</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>it</lang_id>
+    <name>Windchopper I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>de</lang_id>
+    <name>Windschneider I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>es</lang_id>
+    <name>Vespidae I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
     <lang_id>pt</lang_id>
     <name>Cortavento I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>pl</lang_id>
+    <name>Wiaterciął I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ru</lang_id>
+    <name>Ветролом 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ko</lang_id>
+    <name>카제키리바네Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>zh</lang_id>
+    <name>速度型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ar</lang_id>
+    <name>ويندتشوبر I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>23</id>
@@ -227,8 +1327,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>23</id>
+    <lang_id>ja</lang_id>
+    <name>カゼキリバネⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>fr</lang_id>
+    <name>Zéphyropode II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>it</lang_id>
+    <name>Windchopper II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>de</lang_id>
+    <name>Windschneider II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>es</lang_id>
+    <name>Vespidae II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
     <lang_id>pt</lang_id>
     <name>Cortavento II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>pl</lang_id>
+    <name>Wiaterciął II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ru</lang_id>
+    <name>Ветролом 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ko</lang_id>
+    <name>카제키리바네Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>zh</lang_id>
+    <name>速度型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ar</lang_id>
+    <name>ويندتشوبر II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>24</id>
@@ -237,18 +1387,118 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>24</id>
+    <lang_id>ja</lang_id>
+    <name>カゼキリバネⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>fr</lang_id>
+    <name>Zéphyropode III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>it</lang_id>
+    <name>Windchopper III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>de</lang_id>
+    <name>Windschneider III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>es</lang_id>
+    <name>Vespidae III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
     <lang_id>pt</lang_id>
     <name>Cortavento III</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>24</id>
+    <lang_id>pl</lang_id>
+    <name>Wiaterciął III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ru</lang_id>
+    <name>Ветролом 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ko</lang_id>
+    <name>카제키리바네Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>zh</lang_id>
+    <name>速度型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ar</lang_id>
+    <name>ويندتشوبر III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>25</id>
     <lang_id>en</lang_id>
     <name>Grancathar I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>25</id>
+    <lang_id>ja</lang_id>
+    <name>オオシナトⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>fr</lang_id>
+    <name>Grancathar</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>it</lang_id>
+    <name>Grancathar I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>de</lang_id>
+    <name>Großkathar I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>es</lang_id>
+    <name>Dardazul I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
     <lang_id>pt</lang_id>
     <name>Grancathar I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>pl</lang_id>
+    <name>Wielkatarz I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ru</lang_id>
+    <name>Гранкатар 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ko</lang_id>
+    <name>킹시나토Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>zh</lang_id>
+    <name>速度特化型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ar</lang_id>
+    <name>غرانكاثار I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>26</id>
@@ -257,18 +1507,118 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>26</id>
+    <lang_id>ja</lang_id>
+    <name>オオシナトⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>fr</lang_id>
+    <name>Grancathar II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>it</lang_id>
+    <name>Grancathar II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>de</lang_id>
+    <name>Großkathar II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>es</lang_id>
+    <name>Dardazul II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
     <lang_id>pt</lang_id>
     <name>Grancathar II</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>26</id>
+    <lang_id>pl</lang_id>
+    <name>Wielkatarz II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ru</lang_id>
+    <name>Гранкатар 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ko</lang_id>
+    <name>킹시나토Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>zh</lang_id>
+    <name>速度特化型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ar</lang_id>
+    <name>غرانكاثار II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>27</id>
     <lang_id>en</lang_id>
     <name>Grancathar III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>27</id>
+    <lang_id>ja</lang_id>
+    <name>オオシナトⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>fr</lang_id>
+    <name>Grancathar III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>it</lang_id>
+    <name>Grancathar III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>de</lang_id>
+    <name>Großkathar III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>es</lang_id>
+    <name>Dardazul III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
     <lang_id>pt</lang_id>
     <name>Grancathar III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>pl</lang_id>
+    <name>Wielkatarz III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ru</lang_id>
+    <name>Гранкатар 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ko</lang_id>
+    <name>킹시나토Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>zh</lang_id>
+    <name>速度特化型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ar</lang_id>
+    <name>غرانكاثار III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>28</id>
@@ -277,18 +1627,118 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>28</id>
+    <lang_id>ja</lang_id>
+    <name>シナトモドキⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>fr</lang_id>
+    <name>Pseudocath</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>it</lang_id>
+    <name>Pseudocath I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>de</lang_id>
+    <name>Pseudokath I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>es</lang_id>
+    <name>Mothodus I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
     <lang_id>pt</lang_id>
     <name>Pseudocath I</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>28</id>
+    <lang_id>pl</lang_id>
+    <name>Pseudokat I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ru</lang_id>
+    <name>Псевдокат 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ko</lang_id>
+    <name>시나토모도키Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>zh</lang_id>
+    <name>速度平衡型切斷蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ar</lang_id>
+    <name>بسيودوكاث I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>29</id>
     <lang_id>en</lang_id>
     <name>Pseudocath II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>29</id>
+    <lang_id>ja</lang_id>
+    <name>シナトモドキⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>fr</lang_id>
+    <name>Pseudocath II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>it</lang_id>
+    <name>Pseudocath II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>de</lang_id>
+    <name>Pseudokath II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>es</lang_id>
+    <name>Mothodus II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
     <lang_id>pt</lang_id>
     <name>Pseudocath II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>pl</lang_id>
+    <name>Pseudokat II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ru</lang_id>
+    <name>Псевдокат 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ko</lang_id>
+    <name>시나토모도키Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>zh</lang_id>
+    <name>速度平衡型切斷蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ar</lang_id>
+    <name>بسيودوكاث II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>30</id>
@@ -297,8 +1747,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>30</id>
+    <lang_id>ja</lang_id>
+    <name>シナトモドキⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>fr</lang_id>
+    <name>Pseudocath III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>it</lang_id>
+    <name>Pseudocath III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>de</lang_id>
+    <name>Pseudokath III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>es</lang_id>
+    <name>Mothodus III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
     <lang_id>pt</lang_id>
     <name>Pseudocath III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>pl</lang_id>
+    <name>Pseudokat III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ru</lang_id>
+    <name>Псевдокат 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ko</lang_id>
+    <name>시나토모도키Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>zh</lang_id>
+    <name>速度平衡型切斷蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ar</lang_id>
+    <name>بسيودوكاث III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>31</id>
@@ -307,8 +1807,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>31</id>
+    <lang_id>ja</lang_id>
+    <name>マルドローンⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>fr</lang_id>
+    <name>Mutilogote</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>it</lang_id>
+    <name>Mauldrone I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>de</lang_id>
+    <name>Schadensdrohn I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>es</lang_id>
+    <name>Chrysodron I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
     <lang_id>pt</lang_id>
     <name>Mabelha I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>pl</lang_id>
+    <name>Kaleczowad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ru</lang_id>
+    <name>Трутень-кувалда 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ko</lang_id>
+    <name>말드론Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>zh</lang_id>
+    <name>打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ar</lang_id>
+    <name>مولدرون I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>32</id>
@@ -317,8 +1867,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>32</id>
+    <lang_id>ja</lang_id>
+    <name>マルドローンⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>fr</lang_id>
+    <name>Mutilogote II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>it</lang_id>
+    <name>Mauldrone II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>de</lang_id>
+    <name>Schadensdrohn II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>es</lang_id>
+    <name>Chrysodron II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
     <lang_id>pt</lang_id>
     <name>Mabelha II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>pl</lang_id>
+    <name>Kaleczowad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ru</lang_id>
+    <name>Трутень-кувалда 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ko</lang_id>
+    <name>말드론Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>zh</lang_id>
+    <name>打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ar</lang_id>
+    <name>مولدرون II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>33</id>
@@ -327,8 +1927,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>33</id>
+    <lang_id>ja</lang_id>
+    <name>マルドローンⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>fr</lang_id>
+    <name>Mutilogote III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>it</lang_id>
+    <name>Mauldrone III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>de</lang_id>
+    <name>Schadensdrohn III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>es</lang_id>
+    <name>Chrysodron III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
     <lang_id>pt</lang_id>
     <name>Mabelha III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>pl</lang_id>
+    <name>Kaleczowad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ru</lang_id>
+    <name>Трутень-кувалда 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ko</lang_id>
+    <name>말드론Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>zh</lang_id>
+    <name>打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ar</lang_id>
+    <name>مولدرون III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>34</id>
@@ -337,8 +1987,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>34</id>
+    <lang_id>ja</lang_id>
+    <name>ザミールビートルⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>fr</lang_id>
+    <name>Destructoptère</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>it</lang_id>
+    <name>Foebeetle I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>de</lang_id>
+    <name>Feindkäfer I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>es</lang_id>
+    <name>Elytron I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
     <lang_id>pt</lang_id>
     <name>Inimisouro I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>pl</lang_id>
+    <name>Wrogożuk I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ru</lang_id>
+    <name>Врагожук 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ko</lang_id>
+    <name>자미르비틀Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>zh</lang_id>
+    <name>威力型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ar</lang_id>
+    <name>فوبيتل I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>35</id>
@@ -347,8 +2047,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>35</id>
+    <lang_id>ja</lang_id>
+    <name>ザミールビートルⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>fr</lang_id>
+    <name>Destructoptère II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>it</lang_id>
+    <name>Foebeetle II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>de</lang_id>
+    <name>Feindkäfer II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>es</lang_id>
+    <name>Elytron II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
     <lang_id>pt</lang_id>
     <name>Inimisouro II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>pl</lang_id>
+    <name>Wrogożuk II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ru</lang_id>
+    <name>Врагожук 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ko</lang_id>
+    <name>자미르비틀Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>zh</lang_id>
+    <name>威力型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ar</lang_id>
+    <name>فوبيتل II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>36</id>
@@ -357,8 +2107,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>36</id>
+    <lang_id>ja</lang_id>
+    <name>ザミールビートルⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>fr</lang_id>
+    <name>Destructoptère III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>it</lang_id>
+    <name>Foebeetle III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>de</lang_id>
+    <name>Feindkäfer III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>es</lang_id>
+    <name>Elytron III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
     <lang_id>pt</lang_id>
     <name>Inimisouro III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>pl</lang_id>
+    <name>Wrogożuk III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ru</lang_id>
+    <name>Врагожук 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ko</lang_id>
+    <name>자미르비틀Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>zh</lang_id>
+    <name>威力型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ar</lang_id>
+    <name>فوبيتل III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>37</id>
@@ -367,8 +2167,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>37</id>
+    <lang_id>ja</lang_id>
+    <name>ケーニヒゴアビートルⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>fr</lang_id>
+    <name>Scarnagabée</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>it</lang_id>
+    <name>Carnage Beetle I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>de</lang_id>
+    <name>Gemetzelkäfer I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>es</lang_id>
+    <name>Kabuto I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
     <lang_id>pt</lang_id>
     <name>Carnifisouro I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>pl</lang_id>
+    <name>Żuk jatkowy I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ru</lang_id>
+    <name>Жук-мясник 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ko</lang_id>
+    <name>퀘니히고어비틀Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>zh</lang_id>
+    <name>威力特化型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ar</lang_id>
+    <name>كارنغ بيتل I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>38</id>
@@ -377,8 +2227,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>38</id>
+    <lang_id>ja</lang_id>
+    <name>ケーニヒゴアビートルⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>fr</lang_id>
+    <name>Scarnagabée II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>it</lang_id>
+    <name>Carnage Beetle II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>de</lang_id>
+    <name>Gemetzelkäfer II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>es</lang_id>
+    <name>Kabuto II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
     <lang_id>pt</lang_id>
     <name>Carnifisouro II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>pl</lang_id>
+    <name>Żuk jatkowy II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ru</lang_id>
+    <name>Жук-мясник 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ko</lang_id>
+    <name>퀘니히고어비틀Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>zh</lang_id>
+    <name>威力特化型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ar</lang_id>
+    <name>كارنغ بيتل II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>39</id>
@@ -387,18 +2287,118 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>39</id>
+    <lang_id>ja</lang_id>
+    <name>ケーニヒゴアビートルⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>fr</lang_id>
+    <name>Scarnagabée III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>it</lang_id>
+    <name>Carnage Beetle III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>de</lang_id>
+    <name>Gemetzelkäfer III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>es</lang_id>
+    <name>Kabuto III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
     <lang_id>pt</lang_id>
     <name>Carnifisouro III</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>39</id>
+    <lang_id>pl</lang_id>
+    <name>Żuk jatkowy III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ru</lang_id>
+    <name>Жук-мясник 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ko</lang_id>
+    <name>퀘니히고어비틀Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>zh</lang_id>
+    <name>威力特化型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ar</lang_id>
+    <name>كارنغ بيتل III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>40</id>
     <lang_id>en</lang_id>
     <name>Bonnetfille I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>40</id>
+    <lang_id>ja</lang_id>
+    <name>フィルカーノⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>fr</lang_id>
+    <name>Artillollidé</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>it</lang_id>
+    <name>Bonnetfille I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>de</lang_id>
+    <name>Schönheitskäfer I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>es</lang_id>
+    <name>Deltóptero I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
     <lang_id>pt</lang_id>
     <name>Bonnetfille I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>pl</lang_id>
+    <name>Czepecznik I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ru</lang_id>
+    <name>Боннетфиль 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ko</lang_id>
+    <name>필카노Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>zh</lang_id>
+    <name>威力平衡型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ar</lang_id>
+    <name>بونيتفايل I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>41</id>
@@ -407,8 +2407,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>41</id>
+    <lang_id>ja</lang_id>
+    <name>フィルカーノⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>fr</lang_id>
+    <name>Artillollidé II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>it</lang_id>
+    <name>Bonnetfille II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>de</lang_id>
+    <name>Schönheitskäfer II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>es</lang_id>
+    <name>Deltóptero II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
     <lang_id>pt</lang_id>
     <name>Bonnetfille II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>pl</lang_id>
+    <name>Czepecznik II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ru</lang_id>
+    <name>Боннетфиль 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ko</lang_id>
+    <name>필카노Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>zh</lang_id>
+    <name>威力平衡型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ar</lang_id>
+    <name>بونيتفايل II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>42</id>
@@ -417,8 +2467,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>42</id>
+    <lang_id>ja</lang_id>
+    <name>フィルカーノⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>fr</lang_id>
+    <name>Artillollidé III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>it</lang_id>
+    <name>Bonnetfille III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>de</lang_id>
+    <name>Schönheitskäfer III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>es</lang_id>
+    <name>Deltóptero III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
     <lang_id>pt</lang_id>
     <name>Bonnetfille III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>pl</lang_id>
+    <name>Czepecznik III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ru</lang_id>
+    <name>Боннетфиль 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ko</lang_id>
+    <name>필카노Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>zh</lang_id>
+    <name>威力平衡型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ar</lang_id>
+    <name>بونيتفايل III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>43</id>
@@ -427,8 +2527,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>43</id>
+    <lang_id>ja</lang_id>
+    <name>ハルキータⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>fr</lang_id>
+    <name>Coccitarge</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>it</lang_id>
+    <name>Ladytarge I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>de</lang_id>
+    <name>Damenschild I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>es</lang_id>
+    <name>Carabidios I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
     <lang_id>pt</lang_id>
     <name>Ladyalvo I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>pl</lang_id>
+    <name>Celonka I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ru</lang_id>
+    <name>Круглощит 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ko</lang_id>
+    <name>하르키터Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>zh</lang_id>
+    <name>體力型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ar</lang_id>
+    <name>لايديتارغ I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>44</id>
@@ -437,8 +2587,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>44</id>
+    <lang_id>ja</lang_id>
+    <name>ハルキータⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>fr</lang_id>
+    <name>Coccitarge II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>it</lang_id>
+    <name>Ladytarge II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>de</lang_id>
+    <name>Damenschild II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>es</lang_id>
+    <name>Carabidios II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
     <lang_id>pt</lang_id>
     <name>Ladyalvo II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>pl</lang_id>
+    <name>Celonka II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ru</lang_id>
+    <name>Круглощит 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ko</lang_id>
+    <name>하르키터Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>zh</lang_id>
+    <name>體力型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ar</lang_id>
+    <name>لايديتارغ II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>45</id>
@@ -447,8 +2647,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>45</id>
+    <lang_id>ja</lang_id>
+    <name>ハルキータⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>fr</lang_id>
+    <name>Coccitarge III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>it</lang_id>
+    <name>Ladytarge III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>de</lang_id>
+    <name>Damenschild III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>es</lang_id>
+    <name>Carabidios III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
     <lang_id>pt</lang_id>
     <name>Ladyalvo III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>pl</lang_id>
+    <name>Celonka III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ru</lang_id>
+    <name>Круглощит 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ko</lang_id>
+    <name>하르키터Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>zh</lang_id>
+    <name>體力型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ar</lang_id>
+    <name>لايديتارغ III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>46</id>
@@ -457,8 +2707,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>46</id>
+    <lang_id>ja</lang_id>
+    <name>ドルンキータⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>fr</lang_id>
+    <name>Prothoccinelle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>it</lang_id>
+    <name>Ladypavise I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>de</lang_id>
+    <name>Damenpavese I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>es</lang_id>
+    <name>Gorgoceros I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
     <lang_id>pt</lang_id>
     <name>Ladyscudo I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>pl</lang_id>
+    <name>Pawężyca I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ru</lang_id>
+    <name>Павеза 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ko</lang_id>
+    <name>도룬키터Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>zh</lang_id>
+    <name>體力特化型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ar</lang_id>
+    <name>لايديبافيس I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>47</id>
@@ -467,8 +2767,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>47</id>
+    <lang_id>ja</lang_id>
+    <name>ドルンキータⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>fr</lang_id>
+    <name>Prothoccinelle II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>it</lang_id>
+    <name>Ladypavise II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>de</lang_id>
+    <name>Damenpavese II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>es</lang_id>
+    <name>Gorgoceros II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
     <lang_id>pt</lang_id>
     <name>Ladyscudo II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>pl</lang_id>
+    <name>Pawężyca II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ru</lang_id>
+    <name>Павеза 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ko</lang_id>
+    <name>도룬키터Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>zh</lang_id>
+    <name>體力特化型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ar</lang_id>
+    <name>لايديبافيس II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>48</id>
@@ -477,8 +2827,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>48</id>
+    <lang_id>ja</lang_id>
+    <name>ドルンキータⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>fr</lang_id>
+    <name>Prothoccinelle III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>it</lang_id>
+    <name>Ladypavise III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>de</lang_id>
+    <name>Damenpavese III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>es</lang_id>
+    <name>Gorgoceros III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
     <lang_id>pt</lang_id>
     <name>Ladyscudo III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>pl</lang_id>
+    <name>Pawężyca III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ru</lang_id>
+    <name>Павеза 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ko</lang_id>
+    <name>도룬키터Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>zh</lang_id>
+    <name>體力特化型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ar</lang_id>
+    <name>لايديبافيس III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>49</id>
@@ -487,8 +2887,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>49</id>
+    <lang_id>ja</lang_id>
+    <name>アルジョアーニャⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>fr</lang_id>
+    <name>Arkmaiden</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>it</lang_id>
+    <name>Arkmaiden I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>de</lang_id>
+    <name>Marienmagd I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>es</lang_id>
+    <name>Kroket Rex I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
     <lang_id>pt</lang_id>
     <name>Damarca I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>pl</lang_id>
+    <name>Arczyca I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ru</lang_id>
+    <name>Аркдева 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ko</lang_id>
+    <name>아르조아냐Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>zh</lang_id>
+    <name>體力平衡型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ar</lang_id>
+    <name>أركمايدن I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>50</id>
@@ -497,8 +2947,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>50</id>
+    <lang_id>ja</lang_id>
+    <name>アルジョアーニャⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>fr</lang_id>
+    <name>Arkmaiden II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>it</lang_id>
+    <name>Arkmaiden II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>de</lang_id>
+    <name>Marienmagd II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>es</lang_id>
+    <name>Kroket Rex II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
     <lang_id>pt</lang_id>
     <name>Damarca II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>pl</lang_id>
+    <name>Arczyca II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ru</lang_id>
+    <name>Аркдева 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ko</lang_id>
+    <name>아르조아냐Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>zh</lang_id>
+    <name>體力平衡型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ar</lang_id>
+    <name>أركمايدن II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>51</id>
@@ -507,8 +3007,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>51</id>
+    <lang_id>ja</lang_id>
+    <name>アルジョアーニャⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>fr</lang_id>
+    <name>Arkmaiden III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>it</lang_id>
+    <name>Arkmaiden III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>de</lang_id>
+    <name>Marienmagd III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>es</lang_id>
+    <name>Kroket Rex III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
     <lang_id>pt</lang_id>
     <name>Damarca III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>pl</lang_id>
+    <name>Arczyca III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ru</lang_id>
+    <name>Аркдева 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ko</lang_id>
+    <name>아르조아냐Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>zh</lang_id>
+    <name>體力平衡型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ar</lang_id>
+    <name>أركمايدن III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>52</id>
@@ -517,8 +3067,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>52</id>
+    <lang_id>ja</lang_id>
+    <name>ガルーヘルⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>fr</lang_id>
+    <name>Gullshad</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>it</lang_id>
+    <name>Gullshad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>de</lang_id>
+    <name>Schmetterbelle I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
     <lang_id>pt</lang_id>
     <name>Saivota I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>pl</lang_id>
+    <name>Oszukanka I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ru</lang_id>
+    <name>Галлшад 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ko</lang_id>
+    <name>가르헬Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>zh</lang_id>
+    <name>速度型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ar</lang_id>
+    <name>غالشاد I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>53</id>
@@ -527,8 +3127,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>53</id>
+    <lang_id>ja</lang_id>
+    <name>ガルーヘルⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>fr</lang_id>
+    <name>Gullshad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>it</lang_id>
+    <name>Gullshad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>de</lang_id>
+    <name>Schmetterbelle II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
     <lang_id>pt</lang_id>
     <name>Saivota II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>pl</lang_id>
+    <name>Oszukanka II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ru</lang_id>
+    <name>Галлшад 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ko</lang_id>
+    <name>가르헬Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>zh</lang_id>
+    <name>速度型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ar</lang_id>
+    <name>غالشاد II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>54</id>
@@ -537,8 +3187,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>54</id>
+    <lang_id>ja</lang_id>
+    <name>ガルーヘルⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>fr</lang_id>
+    <name>Gullshad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>it</lang_id>
+    <name>Gullshad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>de</lang_id>
+    <name>Schmetterbelle III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
     <lang_id>pt</lang_id>
     <name>Saivota III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>pl</lang_id>
+    <name>Oszukanka III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ru</lang_id>
+    <name>Галлшад 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ko</lang_id>
+    <name>가르헬Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>zh</lang_id>
+    <name>速度型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ar</lang_id>
+    <name>غالشاد III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>55</id>
@@ -547,8 +3247,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>55</id>
+    <lang_id>ja</lang_id>
+    <name>メイヴァーチルⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>fr</lang_id>
+    <name>Suairophage</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>it</lang_id>
+    <name>Bullshroud I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>de</lang_id>
+    <name>Schleierflug I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido Ámbar I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
     <lang_id>pt</lang_id>
     <name>Mantouro I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>pl</lang_id>
+    <name>Całunówka I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ru</lang_id>
+    <name>Бычье облако 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ko</lang_id>
+    <name>메이버칠Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>zh</lang_id>
+    <name>速度特化型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ar</lang_id>
+    <name>بولشراود I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>56</id>
@@ -557,8 +3307,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>56</id>
+    <lang_id>ja</lang_id>
+    <name>メイヴァーチルⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>fr</lang_id>
+    <name>Suairophage II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>it</lang_id>
+    <name>Bullshroud II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>de</lang_id>
+    <name>Schleierflug II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido Ámbar II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
     <lang_id>pt</lang_id>
     <name>Mantouro II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>pl</lang_id>
+    <name>Całunówka II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ru</lang_id>
+    <name>Бычье облако 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ko</lang_id>
+    <name>메이버칠Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>zh</lang_id>
+    <name>速度特化型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ar</lang_id>
+    <name>بولشراود II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>57</id>
@@ -567,8 +3367,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>57</id>
+    <lang_id>ja</lang_id>
+    <name>メイヴァーチルⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>fr</lang_id>
+    <name>Suairophage III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>it</lang_id>
+    <name>Bullshroud III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>de</lang_id>
+    <name>Schleierflug III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido Ámbar III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
     <lang_id>pt</lang_id>
     <name>Mantouro III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>pl</lang_id>
+    <name>Całunówka III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>ru</lang_id>
+    <name>Бычье облако 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>ko</lang_id>
+    <name>메이버칠Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>zh</lang_id>
+    <name>速度特化型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>ar</lang_id>
+    <name>بولشراود III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>58</id>
@@ -577,8 +3427,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>58</id>
+    <lang_id>ja</lang_id>
+    <name>ヴァンリエールⅠ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>fr</lang_id>
+    <name>Aéropoda</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>it</lang_id>
+    <name>Whispervesp I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>de</lang_id>
+    <name>Flüsterfalter I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido Zafiro I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
     <lang_id>pt</lang_id>
     <name>Vesmúrio I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>pl</lang_id>
+    <name>Szeptosa I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>ru</lang_id>
+    <name>Оса-шептун 1</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>ko</lang_id>
+    <name>반리엘Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>zh</lang_id>
+    <name>速度平衡型打擊蟲Ⅰ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>ar</lang_id>
+    <name>ويسبرفيسب I</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>59</id>
@@ -587,8 +3487,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>59</id>
+    <lang_id>ja</lang_id>
+    <name>ヴァンリエールⅡ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>fr</lang_id>
+    <name>Aéropoda II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>it</lang_id>
+    <name>Whispervesp II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>de</lang_id>
+    <name>Flüsterfalter II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido Zafiro II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
     <lang_id>pt</lang_id>
     <name>Vesmúrio II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>pl</lang_id>
+    <name>Szeptosa II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>ru</lang_id>
+    <name>Оса-шептун 2</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>ko</lang_id>
+    <name>반리엘Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>zh</lang_id>
+    <name>速度平衡型打擊蟲Ⅱ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>ar</lang_id>
+    <name>ويسبرفيسب II</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>60</id>
@@ -597,8 +3547,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>60</id>
+    <lang_id>ja</lang_id>
+    <name>ヴァンリエールⅢ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>fr</lang_id>
+    <name>Aéropoda III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>it</lang_id>
+    <name>Whispervesp III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>de</lang_id>
+    <name>Flüsterfalter III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>es</lang_id>
+    <name>Sílfido Zafiro III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
     <lang_id>pt</lang_id>
     <name>Vesmúrio III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>pl</lang_id>
+    <name>Szeptosa III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>ru</lang_id>
+    <name>Оса-шептун 3</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>ko</lang_id>
+    <name>반리엘Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>zh</lang_id>
+    <name>速度平衡型打擊蟲Ⅲ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>ar</lang_id>
+    <name>ويسبرفيسب III</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>61</id>
@@ -607,8 +3607,58 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>61</id>
+    <lang_id>ja</lang_id>
+    <name>ドラゴンソウル</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>fr</lang_id>
+    <name>Âme de dragon</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>it</lang_id>
+    <name>Anima di Dragoon</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>de</lang_id>
+    <name>Drachenseele</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>es</lang_id>
+    <name>Alma de dragón</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
     <lang_id>pt</lang_id>
     <name>Alma de Dragão</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>pl</lang_id>
+    <name>Smocza dusza</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>ru</lang_id>
+    <name>Душа дракона</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>ko</lang_id>
+    <name>드래곤소울</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>zh</lang_id>
+    <name>龍魂蟲</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>ar</lang_id>
+    <name>روح التنين</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>62</id>
@@ -617,17 +3667,117 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>62</id>
+    <lang_id>ja</lang_id>
+    <name>ドラゴンソウル・真</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>fr</lang_id>
+    <name>Âme de dragon pure</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>it</lang_id>
+    <name>Anima pura di Dragoon</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>de</lang_id>
+    <name>Wahre Drachenseele</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>es</lang_id>
+    <name>Alma de dragón real</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
     <lang_id>pt</lang_id>
     <name>Alma de Dragão Verdad.</name>
   </DATA_RECORD>
   <DATA_RECORD>
+    <id>62</id>
+    <lang_id>pl</lang_id>
+    <name>Prawdziwa smocza dusza</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>ru</lang_id>
+    <name>Душа истинного дракона</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>ko</lang_id>
+    <name>드래곤소울-진</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>zh</lang_id>
+    <name>龍魂蟲‧真</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>ar</lang_id>
+    <name>روح التنين الحقيقية</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
     <id>63</id>
     <lang_id>en</lang_id>
     <name>Nexus Dragon Soul</name>
   </DATA_RECORD>
   <DATA_RECORD>
     <id>63</id>
+    <lang_id>ja</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>fr</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>it</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>de</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>es</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
     <lang_id>pt</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>pl</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>ru</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>ko</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>zh</lang_id>
+    <name>Nexus Dragon Soul</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>ar</lang_id>
     <name>Nexus Dragon Soul</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -637,7 +3787,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>64</id>
+    <lang_id>ja</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>fr</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>it</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>de</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>es</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
     <lang_id>pt</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>pl</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>ru</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>ko</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>zh</lang_id>
+    <name>Vezirstag I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>ar</lang_id>
     <name>Vezirstag I Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -647,7 +3847,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>65</id>
+    <lang_id>ja</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>fr</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>it</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>de</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>es</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
     <lang_id>pt</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>pl</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>ru</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>ko</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>zh</lang_id>
+    <name>Vezirstag II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>ar</lang_id>
     <name>Vezirstag II Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -657,7 +3907,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>66</id>
+    <lang_id>ja</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>fr</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>it</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>de</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>es</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
     <lang_id>pt</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>pl</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>ru</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>ko</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>zh</lang_id>
+    <name>Vezirstag III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>ar</lang_id>
     <name>Vezirstag III Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -667,7 +3967,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>67</id>
+    <lang_id>ja</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>fr</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>it</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>de</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>es</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
     <lang_id>pt</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>pl</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>ru</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>ko</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>zh</lang_id>
+    <name>Vezirstag I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>ar</lang_id>
     <name>Vezirstag I Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -677,7 +4027,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>68</id>
+    <lang_id>ja</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>fr</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>it</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>de</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>es</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
     <lang_id>pt</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>pl</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>ru</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>ko</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>zh</lang_id>
+    <name>Vezirstag II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>ar</lang_id>
     <name>Vezirstag II Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -687,7 +4087,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>69</id>
+    <lang_id>ja</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>fr</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>it</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>de</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>es</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
     <lang_id>pt</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>pl</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>ru</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>ko</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>zh</lang_id>
+    <name>Vezirstag III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>ar</lang_id>
     <name>Vezirstag III Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -697,7 +4147,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>70</id>
+    <lang_id>ja</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>fr</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>it</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>de</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>es</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
     <lang_id>pt</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>pl</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>ru</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>ko</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>zh</lang_id>
+    <name>Bilbobrix I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>ar</lang_id>
     <name>Bilbobrix I Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -707,7 +4207,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>71</id>
+    <lang_id>ja</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>fr</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>it</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>de</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>es</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
     <lang_id>pt</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>pl</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>ru</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>ko</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>zh</lang_id>
+    <name>Bilbobrix II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>ar</lang_id>
     <name>Bilbobrix II Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -717,7 +4267,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>72</id>
+    <lang_id>ja</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>fr</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>it</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>de</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>es</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
     <lang_id>pt</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>pl</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>ru</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>ko</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>zh</lang_id>
+    <name>Bilbobrix III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>ar</lang_id>
     <name>Bilbobrix III Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -727,7 +4327,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>73</id>
+    <lang_id>ja</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>fr</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>it</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>de</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>es</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
     <lang_id>pt</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>pl</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>ru</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>ko</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>zh</lang_id>
+    <name>Bilbobrix I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>ar</lang_id>
     <name>Bilbobrix I Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -737,7 +4387,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>74</id>
+    <lang_id>ja</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>fr</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>it</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>de</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>es</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
     <lang_id>pt</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>pl</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>ru</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>ko</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>zh</lang_id>
+    <name>Bilbobrix II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>ar</lang_id>
     <name>Bilbobrix II Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -747,7 +4447,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>75</id>
+    <lang_id>ja</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>fr</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>it</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>de</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>es</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
     <lang_id>pt</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>pl</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>ru</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>ko</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>zh</lang_id>
+    <name>Bilbobrix III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>ar</lang_id>
     <name>Bilbobrix III Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -757,7 +4507,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>76</id>
+    <lang_id>ja</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>fr</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>it</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>de</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>es</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
     <lang_id>pt</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>pl</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>ru</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>ko</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>zh</lang_id>
+    <name>Foliacath I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>ar</lang_id>
     <name>Foliacath I Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -767,7 +4567,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>77</id>
+    <lang_id>ja</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>fr</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>it</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>de</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>es</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
     <lang_id>pt</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>pl</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>ru</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>ko</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>zh</lang_id>
+    <name>Foliacath II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>ar</lang_id>
     <name>Foliacath II Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -777,7 +4627,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>78</id>
+    <lang_id>ja</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>fr</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>it</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>de</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>es</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
     <lang_id>pt</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>pl</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>ru</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>ko</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>zh</lang_id>
+    <name>Foliacath III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>ar</lang_id>
     <name>Foliacath III Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -787,7 +4687,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>79</id>
+    <lang_id>ja</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>fr</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>it</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>de</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>es</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
     <lang_id>pt</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>pl</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>ru</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>ko</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>zh</lang_id>
+    <name>Foliacath I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>ar</lang_id>
     <name>Foliacath I Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -797,7 +4747,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>80</id>
+    <lang_id>ja</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>fr</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>it</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>de</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>es</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
     <lang_id>pt</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>pl</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>ru</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>ko</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>zh</lang_id>
+    <name>Foliacath II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>ar</lang_id>
     <name>Foliacath II Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -807,7 +4807,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>81</id>
+    <lang_id>ja</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>fr</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>it</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>de</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>es</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
     <lang_id>pt</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>pl</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>ru</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>ko</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>zh</lang_id>
+    <name>Foliacath III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>ar</lang_id>
     <name>Foliacath III Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -817,7 +4867,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>82</id>
+    <lang_id>ja</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>fr</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>it</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>de</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>es</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
     <lang_id>pt</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>pl</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>ru</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>ko</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>zh</lang_id>
+    <name>Elscarad I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>ar</lang_id>
     <name>Elscarad I</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -827,7 +4927,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>83</id>
+    <lang_id>ja</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>fr</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>it</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>de</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>es</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
     <lang_id>pt</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>pl</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>ru</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>ko</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>zh</lang_id>
+    <name>Elscarad II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>ar</lang_id>
     <name>Elscarad II</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -837,7 +4987,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>84</id>
+    <lang_id>ja</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>fr</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>it</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>de</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>es</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
     <lang_id>pt</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>pl</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>ru</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>ko</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>zh</lang_id>
+    <name>Elscarad III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>ar</lang_id>
     <name>Elscarad III</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -847,7 +5047,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>85</id>
+    <lang_id>ja</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>fr</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>it</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>de</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>es</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
     <lang_id>pt</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>pl</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>ru</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>ko</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>zh</lang_id>
+    <name>Gleambeetle I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>ar</lang_id>
     <name>Gleambeetle I Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -857,7 +5107,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>86</id>
+    <lang_id>ja</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>fr</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>it</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>de</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>es</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
     <lang_id>pt</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>pl</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>ru</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>ko</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>zh</lang_id>
+    <name>Gleambeetle II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>ar</lang_id>
     <name>Gleambeetle II Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -867,7 +5167,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>87</id>
+    <lang_id>ja</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>fr</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>it</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>de</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>es</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
     <lang_id>pt</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>pl</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>ru</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>ko</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>zh</lang_id>
+    <name>Gleambeetle III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>ar</lang_id>
     <name>Gleambeetle III Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -877,7 +5227,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>88</id>
+    <lang_id>ja</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>fr</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>it</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>de</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>es</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
     <lang_id>pt</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>pl</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>ru</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>ko</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>zh</lang_id>
+    <name>Gleambeetle I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>ar</lang_id>
     <name>Gleambeetle I Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -887,7 +5287,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>89</id>
+    <lang_id>ja</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>fr</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>it</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>de</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>es</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
     <lang_id>pt</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>pl</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>ru</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>ko</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>zh</lang_id>
+    <name>Gleambeetle II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>ar</lang_id>
     <name>Gleambeetle II Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -897,7 +5347,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>90</id>
+    <lang_id>ja</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>fr</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>it</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>de</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>es</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
     <lang_id>pt</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>pl</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>ru</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>ko</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>zh</lang_id>
+    <name>Gleambeetle III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>ar</lang_id>
     <name>Gleambeetle III Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -907,7 +5407,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>91</id>
+    <lang_id>ja</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>fr</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>it</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>de</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>es</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
     <lang_id>pt</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>pl</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>ru</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>ko</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>zh</lang_id>
+    <name>Ladytower I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>ar</lang_id>
     <name>Ladytower I Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -917,7 +5467,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>92</id>
+    <lang_id>ja</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>fr</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>it</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>de</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>es</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
     <lang_id>pt</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>pl</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>ru</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>ko</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>zh</lang_id>
+    <name>Ladytower II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>ar</lang_id>
     <name>Ladytower II Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -927,7 +5527,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>93</id>
+    <lang_id>ja</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>fr</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>it</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>de</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>es</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
     <lang_id>pt</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>pl</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>ru</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>ko</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>zh</lang_id>
+    <name>Ladytower III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>ar</lang_id>
     <name>Ladytower III Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -937,7 +5587,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>94</id>
+    <lang_id>ja</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>fr</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>it</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>de</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>es</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
     <lang_id>pt</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>pl</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>ru</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>ko</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>zh</lang_id>
+    <name>Ladytower I Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>ar</lang_id>
     <name>Ladytower I Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -947,7 +5647,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>95</id>
+    <lang_id>ja</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>fr</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>it</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>de</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>es</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
     <lang_id>pt</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>pl</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>ru</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>ko</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>zh</lang_id>
+    <name>Ladytower II Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>ar</lang_id>
     <name>Ladytower II Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -957,7 +5707,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>96</id>
+    <lang_id>ja</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>fr</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>it</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>de</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>es</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
     <lang_id>pt</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>pl</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>ru</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>ko</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>zh</lang_id>
+    <name>Ladytower III Velox</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>ar</lang_id>
     <name>Ladytower III Velox</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -967,7 +5767,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>97</id>
+    <lang_id>ja</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>fr</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>it</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>de</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>es</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
     <lang_id>pt</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>pl</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>ru</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>ko</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>zh</lang_id>
+    <name>Valorwing I Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>ar</lang_id>
     <name>Valorwing I Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -977,7 +5827,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>98</id>
+    <lang_id>ja</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>fr</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>it</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>de</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>es</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
     <lang_id>pt</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>pl</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>ru</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>ko</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>zh</lang_id>
+    <name>Valorwing II Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>ar</lang_id>
     <name>Valorwing II Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -987,7 +5887,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>99</id>
+    <lang_id>ja</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>fr</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>it</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>de</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>es</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
     <lang_id>pt</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>pl</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>ru</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>ko</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>zh</lang_id>
+    <name>Valorwing III Forz</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>ar</lang_id>
     <name>Valorwing III Forz</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -997,7 +5947,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>100</id>
+    <lang_id>ja</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>fr</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>it</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>de</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>es</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
     <lang_id>pt</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>pl</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>ru</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>ko</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>zh</lang_id>
+    <name>Valorwing I Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>ar</lang_id>
     <name>Valorwing I Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -1007,7 +6007,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>101</id>
+    <lang_id>ja</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>fr</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>it</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>de</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>es</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
     <lang_id>pt</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>pl</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>ru</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>ko</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>zh</lang_id>
+    <name>Valorwing II Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>ar</lang_id>
     <name>Valorwing II Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -1017,7 +6067,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>102</id>
+    <lang_id>ja</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>fr</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>it</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>de</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>es</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
     <lang_id>pt</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>pl</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>ru</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>ko</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>zh</lang_id>
+    <name>Valorwing III Medis</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>ar</lang_id>
     <name>Valorwing III Medis</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -1027,7 +6127,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>103</id>
+    <lang_id>ja</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>fr</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>it</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>de</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>es</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
     <lang_id>pt</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>pl</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>ru</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>ko</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>zh</lang_id>
+    <name>Arginesse I</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>ar</lang_id>
     <name>Arginesse I</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -1037,7 +6187,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>104</id>
+    <lang_id>ja</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>fr</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>it</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>de</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>es</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
     <lang_id>pt</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>pl</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>ru</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>ko</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>zh</lang_id>
+    <name>Arginesse II</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>ar</lang_id>
     <name>Arginesse II</name>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -1047,7 +6247,57 @@
   </DATA_RECORD>
   <DATA_RECORD>
     <id>105</id>
+    <lang_id>ja</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>fr</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>it</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>de</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>es</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
     <lang_id>pt</lang_id>
     <name>Arginesse III</name>
   </DATA_RECORD>
-  </kinsect_text>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>pl</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>ru</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>ko</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>zh</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>ar</lang_id>
+    <name>Arginesse III</name>
+  </DATA_RECORD>
+</kinsect_text>

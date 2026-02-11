@@ -68,6 +68,13 @@ const App: React.FC = () => {
       }
     } catch (error) {
       console.error(error);
+      const errorMsg: Message = {
+        id: (Date.now() + 1).toString(),
+        role: 'assistant',
+        content: "⚠️ Não consegui me conectar ao servidor. Verifique se o backend está rodando e tente novamente.",
+        timestamp: Date.now()
+      };
+      setMessages(prev => [...prev, errorMsg]);
     } finally {
       setIsLoading(false);
     }

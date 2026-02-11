@@ -1,24 +1,43 @@
 import sys
 import os
+import io
 from pathlib import Path
 
-# Ajustar sys.path IMEDIATAMENTE para encontrar módulos na raiz
-if getattr(sys, 'frozen', False):
-    BASE_DIR = os.path.dirname(sys.executable)
-else:
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Forçar UTF-8 no stdout/stderr para evitar erro de charmap com emojis no Windows
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='backslashreplace')
+        sys.stderr.reconfigure(encoding='utf-8', errors='backslashreplace')
+    except (AttributeError, io.UnsupportedOperation):
+        pass
 
+# Ajustar sys.path para encontrar módulos tanto em dev quanto no executável
+if getattr(sys, 'frozen', False):
+    # No PyInstaller, todos os arquivos .py ficam na raiz temporária (_MEIPASS)
+    BASE_DIR = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    ROOT_DIR = BASE_DIR
+else:
+    # Em desenvolvimento, a pasta de trabalho é a /backend
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    ROOT_DIR = os.path.dirname(BASE_DIR)
+
+# Adicionar ambos ao path para garantir que mhw_rag (em /backend) e updater (na raiz) sejam encontrados
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
 
-import mhw_rag  # type: ignore
-import updater  # type: ignore
+# Agora os imports funcionam independente do local
+import mhw_rag # type: ignore
+import rag_pipeline # type: ignore
+import updater # type: ignore
 import json
+import asyncio
+import httpx  # type: ignore
 import uvicorn  # type: ignore
 import webview  # type: ignore
 import threading
 import time
-import requests # type: ignore
 import logging
 
 # Configuração de Logs para a Splash
@@ -40,11 +59,18 @@ class SplashStdout:
         self.original = original
 
     def write(self, s):
-        self.original.write(s)
+        try:
+            self.original.write(s)
+        except Exception:
+            # Se falhar ao escrever no console real, ignoramos o erro
+            # O importante é que o callback (UI) continue funcionando
+            pass
+            
         if s.strip() and self.callback:
             # Evita loops infinitos e mensagens muito curtas
             clean_s = s.strip()
             if len(clean_s) > 2:
+                # O webview aceita unicode normalmente via JSON
                 self.callback(clean_s, None)
 
     def flush(self):
@@ -54,7 +80,7 @@ from fastapi import FastAPI, HTTPException  # type: ignore
 from fastapi.middleware.cors import CORSMiddleware  # type: ignore
 from fastapi.staticfiles import StaticFiles  # type: ignore
 from pydantic import BaseModel  # type: ignore
-from openai import OpenAI  # type: ignore
+from openai import AsyncOpenAI  # type: ignore
 from contextlib import asynccontextmanager
 
 # Cache monster names for entity extraction
@@ -82,20 +108,17 @@ class ChatRequest(BaseModel):
     message: str
 
 from dotenv import load_dotenv # type: ignore
-load_dotenv()
+# Localizar .env na raiz do projeto (um nível acima de /backend)
+env_path = os.path.join(ROOT_DIR, ".env")
+load_dotenv(env_path)
 
 # Use the provided API Key via .env
 NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY", "Bearer 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")
-INVOKE_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+if not NVIDIA_API_KEY:
+    NVIDIA_API_KEY = "Bearer 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"
+
 # Garantir que a key esteja no formato correto para o OpenAI client
-OS_NVIDIA_KEY = NVIDIA_API_KEY.replace("Bearer ", "")
-
-
-def format_skill_list(skills):
-    """Format a list of skills as a string."""
-    if not skills:
-        return ""
-    return ", ".join([f"{s['name']} Lv{s['level']}" for s in skills])
+OS_NVIDIA_KEY = NVIDIA_API_KEY.replace("Bearer ", "").strip()
 
 
 @app.get("/monster/{name}")
@@ -166,48 +189,20 @@ def anti_hallucination_middleware(user_message: str, local_context: str):
 async def chat(request: ChatRequest):
     user_message = request.message
     user_lower = user_message.lower()
-    
-    local_context_parts: list[str] = []
-    
-    # === KEYWORDS PARA DETECÇÃO DE CONTEXTO ===
-    keywords = {
-        "armor": ["armadura", "armor", "capacete", "elmo", "helm", "head", "peitoral", 
-                  "chest", "mail", "braços", "arms", "vambraces", "cintura", 
-                  "waist", "coil", "pernas", "legs", "greaves", "set", "slots", "habilidade", "skill", "status"],
-        "weapon": ["arma", "weapon", "espada", "sword", "martelo", "hammer", "lança", 
-                   "lance", "machado", "axe", "arco", "bow", "gunlance", "glaive", 
-                   "dual blades", "espadas duplas", "great sword", "long sword",
-                   "heavy bowgun", "light bowgun", "hunting horn", "switch axe",
-                   "charge blade", "insect glaive", "atk", "ataque", "sharpness", "afiação"],
-        "decoration": ["adorno", "decoration", "jewel", "joia", "gema", "slot"],
-        "charm": ["amuleto", "charm", "talismã", "talisman"],
-        "quest": ["missão", "quest", "caçada", "hunt", "expedição", "guiding lands"],
-        "tool": ["manto", "mantle", "ferramenta", "tool", "booster"],
-        "skill": ["skill", "habilidade", "talent", "talento"],
-        "kinsect": ["kinsect", "inseto", "glaive inseto"]
-    }
-    
-    detected_types = [t for t, kws in keywords.items() if any(kw in user_lower for kw in kws)]
-    
-    # === BUSCAR MONSTRO ===
+
+    # Detectar monstro mencionado (para metadata da resposta)
     sorted_monsters = sorted(ALL_MONSTERS, key=len, reverse=True)
     found_monster = next((str(m) for m in sorted_monsters if str(m).lower() in user_lower), None)
-    
-    # === PROCESSAMENTO DE DADOS (RAG) ===
-    
-    # === PROCESSAMENTO DE DADOS (RAG via LlamaIndex) ===
-    # Agora em vez de queries manuais no SQL, o LlamaIndex busca nos XMLs da pasta /rag
-    
+
+    # Verificar se é cumprimento simples
     greetings = ["olá", "oi", "bom dia", "boa tarde", "boa noite", "e aí", "opa", "hello", "hi"]
     is_greeting = any(g in user_lower for g in greetings) and len(user_lower.split()) < 4
 
     if not is_greeting:
-        local_context = mhw_rag.get_rag_context(user_message)
+        local_context = await asyncio.to_thread(mhw_rag.get_rag_context, user_message)
     else:
-        local_context = "" # Ignora busca pesada para cumprimentos
-    
-    has_data = len(local_context.strip()) > 0
-    
+        local_context = ""
+
     # APLICAR MIDDLEWARE ANTI-ALUCINAÇÃO
     system_instruction, has_data = anti_hallucination_middleware(user_message, local_context)
     
@@ -223,13 +218,15 @@ async def chat(request: ChatRequest):
         {"role": "user", "content": user_message}
     ]
 
-    client = OpenAI(
+    # Usar AsyncOpenAI com timeout para não bloquear o event loop
+    client = AsyncOpenAI(
         base_url="https://integrate.api.nvidia.com/v1",
-        api_key=OS_NVIDIA_KEY
+        api_key=OS_NVIDIA_KEY,
+        timeout=httpx.Timeout(60.0, connect=10.0),  # 60s total, 10s para conectar
     )
 
     try:
-        completion = client.chat.completions.create(
+        completion = await client.chat.completions.create(
             model="moonshotai/kimi-k2-instruct-0905",
             messages=messages,
             temperature=0.4, # Temperatura mais baixa para mais precisão
@@ -238,12 +235,17 @@ async def chat(request: ChatRequest):
         )
         return {
             "response": completion.choices[0].message.content, 
-            "sources": ["Local DB (mhw.db)"] if has_data else [],
+            "sources": ["MHW RAG (XMLs estruturados)"] if has_data else [],
             "detected_monster": found_monster
         }
+    except httpx.TimeoutException:
+        error_detail = "A API demorou demais para responder. Tente novamente."
+        print(f"⏰ Timeout: {error_detail}")
+        raise HTTPException(status_code=504, detail=error_detail)
     except Exception as e:
-        print(f"Error calling NVIDIA API: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        error_detail = f"API Error: {str(e)}"
+        print(f"❌ {error_detail}")
+        raise HTTPException(status_code=500, detail=error_detail)
 
 # Mount the frontend directory to serve static files
 if getattr(sys, 'frozen', False):
@@ -262,16 +264,6 @@ else:
 app.mount("/", StaticFiles(directory=frontend_dir, html=True), name="frontend")
 
 if __name__ == "__main__":
-    import uvicorn  # type: ignore
-    import threading
-    import webview  # type: ignore
-
-    
-    # SQLite update is disabled as we are now source-of-truth XML
-    # try:
-    #     auto_update_db.quick_update()
-    # except Exception as e:
-    #     print(f"Update check failed: {e}")
 
     def start_server():
         uvicorn.run(app, host="127.0.0.1", port=8000, log_level="warning")
@@ -283,9 +275,11 @@ if __name__ == "__main__":
         server_thread.start()
 
         # Caminho da Splash Screen
-        if getattr(sys, 'frozen', False):
-            splash_path = os.path.join(os.path.dirname(sys.executable), "backend", "splash.html")
-        else:
+        # No executável, BASE_DIR aponta para a raiz temporária onde os arquivos estão
+        splash_path = os.path.join(BASE_DIR, "backend", "splash.html")
+        
+        # Se não encontrar (fallback para dev em outras estruturas)
+        if not os.path.exists(splash_path):
             splash_path = os.path.join(os.path.dirname(__file__), "splash.html")
 
         # Pegar as dimensões da tela (monitor principal)
@@ -333,8 +327,7 @@ if __name__ == "__main__":
                 on_progress(f"Erro no update: {str(e)}", 100)
                 time.sleep(2)
 
-            # Transição para o App principal
-            is_first_rag = not os.path.exists("storage") or not any(Path("storage").iterdir() if Path("storage").exists() else [])
+            # Inicializar motor RAG
             
             try:
                 # Inicializa o motor RAG enviando o callback para feedback na Splash
@@ -344,6 +337,9 @@ if __name__ == "__main__":
             
             on_progress("Iniciando assistente...", 100)
             time.sleep(1)
+
+            # Iniciar watcher de XMLs após RAG estar pronto
+            rag_pipeline.start_watcher()
             
             # Restaurar stdout original
             sys.stdout = original_stdout
