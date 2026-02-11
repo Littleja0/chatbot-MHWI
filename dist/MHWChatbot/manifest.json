@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "files": {
-        "MHWChatbot.exe": "2dbe6ada5b21531c5c443c548c2e20718402566b7d04c0f2496abdaa21779520",
+        "MHWChatbot.exe": "f2bfb95b986e1455972f460d58458661d3100896fa17a67fa7949e3b718f73c2",
         "frontend/index.html": "5c91602bd6a28876b5b55561c4f104ad63abb5e9627a906a69904297e7747262",
         "frontend/assets/gojo-CoJ1Q_WW.jpeg": "3568059002c59245935d3db2a01d0c90ce2467b24de3dae06db3fff569450be7",
         "frontend/assets/index-Jqaw6Eix.js": "f5fb76dbe1e64df551f5f9baae35ac2945b9ee794d9a6c0633e2e47e872ed141",
@@ -55,7 +55,7 @@
         "rag/weapon_skill.xml": "b0eb5baad78c905190ed751f38442c8361f4e500dbe21d155bdae3a99fa8c061",
         "rag/weapon_text.xml": "bce488f6f4e47e3b0999bc06b5edd56db67e83577b96974c10d418791f4a1975",
         "rag/_language_.xml": "7ea37b0d977b1010fb396a83546153c226dbc82541ae2bee55e54eba91aa01f5",
-        "_internal/base_library.zip": "1a890f485d8359def45251687fb7de2bf4fadab1de6895318ee42f2d496ccf7c",
+        "_internal/base_library.zip": "af98a8b1b486eb70c76d36886a074c09cccda5bb4b35a179c434e063e20b0534",
         "_internal/libcrypto-3.dll": "ccfffddcd3defb8d899026298af9af43bc186130f8483d77e97c93233d5f27d7",
         "_internal/libffi-8.dll": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
         "_internal/libssl-3.dll": "007142039f04d04e0ed607bda53de095e5bc6a8a10d26ecedde94ea7d2d7eefe",
