@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<monster_reward_condition_text>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>en</lang_id>
+    <name>Wound Antennae</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Antennae</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>en</lang_id>
+    <name>Wound Neck Pouch</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Neck Pouch</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>en</lang_id>
+    <name>Wound 1 Horn</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>pt</lang_id>
+    <name>Wound 1 Horn</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>en</lang_id>
+    <name>Wound Jaw</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Jaw</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>en</lang_id>
+    <name>Wound Body</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Body</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>en</lang_id>
+    <name>Wound Wings</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Wings</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>en</lang_id>
+    <name>Wound Left Wing</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Left Wing</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>en</lang_id>
+    <name>Wound Right Wing</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Right Wing</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>en</lang_id>
+    <name>Break Left Wing Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>pt</lang_id>
+    <name>Break Left Wing Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>en</lang_id>
+    <name>Break Right Wing Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>pt</lang_id>
+    <name>Break Right Wing Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>en</lang_id>
+    <name>Wound Back</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Back</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>en</lang_id>
+    <name>Wound Fin</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Fin</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>en</lang_id>
+    <name>Wound Claws</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Claws</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>en</lang_id>
+    <name>Wound Forearms</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Forearms</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>en</lang_id>
+    <name>Wound Forelegs</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Forelegs</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>en</lang_id>
+    <name>Wound Left Foreleg</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Left Foreleg</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>en</lang_id>
+    <name>Wound Right Foreleg</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Right Foreleg</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>en</lang_id>
+    <name>Wound Belly</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Belly</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>en</lang_id>
+    <name>Wound Chest</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Chest</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>en</lang_id>
+    <name>Wound Chest Shell</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Chest Shell</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>en</lang_id>
+    <name>Wound Hindlegs</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Hindlegs</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>en</lang_id>
+    <name>Wound Left Hindleg</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Left Hindleg</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>en</lang_id>
+    <name>Wound Right Hindleg</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Right Hindleg</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>en</lang_id>
+    <name>Break Left Leg Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>pt</lang_id>
+    <name>Break Left Leg Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>en</lang_id>
+    <name>Break Right Leg Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>pt</lang_id>
+    <name>Break Right Leg Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>en</lang_id>
+    <name>Wound Legs</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Legs</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>en</lang_id>
+    <name>Wound Tail</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>pt</lang_id>
+    <name>Wound Tail</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>en</lang_id>
+    <name>Shiny Drop</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>pt</lang_id>
+    <name>Shiny Drop</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>en</lang_id>
+    <name>Tail Carve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>pt</lang_id>
+    <name>Tail Carve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>en</lang_id>
+    <name>Head Shell Carve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>pt</lang_id>
+    <name>Head Shell Carve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>en</lang_id>
+    <name>Horn Carve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>pt</lang_id>
+    <name>Horn Carve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>en</lang_id>
+    <name>Gold Plating Carved</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>pt</lang_id>
+    <name>Gold Plating Carved</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>en</lang_id>
+    <name>Red Crystal Mining / Shiny</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>pt</lang_id>
+    <name>Red Crystal Mining / Shiny</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>en</lang_id>
+    <name>Back Mining</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>pt</lang_id>
+    <name>Back Mining</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>en</lang_id>
+    <name>Siege Reward (Fury)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>pt</lang_id>
+    <name>Siege Reward (Fury)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>en</lang_id>
+    <name>Siege Progress</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>pt</lang_id>
+    <name>Siege Progress</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>en</lang_id>
+    <name>Palico Bonus</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>pt</lang_id>
+    <name>Palico Bonus</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>en</lang_id>
+    <name>Plunderblade</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>pt</lang_id>
+    <name>Plunderblade</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>en</lang_id>
+    <name>Bandit Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>pt</lang_id>
+    <name>Bandit Mantle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>en</lang_id>
+    <name>Hunt (Bronze)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>pt</lang_id>
+    <name>Hunt (Bronze)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>en</lang_id>
+    <name>Investigation (Silver)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>pt</lang_id>
+    <name>Investigation (Silver)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>en</lang_id>
+    <name>Investigation (Gold)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>pt</lang_id>
+    <name>Investigation (Gold)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>en</lang_id>
+    <name>Investigation (Purple)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>pt</lang_id>
+    <name>Investigation (Purple)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>en</lang_id>
+    <name>Guiding Lands (Low)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>pt</lang_id>
+    <name>Guiding Lands (Low)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>en</lang_id>
+    <name>Guiding Lands (Mid)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>pt</lang_id>
+    <name>Guiding Lands (Mid)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>en</lang_id>
+    <name>Guiding Lands (High)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>pt</lang_id>
+    <name>Guiding Lands (High)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>en</lang_id>
+    <name>Guiding Lands (Tempered)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>pt</lang_id>
+    <name>Guiding Lands (Tempered)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>en</lang_id>
+    <name>Appraisal (Bronze)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>pt</lang_id>
+    <name>Appraisal (Bronze)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>en</lang_id>
+    <name>Appraisal (Silver)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>pt</lang_id>
+    <name>Appraisal (Silver)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>en</lang_id>
+    <name>Appraisal (Gold)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>pt</lang_id>
+    <name>Appraisal (Gold)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>en</lang_id>
+    <name>Appraisal (Blue)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>pt</lang_id>
+    <name>Appraisal (Blue)</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>en</lang_id>
+    <name>Carve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>pt</lang_id>
+    <name>Esculpir</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>en</lang_id>
+    <name>Capture</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>pt</lang_id>
+    <name>Capturar</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>en</lang_id>
+    <name>Break Part</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>pt</lang_id>
+    <name>Quebrar Parte</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>en</lang_id>
+    <name>Tail Carve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>pt</lang_id>
+    <name>Esculpir Cauda</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>en</lang_id>
+    <name>Palico Bonus</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>pt</lang_id>
+    <name>Bônus Palico</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>en</lang_id>
+    <name>Plunderblade</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>pt</lang_id>
+    <name>Ladroagem</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>en</lang_id>
+    <name>Shiny Drop</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>pt</lang_id>
+    <name>Drop Brilhante</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>en</lang_id>
+    <name>Track</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>pt</lang_id>
+    <name>Rastro</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>en</lang_id>
+    <name>Wound</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>pt</lang_id>
+    <name>Ferida</name>
+  </DATA_RECORD>
+</monster_reward_condition_text>

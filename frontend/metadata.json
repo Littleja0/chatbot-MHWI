@@ -1,0 +1,7 @@
+{
+  "name": "MHW:I AI Hub",
+  "description": "A Monster Hunter World: Iceborne themed AI assistant for hunters, providing builds, monster intel, and strategic guides.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

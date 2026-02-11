@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+duckduckgo-search>=6.0.0
+python-dotenv
+openai
+pywebview
+llama-index
+llama-index-readers-file
+llama-index-llms-nvidia
+llama-index-embeddings-nvidia

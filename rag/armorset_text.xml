@@ -1,0 +1,3513 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<armorset_text>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>en</lang_id>
+    <name>Leather</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>pt</lang_id>
+    <name>Couro</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>en</lang_id>
+    <name>Chainmail</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>pt</lang_id>
+    <name>Cota de Malha</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>en</lang_id>
+    <name>Hunter's</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>pt</lang_id>
+    <name>do Caçador</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>en</lang_id>
+    <name>Bone</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>pt</lang_id>
+    <name>Osso</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>en</lang_id>
+    <name>Vespoid</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>pt</lang_id>
+    <name>Vespoidea</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>en</lang_id>
+    <name>Kestodon</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>pt</lang_id>
+    <name>Kestodonte</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>en</lang_id>
+    <name>Gajau</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>pt</lang_id>
+    <name>Gajau</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>en</lang_id>
+    <name>Jagras</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>pt</lang_id>
+    <name>Jagras</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>en</lang_id>
+    <name>Kulu</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>pt</lang_id>
+    <name>Kulu</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>en</lang_id>
+    <name>Alloy</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>pt</lang_id>
+    <name>Liga Leve</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>en</lang_id>
+    <name>Pukei</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>pt</lang_id>
+    <name>Pukei</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>en</lang_id>
+    <name>Barroth</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>pt</lang_id>
+    <name>Barroth</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>en</lang_id>
+    <name>Jyura</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>pt</lang_id>
+    <name>Jyura</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>en</lang_id>
+    <name>Kadachi</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>pt</lang_id>
+    <name>Kadachi</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>en</lang_id>
+    <name>High Metal</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>pt</lang_id>
+    <name>Metal Denso</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>en</lang_id>
+    <name>King Beetle</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>pt</lang_id>
+    <name>Besouro-rei</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>en</lang_id>
+    <name>Shamos</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>pt</lang_id>
+    <name>Shamos</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>en</lang_id>
+    <name>Hornetaur</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>pt</lang_id>
+    <name>Chifrotauro</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>en</lang_id>
+    <name>Anja</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>pt</lang_id>
+    <name>Anja</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>en</lang_id>
+    <name>Rathian</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>pt</lang_id>
+    <name>Rathian</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>en</lang_id>
+    <name>Tzitzi</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>pt</lang_id>
+    <name>Tzitzi</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>en</lang_id>
+    <name>Lumu</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>pt</lang_id>
+    <name>Lumu</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>en</lang_id>
+    <name>Girros</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>pt</lang_id>
+    <name>Girros</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>en</lang_id>
+    <name>Baan</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>pt</lang_id>
+    <name>Baan</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>en</lang_id>
+    <name>Ingot</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>pt</lang_id>
+    <name>Lingote</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>en</lang_id>
+    <name>Death Stench</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>pt</lang_id>
+    <name>Putrefato</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>en</lang_id>
+    <name>Brigade</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>pt</lang_id>
+    <name>Brigada</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>en</lang_id>
+    <name>Legiana</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>pt</lang_id>
+    <name>Legiana</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>en</lang_id>
+    <name>Odogaron</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>pt</lang_id>
+    <name>Odogaron</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>en</lang_id>
+    <name>Rathalos</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>pt</lang_id>
+    <name>Rathalos</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>en</lang_id>
+    <name>Diablos</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>en</lang_id>
+    <name>Kirin</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>pt</lang_id>
+    <name>Kirin</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>en</lang_id>
+    <name>Blossom</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>pt</lang_id>
+    <name>Florescer</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>en</lang_id>
+    <name>Diver</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>pt</lang_id>
+    <name>Mergulhador</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>en</lang_id>
+    <name>Harvest</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>pt</lang_id>
+    <name>Safra</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>en</lang_id>
+    <name>Orion</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>pt</lang_id>
+    <name>Órion</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>en</lang_id>
+    <name>Gala Suit</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>pt</lang_id>
+    <name>Traje de Gala</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>en</lang_id>
+    <name>Butterfly</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>pt</lang_id>
+    <name>Borboleta</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>en</lang_id>
+    <name>Leather α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>pt</lang_id>
+    <name>Couro α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>en</lang_id>
+    <name>Leather β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>pt</lang_id>
+    <name>Couro β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>en</lang_id>
+    <name>Chainmail α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>pt</lang_id>
+    <name>Cota de Malha α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>en</lang_id>
+    <name>Chainmail β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>pt</lang_id>
+    <name>Cota de Malha β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>en</lang_id>
+    <name>Hunter's α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>pt</lang_id>
+    <name>do Caçador α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>en</lang_id>
+    <name>Hunter's β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>pt</lang_id>
+    <name>do Caçador β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>en</lang_id>
+    <name>Bone α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>pt</lang_id>
+    <name>Osso α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>en</lang_id>
+    <name>Bone β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>pt</lang_id>
+    <name>Osso β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>en</lang_id>
+    <name>Alloy α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>pt</lang_id>
+    <name>Liga Leve α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>en</lang_id>
+    <name>Alloy β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>pt</lang_id>
+    <name>Liga Leve β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>en</lang_id>
+    <name>King Beetle α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>pt</lang_id>
+    <name>Besouro-rei α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>en</lang_id>
+    <name>King Beetle β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>pt</lang_id>
+    <name>Besouro-rei β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>en</lang_id>
+    <name>Vespoid α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>pt</lang_id>
+    <name>Vespoidea α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>en</lang_id>
+    <name>Vespoid β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>pt</lang_id>
+    <name>Vespoidea β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>en</lang_id>
+    <name>Hornetaur α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>pt</lang_id>
+    <name>Chifrotauro α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>en</lang_id>
+    <name>Hornetaur β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>pt</lang_id>
+    <name>Chifrotauro β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>en</lang_id>
+    <name>Mosswine Mask α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>pt</lang_id>
+    <name>Máscara Musgoíno α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>en</lang_id>
+    <name>Kestodon α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>pt</lang_id>
+    <name>Kestodonte α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>en</lang_id>
+    <name>Kestodon β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>pt</lang_id>
+    <name>Kestodonte β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>en</lang_id>
+    <name>Gajau α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>pt</lang_id>
+    <name>Gajau α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>en</lang_id>
+    <name>Gajau β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>pt</lang_id>
+    <name>Gajau β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>en</lang_id>
+    <name>Shamos α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>pt</lang_id>
+    <name>Shamos α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>en</lang_id>
+    <name>Shamos β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>pt</lang_id>
+    <name>Shamos β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>en</lang_id>
+    <name>Jagras α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>pt</lang_id>
+    <name>Jagras α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>en</lang_id>
+    <name>Jagras β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>pt</lang_id>
+    <name>Jagras β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>en</lang_id>
+    <name>Kulu α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>pt</lang_id>
+    <name>Kulu α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>en</lang_id>
+    <name>Kulu β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>pt</lang_id>
+    <name>Kulu β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>en</lang_id>
+    <name>Tzitzi α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>pt</lang_id>
+    <name>Tzitzi α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>en</lang_id>
+    <name>Tzitzi β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>pt</lang_id>
+    <name>Tzitzi β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>en</lang_id>
+    <name>Girros α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>pt</lang_id>
+    <name>Girros α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>en</lang_id>
+    <name>Girros β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>pt</lang_id>
+    <name>Girros β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>en</lang_id>
+    <name>Pukei α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>pt</lang_id>
+    <name>Pukei α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>en</lang_id>
+    <name>Pukei β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>pt</lang_id>
+    <name>Pukei β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>en</lang_id>
+    <name>Barroth α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>pt</lang_id>
+    <name>Barroth α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>en</lang_id>
+    <name>Barroth β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>pt</lang_id>
+    <name>Barroth β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>en</lang_id>
+    <name>Anja α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>pt</lang_id>
+    <name>Anja α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>en</lang_id>
+    <name>Anja β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>pt</lang_id>
+    <name>Anja β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>en</lang_id>
+    <name>Jyura α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>pt</lang_id>
+    <name>Jyura α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>en</lang_id>
+    <name>Jyura β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>pt</lang_id>
+    <name>Jyura β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>en</lang_id>
+    <name>Kadachi α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>pt</lang_id>
+    <name>Kadachi α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>en</lang_id>
+    <name>Kadachi β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>pt</lang_id>
+    <name>Kadachi β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>en</lang_id>
+    <name>Lumu α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>pt</lang_id>
+    <name>Lumu α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>en</lang_id>
+    <name>Lumu β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>pt</lang_id>
+    <name>Lumu β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>en</lang_id>
+    <name>Rathian α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>pt</lang_id>
+    <name>Rathian α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>en</lang_id>
+    <name>Rathian β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>pt</lang_id>
+    <name>Rathian β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>en</lang_id>
+    <name>Rath Heart α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>pt</lang_id>
+    <name>Coração Rath α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>en</lang_id>
+    <name>Rath Heart β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>pt</lang_id>
+    <name>Coração Rath β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>en</lang_id>
+    <name>Baan α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>pt</lang_id>
+    <name>Baan α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>en</lang_id>
+    <name>Baan β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>pt</lang_id>
+    <name>Baan β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>en</lang_id>
+    <name>Gastodon α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>pt</lang_id>
+    <name>Gastodonte α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>en</lang_id>
+    <name>Gastodon β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>pt</lang_id>
+    <name>Gastodonte β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>en</lang_id>
+    <name>Barnos α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>pt</lang_id>
+    <name>Barnos α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>en</lang_id>
+    <name>Barnos β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>pt</lang_id>
+    <name>Barnos β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>en</lang_id>
+    <name>Dodogama α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>pt</lang_id>
+    <name>Dodogama α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>en</lang_id>
+    <name>Dodogama β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>pt</lang_id>
+    <name>Dodogama β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>en</lang_id>
+    <name>Zorah α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>pt</lang_id>
+    <name>Zorah α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>en</lang_id>
+    <name>Zorah β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>pt</lang_id>
+    <name>Zorah β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>en</lang_id>
+    <name>High Metal α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>pt</lang_id>
+    <name>Metal Denso α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>en</lang_id>
+    <name>High Metal β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>pt</lang_id>
+    <name>Metal Denso β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>en</lang_id>
+    <name>Ingot α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>pt</lang_id>
+    <name>Lingote α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>en</lang_id>
+    <name>Ingot β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>pt</lang_id>
+    <name>Lingote β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>en</lang_id>
+    <name>Brigade α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>pt</lang_id>
+    <name>Brigada α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>en</lang_id>
+    <name>Brigade β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>pt</lang_id>
+    <name>Brigada β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>en</lang_id>
+    <name>Faux Felyne α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>pt</lang_id>
+    <name>Felyno Falso α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>en</lang_id>
+    <name>Strategist α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>pt</lang_id>
+    <name>Estrategista α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>en</lang_id>
+    <name>Lavasioth α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>pt</lang_id>
+    <name>Lavasioth α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>en</lang_id>
+    <name>Lavasioth β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>pt</lang_id>
+    <name>Lavasioth β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>106</id>
+    <lang_id>en</lang_id>
+    <name>Legiana α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>106</id>
+    <lang_id>pt</lang_id>
+    <name>Legiana α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>107</id>
+    <lang_id>en</lang_id>
+    <name>Legiana β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>107</id>
+    <lang_id>pt</lang_id>
+    <name>Legiana β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>108</id>
+    <lang_id>en</lang_id>
+    <name>Odogaron α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>108</id>
+    <lang_id>pt</lang_id>
+    <name>Odogaron α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>109</id>
+    <lang_id>en</lang_id>
+    <name>Odogaron β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>109</id>
+    <lang_id>pt</lang_id>
+    <name>Odogaron β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>110</id>
+    <lang_id>en</lang_id>
+    <name>Rathalos α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>110</id>
+    <lang_id>pt</lang_id>
+    <name>Rathalos α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>111</id>
+    <lang_id>en</lang_id>
+    <name>Rathalos β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>111</id>
+    <lang_id>pt</lang_id>
+    <name>Rathalos β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>112</id>
+    <lang_id>en</lang_id>
+    <name>Rath Soul α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>112</id>
+    <lang_id>pt</lang_id>
+    <name>Alma de Rath α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>113</id>
+    <lang_id>en</lang_id>
+    <name>Rath Soul β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>113</id>
+    <lang_id>pt</lang_id>
+    <name>Alma de Rath β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>114</id>
+    <lang_id>en</lang_id>
+    <name>Diablos α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>114</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>115</id>
+    <lang_id>en</lang_id>
+    <name>Diablos β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>115</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>116</id>
+    <lang_id>en</lang_id>
+    <name>Diablos Nero α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>116</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos Negra α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>117</id>
+    <lang_id>en</lang_id>
+    <name>Diablos Nero β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>117</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos Negra β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>118</id>
+    <lang_id>en</lang_id>
+    <name>Uragaan α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>118</id>
+    <lang_id>pt</lang_id>
+    <name>Uragaan α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>119</id>
+    <lang_id>en</lang_id>
+    <name>Uragaan β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>119</id>
+    <lang_id>pt</lang_id>
+    <name>Uragaan β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>120</id>
+    <lang_id>en</lang_id>
+    <name>Bazel α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>120</id>
+    <lang_id>pt</lang_id>
+    <name>Bazel α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>121</id>
+    <lang_id>en</lang_id>
+    <name>Bazel β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>121</id>
+    <lang_id>pt</lang_id>
+    <name>Bazel β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>122</id>
+    <lang_id>en</lang_id>
+    <name>Damascus α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>122</id>
+    <lang_id>pt</lang_id>
+    <name>Damascus α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>123</id>
+    <lang_id>en</lang_id>
+    <name>Damascus β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>123</id>
+    <lang_id>pt</lang_id>
+    <name>Damascus β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>124</id>
+    <lang_id>en</lang_id>
+    <name>Dober α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>124</id>
+    <lang_id>pt</lang_id>
+    <name>Dober α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>125</id>
+    <lang_id>en</lang_id>
+    <name>Dober β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>125</id>
+    <lang_id>pt</lang_id>
+    <name>Dober β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>126</id>
+    <lang_id>en</lang_id>
+    <name>Death Stench α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>126</id>
+    <lang_id>pt</lang_id>
+    <name>Putrefato α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>127</id>
+    <lang_id>en</lang_id>
+    <name>Death Stench β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>127</id>
+    <lang_id>pt</lang_id>
+    <name>Putrefato β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>128</id>
+    <lang_id>en</lang_id>
+    <name>Skull α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>128</id>
+    <lang_id>pt</lang_id>
+    <name>Caveira α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>129</id>
+    <lang_id>en</lang_id>
+    <name>Nergigante α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>129</id>
+    <lang_id>pt</lang_id>
+    <name>Nergigante α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>130</id>
+    <lang_id>en</lang_id>
+    <name>Nergigante β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>130</id>
+    <lang_id>pt</lang_id>
+    <name>Nergigante β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>131</id>
+    <lang_id>en</lang_id>
+    <name>Teostra α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>131</id>
+    <lang_id>pt</lang_id>
+    <name>Teostra α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>132</id>
+    <lang_id>en</lang_id>
+    <name>Teostra β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>132</id>
+    <lang_id>pt</lang_id>
+    <name>Teostra β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>133</id>
+    <lang_id>en</lang_id>
+    <name>Kushala α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>133</id>
+    <lang_id>pt</lang_id>
+    <name>Kushala α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>134</id>
+    <lang_id>en</lang_id>
+    <name>Kushala β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>134</id>
+    <lang_id>pt</lang_id>
+    <name>Kushala β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>135</id>
+    <lang_id>en</lang_id>
+    <name>Vaal Hazak α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>135</id>
+    <lang_id>pt</lang_id>
+    <name>Vaal Hazak α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>136</id>
+    <lang_id>en</lang_id>
+    <name>Vaal Hazak β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>136</id>
+    <lang_id>pt</lang_id>
+    <name>Vaal Hazak β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>137</id>
+    <lang_id>en</lang_id>
+    <name>Kirin α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>137</id>
+    <lang_id>pt</lang_id>
+    <name>Kirin α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>138</id>
+    <lang_id>en</lang_id>
+    <name>Kirin β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>138</id>
+    <lang_id>pt</lang_id>
+    <name>Kirin β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>139</id>
+    <lang_id>en</lang_id>
+    <name>Xeno'jiiva α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>139</id>
+    <lang_id>pt</lang_id>
+    <name>Xeno'jiiva α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>140</id>
+    <lang_id>en</lang_id>
+    <name>Xeno'jiiva β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>140</id>
+    <lang_id>pt</lang_id>
+    <name>Xeno'jiiva β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>141</id>
+    <lang_id>en</lang_id>
+    <name>Guild Cross α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>141</id>
+    <lang_id>pt</lang_id>
+    <name>Cruz de Guilda α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>142</id>
+    <lang_id>en</lang_id>
+    <name>Guild Cross β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>142</id>
+    <lang_id>pt</lang_id>
+    <name>Cruz de Guilda β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>143</id>
+    <lang_id>en</lang_id>
+    <name>Dragonking α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>143</id>
+    <lang_id>pt</lang_id>
+    <name>Dragão-rei α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>144</id>
+    <lang_id>en</lang_id>
+    <name>Commission α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>144</id>
+    <lang_id>pt</lang_id>
+    <name>Comissão α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>145</id>
+    <lang_id>en</lang_id>
+    <name>Commission β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>145</id>
+    <lang_id>pt</lang_id>
+    <name>Comissão β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>146</id>
+    <lang_id>en</lang_id>
+    <name>Deviljho α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>146</id>
+    <lang_id>pt</lang_id>
+    <name>Deviljho α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>147</id>
+    <lang_id>en</lang_id>
+    <name>Deviljho β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>147</id>
+    <lang_id>pt</lang_id>
+    <name>Deviljho β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>148</id>
+    <lang_id>en</lang_id>
+    <name>Kulve Taroth α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>148</id>
+    <lang_id>pt</lang_id>
+    <name>Kulve Taroth α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>149</id>
+    <lang_id>en</lang_id>
+    <name>Kulve Taroth β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>149</id>
+    <lang_id>pt</lang_id>
+    <name>Kulve Taroth β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>150</id>
+    <lang_id>en</lang_id>
+    <name>Lunastra α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>150</id>
+    <lang_id>pt</lang_id>
+    <name>Lunastra α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>151</id>
+    <lang_id>en</lang_id>
+    <name>Lunastra β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>151</id>
+    <lang_id>pt</lang_id>
+    <name>Lunastra β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>152</id>
+    <lang_id>en</lang_id>
+    <name>Blossom α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>152</id>
+    <lang_id>pt</lang_id>
+    <name>Florescer α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>153</id>
+    <lang_id>en</lang_id>
+    <name>Diver α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>153</id>
+    <lang_id>pt</lang_id>
+    <name>Mergulhador α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>154</id>
+    <lang_id>en</lang_id>
+    <name>Harvest α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>154</id>
+    <lang_id>pt</lang_id>
+    <name>Safra α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>155</id>
+    <lang_id>en</lang_id>
+    <name>Orion α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>155</id>
+    <lang_id>pt</lang_id>
+    <name>Órion α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>156</id>
+    <lang_id>en</lang_id>
+    <name>Gala Suit α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>156</id>
+    <lang_id>pt</lang_id>
+    <name>Traje de Gala α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>157</id>
+    <lang_id>en</lang_id>
+    <name>Butterfly α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>157</id>
+    <lang_id>pt</lang_id>
+    <name>Borboleta α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>158</id>
+    <lang_id>en</lang_id>
+    <name>Butterfly β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>158</id>
+    <lang_id>pt</lang_id>
+    <name>Borboleta β</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>159</id>
+    <lang_id>en</lang_id>
+    <name>Vaal Hazak γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>159</id>
+    <lang_id>pt</lang_id>
+    <name>Vaal Hazak γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>160</id>
+    <lang_id>en</lang_id>
+    <name>Kirin γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>160</id>
+    <lang_id>pt</lang_id>
+    <name>Kirin γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>161</id>
+    <lang_id>en</lang_id>
+    <name>Teostra γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>161</id>
+    <lang_id>pt</lang_id>
+    <name>Teostra γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>162</id>
+    <lang_id>en</lang_id>
+    <name>Kushala γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>162</id>
+    <lang_id>pt</lang_id>
+    <name>Kushala γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>163</id>
+    <lang_id>en</lang_id>
+    <name>Nergigante γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>163</id>
+    <lang_id>pt</lang_id>
+    <name>Nergigante γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>164</id>
+    <lang_id>en</lang_id>
+    <name>Zorah γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>164</id>
+    <lang_id>pt</lang_id>
+    <name>Zorah γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>165</id>
+    <lang_id>en</lang_id>
+    <name>Xeno'jiiva γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>165</id>
+    <lang_id>pt</lang_id>
+    <name>Xeno'jiiva γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>166</id>
+    <lang_id>en</lang_id>
+    <name>Lunastra γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>166</id>
+    <lang_id>pt</lang_id>
+    <name>Lunastra γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>167</id>
+    <lang_id>en</lang_id>
+    <name>Kulve Taroth γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>167</id>
+    <lang_id>pt</lang_id>
+    <name>Kulve Taroth γ</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>168</id>
+    <lang_id>en</lang_id>
+    <name>Azure Starlord α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>168</id>
+    <lang_id>pt</lang_id>
+    <name>Senhor Estelar Lazúli α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>169</id>
+    <lang_id>en</lang_id>
+    <name>Dante α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>169</id>
+    <lang_id>pt</lang_id>
+    <name>Dante α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>170</id>
+    <lang_id>en</lang_id>
+    <name>Drachen α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>170</id>
+    <lang_id>pt</lang_id>
+    <name>Drachen α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>171</id>
+    <lang_id>en</lang_id>
+    <name>Sealed Eyepatch α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>171</id>
+    <lang_id>pt</lang_id>
+    <name>Tapa-olho Selado α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>172</id>
+    <lang_id>en</lang_id>
+    <name>Shadow Shades α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>172</id>
+    <lang_id>pt</lang_id>
+    <name>Ócul. Esc. Sombrios α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>173</id>
+    <lang_id>en</lang_id>
+    <name>Kulu-Ya-Ku Head α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>173</id>
+    <lang_id>pt</lang_id>
+    <name>Elmo Kulu-Ya-Ku α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>174</id>
+    <lang_id>en</lang_id>
+    <name>Wiggler Head α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>174</id>
+    <lang_id>pt</lang_id>
+    <name>Cabeça Treme-treme α</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>175</id>
+    <lang_id>en</lang_id>
+    <name>Bone α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>175</id>
+    <lang_id>pt</lang_id>
+    <name>Óssea α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>176</id>
+    <lang_id>en</lang_id>
+    <name>Bone β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>176</id>
+    <lang_id>pt</lang_id>
+    <name>Óssea β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>177</id>
+    <lang_id>en</lang_id>
+    <name>Alloy α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>177</id>
+    <lang_id>pt</lang_id>
+    <name>Liga Leve α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>178</id>
+    <lang_id>en</lang_id>
+    <name>Alloy β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>178</id>
+    <lang_id>pt</lang_id>
+    <name>Liga Leve β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>179</id>
+    <lang_id>en</lang_id>
+    <name>Vespoid α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>179</id>
+    <lang_id>pt</lang_id>
+    <name>Vespoidea α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>180</id>
+    <lang_id>en</lang_id>
+    <name>Vespoid β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>180</id>
+    <lang_id>pt</lang_id>
+    <name>Vespoidea β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>181</id>
+    <lang_id>en</lang_id>
+    <name>Hornetaur α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>181</id>
+    <lang_id>pt</lang_id>
+    <name>Chifrotauro α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>182</id>
+    <lang_id>en</lang_id>
+    <name>Hornetaur β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>182</id>
+    <lang_id>pt</lang_id>
+    <name>Chifrotauro β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>183</id>
+    <lang_id>en</lang_id>
+    <name>Kestodon α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>183</id>
+    <lang_id>pt</lang_id>
+    <name>Kestodonte α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>184</id>
+    <lang_id>en</lang_id>
+    <name>Kestodon β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>184</id>
+    <lang_id>pt</lang_id>
+    <name>Kestodonte β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>185</id>
+    <lang_id>en</lang_id>
+    <name>Gajau α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>185</id>
+    <lang_id>pt</lang_id>
+    <name>Gajau α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>186</id>
+    <lang_id>en</lang_id>
+    <name>Gajau β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>186</id>
+    <lang_id>pt</lang_id>
+    <name>Gajau β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>187</id>
+    <lang_id>en</lang_id>
+    <name>Shamos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>187</id>
+    <lang_id>pt</lang_id>
+    <name>Shamos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>188</id>
+    <lang_id>en</lang_id>
+    <name>Shamos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>188</id>
+    <lang_id>pt</lang_id>
+    <name>Shamos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>189</id>
+    <lang_id>en</lang_id>
+    <name>Gastodon α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>189</id>
+    <lang_id>pt</lang_id>
+    <name>Gastodonte α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>190</id>
+    <lang_id>en</lang_id>
+    <name>Gastodon β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>190</id>
+    <lang_id>pt</lang_id>
+    <name>Gastodonte β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>191</id>
+    <lang_id>en</lang_id>
+    <name>Barnos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>191</id>
+    <lang_id>pt</lang_id>
+    <name>Barnos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>192</id>
+    <lang_id>en</lang_id>
+    <name>Barnos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>192</id>
+    <lang_id>pt</lang_id>
+    <name>Barnos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>193</id>
+    <lang_id>en</lang_id>
+    <name>Wulg α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>193</id>
+    <lang_id>pt</lang_id>
+    <name>Wulg α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>194</id>
+    <lang_id>en</lang_id>
+    <name>Wulg β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>194</id>
+    <lang_id>pt</lang_id>
+    <name>Wulg β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>195</id>
+    <lang_id>en</lang_id>
+    <name>Cortos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>195</id>
+    <lang_id>pt</lang_id>
+    <name>Cortos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>196</id>
+    <lang_id>en</lang_id>
+    <name>Cortos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>196</id>
+    <lang_id>pt</lang_id>
+    <name>Cortos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>197</id>
+    <lang_id>en</lang_id>
+    <name>Jagras α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>197</id>
+    <lang_id>pt</lang_id>
+    <name>Jagras α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>198</id>
+    <lang_id>en</lang_id>
+    <name>Jagras β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>198</id>
+    <lang_id>pt</lang_id>
+    <name>Jagras β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>199</id>
+    <lang_id>en</lang_id>
+    <name>Tzitzi α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>199</id>
+    <lang_id>pt</lang_id>
+    <name>Tzitzi α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>200</id>
+    <lang_id>en</lang_id>
+    <name>Tzitzi β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>200</id>
+    <lang_id>pt</lang_id>
+    <name>Tzitzi β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>201</id>
+    <lang_id>en</lang_id>
+    <name>Girros α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>201</id>
+    <lang_id>pt</lang_id>
+    <name>Girros α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>202</id>
+    <lang_id>en</lang_id>
+    <name>Girros β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>202</id>
+    <lang_id>pt</lang_id>
+    <name>Girros β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>203</id>
+    <lang_id>en</lang_id>
+    <name>Dodogama α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>203</id>
+    <lang_id>pt</lang_id>
+    <name>Dodogama α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>204</id>
+    <lang_id>en</lang_id>
+    <name>Dodogama β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>204</id>
+    <lang_id>pt</lang_id>
+    <name>Dodogama β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>205</id>
+    <lang_id>en</lang_id>
+    <name>Kulu α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>205</id>
+    <lang_id>pt</lang_id>
+    <name>Kulu α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>206</id>
+    <lang_id>en</lang_id>
+    <name>Kulu β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>206</id>
+    <lang_id>pt</lang_id>
+    <name>Kulu β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>207</id>
+    <lang_id>en</lang_id>
+    <name>Pukei α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>207</id>
+    <lang_id>pt</lang_id>
+    <name>Pukei α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>208</id>
+    <lang_id>en</lang_id>
+    <name>Pukei β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>208</id>
+    <lang_id>pt</lang_id>
+    <name>Pukei β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>209</id>
+    <lang_id>en</lang_id>
+    <name>Coral Pukei α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>209</id>
+    <lang_id>pt</lang_id>
+    <name>Pukei Coralino α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>210</id>
+    <lang_id>en</lang_id>
+    <name>Coral Pukei β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>210</id>
+    <lang_id>pt</lang_id>
+    <name>Pukei Coralino β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>211</id>
+    <lang_id>en</lang_id>
+    <name>Barroth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>211</id>
+    <lang_id>pt</lang_id>
+    <name>Barroth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>212</id>
+    <lang_id>en</lang_id>
+    <name>Barroth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>212</id>
+    <lang_id>pt</lang_id>
+    <name>Barroth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>213</id>
+    <lang_id>en</lang_id>
+    <name>Jyura α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>213</id>
+    <lang_id>pt</lang_id>
+    <name>Jyura α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>214</id>
+    <lang_id>en</lang_id>
+    <name>Jyura β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>214</id>
+    <lang_id>pt</lang_id>
+    <name>Jyura β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>215</id>
+    <lang_id>en</lang_id>
+    <name>Beo α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>215</id>
+    <lang_id>pt</lang_id>
+    <name>Beo α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>216</id>
+    <lang_id>en</lang_id>
+    <name>Beo β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>216</id>
+    <lang_id>pt</lang_id>
+    <name>Beo β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>217</id>
+    <lang_id>en</lang_id>
+    <name>Kadachi α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>217</id>
+    <lang_id>pt</lang_id>
+    <name>Kadachi α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>218</id>
+    <lang_id>en</lang_id>
+    <name>Kadachi β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>218</id>
+    <lang_id>pt</lang_id>
+    <name>Kadachi β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>219</id>
+    <lang_id>en</lang_id>
+    <name>Viper Kadachi α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>219</id>
+    <lang_id>pt</lang_id>
+    <name>Kadachi Vípero α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>220</id>
+    <lang_id>en</lang_id>
+    <name>Viper Kadachi β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>220</id>
+    <lang_id>pt</lang_id>
+    <name>Kadachi Vípero β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>221</id>
+    <lang_id>en</lang_id>
+    <name>High Metal α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>221</id>
+    <lang_id>pt</lang_id>
+    <name>Metal Denso α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>222</id>
+    <lang_id>en</lang_id>
+    <name>High Metal β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>222</id>
+    <lang_id>pt</lang_id>
+    <name>Metal Denso β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>223</id>
+    <lang_id>en</lang_id>
+    <name>Banbaro α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>223</id>
+    <lang_id>pt</lang_id>
+    <name>Banbaro α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>224</id>
+    <lang_id>en</lang_id>
+    <name>Banbaro β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>224</id>
+    <lang_id>pt</lang_id>
+    <name>Banbaro β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>225</id>
+    <lang_id>en</lang_id>
+    <name>Anja α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>225</id>
+    <lang_id>pt</lang_id>
+    <name>Anja α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>226</id>
+    <lang_id>en</lang_id>
+    <name>Anja β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>226</id>
+    <lang_id>pt</lang_id>
+    <name>Anja β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>227</id>
+    <lang_id>en</lang_id>
+    <name>Fulgur Anja α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>227</id>
+    <lang_id>pt</lang_id>
+    <name>Anjanath Fulgurante α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>228</id>
+    <lang_id>en</lang_id>
+    <name>Fulgur Anja β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>228</id>
+    <lang_id>pt</lang_id>
+    <name>Anjanath Fulgurante β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>229</id>
+    <lang_id>en</lang_id>
+    <name>Rathian α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>229</id>
+    <lang_id>pt</lang_id>
+    <name>Rathian α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>230</id>
+    <lang_id>en</lang_id>
+    <name>Rathian β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>230</id>
+    <lang_id>pt</lang_id>
+    <name>Rathian β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>231</id>
+    <lang_id>en</lang_id>
+    <name>Rath Heart α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>231</id>
+    <lang_id>pt</lang_id>
+    <name>Coração Rath α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>232</id>
+    <lang_id>en</lang_id>
+    <name>Rath Heart β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>232</id>
+    <lang_id>pt</lang_id>
+    <name>Coração Rath β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>233</id>
+    <lang_id>en</lang_id>
+    <name>Lumu α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>233</id>
+    <lang_id>pt</lang_id>
+    <name>Lumu α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>234</id>
+    <lang_id>en</lang_id>
+    <name>Lumu β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>234</id>
+    <lang_id>pt</lang_id>
+    <name>Lumu β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>235</id>
+    <lang_id>en</lang_id>
+    <name>Lumu Phantasm α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>235</id>
+    <lang_id>pt</lang_id>
+    <name>Ilusão Lumu α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>236</id>
+    <lang_id>en</lang_id>
+    <name>Lumu Phantasm β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>236</id>
+    <lang_id>pt</lang_id>
+    <name>Ilusão Lumu β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>237</id>
+    <lang_id>en</lang_id>
+    <name>Baan α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>237</id>
+    <lang_id>pt</lang_id>
+    <name>Baan α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>238</id>
+    <lang_id>en</lang_id>
+    <name>Baan β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>238</id>
+    <lang_id>pt</lang_id>
+    <name>Baan β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>239</id>
+    <lang_id>en</lang_id>
+    <name>Artian α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>239</id>
+    <lang_id>pt</lang_id>
+    <name>Artian α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>240</id>
+    <lang_id>en</lang_id>
+    <name>Artian β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>240</id>
+    <lang_id>pt</lang_id>
+    <name>Artian β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>241</id>
+    <lang_id>en</lang_id>
+    <name>Clockwork α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>241</id>
+    <lang_id>pt</lang_id>
+    <name>Mecânico α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>242</id>
+    <lang_id>en</lang_id>
+    <name>Clockwork β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>242</id>
+    <lang_id>pt</lang_id>
+    <name>Mecânico β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>243</id>
+    <lang_id>en</lang_id>
+    <name>Ingot α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>243</id>
+    <lang_id>pt</lang_id>
+    <name>Lingote α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>244</id>
+    <lang_id>en</lang_id>
+    <name>Ingot β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>244</id>
+    <lang_id>pt</lang_id>
+    <name>Lingote β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>245</id>
+    <lang_id>en</lang_id>
+    <name>Barioth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>245</id>
+    <lang_id>pt</lang_id>
+    <name>Barioth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>246</id>
+    <lang_id>en</lang_id>
+    <name>Barioth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>246</id>
+    <lang_id>pt</lang_id>
+    <name>Barioth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>247</id>
+    <lang_id>en</lang_id>
+    <name>Rathalos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>247</id>
+    <lang_id>pt</lang_id>
+    <name>Rathalos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>248</id>
+    <lang_id>en</lang_id>
+    <name>Rathalos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>248</id>
+    <lang_id>pt</lang_id>
+    <name>Rathalos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>249</id>
+    <lang_id>en</lang_id>
+    <name>Rath Soul α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>249</id>
+    <lang_id>pt</lang_id>
+    <name>Alma de Rath α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>250</id>
+    <lang_id>en</lang_id>
+    <name>Rath Soul β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>250</id>
+    <lang_id>pt</lang_id>
+    <name>Alma de Rath β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>251</id>
+    <lang_id>en</lang_id>
+    <name>Diablos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>251</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>252</id>
+    <lang_id>en</lang_id>
+    <name>Diablos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>252</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>253</id>
+    <lang_id>en</lang_id>
+    <name>Diablos Nero α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>253</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos Negra α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>254</id>
+    <lang_id>en</lang_id>
+    <name>Diablos Nero β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>254</id>
+    <lang_id>pt</lang_id>
+    <name>Diablos Negra β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>255</id>
+    <lang_id>en</lang_id>
+    <name>Legiana α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>255</id>
+    <lang_id>pt</lang_id>
+    <name>Legiana α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>256</id>
+    <lang_id>en</lang_id>
+    <name>Legiana β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>256</id>
+    <lang_id>pt</lang_id>
+    <name>Legiana β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>257</id>
+    <lang_id>en</lang_id>
+    <name>Shrieking Legia α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>257</id>
+    <lang_id>pt</lang_id>
+    <name>Legia Estridente α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>258</id>
+    <lang_id>en</lang_id>
+    <name>Shrieking Legia β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>258</id>
+    <lang_id>pt</lang_id>
+    <name>Legia Estridente β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>259</id>
+    <lang_id>en</lang_id>
+    <name>Odogaron α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>259</id>
+    <lang_id>pt</lang_id>
+    <name>Odogaron α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>260</id>
+    <lang_id>en</lang_id>
+    <name>Odogaron β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>260</id>
+    <lang_id>pt</lang_id>
+    <name>Odogaron β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>261</id>
+    <lang_id>en</lang_id>
+    <name>Death Garon α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>261</id>
+    <lang_id>pt</lang_id>
+    <name>Garon Mortal α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>262</id>
+    <lang_id>en</lang_id>
+    <name>Death Garon β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>262</id>
+    <lang_id>pt</lang_id>
+    <name>Garon Mortal β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>263</id>
+    <lang_id>en</lang_id>
+    <name>Lavasioth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>263</id>
+    <lang_id>pt</lang_id>
+    <name>Lavasioth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>264</id>
+    <lang_id>en</lang_id>
+    <name>Lavasioth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>264</id>
+    <lang_id>pt</lang_id>
+    <name>Lavasioth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>265</id>
+    <lang_id>en</lang_id>
+    <name>Uragaan α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>265</id>
+    <lang_id>pt</lang_id>
+    <name>Uragaan α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>266</id>
+    <lang_id>en</lang_id>
+    <name>Uragaan β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>266</id>
+    <lang_id>pt</lang_id>
+    <name>Uragaan β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>267</id>
+    <lang_id>en</lang_id>
+    <name>Nargacuga α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>267</id>
+    <lang_id>pt</lang_id>
+    <name>Nargacuga α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>268</id>
+    <lang_id>en</lang_id>
+    <name>Nargacuga β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>268</id>
+    <lang_id>pt</lang_id>
+    <name>Nargacuga β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>269</id>
+    <lang_id>en</lang_id>
+    <name>Glavenus α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>269</id>
+    <lang_id>pt</lang_id>
+    <name>Glavenus α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>270</id>
+    <lang_id>en</lang_id>
+    <name>Glavenus β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>270</id>
+    <lang_id>pt</lang_id>
+    <name>Glavenus β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>271</id>
+    <lang_id>en</lang_id>
+    <name>Acidic Glavenus α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>271</id>
+    <lang_id>pt</lang_id>
+    <name>Glavenus Ácido α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>272</id>
+    <lang_id>en</lang_id>
+    <name>Acidic Glavenus β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>272</id>
+    <lang_id>pt</lang_id>
+    <name>Glavenus Ácido β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>273</id>
+    <lang_id>en</lang_id>
+    <name>Brachydios α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>273</id>
+    <lang_id>pt</lang_id>
+    <name>Brachydios α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>274</id>
+    <lang_id>en</lang_id>
+    <name>Brachydios β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>274</id>
+    <lang_id>pt</lang_id>
+    <name>Brachydios β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>275</id>
+    <lang_id>en</lang_id>
+    <name>Tigrex α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>275</id>
+    <lang_id>pt</lang_id>
+    <name>Tigrex α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>276</id>
+    <lang_id>en</lang_id>
+    <name>Tigrex β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>276</id>
+    <lang_id>pt</lang_id>
+    <name>Tigrex β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>277</id>
+    <lang_id>en</lang_id>
+    <name>Brute Tigrex α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>277</id>
+    <lang_id>pt</lang_id>
+    <name>Tigrex Bruto α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>278</id>
+    <lang_id>en</lang_id>
+    <name>Brute Tigrex β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>278</id>
+    <lang_id>pt</lang_id>
+    <name>Tigrex Bruto β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>279</id>
+    <lang_id>en</lang_id>
+    <name>Black Belt α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>279</id>
+    <lang_id>pt</lang_id>
+    <name>Faixa Preta α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>280</id>
+    <lang_id>en</lang_id>
+    <name>Black Belt β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>280</id>
+    <lang_id>pt</lang_id>
+    <name>Faixa Preta β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>281</id>
+    <lang_id>en</lang_id>
+    <name>Dober α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>281</id>
+    <lang_id>pt</lang_id>
+    <name>Dober α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>282</id>
+    <lang_id>en</lang_id>
+    <name>Dober β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>282</id>
+    <lang_id>pt</lang_id>
+    <name>Dober β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>283</id>
+    <lang_id>en</lang_id>
+    <name>Damascus α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>283</id>
+    <lang_id>pt</lang_id>
+    <name>Damascus α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>284</id>
+    <lang_id>en</lang_id>
+    <name>Damascus β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>284</id>
+    <lang_id>pt</lang_id>
+    <name>Damascus β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>285</id>
+    <lang_id>en</lang_id>
+    <name>Seething Bazel α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>285</id>
+    <lang_id>pt</lang_id>
+    <name>Bazel Vulcânico α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>286</id>
+    <lang_id>en</lang_id>
+    <name>Seething Bazel β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>286</id>
+    <lang_id>pt</lang_id>
+    <name>Bazel Vulcânico β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>287</id>
+    <lang_id>en</lang_id>
+    <name>Savage Jho α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>287</id>
+    <lang_id>pt</lang_id>
+    <name>Jho Selvagem α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>288</id>
+    <lang_id>en</lang_id>
+    <name>Savage Jho β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>288</id>
+    <lang_id>pt</lang_id>
+    <name>Jho Selvagem β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>289</id>
+    <lang_id>en</lang_id>
+    <name>Velkhana α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>289</id>
+    <lang_id>pt</lang_id>
+    <name>Velkhana α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>290</id>
+    <lang_id>en</lang_id>
+    <name>Velkhana β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>290</id>
+    <lang_id>pt</lang_id>
+    <name>Velkhana β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>291</id>
+    <lang_id>en</lang_id>
+    <name>Blackveil Hazak α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>291</id>
+    <lang_id>pt</lang_id>
+    <name>Hazak Velado α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>292</id>
+    <lang_id>en</lang_id>
+    <name>Blackveil Hazak β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>292</id>
+    <lang_id>pt</lang_id>
+    <name>Hazak Velado β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>293</id>
+    <lang_id>en</lang_id>
+    <name>Teostra α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>293</id>
+    <lang_id>pt</lang_id>
+    <name>Teostra α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>294</id>
+    <lang_id>en</lang_id>
+    <name>Teostra β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>294</id>
+    <lang_id>pt</lang_id>
+    <name>Teostra β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>295</id>
+    <lang_id>en</lang_id>
+    <name>Kushala α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>295</id>
+    <lang_id>pt</lang_id>
+    <name>Kushala α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>296</id>
+    <lang_id>en</lang_id>
+    <name>Kushala β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>296</id>
+    <lang_id>pt</lang_id>
+    <name>Kushala β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>297</id>
+    <lang_id>en</lang_id>
+    <name>Kirin α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>297</id>
+    <lang_id>pt</lang_id>
+    <name>Kirin α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>298</id>
+    <lang_id>en</lang_id>
+    <name>Kirin β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>298</id>
+    <lang_id>pt</lang_id>
+    <name>Kirin β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>299</id>
+    <lang_id>en</lang_id>
+    <name>Namielle α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>299</id>
+    <lang_id>pt</lang_id>
+    <name>Namielle α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>300</id>
+    <lang_id>en</lang_id>
+    <name>Namielle β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>300</id>
+    <lang_id>pt</lang_id>
+    <name>Namielle β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>301</id>
+    <lang_id>en</lang_id>
+    <name>Guild Palace α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>301</id>
+    <lang_id>pt</lang_id>
+    <name>Palácio da Guilda α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>302</id>
+    <lang_id>en</lang_id>
+    <name>Guild Palace β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>302</id>
+    <lang_id>pt</lang_id>
+    <name>Palácio da Guilda β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>303</id>
+    <lang_id>en</lang_id>
+    <name>Shara Ishvalda α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>303</id>
+    <lang_id>pt</lang_id>
+    <name>Shara Ishvalda α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>304</id>
+    <lang_id>en</lang_id>
+    <name>Shara Ishvalda β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>304</id>
+    <lang_id>pt</lang_id>
+    <name>Shara Ishvalda β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>305</id>
+    <lang_id>en</lang_id>
+    <name>Zorah α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>305</id>
+    <lang_id>pt</lang_id>
+    <name>Zorah α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>306</id>
+    <lang_id>en</lang_id>
+    <name>Zorah β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>306</id>
+    <lang_id>pt</lang_id>
+    <name>Zorah β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>307</id>
+    <lang_id>en</lang_id>
+    <name>Yian Garuga α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>307</id>
+    <lang_id>pt</lang_id>
+    <name>Yian Garuga α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>308</id>
+    <lang_id>en</lang_id>
+    <name>Yian Garuga β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>308</id>
+    <lang_id>pt</lang_id>
+    <name>Yian Garuga β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>309</id>
+    <lang_id>en</lang_id>
+    <name>Zinogre α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>309</id>
+    <lang_id>pt</lang_id>
+    <name>Zinogre α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>310</id>
+    <lang_id>en</lang_id>
+    <name>Zinogre β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>310</id>
+    <lang_id>pt</lang_id>
+    <name>Zinogre β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>311</id>
+    <lang_id>en</lang_id>
+    <name>Golden Lune α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>311</id>
+    <lang_id>pt</lang_id>
+    <name>Luna Dourada α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>312</id>
+    <lang_id>en</lang_id>
+    <name>Golden Lune β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>312</id>
+    <lang_id>pt</lang_id>
+    <name>Luna Dourada β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>313</id>
+    <lang_id>en</lang_id>
+    <name>Silver Sol α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>313</id>
+    <lang_id>pt</lang_id>
+    <name>Sol Prateada α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>314</id>
+    <lang_id>en</lang_id>
+    <name>Silver Sol β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>314</id>
+    <lang_id>pt</lang_id>
+    <name>Sol Prateada β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>315</id>
+    <lang_id>en</lang_id>
+    <name>Lunastra α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>315</id>
+    <lang_id>pt</lang_id>
+    <name>Lunastra α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>316</id>
+    <lang_id>en</lang_id>
+    <name>Lunastra β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>316</id>
+    <lang_id>pt</lang_id>
+    <name>Lunastra β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>317</id>
+    <lang_id>en</lang_id>
+    <name>Ruiner Nergi α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>317</id>
+    <lang_id>pt</lang_id>
+    <name>Nergi Ferrenho α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>318</id>
+    <lang_id>en</lang_id>
+    <name>Ruiner Nergi β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>318</id>
+    <lang_id>pt</lang_id>
+    <name>Nergi Ferrenho β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>319</id>
+    <lang_id>en</lang_id>
+    <name>Guildwork α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>319</id>
+    <lang_id>pt</lang_id>
+    <name>Guildofício α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>320</id>
+    <lang_id>en</lang_id>
+    <name>Guildwork β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>320</id>
+    <lang_id>pt</lang_id>
+    <name>Guildofício β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>321</id>
+    <lang_id>en</lang_id>
+    <name>Rajang α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>321</id>
+    <lang_id>pt</lang_id>
+    <name>Rajang α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>322</id>
+    <lang_id>en</lang_id>
+    <name>Rajang β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>322</id>
+    <lang_id>pt</lang_id>
+    <name>Rajang β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>323</id>
+    <lang_id>en</lang_id>
+    <name>Furious Rajang α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>323</id>
+    <lang_id>pt</lang_id>
+    <name>Rajang Furioso α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>324</id>
+    <lang_id>en</lang_id>
+    <name>Furious Rajang β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>324</id>
+    <lang_id>pt</lang_id>
+    <name>Rajang Furioso β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>325</id>
+    <lang_id>en</lang_id>
+    <name>Stygian Zin α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>325</id>
+    <lang_id>pt</lang_id>
+    <name>Zin Tenebroso α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>326</id>
+    <lang_id>en</lang_id>
+    <name>Stygian Zin β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>326</id>
+    <lang_id>pt</lang_id>
+    <name>Zin Tenebroso β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>327</id>
+    <lang_id>en</lang_id>
+    <name>Safi'jiiva α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>327</id>
+    <lang_id>pt</lang_id>
+    <name>Safi'jiiva α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>328</id>
+    <lang_id>en</lang_id>
+    <name>Safi'jiiva β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>328</id>
+    <lang_id>pt</lang_id>
+    <name>Safi'jiiva β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>329</id>
+    <lang_id>en</lang_id>
+    <name>Raging Brachy α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>329</id>
+    <lang_id>pt</lang_id>
+    <name>Brachy Colérico α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>330</id>
+    <lang_id>en</lang_id>
+    <name>Raging Brachy β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>330</id>
+    <lang_id>pt</lang_id>
+    <name>Brachy Colérico β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>331</id>
+    <lang_id>en</lang_id>
+    <name>Frostfang Barioth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>331</id>
+    <lang_id>pt</lang_id>
+    <name>Barioth Presagélida α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>332</id>
+    <lang_id>en</lang_id>
+    <name>Frostfang Barioth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>332</id>
+    <lang_id>pt</lang_id>
+    <name>Barioth Presagélida β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>333</id>
+    <lang_id>en</lang_id>
+    <name>Alatreon α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>333</id>
+    <lang_id>pt</lang_id>
+    <name>Alatreon α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>334</id>
+    <lang_id>en</lang_id>
+    <name>Alatreon β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>334</id>
+    <lang_id>pt</lang_id>
+    <name>Alatreon β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>335</id>
+    <lang_id>en</lang_id>
+    <name>Kulve Taroth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>335</id>
+    <lang_id>pt</lang_id>
+    <name>Kulve Taroth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>336</id>
+    <lang_id>en</lang_id>
+    <name>Kulve Taroth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>336</id>
+    <lang_id>pt</lang_id>
+    <name>Kulve Taroth β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>337</id>
+    <lang_id>en</lang_id>
+    <name>Namielle γ+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>337</id>
+    <lang_id>pt</lang_id>
+    <name>Namielle γ+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>338</id>
+    <lang_id>en</lang_id>
+    <name>Velkhana γ+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>338</id>
+    <lang_id>pt</lang_id>
+    <name>Velkhana γ+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>339</id>
+    <lang_id>en</lang_id>
+    <name>Oolong α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>339</id>
+    <lang_id>pt</lang_id>
+    <name>Oolong α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>340</id>
+    <lang_id>en</lang_id>
+    <name>Astral α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>340</id>
+    <lang_id>pt</lang_id>
+    <name>Astral α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>341</id>
+    <lang_id>en</lang_id>
+    <name>Rose α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>341</id>
+    <lang_id>pt</lang_id>
+    <name>Rosa α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>342</id>
+    <lang_id>en</lang_id>
+    <name>Passionate α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>342</id>
+    <lang_id>pt</lang_id>
+    <name>Passionate α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>343</id>
+    <lang_id>en</lang_id>
+    <name>Demonlord α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>343</id>
+    <lang_id>pt</lang_id>
+    <name>Demonlord α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>344</id>
+    <lang_id>en</lang_id>
+    <name>Dragon α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>344</id>
+    <lang_id>pt</lang_id>
+    <name>Dragon α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>345</id>
+    <lang_id>en</lang_id>
+    <name>Dragon β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>345</id>
+    <lang_id>pt</lang_id>
+    <name>Dragon β+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>346</id>
+    <lang_id>en</lang_id>
+    <name>Azure Age α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>346</id>
+    <lang_id>pt</lang_id>
+    <name>Azure Age α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>347</id>
+    <lang_id>en</lang_id>
+    <name>Artemis α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>347</id>
+    <lang_id>pt</lang_id>
+    <name>Artemis α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>348</id>
+    <lang_id>en</lang_id>
+    <name>Pearlspring α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>348</id>
+    <lang_id>pt</lang_id>
+    <name>Fonte-pérola α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>349</id>
+    <lang_id>en</lang_id>
+    <name>Duffel Penguin Mask α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>349</id>
+    <lang_id>pt</lang_id>
+    <name>Máscara de Pinguim Felpudo α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>350</id>
+    <lang_id>en</lang_id>
+    <name>Sealed Dragon Cloth α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>350</id>
+    <lang_id>pt</lang_id>
+    <name>Tecido de Dragão Selado α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>351</id>
+    <lang_id>en</lang_id>
+    <name>Wyverian Ears α+</name>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>351</id>
+    <lang_id>pt</lang_id>
+    <name>Orelhas Serperianas α+</name>
+  </DATA_RECORD>
+  </armorset_text>

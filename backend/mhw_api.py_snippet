@@ -1,0 +1,41 @@
+
+# Cache de imagens (URL)
+MONSTER_IMAGE_CACHE = {}
+
+def get_monster_image_url(monster_name):
+    """
+    Busca URL da imagem do monstro no Wiki Fextralife via scraping.
+    Cacheia o resultado.
+    """
+    if monster_name in MONSTER_IMAGE_CACHE:
+        return MONSTER_IMAGE_CACHE[monster_name]
+
+    # Formatar nome para URL Wiki
+    # Geralmente Capitalized e spaces viram "+"
+    # Ex: Great Jagras -> Great+Jagras
+    # Ex: Rathalos -> Rathalos
+    formatted_name = monster_name.replace(" ", "+").title()
+    
+    # Tentativas de URL
+    urls = [
+        f"https://monsterhunterworld.wiki.fextralife.com/{formatted_name}",
+        f"https://monsterhunterworld.wiki.fextralife.com/{formatted_name.replace('+', '_')}"
+    ]
+
+    for url in urls:
+        try:
+            resp = requests.get(url, timeout=3)
+            if resp.status_code == 200:
+                soup = BeautifulSoup(resp.content, 'html.parser')
+                meta_image = soup.find('meta', property='og:image')
+                if meta_image and meta_image['content']:
+                    image_url = meta_image['content']
+                    # Validar se é uma imagem real e não o logo do site
+                    if "logo" not in image_url.lower() and "fextralife" in image_url.lower():
+                        MONSTER_IMAGE_CACHE[monster_name] = image_url
+                        return image_url
+        except Exception as e:
+            print(f"Erro ao buscar imagem {monster_name}: {e}")
+            continue
+
+    return None

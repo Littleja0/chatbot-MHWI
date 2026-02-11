@@ -1,0 +1,12 @@
+
+.venv/
+.venv_new/
+__pycache__/
+*.pyc
+.vscode/
+build/
+dist/
+mhw.db
+mhw.spec
+MHWChatbot.spec
+MHWUpdater.spec

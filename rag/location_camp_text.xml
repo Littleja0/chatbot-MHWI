@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<location_camp_text>
+  <DATA_RECORD>
+    <id>1</id>
+    <location_id>1</location_id>
+    <lang_id>en</lang_id>
+    <name>Southwest Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <location_id>1</location_id>
+    <lang_id>pt</lang_id>
+    <name>Southwest Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <location_id>1</location_id>
+    <lang_id>en</lang_id>
+    <name>Northwest Camp</name>
+    <area>8</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <location_id>1</location_id>
+    <lang_id>pt</lang_id>
+    <name>Northwest Camp</name>
+    <area>8</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <location_id>1</location_id>
+    <lang_id>en</lang_id>
+    <name>Northeast Camp</name>
+    <area>11</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <location_id>1</location_id>
+    <lang_id>pt</lang_id>
+    <name>Northeast Camp</name>
+    <area>11</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <location_id>1</location_id>
+    <lang_id>en</lang_id>
+    <name>Ancient Forest Camp</name>
+    <area>17</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <location_id>1</location_id>
+    <lang_id>pt</lang_id>
+    <name>Ancient Forest Camp</name>
+    <area>17</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <location_id>2</location_id>
+    <lang_id>en</lang_id>
+    <name>Southwest Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <location_id>2</location_id>
+    <lang_id>pt</lang_id>
+    <name>Southwest Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <location_id>2</location_id>
+    <lang_id>en</lang_id>
+    <name>Central Camp</name>
+    <area>6</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <location_id>2</location_id>
+    <lang_id>pt</lang_id>
+    <name>Central Camp</name>
+    <area>6</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <location_id>2</location_id>
+    <lang_id>en</lang_id>
+    <name>Northeast Camp</name>
+    <area>15</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <location_id>2</location_id>
+    <lang_id>pt</lang_id>
+    <name>Northeast Camp</name>
+    <area>15</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <location_id>2</location_id>
+    <lang_id>en</lang_id>
+    <name>Eastern Camp</name>
+    <area>11</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <location_id>2</location_id>
+    <lang_id>pt</lang_id>
+    <name>Eastern Camp</name>
+    <area>11</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <location_id>3</location_id>
+    <lang_id>en</lang_id>
+    <name>Southern Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <location_id>3</location_id>
+    <lang_id>pt</lang_id>
+    <name>Southern Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>109</id>
+    <location_id>3</location_id>
+    <lang_id>en</lang_id>
+    <name>Northeast Camp</name>
+    <area>12</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>115</id>
+    <location_id>3</location_id>
+    <lang_id>pt</lang_id>
+    <name>Northeast Camp</name>
+    <area>12</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>121</id>
+    <location_id>4</location_id>
+    <lang_id>en</lang_id>
+    <name>Southeast Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>127</id>
+    <location_id>4</location_id>
+    <lang_id>pt</lang_id>
+    <name>Southeast Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>133</id>
+    <location_id>4</location_id>
+    <lang_id>en</lang_id>
+    <name>Central Camp</name>
+    <area>11</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>139</id>
+    <location_id>4</location_id>
+    <lang_id>pt</lang_id>
+    <name>Central Camp</name>
+    <area>11</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>145</id>
+    <location_id>5</location_id>
+    <lang_id>en</lang_id>
+    <name>Southern Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>151</id>
+    <location_id>5</location_id>
+    <lang_id>pt</lang_id>
+    <name>Southern Camp</name>
+    <area>1</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>157</id>
+    <location_id>5</location_id>
+    <lang_id>en</lang_id>
+    <name>Eastern Camp</name>
+    <area>8</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>163</id>
+    <location_id>5</location_id>
+    <lang_id>pt</lang_id>
+    <name>Eastern Camp</name>
+    <area>8</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>169</id>
+    <location_id>5</location_id>
+    <lang_id>en</lang_id>
+    <name>Northwest Camp</name>
+    <area>16</area>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>175</id>
+    <location_id>5</location_id>
+    <lang_id>pt</lang_id>
+    <name>Northwest Camp</name>
+    <area>16</area>
+  </DATA_RECORD>
+  </location_camp_text>
