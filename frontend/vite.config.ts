@@ -9,6 +9,10 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 5000,
       host: '0.0.0.0',
+      proxy: {
+        '/chat': 'http://localhost:8000',
+        '/monster': 'http://localhost:8000',
+      }
     },
     plugins: [react()],
     define: {
