@@ -4,15 +4,9 @@ import json
 import requests # type: ignore
 from pathlib import Path
 
-# URL pública onde o seu manifesto e arquivos estão (Google Drive Direto ou Servidor Acadêmico/VPS)
-# DICA: Para Google Drive, você precisaria de um link que retorne o conteúdo bruto.
-# NOTA: Links de visualização do Drive não funcionam. Precisam ser links de download direto.
-# Para o manifesto, usamos o export=download:
-MANIFEST_URL = "https://drive.google.com/uc?export=download&id=1C--H5n-WkWqpUrTU6c5iqo5W4Sa8pHmD"
-
-# AVISO: O link de pasta abaixo NÃO FUNCIONARÁ. 
-# Recomendado usar um serviço como drv.tw para gerar um link direto para a pasta.
-BASE_DOWNLOAD_URL = "https://drive.google.com/drive/folders/1gv74vwcprFXaLECmvKnoP9uQsKBZVfau/"
+# Configuração de atualização via GitHub (Caminho A - Alta Velocidade)
+MANIFEST_URL = "https://raw.githubusercontent.com/Littleja0/chatbot-MHWI/main/manifest.json"
+BASE_DOWNLOAD_URL = "https://raw.githubusercontent.com/Littleja0/chatbot-MHWI/main/"
 
 def get_file_hash(path):
     if not os.path.exists(path):

@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tool_text>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>en</lang_id>
+    <name>Ghillie Mantle+</name>
+    <name_base />
+    <description>Conceals you from enemy view temporarily. The effect expires if you perform an attack or take damage.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>pt</lang_id>
+    <name>Manto de Camuflagem+</name>
+    <name_base />
+    <description>Oculta você temporariamente da visão inimiga. O efeito acaba se você atacar ou receber dano.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>en</lang_id>
+    <name>Temporal Mantle+</name>
+    <name_base />
+    <description>Nullifies damage from powerful attacks by automatically evading.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>pt</lang_id>
+    <name>Manto Temporal+</name>
+    <name_base />
+    <description>Anula dano de ataques poderosos esquivando automaticamente.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>en</lang_id>
+    <name>Health Booster+</name>
+    <name_base />
+    <description>Places a smoker that gradually restores your health.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço de Vida+</name>
+    <name_base />
+    <description>Aplica uma cortina de fumaça que recupera aos poucos sua vida.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>en</lang_id>
+    <name>Rocksteady Mantle+</name>
+    <name_base />
+    <description>Eliminates damage reactions, prevents wind effects, protects your hearing, and grants tremor resistance. You also receive less damage from attacks.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>pt</lang_id>
+    <name>Manto Rochafirme+</name>
+    <name_base />
+    <description>Elimina reações a dano, previne efeitos de vento, protege sua audição e dá resistência a tremor. Você também recebe menos dano de ataques.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>en</lang_id>
+    <name>Challenger Mantle+</name>
+    <name_base />
+    <description>Prompts monsters to target you more often and makes them easier to lure. The effect expires if you are attacked.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>pt</lang_id>
+    <name>Manto do Desafiante+</name>
+    <name_base />
+    <description>Faz monstros atacarem com mais frequência e os atrai com mais facilidade. O efeito acaba ao receber um ataque.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>en</lang_id>
+    <name>Vitality Mantle+</name>
+    <name_base />
+    <description>Negates a fixed amount of damage, after which the effect expires.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>pt</lang_id>
+    <name>Manto da Vitalidade+</name>
+    <name_base />
+    <description>Anula uma quantia fixa de dano. Depois disso, o efeito acaba.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>en</lang_id>
+    <name>Fireproof Mantle+</name>
+    <name_base />
+    <description>Reduces fire damage, nullifies fireblight and blastblight, and prevents damage from hot environments.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>pt</lang_id>
+    <name>Manto Antifogo+</name>
+    <name_base />
+    <description>Reduz dano por fogo, anula flagelo de fogo e explosão, e impede dano causado por ambientes quentes.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>en</lang_id>
+    <name>Waterproof Mantle+</name>
+    <name_base />
+    <description>Reduces water damage, nullifies waterblight, reduces mobility restrictions in muck and negates them entirely for deep water.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>pt</lang_id>
+    <name>Manto Antiágua+</name>
+    <name_base />
+    <description>Reduz dano de água, anula flagelo de água, diminui restrições de mobilidade em muco e as anula completamente em águas profundas.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>en</lang_id>
+    <name>Iceproof Mantle+</name>
+    <name_base />
+    <description>Reduces ice damage and nullifies iceblight.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>pt</lang_id>
+    <name>Manto Antigelo+</name>
+    <name_base />
+    <description>Reduz dano por gelo e anula flagelo de gelo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>en</lang_id>
+    <name>Thunderproof Mantle+</name>
+    <name_base />
+    <description>Reduces thunder damage and nullifies thunderblight and paralysis.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>pt</lang_id>
+    <name>Manto Antirraio+</name>
+    <name_base />
+    <description>Reduz dano por raio e anula flagelo de raio e paralisia.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>en</lang_id>
+    <name>Dragonproof Mantle+</name>
+    <name_base />
+    <description>Reduces dragon damage, nullifies dragonblight, and powers up your weapon's dragon properties.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>pt</lang_id>
+    <name>Manto Antidragão+</name>
+    <name_base />
+    <description>Reduz dano de dragão, anula flagelo de dragão e fortalece os atributos de dragão da arma.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>en</lang_id>
+    <name>Cleanser Booster+</name>
+    <name_base />
+    <description>Places a smoker that removes any abnormal status effects and elemental blights.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço de Limpeza+</name>
+    <name_base />
+    <description>Aplica uma cortina de fumaça que remove efeitos de status anormal e flagelos de elemento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>en</lang_id>
+    <name>Glider Mantle+</name>
+    <name_base />
+    <description>Increases jump airtime and grants the power to ride strong winds. Also makes it easier to mount monsters.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>pt</lang_id>
+    <name>Manto Planador+</name>
+    <name_base />
+    <description>Aumenta a duração do salto e permite planar em ventos fortes. Facilita montar em monstros.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>en</lang_id>
+    <name>Evasion Mantle+</name>
+    <name_base />
+    <description>Increases the invulnerability window while evading and grants a temporary attack boost for evading a monster attack at the very last moment.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>pt</lang_id>
+    <name>Manto de Evasão+</name>
+    <name_base />
+    <description>Aumenta a invulnerabilidade na evasão e reforça temporariamente o ataque ao evadir-se do ataque de monstros no último momento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>en</lang_id>
+    <name>Impact Mantle+</name>
+    <name_base />
+    <description>Adds a stun effect to most attacks or increases the potency of an existing stun effect.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>pt</lang_id>
+    <name>Manto de Impacto+</name>
+    <name_base />
+    <description>Adiciona um efeito atordoante à maioria dos ataques ou aumenta a potência de um efeito de atordoamento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>en</lang_id>
+    <name>Apothecary Mantle+</name>
+    <name_base />
+    <description>Increases the probability of triggering status buildup when attacking with weapons that induce abnormal statuses.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>pt</lang_id>
+    <name>Manto de Boticário+</name>
+    <name_base />
+    <description>Aumenta a probabilidade de acumular status ao atacar com armas que induzem status anormais.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>en</lang_id>
+    <name>Immunity Mantle+</name>
+    <name_base />
+    <description>Removes and nullifies all abnormal status effects for the duration of the effect.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>pt</lang_id>
+    <name>Manto de Imunidade+</name>
+    <name_base />
+    <description>Remove e anula efeitos de status anormais enquanto durar o efeito.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>en</lang_id>
+    <name>Affinity Booster+</name>
+    <name_base />
+    <description>Places a smoker that increases affinity.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço de Afinidade+</name>
+    <name_base />
+    <description>Aplica uma cortina de fumaça que aumenta a afinidade.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>en</lang_id>
+    <name>Bandit Mantle+</name>
+    <name_base />
+    <description>Causes monsters to drop rare trade-in items when you attack them.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>pt</lang_id>
+    <name>Manto de Bandido+</name>
+    <name_base />
+    <description>Faz com que os monstros deixem itens de troca raros durante ataques.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>en</lang_id>
+    <name>Assassin's Hood+</name>
+    <name_base />
+    <description>Increases movement speed and allows you to hide quicker. Deals big damage to a monster caught unaware, then the effect ends.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>pt</lang_id>
+    <name>Capuz do Assassino+</name>
+    <name_base />
+    <description>Acelera a movimentação e permite se esconder mais rápido. Causa muito dano a um monstro pego de surpresa, encerrando o efeito.</description>
+  </DATA_RECORD>
+  </tool_text>

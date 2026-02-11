@@ -1,0 +1,2139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<skilltree_text>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>en</lang_id>
+    <name>Poison Resistance</name>
+    <description>Reduces damage while poisoned.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Veneno</name>
+    <description>Reduz dano de veneno.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>en</lang_id>
+    <name>Paralysis Resistance</name>
+    <description>Reduces the duration of paralysis.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Paralisia</name>
+    <description>Reduz a duração da paralisia.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>en</lang_id>
+    <name>Sleep Resistance</name>
+    <description>Reduces the duration of sleep.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Sono</name>
+    <description>Reduz a duração do sono.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>en</lang_id>
+    <name>Stun Resistance</name>
+    <description>Reduces stun duration.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência Atordoamento</name>
+    <description>Reduz a duração do atordoamento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>en</lang_id>
+    <name>Muck Resistance</name>
+    <description>Reduces impairments to mobility while stuck in monster muck.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Muco</name>
+    <description>Reduz dificuldades de mobilidade quando estiver preso em muco de monstro.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>en</lang_id>
+    <name>Blast Resistance</name>
+    <description>Grants protection against blastblight.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Explosão</name>
+    <description>Concede proteção contra flagelo de explosão.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>en</lang_id>
+    <name>Bleeding Resistance</name>
+    <description>Grants protection against bleeding.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência Sangramento</name>
+    <description>Concede proteção contra sangramento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>en</lang_id>
+    <name>Iron Skin</name>
+    <description>Grants protection against Defense Down.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>pt</lang_id>
+    <name>Pele de Ferro</name>
+    <description>Concede proteção contra Defesa Reduzida.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>en</lang_id>
+    <name>Earplugs</name>
+    <description>Grants protection from large monsters' roars.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>pt</lang_id>
+    <name>Tampões</name>
+    <description>Concede proteção contra o rugido de monstros grandes.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>en</lang_id>
+    <name>Windproof</name>
+    <description>Grants protection against wind pressure.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>pt</lang_id>
+    <name>Antivento</name>
+    <description>Concede proteção contra pressão de vento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>en</lang_id>
+    <name>Tremor Resistance</name>
+    <description>Grants protection against ground tremors.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Tremor</name>
+    <description>Concede proteção contra tremores de terra.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>en</lang_id>
+    <name>Dungmaster</name>
+    <description>Makes monsters hit with slinger dung pods more likely to run.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>pt</lang_id>
+    <name>Mestre do Esterco</name>
+    <description>Aumenta a probabilidade de fuga de monstros atingidos por cápsulas de esterco da atiradeira.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>en</lang_id>
+    <name>Effluvial Expert</name>
+    <description>Nullifies or reduces environmental damage in the Rotten Vale.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>pt</lang_id>
+    <name>Especialista em Eflúvios</name>
+    <description>Anula ou reduz dano de ambiente no Vale Putrefato.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>en</lang_id>
+    <name>Heat Guard</name>
+    <description>Nullifies damage from heat.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>pt</lang_id>
+    <name>Bloqueio de Calor</name>
+    <description>Anula danos por calor.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>en</lang_id>
+    <name>Attack Boost</name>
+    <description>Increases attack power. Also improves affinity at higher levels.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço de Ataque</name>
+    <description>Aumenta o poder de ataque. Também aumenta a afinidade em níveis mais altos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>en</lang_id>
+    <name>Defense Boost</name>
+    <description>Increases defense. Level up to improve resistances as well.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço de Defesa</name>
+    <description>Aumenta a defesa. Também eleva o nível de resistências.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>en</lang_id>
+    <name>Health Boost</name>
+    <description>Increases health.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço de Vida</name>
+    <description>Aumenta a vida.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>en</lang_id>
+    <name>Recovery Up</name>
+    <description>Increases the amount recovered when restoring health.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>pt</lang_id>
+    <name>Aumento de Regeneração</name>
+    <description>Aumenta a quantidade recuperada ao regenerar a vida.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>en</lang_id>
+    <name>Recovery Speed</name>
+    <description>Speeds healing of recoverable damage (the red portion of the health gauge).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>pt</lang_id>
+    <name>Velocidade Regeneração</name>
+    <description>Acelera a cura de dano recuperável (a parte vermelha da barra de vida).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>en</lang_id>
+    <name>Fire Resistance</name>
+    <description>Increases fire resistance. Also improves defense at higher levels.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Fogo</name>
+    <description>Aumenta a resistência a fogo. Também aumenta a defesa em níveis mais altos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>en</lang_id>
+    <name>Water Resistance</name>
+    <description>Increases water resistance. Also improves defense at higher levels.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Água</name>
+    <description>Aumenta a resistência a água. Também aumenta a defesa em níveis mais altos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>en</lang_id>
+    <name>Ice Resistance</name>
+    <description>Increases ice resistance. Also improves defense at higher levels.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Gelo</name>
+    <description>Aumenta a resistência a gelo. Também aumenta a defesa em níveis mais altos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>en</lang_id>
+    <name>Thunder Resistance</name>
+    <description>Increases thunder resistance. Also improves defense at higher levels.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Raio</name>
+    <description>Aumenta a resistência a raio. Também aumenta a defesa em níveis mais altos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>en</lang_id>
+    <name>Dragon Resistance</name>
+    <description>Increases dragon resistance. Also improves defense at higher levels.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Dragão</name>
+    <description>Aumenta a resistência a dragão. Também aumenta a defesa em níveis mais altos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>en</lang_id>
+    <name>Blight Resistance</name>
+    <description>Grants protection against all elemental blights.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Flagelo</name>
+    <description>Concede proteção contra todos os flagelos de elemento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>en</lang_id>
+    <name>Fire Attack</name>
+    <description>Increases fire element attack power. (Elemental attack power has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Fogo</name>
+    <description>Aumenta o poder de ataques com elemento fogo. (Poder de ataque elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>en</lang_id>
+    <name>Water Attack</name>
+    <description>Increases water element attack power. (Elemental attack power has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Água</name>
+    <description>Aumenta o poder de ataques com elemento água. (Poder de ataque elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>en</lang_id>
+    <name>Ice Attack</name>
+    <description>Increases ice element attack power. (Elemental attack power has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Gelo</name>
+    <description>Aumenta o poder de ataques com elemento gelo. (Poder de ataque elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>en</lang_id>
+    <name>Thunder Attack</name>
+    <description>Increases thunder element attack power. (Elemental attack power has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Raio</name>
+    <description>Aumenta o poder de ataques com elemento raio. (Poder de ataque elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>en</lang_id>
+    <name>Dragon Attack</name>
+    <description>Increases dragon element attack power. (Elemental attack power has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Dragão</name>
+    <description>Aumenta o poder de ataques com elemento dragão. (Poder de ataque elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>en</lang_id>
+    <name>Poison Attack</name>
+    <description>Increases the rate of poison buildup. (Elemental buildup has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Veneno</name>
+    <description>Aumenta a taxa de acúmulo de veneno. (Acúmulo elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>en</lang_id>
+    <name>Paralysis Attack</name>
+    <description>Increases the rate of paralysis buildup. (Elemental buildup has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Paralisia</name>
+    <description>Aumenta a taxa de acúmulo de paralisia. (Acúmulo elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>en</lang_id>
+    <name>Sleep Attack</name>
+    <description>Increases the rate of sleep buildup. (Elemental buildup has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Sono</name>
+    <description>Aumenta a taxa de acúmulo de sono. (Acúmulo elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>en</lang_id>
+    <name>Blast Attack</name>
+    <description>Increases the rate of blast buildup. (Elemental buildup has a maximum limit.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>pt</lang_id>
+    <name>Ataque de Explosão</name>
+    <description>Aumenta a taxa de acúmulo de explosão. (Acúmulo elemental tem limite máximo.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>en</lang_id>
+    <name>Normal Shots</name>
+    <description>Increases the attack power of normal ammo and normal arrows.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>pt</lang_id>
+    <name>Disparos Normais</name>
+    <description>Aumenta o poder de ataque de munição e flechas normais.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>en</lang_id>
+    <name>Piercing Shots</name>
+    <description>Increases the attack power of piercing ammo and Dragon Piercer.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>pt</lang_id>
+    <name>Disparos Perfurantes</name>
+    <description>Aumenta o poder de ataque de munição perfurante e Perfurador de Dragão.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>en</lang_id>
+    <name>Spread/Power Shots</name>
+    <description>Increases the attack power of spread ammo, power shot arrows, and Thousand Dragons.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>pt</lang_id>
+    <name>Disparo Potente/Disperso</name>
+    <description>Aumenta o poder de ataque de munição de dispersão, flechas de disparo potente e Mil Dragões.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>en</lang_id>
+    <name>Free Elem/Ammo Up</name>
+    <description>Unlocks your weapon's hidden element. Also increases bowgun loading capacity. (There is a cap to loading capacity.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>pt</lang_id>
+    <name>Mais Munição/Elemento</name>
+    <description>Libera o elemento oculto da sua arma e aumenta a capacidade do fuzilarco. (Existe um limite de capacidade.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>en</lang_id>
+    <name>Critical Eye</name>
+    <description>Increases affinity.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>pt</lang_id>
+    <name>Olho Crítico</name>
+    <description>Aumenta a afinidade.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>en</lang_id>
+    <name>Critical Boost</name>
+    <description>Increases the damage of critical hits.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço Crítico</name>
+    <description>Aumenta o dano de acertos críticos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>en</lang_id>
+    <name>Weakness Exploit</name>
+    <description>Increases the affinity of attacks that exploit a monster weak spot.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>pt</lang_id>
+    <name>Exploração de Fraqueza</name>
+    <description>Aumenta a afinidade de ataques que exploram o ponto fraco do monstro.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>en</lang_id>
+    <name>Focus</name>
+    <description>Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>pt</lang_id>
+    <name>Foco</name>
+    <description>Aumenta a taxa de preenchimento de armas com barras e a taxa de carga de armas com ataques energizados.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>en</lang_id>
+    <name>Power Prolonger</name>
+    <description>Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>pt</lang_id>
+    <name>Prolongar Poder</name>
+    <description>Permite que lâminas dínamo, transmachados duplas-lâminas, glaives inseto e espadas longas fiquem mais tempo energizadas.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>en</lang_id>
+    <name>Handicraft</name>
+    <description>Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>pt</lang_id>
+    <name>Artesanato</name>
+    <description>Prolonga a barra de fio da arma. Mas, não ultrapassará o máximo da barra.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>en</lang_id>
+    <name>Critical Draw</name>
+    <description>Increases affinity when performing draw attacks.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>pt</lang_id>
+    <name>Saque Crítico</name>
+    <description>Aumenta a afinidade ao realizar ataques imediatos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>en</lang_id>
+    <name>Partbreaker</name>
+    <description>Makes it easier to break or sever parts of large monsters.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>pt</lang_id>
+    <name>Quebra-parte</name>
+    <description>Facilita a ação de quebrar ou cortar partes de monstros grandes.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>en</lang_id>
+    <name>Slugger</name>
+    <description>Makes it easier to stun monsters.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>pt</lang_id>
+    <name>Atordoante</name>
+    <description>Mais fácil para desnortear monstros.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>en</lang_id>
+    <name>Stamina Thief</name>
+    <description>Increases certain attacks' ability to exhaust monsters.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>pt</lang_id>
+    <name>Ladrão de Vigor</name>
+    <description>Aumenta a capacidade de certos ataques de esgotar os monstros.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>en</lang_id>
+    <name>Master Mounter</name>
+    <description>Makes it easier to mount monsters.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>pt</lang_id>
+    <name>Mestre da Montaria</name>
+    <description>Facilita montar em monstros.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>en</lang_id>
+    <name>Airborne</name>
+    <description>Increases the damage caused by jumping attacks.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>pt</lang_id>
+    <name>No Ar</name>
+    <description>Aumenta o dano causado por ataques com salto.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>en</lang_id>
+    <name>Latent Power</name>
+    <description>Temporarily increases affinity and reduces stamina depletion when certain conditions are met.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>pt</lang_id>
+    <name>Poder Latente</name>
+    <description>Aumenta temporariamente a afinidade e reduz o consumo de vigor sob certas condições.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>en</lang_id>
+    <name>Agitator</name>
+    <description>Increases attack power and affinity when large monsters become enraged.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>pt</lang_id>
+    <name>Agitador</name>
+    <description>Aumenta o poder de ataque e a afinidade quando monstros grandes se enfurecem.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>en</lang_id>
+    <name>Peak Performance</name>
+    <description>Increases attack when your health is full.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>pt</lang_id>
+    <name>Desempenho Máximo</name>
+    <description>Aumenta o ataque quando sua barra de vida estiver cheia.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>en</lang_id>
+    <name>Heroics</name>
+    <description>Increases attack power and defense when health drops to 35% or lower.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>pt</lang_id>
+    <name>Heroísmo</name>
+    <description>Aumenta o poder de ataque e a defesa quando a vida cai para 35% ou menos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>en</lang_id>
+    <name>Fortify</name>
+    <description>Temporarily increases your attack and defense every time you faint up to 2 times.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>pt</lang_id>
+    <name>Fortificar</name>
+    <description>Aumenta temporariamente seu ataque e defesa quando você desmaia. Limite de 2 vezes.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>en</lang_id>
+    <name>Resentment</name>
+    <description>Increases attack when you have recoverable damage (the red portion of your health gauge).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>pt</lang_id>
+    <name>Indignação</name>
+    <description>Aumenta o ataque ao receber dano recuperável (a parte vermelha de sua barra de vida).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>en</lang_id>
+    <name>Resuscitate</name>
+    <description>Improves evasion and reduces stamina depletion when afflicted with abnormal status effects.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>pt</lang_id>
+    <name>Ressuscitar</name>
+    <description>Melhora a evasão e reduz o consumo de vigor enquanto lida com efeitos de status anormais.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>en</lang_id>
+    <name>Horn Maestro</name>
+    <description>Increases the effect duration of hunting horn melodies.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>pt</lang_id>
+    <name>Maestro de Sonoro</name>
+    <description>Aumenta o tempo do efeito de melodias do berrante de caça.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>en</lang_id>
+    <name>Capacity Boost</name>
+    <description>Increases the gunlance's shell capacity and charge blade's phial capacity.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço de Capacidade</name>
+    <description>Aumenta a capacidade de projéteis da lançarma e a capacidade de frascos da lâmina dínamo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>en</lang_id>
+    <name>Special Ammo Boost</name>
+    <description>Increases the power of bowgun special ammo, Dragon Piercer, and Thousand Dragons.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço Munição Especial</name>
+    <description>Aumenta o poder do Perfurador de Dragão, munições especiais do fuzilarco e Mil Dragões.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>en</lang_id>
+    <name>Artillery</name>
+    <description>Strengthens explosive attacks like gunlance shells, Wyvern's Fire, charge blade phial attacks, and sticky ammo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>pt</lang_id>
+    <name>Artilharia</name>
+    <description>Fortalece ataques explosivos como Fogo de Serpe, morteiros de lançarma, frascos de lâmina dínamo e munição pegajosa.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>en</lang_id>
+    <name>Heavy Artillery</name>
+    <description>Increases the firepower of ballistae and cannons.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>pt</lang_id>
+    <name>Artilharia Pesada</name>
+    <description>Aumenta o poder de fogo de balistas e canhões.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>en</lang_id>
+    <name>Marathon Runner</name>
+    <description>Slows down stamina depletion for actions which continuously drain stamina (such as dashing).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>pt</lang_id>
+    <name>Maratonista</name>
+    <description>Reduz o consumo de vigor para ações que drenam continuamente seu vigor (como corrida).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>en</lang_id>
+    <name>Constitution</name>
+    <description>Reduces stamina depletion when performing stamina-draining moves such as evading, etc.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>pt</lang_id>
+    <name>Constituição</name>
+    <description>Reduz o consumo de vigor para ações que drenam continuamente seu vigor, como esquivar etc.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>en</lang_id>
+    <name>Leap of Faith</name>
+    <description>Allows you to do a dive-evade when facing towards large monsters, and extends the dive-evade distance.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>pt</lang_id>
+    <name>Salto de Fé</name>
+    <description>Permite um mergulho-esquiva quando diante de monstros grandes e aumenta a distância do mergulho-esquiva.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>en</lang_id>
+    <name>Stamina Surge</name>
+    <description>Speeds up stamina recovery.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>pt</lang_id>
+    <name>Surto de Vigor</name>
+    <description>Acelera a regeneração de vigor.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>en</lang_id>
+    <name>Hunger Resistance</name>
+    <description>Reduces maximum stamina depletion over time. However, does not work against cold environments that reduce stamina.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Fome</name>
+    <description>Reduz o consumo máximo de vigor com o tempo. No entanto, não funciona contra ambientes frios que reduzem vigor.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>en</lang_id>
+    <name>Evade Window</name>
+    <description>Extends the invulnerability period when evading.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>pt</lang_id>
+    <name>Tempo de Esquiva</name>
+    <description>Prolonga o tempo de invulnerabilidade ao esquivar-se.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>en</lang_id>
+    <name>Evade Extender</name>
+    <description>Increases evade distance.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>pt</lang_id>
+    <name>Extensor de Esquiva</name>
+    <description>Aumenta a distância da esquiva.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>en</lang_id>
+    <name>Guard</name>
+    <description>Reduces knockbacks and stamina depletion when guarding.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>70</id>
+    <lang_id>pt</lang_id>
+    <name>Bloqueio</name>
+    <description>Reduz empurrões e consumo de vigor ao bloquear.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>en</lang_id>
+    <name>Quick Sheath</name>
+    <description>Speeds up weapon sheathing.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>71</id>
+    <lang_id>pt</lang_id>
+    <name>Bainha Rápida</name>
+    <description>Acelera o embainhamento da arma.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>en</lang_id>
+    <name>Wide-Range</name>
+    <description>Allows the effects of certain items to also affect nearby allies.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>72</id>
+    <lang_id>pt</lang_id>
+    <name>Alcance Amplo</name>
+    <description>Permite que os efeitos de certos itens também afetem aliados próximos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>en</lang_id>
+    <name>Item Prolonger</name>
+    <description>Extends the duration of some item effects.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>73</id>
+    <lang_id>pt</lang_id>
+    <name>Prolongar Item</name>
+    <description>Prolonga a duração dos efeitos de alguns itens.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>en</lang_id>
+    <name>Free Meal</name>
+    <description>Gives you a predetermined chance of consuming a food or drink item for free.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>74</id>
+    <lang_id>pt</lang_id>
+    <name>Refeição Grátis</name>
+    <description>Concede uma chance predeterminada de consumir um alimento ou bebida gratuitamente.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>en</lang_id>
+    <name>Speed Eating</name>
+    <description>Increases meat-eating and item-consumption speed.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>75</id>
+    <lang_id>pt</lang_id>
+    <name>Comer Rapidamente</name>
+    <description>Aumenta a velocidade de ingestão de carne e consumo de itens.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>en</lang_id>
+    <name>Speed Sharpening</name>
+    <description>Speeds up weapon sharpening when using a whetstone.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>76</id>
+    <lang_id>pt</lang_id>
+    <name>Afiação Rápida</name>
+    <description>Acelera a afiação da arma ao usar uma pedra de amolar.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>en</lang_id>
+    <name>Bombardier</name>
+    <description>Increases the damage of explosive items.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>77</id>
+    <lang_id>pt</lang_id>
+    <name>Bombardeiro</name>
+    <description>Aumenta o dano de itens explosivos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>en</lang_id>
+    <name>Mushroomancer</name>
+    <description>Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>78</id>
+    <lang_id>pt</lang_id>
+    <name>Cogumelaria</name>
+    <description>Permite a digestão de cogumelos intragáveis e a obtenção de seus efeitos vantajosos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>en</lang_id>
+    <name>Master Fisher</name>
+    <description>Improves your skill at fishing.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>79</id>
+    <lang_id>pt</lang_id>
+    <name>Mestre de Pescaria</name>
+    <description>Melhora sua habilidade com pescaria.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>en</lang_id>
+    <name>Pro Transporter</name>
+    <description>Increases your speed while transporting items and decreases the likelihood of dropping them.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>80</id>
+    <lang_id>pt</lang_id>
+    <name>Transporte Profissional</name>
+    <description>Aumenta a velocidade ao transportar itens e diminui a probabilidade de perdê-los.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>en</lang_id>
+    <name>Master Gatherer</name>
+    <description>Allows you to gather more quickly, and also prevents attacks from knocking you back while gathering.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>81</id>
+    <lang_id>pt</lang_id>
+    <name>Mestre de Coleta</name>
+    <description>Evita quedas por ataques ao coletar itens. Também permite uma coleta mais rápida.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>en</lang_id>
+    <name>Honey Hunter</name>
+    <description>Increases the quantity of honey you receive when gathering in the field.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>82</id>
+    <lang_id>pt</lang_id>
+    <name>Caçador de Mel</name>
+    <description>Aumenta a quantidade de mel recebida ao coletar em campo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>en</lang_id>
+    <name>Carving Pro</name>
+    <description>Prevents knockback from attacks while carving.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>83</id>
+    <lang_id>pt</lang_id>
+    <name>Profissional de Talho</name>
+    <description>Evita quedas por ataques ao talhar.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>en</lang_id>
+    <name>Divine Blessing</name>
+    <description>Has a predetermined chance of reducing the damage you take.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>84</id>
+    <lang_id>pt</lang_id>
+    <name>Bênção Divina</name>
+    <description>Há uma chance predeterminada de reduzir o dano recebido.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>en</lang_id>
+    <name>Palico Rally</name>
+    <description>Powers up Palicoes.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>85</id>
+    <lang_id>pt</lang_id>
+    <name>Reunir Amigatos</name>
+    <description>Fortalece Amigatos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>en</lang_id>
+    <name>Botanist</name>
+    <description>Increases the quantity of herbs and other consumable items you gather.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>86</id>
+    <lang_id>pt</lang_id>
+    <name>Botânica</name>
+    <description>Aumenta a quantidade de ervas e outros itens consumíveis recebidos ao coletar.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>en</lang_id>
+    <name>Geologist</name>
+    <description>Increases the number of times you can use a gathering point.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>87</id>
+    <lang_id>pt</lang_id>
+    <name>Geologia</name>
+    <description>Aumenta o número de vezes que você pode usar um ponto de coleta.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>en</lang_id>
+    <name>Maximum Might</name>
+    <description>Increases affinity as long as stamina is kept full for a period of time.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>88</id>
+    <lang_id>pt</lang_id>
+    <name>Poder Máximo</name>
+    <description>Aumenta a afinidade se o vigor ficar cheio por um tempo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>en</lang_id>
+    <name>Slinger Capacity</name>
+    <description>Increases loading capacity for slinger ammo obtained in the field. Limits the amount of ammo used when firing certain shots.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>89</id>
+    <lang_id>pt</lang_id>
+    <name>Capacidade da Atiradeira</name>
+    <description>Aumenta a capacidade de carga de munição de atiradeira obtida em campo. Limita a munição usada em certos disparos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>en</lang_id>
+    <name>Stealth</name>
+    <description>Makes it easier for monsters to lose sight of you.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>90</id>
+    <lang_id>pt</lang_id>
+    <name>Furtividade</name>
+    <description>Os monstros perdem você de vista com mais facilidade.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>en</lang_id>
+    <name>Flinch Free</name>
+    <description>Prevents knockbacks and other reactions to small damage.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>91</id>
+    <lang_id>pt</lang_id>
+    <name>Sem Recuo</name>
+    <description>Evita empurrões e outras reações a danos pequenos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>en</lang_id>
+    <name>Scoutfly Range Up</name>
+    <description>Expands your scoutflies' detection range.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>92</id>
+    <lang_id>pt</lang_id>
+    <name>Alcance de Guialumes</name>
+    <description>Expande o alcance de detecção de seus guialumes.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>en</lang_id>
+    <name>Speed Crawler</name>
+    <description>Increases movement speed while crouching.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>93</id>
+    <lang_id>pt</lang_id>
+    <name>Rastejador Ágil</name>
+    <description>Aumenta a velocidade de movimentação ao agachar.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>en</lang_id>
+    <name>Jump Master</name>
+    <description>Prevents attacks from knocking you back during a jump.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>94</id>
+    <lang_id>pt</lang_id>
+    <name>Mestre do Salto</name>
+    <description>Evita que ataques derrubem você durante um salto.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>en</lang_id>
+    <name>Survival Expert</name>
+    <description>Extra health is recovered from environmental interactables like Sporepuffs or Wiggly Litchi.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>95</id>
+    <lang_id>pt</lang_id>
+    <name>Sobrevivente</name>
+    <description>Recupera vida extra ao interagir com insetos e plantas ambientais, como Esporíferas ou Lichias Agitadas.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>en</lang_id>
+    <name>Aquatic/Polar Mobility</name>
+    <description>Lets you move more freely in water. Also prevents you from being slowed down by terrain effects, such as deep snow.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>96</id>
+    <lang_id>pt</lang_id>
+    <name>Mobilidade Aquática/Polar</name>
+    <description>Permite movimentação mais livre na água. Também evita lentidão causada por efeitos de terreno, como neve profunda.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>en</lang_id>
+    <name>Cliffhanger</name>
+    <description>Decreases stamina depletion when evading while clinging to walls or ivy, or when moving while grappling onto an enemy.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>97</id>
+    <lang_id>pt</lang_id>
+    <name>Suspensão</name>
+    <description>Diminui o consumo de vigor ao esquivar enquanto escala paredes ou heras ou ao mover-se agarrado a um inimigo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>en</lang_id>
+    <name>Blindsider</name>
+    <description>Improves the effectiveness of flash attacks and items.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>98</id>
+    <lang_id>pt</lang_id>
+    <name>Ponto cego</name>
+    <description>Melhora a eficácia de ataques e itens lampejantes.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>en</lang_id>
+    <name>Scholar</name>
+    <description>Speeds up progress on research levels and special investigations. (Effect is applied at the quest results screen.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>99</id>
+    <lang_id>pt</lang_id>
+    <name>Cientista</name>
+    <description>Acelera o progresso em níveis de pesquisa e investigações especiais. (Efeito aplicado na tela de resultados.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>en</lang_id>
+    <name>Entomologist</name>
+    <description>Decreases the chances of destroying the bodies of small insect monsters, allowing them to be carved.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>100</id>
+    <lang_id>pt</lang_id>
+    <name>Entomologista</name>
+    <description>Diminui as chances de destruir os corpos de pequenos monstros inseto permitindo assim o talho.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>en</lang_id>
+    <name>Effluvia Resistance</name>
+    <description>Gain a resistance to effluvial buildup.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>101</id>
+    <lang_id>pt</lang_id>
+    <name>Resistência a Eflúvios</name>
+    <description>Mais resistência ao acúmulo de eflúvios.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>en</lang_id>
+    <name>Scenthound</name>
+    <description>Increases your scoutflies' gauge fill rate when you find tracks and other traces left by monsters.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>102</id>
+    <lang_id>pt</lang_id>
+    <name>Sabujo</name>
+    <description>Aumenta a taxa de preenchimento de seus guialumes ao encontrar pistas e outros rastros deixados por monstros.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>en</lang_id>
+    <name>Forager's Luck</name>
+    <description>Increases the chance of finding rare gathering points.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>103</id>
+    <lang_id>pt</lang_id>
+    <name>Sorte do Forrageador</name>
+    <description>Aumenta a chance de encontrar pontos de coleta raros.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>en</lang_id>
+    <name>Detector</name>
+    <description>Shows rare gathering points on the Wildlife Map.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>104</id>
+    <lang_id>pt</lang_id>
+    <name>Detector</name>
+    <description>Marca pontos de coleta raros no mapa da vida local.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>en</lang_id>
+    <name>Tool Specialist</name>
+    <description>Reduces the recharge time for specialized tools.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>105</id>
+    <lang_id>pt</lang_id>
+    <name>Perícia em Ferramentas</name>
+    <description>Reduz o tempo de recarga de Ferramentas Especiais.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>106</id>
+    <lang_id>en</lang_id>
+    <name>Affinity Sliding</name>
+    <description>Sliding increases your affinity for a short time.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>106</id>
+    <lang_id>pt</lang_id>
+    <name>Deslizada de Afinidade</name>
+    <description>Deslizar aumenta a afinidade por um curto período.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>107</id>
+    <lang_id>en</lang_id>
+    <name>Intimidator</name>
+    <description>Reduces the chances small monsters will attack after spotting you. (No effect on certain monsters.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>107</id>
+    <lang_id>pt</lang_id>
+    <name>Intimidação</name>
+    <description>Reduz as chances de monstros pequenos atacarem após te avistarem. (Não funciona com certos monstos.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>108</id>
+    <lang_id>en</lang_id>
+    <name>Hasten Recovery</name>
+    <description>Regenerates your health as you continually attack a monster. Recovery varies by weapon.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>108</id>
+    <lang_id>pt</lang_id>
+    <name>Regeneração Veloz</name>
+    <description>Recupera sua vida enquanto você ataca continuamente um monstro. A regeneração varia com a arma.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>109</id>
+    <lang_id>en</lang_id>
+    <name>Super Recovery</name>
+    <description>Allows recovery to exceed the red portion of the health gauge.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>109</id>
+    <lang_id>pt</lang_id>
+    <name>Super-regeneração</name>
+    <description>Permite que a regeneração ultrapasse a parte vermelha da barra de vida.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>110</id>
+    <lang_id>en</lang_id>
+    <name>Poison Duration Up</name>
+    <description>Extends the duration of your poison's effect on monsters.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>110</id>
+    <lang_id>pt</lang_id>
+    <name>Mais Duração de Veneno</name>
+    <description>Prolonga a duração do efeito de seu veneno nos monstros.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>111</id>
+    <lang_id>en</lang_id>
+    <name>Adrenaline</name>
+    <description>Temporarily reduces stamina depletion when health is at 40% or lower.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>111</id>
+    <lang_id>pt</lang_id>
+    <name>Adrenalina</name>
+    <description>Reduz temporariamente o consumo de vigor quando o nível de vida está em 40% ou menos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>112</id>
+    <lang_id>en</lang_id>
+    <name>Stamina Cap Up</name>
+    <description>Increases stamina cap.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>112</id>
+    <lang_id>pt</lang_id>
+    <name>Mais Limite de Vigor</name>
+    <description>Aumenta o limite do vigor.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>113</id>
+    <lang_id>en</lang_id>
+    <name>Critical Element</name>
+    <description>Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>113</id>
+    <lang_id>pt</lang_id>
+    <name>Elemento Crítico</name>
+    <description>Aumenta o dano dos elementos (fogo, água, raio, gelo, dragão) em acertos críticos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>114</id>
+    <lang_id>en</lang_id>
+    <name>Mind's Eye/Ballistics</name>
+    <description>Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>114</id>
+    <lang_id>pt</lang_id>
+    <name>Olhos da Mente/Balística</name>
+    <description>Evita a deflexão de ataques. Reduz a distância até o ponto de força máxima de munições e flechas.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>115</id>
+    <lang_id>en</lang_id>
+    <name>Bludgeoner</name>
+    <description>Raises attack as your weapon loses sharpness. Also boosts ranged weapon melee attacks and odds of stunning.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>115</id>
+    <lang_id>pt</lang_id>
+    <name>Espancador</name>
+    <description>Aumenta o ataque quando a arma perde afiação. Reforça ataque corpo a corpo de armas à distância e chance de atordoar.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>116</id>
+    <lang_id>en</lang_id>
+    <name>Non-elemental Boost</name>
+    <description>Powers up non-elemental weapons you have equipped.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>116</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço Não Elemental</name>
+    <description>Fortalece armas não elementais equipadas.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>117</id>
+    <lang_id>en</lang_id>
+    <name>Capture Master</name>
+    <description>High chance of increased capture rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>117</id>
+    <lang_id>pt</lang_id>
+    <name>Mestre da Captura</name>
+    <description>Chance alta de aumentar prêmios por captura. (Sem efeito quando entra em missões em andamento.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>118</id>
+    <lang_id>en</lang_id>
+    <name>Guard Up</name>
+    <description>Allows you to guard against ordinarily unblockable attacks.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>118</id>
+    <lang_id>pt</lang_id>
+    <name>Aumento de Bloqueio</name>
+    <description>Permite o bloqueio contra ataques normalmente sem possibilidade de bloqueio.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>119</id>
+    <lang_id>en</lang_id>
+    <name>Guts</name>
+    <description>Above a certain health threshold, you withstand an attack that would normally cart you (once only).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>119</id>
+    <lang_id>pt</lang_id>
+    <name>Bravura</name>
+    <description>Acima de um certo nível de vida, resiste a um ataque que derrubaria você (uma vez).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>120</id>
+    <lang_id>en</lang_id>
+    <name>Master's Touch</name>
+    <description>Prevents your weapon from losing sharpness during critical hits.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>120</id>
+    <lang_id>pt</lang_id>
+    <name>Toque de Mestre</name>
+    <description>Evita que a arma perca o fio durante acertos críticos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>121</id>
+    <lang_id>en</lang_id>
+    <name>Nullify Wind Pressure</name>
+    <description>Negates all wind pressure.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>121</id>
+    <lang_id>pt</lang_id>
+    <name>Anular Pressão do Vento</name>
+    <description>Anula toda pressão de vento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>122</id>
+    <lang_id>en</lang_id>
+    <name>Razor Sharp/Spare Shot</name>
+    <description>Halves sharpness loss. For bows and bowguns, shots have a chance not to expend coatings or ammo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>122</id>
+    <lang_id>pt</lang_id>
+    <name>Fio Nav./Tiro Extra</name>
+    <description>Reduz a perda de afiação em 50%. Tiros de arco e fuzilarco podem não gastar munição/revestimento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>123</id>
+    <lang_id>en</lang_id>
+    <name>Critical Status</name>
+    <description>Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>123</id>
+    <lang_id>pt</lang_id>
+    <name>Status Crítico</name>
+    <description>Aumenta o dano dos efeitos de status anormais (paralisia/veneno/sono/ explosão) em acertos críticos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>124</id>
+    <lang_id>en</lang_id>
+    <name>Great Luck</name>
+    <description>High chance of increased quest rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>124</id>
+    <lang_id>pt</lang_id>
+    <name>Sorte Grande</name>
+    <description>Alta chance de aumentar prêmios de missões. (Sem efeito quando entra em missões em andamento.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>125</id>
+    <lang_id>en</lang_id>
+    <name>Carving Master</name>
+    <description>Lets you carve one additional time. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>125</id>
+    <lang_id>pt</lang_id>
+    <name>Mestre de Talho</name>
+    <description>Permite talhar mais uma vez. (Sem efeito quando entra em missões em andamento.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>126</id>
+    <lang_id>en</lang_id>
+    <name>Good Luck</name>
+    <description>Good chance of increased quest rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>126</id>
+    <lang_id>pt</lang_id>
+    <name>Boa Sorte</name>
+    <description>Boa chance de aumentar prêmios de missões. (Sem efeito quando entra em missões em andamento.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>127</id>
+    <lang_id>en</lang_id>
+    <name>Bow Charge Plus</name>
+    <description>Increases max bow charge level by one.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>127</id>
+    <lang_id>pt</lang_id>
+    <name>Energizar Mais o Arco</name>
+    <description>Aumenta o nível máximo de carga do arco em um.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>128</id>
+    <lang_id>en</lang_id>
+    <name>Punishing Draw</name>
+    <description>Adds a stun effect to draw attacks and slightly increases attack power.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>128</id>
+    <lang_id>pt</lang_id>
+    <name>Punição Imediata</name>
+    <description>Ataques imediatos ganham atordoamento. Aumenta um pouco o poder de ataque.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>129</id>
+    <lang_id>en</lang_id>
+    <name>Protective Polish</name>
+    <description>Weapon sharpness does not decrease for a set time after sharpening.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>129</id>
+    <lang_id>pt</lang_id>
+    <name>Polimento Protetor</name>
+    <description>A arma não perde a afiação por um período após afiá-la.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>130</id>
+    <lang_id>en</lang_id>
+    <name>BBQ Master</name>
+    <description>Improves your skill at cooking meat.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>130</id>
+    <lang_id>pt</lang_id>
+    <name>Maestria de Churrasco</name>
+    <description>Melhora a habilidade de cozinhar carne.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>131</id>
+    <lang_id>en</lang_id>
+    <name>Blast Functionality</name>
+    <description>Allows you to apply blast coatings.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>131</id>
+    <lang_id>pt</lang_id>
+    <name>Adição de Explosão</name>
+    <description>Permite a aplicação de revestimentos explosivos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>132</id>
+    <lang_id>en</lang_id>
+    <name>Elderseal Boost</name>
+    <description>Increases the Elderseal of weapons and dragon ammo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>132</id>
+    <lang_id>pt</lang_id>
+    <name>Reforço de Selo Ancião</name>
+    <description>Aumenta o Selo Ancião de munição de dragão e armas.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>133</id>
+    <lang_id>en</lang_id>
+    <name>Para Functionality</name>
+    <description>Allows you to apply paralysis coatings.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>133</id>
+    <lang_id>pt</lang_id>
+    <name>Adição de Paralisia</name>
+    <description>Permite a aplicação de revestimentos paralisantes.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>134</id>
+    <lang_id>en</lang_id>
+    <name>Poison Functionality</name>
+    <description>Allows you to apply poison coatings.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>134</id>
+    <lang_id>pt</lang_id>
+    <name>Adição de Veneno</name>
+    <description>Permite a aplicação de revestimentos venenosos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>135</id>
+    <lang_id>en</lang_id>
+    <name>Sleep Functionality</name>
+    <description>Allows you to apply sleep coatings.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>135</id>
+    <lang_id>pt</lang_id>
+    <name>Adição de Sono</name>
+    <description>Permite a aplicação de revestimentos soníferos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>136</id>
+    <lang_id>en</lang_id>
+    <name>Elemental Airborne</name>
+    <description>Elemental damage increased for jumping attacks.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>136</id>
+    <lang_id>pt</lang_id>
+    <name>No Ar Elemental</name>
+    <description>Aumenta o dano elemental dos ataques com salto.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>137</id>
+    <lang_id>en</lang_id>
+    <name>True Razor Sharp/Spare Shot</name>
+    <description>Greatly reduces sharpness loss. Bows and bowguns have a chance not to expend coatings or ammo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>137</id>
+    <lang_id>pt</lang_id>
+    <name>Fio Nav./Tiro Extra Real</name>
+    <description>Reduz bastante perda de afiação. Tiros de arco e fuzilarco podem não gastar munição/revestimento.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>138</id>
+    <lang_id>en</lang_id>
+    <name>Offensive Guard</name>
+    <description>Temporarily increases attack power after executing a perfectly-timed guard.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>138</id>
+    <lang_id>pt</lang_id>
+    <name>Bloqueio Ofensivo</name>
+    <description>Aumenta temporariamente o poder de ataque após um bloqueio no momento exato.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>139</id>
+    <lang_id>en</lang_id>
+    <name>Coalescence</name>
+    <description>Temporarily enhances attacks after recovering from blights or abnormal status.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>139</id>
+    <lang_id>pt</lang_id>
+    <name>Coalescência</name>
+    <description>Melhora temporariamente os ataques após recuperar-se de flagelos ou status anormais.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>140</id>
+    <lang_id>en</lang_id>
+    <name>Frostcraft</name>
+    <description>An aura of frost builds when your weapon is sheathed, raising attack. Wanes each melee hit or shot fired.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>140</id>
+    <lang_id>pt</lang_id>
+    <name>Frigidez</name>
+    <description>Uma aura gélida surge ao guardar sua arma, aumentando o ataque. Dispersa a cada ataque/disparo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>141</id>
+    <lang_id>en</lang_id>
+    <name>Element Acceleration</name>
+    <description>Continually attacking a monster activates Free Element/Ammo Up Lv2 and increases elemental damage.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>141</id>
+    <lang_id>pt</lang_id>
+    <name>Elemento Gradual</name>
+    <description>Atacar continuamente um monstro ativa Mais Munição/Elemento Nv 2 e aumenta o dano elemental.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>142</id>
+    <lang_id>en</lang_id>
+    <name>True Element Acceleration</name>
+    <description>Continually attacking a monster activates Free Element/Ammo Up Lv3 and increases elemental damage.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>142</id>
+    <lang_id>pt</lang_id>
+    <name>Elemento Gradual Real</name>
+    <description>Atacar continuamente um monstro ativa Mais Munição/Elemento Nv 3 e aumenta o dano elemental.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>143</id>
+    <lang_id>en</lang_id>
+    <name>Gaia's Veil</name>
+    <description>While wearing a mantle, gain Windproof Lv3, Earplugs Lv3, Tremor Res Lv3, and Flinch Free.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>143</id>
+    <lang_id>pt</lang_id>
+    <name>Véu de Gaia</name>
+    <description>Ao usar um manto, ganhe Tampões Nv3, Antivento Nv3, Resistência a Tremor Nv3 e Sem Recuo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>144</id>
+    <lang_id>en</lang_id>
+    <name>True Gaia's Veil</name>
+    <description>While wearing a mantle, gain Tremor Resistance Lv3, Earplugs Lv5, max Windproof, and Flinch Free.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>144</id>
+    <lang_id>pt</lang_id>
+    <name>Véu de Gaia Real</name>
+    <description>Ao usar um manto, ganhe Tampões Nv5, Resistência a Tremor Nv3, Antivento máx. e Sem Recuo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>145</id>
+    <lang_id>en</lang_id>
+    <name>Dragonvein Awakening</name>
+    <description>Elem., abnormal status, &amp; affinity up with weapon drawn. Take damage when attacking, but can be recovered by continually attacking.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>145</id>
+    <lang_id>pt</lang_id>
+    <name>Despertar de Dragoveio</name>
+    <description>Aumento de elemento, status anormal e afinidade com a arma empunhada. Sofre dano ao atacar, mas recupera atacando continuamente.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>146</id>
+    <lang_id>en</lang_id>
+    <name>True Dragonvein Awakening</name>
+    <description>Enhances attacks even more with weapon drawn. Take damage when attacking, but can be recovered by continually attacking.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>146</id>
+    <lang_id>pt</lang_id>
+    <name>Despertar de Dragoveio Real</name>
+    <description>Aumenta ainda mais os ataques com a arma empunhada. Sofre dano ao atacar, mas recupera atacando continuamente.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>147</id>
+    <lang_id>en</lang_id>
+    <name>Free Meal Secret</name>
+    <description>Raises the maximum level of the Free Meal skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>147</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Refeição Grátis</name>
+    <description>Aumenta o nível máximo da habilidade Refeição Grátis.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>148</id>
+    <lang_id>en</lang_id>
+    <name>Maximum Might Secret</name>
+    <description>Raises the maximum level of the Maximum Might skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>148</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Poder Máximo</name>
+    <description>Aumenta o nível máximo da habilidade Poder Máximo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>149</id>
+    <lang_id>en</lang_id>
+    <name>Bombardier Secret</name>
+    <description>Raises the maximum level of the Bombardier skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>149</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Bombardeiro</name>
+    <description>Aumenta o nível máximo da habilidade Bombardeiro.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>150</id>
+    <lang_id>en</lang_id>
+    <name>Slugger Secret</name>
+    <description>Raises the maximum level of the Slugger skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>150</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Atordoante</name>
+    <description>Aumenta o nível máximo da habilidade Atordoante.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>151</id>
+    <lang_id>en</lang_id>
+    <name>Agitator Secret</name>
+    <description>Raises the maximum level of the Agitator skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>151</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Agitador</name>
+    <description>Aumenta o nível máximo da habilidade Agitador.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>152</id>
+    <lang_id>en</lang_id>
+    <name>Artillery Secret</name>
+    <description>Raises the maximum level of the Artillery skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>152</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Artilharia</name>
+    <description>Aumenta o nível máximo da habilidade Artilharia.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>153</id>
+    <lang_id>en</lang_id>
+    <name>Stamina Thief Secret</name>
+    <description>Raises the maximum level of the Stamina Thief skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>153</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Ladrão de Vigor</name>
+    <description>Aumenta o nível máximo da habilidade Ladrão de Vigor.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>154</id>
+    <lang_id>en</lang_id>
+    <name>Tool Specialist Secret</name>
+    <description>Raises the maximum level of the Tool Specialist skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>154</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Perícia Ferramentas</name>
+    <description>Aumenta o nível máximo da habilidade Perícia em Ferramentas.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>155</id>
+    <lang_id>en</lang_id>
+    <name>Latent Power Secret</name>
+    <description>Raises the maximum level of the Latent Power skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>155</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Poder Latente</name>
+    <description>Aumenta o nível máximo da habilidade Poder Latente.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>156</id>
+    <lang_id>en</lang_id>
+    <name>Divine Blessing Secret</name>
+    <description>Raises the maximum level of the Divine Blessing skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>156</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Bênção Divina</name>
+    <description>Aumenta o nível máximo da habilidade Bênção Divina.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>157</id>
+    <lang_id>en</lang_id>
+    <name>Slinger Ammo Secret</name>
+    <description>Raises the maximum level of the Slinger Capacity skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>157</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Munição Atiradeira</name>
+    <description>Aumenta o nível máximo da habilidade Capacidade da Atiradeira.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>158</id>
+    <lang_id>en</lang_id>
+    <name>Heroics Secret</name>
+    <description>Raises the maximum level of the Heroics skill.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>158</id>
+    <lang_id>pt</lang_id>
+    <name>Segredo Heroísmo</name>
+    <description>Aumenta o nível máximo da habilidade Heroísmo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>159</id>
+    <lang_id>en</lang_id>
+    <name>True Critical Status</name>
+    <description>Greatly increases status effect damage (paralysis, poison, sleep, blast) when landing critical hits.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>159</id>
+    <lang_id>pt</lang_id>
+    <name>Status Crítico Real</name>
+    <description>Aumenta bastante o dano de paralisia, veneno, sono e explosão em acertos críticos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>160</id>
+    <lang_id>en</lang_id>
+    <name>True Critical Element</name>
+    <description>Greatly increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>160</id>
+    <lang_id>pt</lang_id>
+    <name>Elemento Crítico Real</name>
+    <description>Aumenta bastante o dano de fogo, água, raio, gelo e dragão em acertos críticos.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>161</id>
+    <lang_id>en</lang_id>
+    <name>Joy's Gift</name>
+    <description>Increases odds of getting special Holiday Joy rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>161</id>
+    <lang_id>pt</lang_id>
+    <name>Presente de Festas</name>
+    <description>Aumenta a chance de prêmios de Boas Festas (sem efeito ao entrar em missões em andamento).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>162</id>
+    <lang_id>en</lang_id>
+    <name>Joy's Gratitude</name>
+    <description>Greatly increases odds of getting special Holiday Joy rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>162</id>
+    <lang_id>pt</lang_id>
+    <name>Gratidão das Festas</name>
+    <description>Aumenta muito a chance de prêmios de Boas Festas (sem efeito ao entrar em missões em andamento).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>163</id>
+    <lang_id>en</lang_id>
+    <name>Gratitude's Gift</name>
+    <description>Increases odds of getting special Grand Appreciation rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>163</id>
+    <lang_id>pt</lang_id>
+    <name>Presente da Gratidão</name>
+    <description>Aumenta a chance de prêmios de Grande Apreciação (sem efeito ao entrar em missões em andamento).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>164</id>
+    <lang_id>en</lang_id>
+    <name>Gratitude's Blessing</name>
+    <description>Greatly increases odds of getting special Grand Appreciation rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>164</id>
+    <lang_id>pt</lang_id>
+    <name>Bênção da Gratidão</name>
+    <description>Aumenta muito a chance de prêmios de Grande Apreciação (sem efeito ao entrar em missões em andamento).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>165</id>
+    <lang_id>en</lang_id>
+    <name>Full Bloom's Gift</name>
+    <description>Increases odds of getting special Full Bloom rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>165</id>
+    <lang_id>pt</lang_id>
+    <name>Presente Florescente</name>
+    <description>Aumenta a chance de prêmios Florescentes (sem efeito ao entrar em missões em andamento).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>166</id>
+    <lang_id>en</lang_id>
+    <name>Full Bloom Gratitude</name>
+    <description>Greatly increases odds of getting special Full Bloom rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>166</id>
+    <lang_id>pt</lang_id>
+    <name>Gratidão Florescente</name>
+    <description>Aumenta muito a chance de prêmios Florescentes (sem efeito ao entrar em missões em andamento).</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>167</id>
+    <lang_id>en</lang_id>
+    <name>Element Conversion</name>
+    <description>Equipped weapon's elemental power increases as your armor's elemental resistance increases.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>167</id>
+    <lang_id>pt</lang_id>
+    <name>Conversão de Elemento</name>
+    <description>O poder elemental da arma equipada aumenta junto com a resistência elemental da sua armadura.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>168</id>
+    <lang_id>en</lang_id>
+    <name>All Elemental Resistance</name>
+    <description>Increases all elemental resistances +20%.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>168</id>
+    <lang_id>pt</lang_id>
+    <name>Toda Resistência Elemental</name>
+    <description>Aumenta em +20% todas as resistências elementais.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>169</id>
+    <lang_id>en</lang_id>
+    <name>Clutch Claw Boost</name>
+    <description>Clutch claw weapon attacks wound monsters easier, and have a better chance of dropping slinger ammo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>169</id>
+    <lang_id>pt</lang_id>
+    <name>Clutch Claw Boost</name>
+    <description>Clutch claw weapon attacks wound monsters easier, and have a better chance of dropping slinger ammo.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>170</id>
+    <lang_id>en</lang_id>
+    <name>Inheritance</name>
+    <description>Removes the skill level cap for the skill secrets.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>170</id>
+    <lang_id>pt</lang_id>
+    <name>Inheritance</name>
+    <description>Removes the skill level cap for the skill secrets.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>171</id>
+    <lang_id>en</lang_id>
+    <name>Transcendance</name>
+    <description>Grants True Razor Sharp/Spare Shot. Health/Stamina +100 at the start of a quest or after fainting. (Effect doesn't stack.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>171</id>
+    <lang_id>pt</lang_id>
+    <name>Transcendance</name>
+    <description>Grants True Razor Sharp/Spare Shot. Health/Stamina +100 at the start of a quest or after fainting. (Effect doesn't stack.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>172</id>
+    <lang_id>en</lang_id>
+    <name>Fun Fright's Gift</name>
+    <description>Increases odds of getting special Fun Fright rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>172</id>
+    <lang_id>pt</lang_id>
+    <name>Fun Fright's Gift</name>
+    <description>Increases odds of getting special Fun Fright rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>173</id>
+    <lang_id>en</lang_id>
+    <name>Fun Fright's Gratitude</name>
+    <description>Greatly increases odds of getting special Fun Fright rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>173</id>
+    <lang_id>pt</lang_id>
+    <name>Fun Fright's Gratitude</name>
+    <description>Greatly increases odds of getting special Fun Fright rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>174</id>
+    <lang_id>en</lang_id>
+    <name>Sizzling Gift</name>
+    <description>Increases odds of getting special Sizzling Spice rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>174</id>
+    <lang_id>pt</lang_id>
+    <name>Sizzling Gift</name>
+    <description>Increases odds of getting special Sizzling Spice rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>175</id>
+    <lang_id>en</lang_id>
+    <name>Sizzling Gratitude</name>
+    <description>Greatly increases odds of getting special Sizzling Spice rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>175</id>
+    <lang_id>pt</lang_id>
+    <name>Sizzling Gratitude</name>
+    <description>Greatly increases odds of getting special Sizzling Spice rewards. (No effect when joining mid-quest.)</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>176</id>
+    <lang_id>en</lang_id>
+    <name>Coldproof</name>
+    <description>Nullifies the effects of cold weather.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>176</id>
+    <lang_id>pt</lang_id>
+    <name>Coldproof</name>
+    <description>Nullifies the effects of cold weather.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>177</id>
+    <lang_id>en</lang_id>
+    <name>Provoker</name>
+    <description>Increases the attention drawn when attacking a monster.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>177</id>
+    <lang_id>pt</lang_id>
+    <name>Provoker</name>
+    <description>Increases the attention drawn when attacking a monster.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>178</id>
+    <lang_id>en</lang_id>
+    <name>Safe Landing</name>
+    <description>Allows you to quickly recover from heavy attacks that blow you back when you have your weapon unsheathed.</description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>178</id>
+    <lang_id>pt</lang_id>
+    <name>Safe Landing</name>
+    <description>Allows you to quickly recover from heavy attacks that blow you back when you have your weapon unsheathed.</description>
+  </DATA_RECORD>
+  </skilltree_text>
