@@ -102,14 +102,18 @@ if __name__ == "__main__":
         print("Error: Run this script from the project root.")
         sys.exit(1)
     
-    # Versão do App
-    APP_VERSION = "1.0.0"
+    # Carregar configurações do .env
+    from dotenv import load_dotenv # type: ignore
+    load_dotenv()
+    
+    # Versão do App vinda do .env
+    APP_VERSION = os.getenv("APP_VERSION", "1.0.0")
 
     print(f"--- INICIANDO BUILD UNIFICADO (v{APP_VERSION}) ---")
     
     # 1. Limpeza de XMLs
     try:
-        from slim_rag_xml import slim_xml_files
+        from slim_rag_xml import slim_xml_files # type: ignore
         slim_xml_files()
     except Exception as e:
         print(f"Aviso: Falha ao rodar limpeza de XML: {e}")
@@ -124,7 +128,7 @@ if __name__ == "__main__":
     try:
         # Adicionar backend ao path para importar mhw_rag
         sys.path.append(os.path.abspath("backend"))
-        import mhw_rag
+        import mhw_rag # type: ignore
         # Isso vai gerar a pasta 'storage' na raiz
         mhw_rag.setup_rag_engine()
         print("✓ RAG Pré-indexado com sucesso.")
@@ -135,7 +139,7 @@ if __name__ == "__main__":
     
     # 3. Geração do Manifesto para Auto-Update
     try:
-        from build_manifest import generate_manifest
+        from build_manifest import generate_manifest # type: ignore
         generate_manifest(Path("dist/MHWChatbot"), APP_VERSION)
     except Exception as e:
         print(f"Erro ao gerar manifesto: {e}")

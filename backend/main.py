@@ -19,6 +19,36 @@ import webview  # type: ignore
 import threading
 import time
 import requests # type: ignore
+import logging
+
+# Configuração de Logs para a Splash
+class SplashLogHandler(logging.Handler):
+    def __init__(self, callback):
+        super().__init__()
+        self.callback = callback
+        self.setFormatter(logging.Formatter('%(message)s'))
+
+    def emit(self, record):
+        msg = self.format(record)
+        if self.callback:
+            # Tenta extrair progresso se houver algo no texto ou mantém o atual
+            self.callback(msg, None)
+
+class SplashStdout:
+    def __init__(self, callback, original):
+        self.callback = callback
+        self.original = original
+
+    def write(self, s):
+        self.original.write(s)
+        if s.strip() and self.callback:
+            # Evita loops infinitos e mensagens muito curtas
+            clean_s = s.strip()
+            if len(clean_s) > 2:
+                self.callback(clean_s, None)
+
+    def flush(self):
+        self.original.flush()
 
 from fastapi import FastAPI, HTTPException  # type: ignore
 from fastapi.middleware.cors import CORSMiddleware  # type: ignore
@@ -51,9 +81,14 @@ app.add_middleware(
 class ChatRequest(BaseModel):
     message: str
 
-# Use the provided API Key
-NVIDIA_API_KEY = "Bearer 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"
+from dotenv import load_dotenv # type: ignore
+load_dotenv()
+
+# Use the provided API Key via .env
+NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY", "Bearer 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")
 INVOKE_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+# Garantir que a key esteja no formato correto para o OpenAI client
+OS_NVIDIA_KEY = NVIDIA_API_KEY.replace("Bearer ", "")
 
 
 def format_skill_list(skills):
@@ -190,7 +225,7 @@ async def chat(request: ChatRequest):
 
     client = OpenAI(
         base_url="https://integrate.api.nvidia.com/v1",
-        api_key="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"
+        api_key=OS_NVIDIA_KEY
     )
 
     try:
@@ -277,8 +312,19 @@ if __name__ == "__main__":
             
             def on_progress(text, progress):
                 # Envia o status para o JS da Splash de forma segura
+                # Se progress for None, mantém a porcentagem atual na barra
+                prog_js = progress if progress is not None else "undefined"
                 safe_text = json.dumps(text)
-                splash.evaluate_js(f"updateStatus({safe_text}, {progress})")
+                splash.evaluate_js(f"updateStatus({safe_text}, {prog_js})")
+            
+            # Capturar logs do sistema e enviar para a Splash
+            handler = SplashLogHandler(on_progress)
+            logging.getLogger().addHandler(handler)
+            logging.getLogger().setLevel(logging.INFO)
+            
+            # Redirecionar stdout para capturar prints de bibliotecas (como gdown)
+            original_stdout = sys.stdout
+            sys.stdout = SplashStdout(on_progress, original_stdout)
             
             # Rodar o updater
             try:
@@ -298,6 +344,10 @@ if __name__ == "__main__":
             
             on_progress("Iniciando assistente...", 100)
             time.sleep(1)
+            
+            # Restaurar stdout original
+            sys.stdout = original_stdout
+            logging.getLogger().removeHandler(handler)
             
             # Dimensões da Principal
             mw, mh = 1200, 800

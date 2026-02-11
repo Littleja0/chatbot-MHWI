@@ -1,11 +1,16 @@
 import os
 from pathlib import Path
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, StorageContext, load_index_from_storage, Settings
-from llama_index.llms.nvidia import NVIDIA
-from llama_index.embeddings.nvidia import NVIDIAEmbedding
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, StorageContext, load_index_from_storage, Settings # type: ignore
+from llama_index.llms.nvidia import NVIDIA # type: ignore
+from llama_index.embeddings.nvidia import NVIDIAEmbedding # type: ignore
+
+from dotenv import load_dotenv # type: ignore
+load_dotenv()
 
 # Configurações do NVIDIA AI Foundation
-NVIDIA_API_KEY = "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"
+NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY", "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")
+# Limpar Barear se houver
+NVIDIA_API_KEY = NVIDIA_API_KEY.replace("Bearer ", "")
 os.environ["NVIDIA_API_KEY"] = NVIDIA_API_KEY
 
 # Configurar o LlamaIndex para usar NVIDIA
@@ -37,9 +42,13 @@ def setup_rag_engine(progress_callback=None):
         return None
 
     if STORAGE_PATH.exists() and any(STORAGE_PATH.iterdir()):
-        report("Carregando base de dados RAG existente...", 90)
+        report("Localizando base de dados de inteligência...", 90)
         storage_context = StorageContext.from_defaults(persist_dir=str(STORAGE_PATH))
+        
+        report("Carregando vetores e índices (isso pode levar alguns segundos)...", 93)
         index = load_index_from_storage(storage_context)
+        
+        report("Finalizando configuração do assistente...", 97)
     else:
         report("Iniciando indexação (isso ocorre apenas na 1ª vez)...", 85)
         
