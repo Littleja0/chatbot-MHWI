@@ -5,8 +5,9 @@ import requests # type: ignore
 from pathlib import Path
 
 # Configuração de atualização via GitHub (Caminho A - Alta Velocidade)
-MANIFEST_URL = "https://raw.githubusercontent.com/Littleja0/chatbot-MHWI/refs/heads/main/dist/MHWChatbot/manifest.json"
-BASE_DOWNLOAD_URL = "https://github.com/Littleja0/chatbot-MHWI/tree/main/dist/MHWChatbot"
+# O link deve apontar para onde os arquivos COMPILADOS estão no seu GitHub
+MANIFEST_URL = "https://raw.githubusercontent.com/Littleja0/chatbot-MHWI/main/dist/MHWChatbot/manifest.json"
+BASE_DOWNLOAD_URL = "https://raw.githubusercontent.com/Littleja0/chatbot-MHWI/main/dist/MHWChatbot/"
 
 def get_file_hash(path):
     if not os.path.exists(path):
