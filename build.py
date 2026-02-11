@@ -89,6 +89,14 @@ def copy_assets():
     else:
         (dist_dir / "game_extractor").mkdir(exist_ok=True)
 
+    # Copy pre-built RAG index (storage)
+    src_storage = Path("storage")
+    dst_storage = dist_dir / "storage"
+    if src_storage.exists():
+        if dst_storage.exists(): shutil.rmtree(dst_storage)
+        shutil.copytree(src_storage, dst_storage)
+        print("Pre-built RAG index (storage) copied to distribution.")
+
 if __name__ == "__main__":
     if not os.path.exists("backend/main.py"):
         print("Error: Run this script from the project root.")
@@ -110,6 +118,19 @@ if __name__ == "__main__":
     install_pyinstaller()
     build_frontend()
     build_exe()
+
+    # 3. Pré-indexação RAG (Para evitar espera do usuário no primeiro boot)
+    print("\n--- INICIANDO PRÉ-INDEXAÇÃO RAG ---")
+    try:
+        # Adicionar backend ao path para importar mhw_rag
+        sys.path.append(os.path.abspath("backend"))
+        import mhw_rag
+        # Isso vai gerar a pasta 'storage' na raiz
+        mhw_rag.setup_rag_engine()
+        print("✓ RAG Pré-indexado com sucesso.")
+    except Exception as e:
+        print(f"Aviso: Falha na pré-indexação RAG: {e}")
+
     copy_assets()
     
     # 3. Geração do Manifesto para Auto-Update

@@ -1,13 +1,14 @@
 import os
 import hashlib
 import json
-import requests # type: ignore
+import requests
+import gdown
 from pathlib import Path
 
-# Configuração de atualização via GitHub (Caminho A - Alta Velocidade)
-# O link deve apontar para onde os arquivos COMPILADOS estão no seu GitHub
-MANIFEST_URL = "https://raw.githubusercontent.com/Littleja0/chatbot-MHWI/main/dist/MHWChatbot/manifest.json"
-BASE_DOWNLOAD_URL = "https://raw.githubusercontent.com/Littleja0/chatbot-MHWI/main/dist/MHWChatbot/"
+# ID da pasta do Google Drive (MHWUpdate)
+DRIVE_FOLDER_ID = "1gv74vwcprFXaLECmvKnoP9uQsKBZVfau"
+# Link direto para o manifest.json dentro do Drive (para verificação rápida)
+MANIFEST_DRIVE_URL = "https://drive.google.com/uc?export=download&id=1ISgFunL29T0IlzzDo7ufEGMkwNE1FGjk"
 
 def get_file_hash(path):
     if not os.path.exists(path):
@@ -18,89 +19,39 @@ def get_file_hash(path):
             sha256_hash.update(byte_block)
     return sha256_hash.hexdigest()
 
-import concurrent.futures
-import threading
-
 def update_app(progress_callback=None):
-    session = requests.Session()
-    lock = threading.Lock()
-    
     def report(text, progress):
         if progress_callback:
             progress_callback(text, progress)
         print(f"[{progress}%] {text}")
 
-    report("🔍 Verificando atualizações...", 10)
+    report("🔍 Verificando atualizações no Google Drive...", 10)
+    
+    # Tentativa de ler a versão remota sem baixar tudo ainda
+    # Se você quiser simplificar, pode pular essa checagem e baixar direto
+    # mas o gdown baixará a pasta toda se houver mudanças.
+    
     try:
-        response = session.get(MANIFEST_URL, timeout=10)
-        if response.status_code != 200:
-            print("Não foi possível acessar o servidor de atualizações.")
-            return
-
-        remote_manifest = response.json()
-        remote_version = remote_manifest.get("version", "0.0.0")
+        report("📦 Sincronizando arquivos com o Drive (via gdown)...", 30)
         
-        local_version = "0.0.0"
-        if os.path.exists("manifest.json"):
-            with open("manifest.json", "r") as f:
-                local_version = json.load(f).get("version", "0.0.0")
-
-        if remote_version == local_version:
-            report(f"✅ Versão atualizada ({local_version})", 100)
+        # O gdown --folder sincroniza a pasta atual com a do drive
+        # Ele só baixa o que mudou, de forma inteligente.
+        url = f"https://drive.google.com/drive/folders/{DRIVE_FOLDER_ID}"
+        
+        # Baixa a pasta diretamente na raiz do projeto
+        # gdown cuida de extrair e organizar
+        output = gdown.download_folder(url, quiet=True, use_cookies=False, remaining_ok=True)
+        
+        if output:
+            report("✅ Sincronização concluída!", 100)
             return True
-        
-        report(f"✨ Nova versão disponível: {remote_version}", 20)
-        
-        files_to_update = []
-        for file_path, remote_hash in remote_manifest["files"].items():
-            local_hash = get_file_hash(file_path)
-            if local_hash != remote_hash:
-                files_to_update.append(file_path)
-
-        if not files_to_update:
-            report("Arquivos já estão sincronizados.", 100)
-            return True
-
-        total_files = len(files_to_update)
-        report(f"📦 Baixando {total_files} arquivos em paralelo...", 30)
-        
-        stats = {"download_count": 0}
-        
-        def download_file(file_path):
-            try:
-                Path(file_path).parent.mkdir(parents=True, exist_ok=True)
-                file_url = f"{BASE_DOWNLOAD_URL}{file_path}"
-                r = session.get(file_url, stream=True, timeout=30)
-                if r.status_code == 200:
-                    with open(file_path, "wb") as f:
-                        for chunk in r.iter_content(chunk_size=8192):
-                            f.write(chunk)
-                    
-                    with lock:
-                        stats["download_count"] += 1
-                        current_count = stats["download_count"]
-                    
-                    prog = 30 + int((current_count / total_files) * 60)
-                    # Reportamos apenas a cada 10 arquivos ou no final para não sobrecarregar
-                    if current_count % 10 == 0 or current_count == total_files:
-                        report(f"Progresso: {current_count}/{total_files} arquivos", prog)
-                    return True
-            except Exception as e:
-                print(f"Erro ao baixar {file_path}: {e}")
+        else:
+            report("❌ Falha ao sincronizar pasta do Drive.", 100)
             return False
 
-        # Usar ThreadPoolExecutor para baixar vários arquivos ao mesmo tempo
-        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-            list(executor.map(download_file, files_to_update))
-
-        with open("manifest.json", "w") as f:
-            json.dump(remote_manifest, f, indent=4)
-
-        report(f"🎉 Atualização concluída!", 100)
-        return True
-
     except Exception as e:
-        report(f"❌ Erro: {str(e)}", 100)
+        error_msg = str(e)
+        report(f"❌ Erro no Update: {error_msg[:50]}", 100)
         return False
 
 if __name__ == "__main__":
