@@ -18,7 +18,13 @@ def get_file_hash(path):
             sha256_hash.update(byte_block)
     return sha256_hash.hexdigest()
 
+import concurrent.futures
+import threading
+
 def update_app(progress_callback=None):
+    session = requests.Session()
+    lock = threading.Lock()
+    
     def report(text, progress):
         if progress_callback:
             progress_callback(text, progress)
@@ -26,7 +32,7 @@ def update_app(progress_callback=None):
 
     report("🔍 Verificando atualizações...", 10)
     try:
-        response = requests.get(MANIFEST_URL, timeout=10)
+        response = session.get(MANIFEST_URL, timeout=10)
         if response.status_code != 200:
             print("Não foi possível acessar o servidor de atualizações.")
             return
@@ -34,7 +40,6 @@ def update_app(progress_callback=None):
         remote_manifest = response.json()
         remote_version = remote_manifest.get("version", "0.0.0")
         
-        # Carregar versão local
         local_version = "0.0.0"
         if os.path.exists("manifest.json"):
             with open("manifest.json", "r") as f:
@@ -56,30 +61,42 @@ def update_app(progress_callback=None):
             report("Arquivos já estão sincronizados.", 100)
             return True
 
-        count = len(files_to_update)
-        report(f"📦 Baixando {count} arquivos...", 30)
+        total_files = len(files_to_update)
+        report(f"📦 Baixando {total_files} arquivos em paralelo...", 30)
         
-        for i, file_path in enumerate(files_to_update):
-            prog = 30 + int((i / count) * 60)
-            report(f"📥 Baixando: {Path(file_path).name}", prog)
-            # Criar pastas se não existirem
-            Path(file_path).parent.mkdir(parents=True, exist_ok=True)
-            
-            # Download do arquivo
-            file_url = f"{BASE_DOWNLOAD_URL}{file_path}"
-            r = requests.get(file_url, stream=True)
-            if r.status_code == 200:
-                with open(file_path, "wb") as f:
-                    for chunk in r.iter_content(chunk_size=8192):
-                        f.write(chunk)
-            else:
-                print(f"❌ Falha ao baixar {file_path}: Status {r.status_code}")
+        stats = {"download_count": 0}
+        
+        def download_file(file_path):
+            try:
+                Path(file_path).parent.mkdir(parents=True, exist_ok=True)
+                file_url = f"{BASE_DOWNLOAD_URL}{file_path}"
+                r = session.get(file_url, stream=True, timeout=30)
+                if r.status_code == 200:
+                    with open(file_path, "wb") as f:
+                        for chunk in r.iter_content(chunk_size=8192):
+                            f.write(chunk)
+                    
+                    with lock:
+                        stats["download_count"] += 1
+                        current_count = stats["download_count"]
+                    
+                    prog = 30 + int((current_count / total_files) * 60)
+                    # Reportamos apenas a cada 10 arquivos ou no final para não sobrecarregar
+                    if current_count % 10 == 0 or current_count == total_files:
+                        report(f"Progresso: {current_count}/{total_files} arquivos", prog)
+                    return True
+            except Exception as e:
+                print(f"Erro ao baixar {file_path}: {e}")
+            return False
 
-        # Salvar o novo manifesto localmente
+        # Usar ThreadPoolExecutor para baixar vários arquivos ao mesmo tempo
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            list(executor.map(download_file, files_to_update))
+
         with open("manifest.json", "w") as f:
             json.dump(remote_manifest, f, indent=4)
 
-        report(f"🎉 Atualização para v{remote_version} concluída!", 100)
+        report(f"🎉 Atualização concluída!", 100)
         return True
 
     except Exception as e:
