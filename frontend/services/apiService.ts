@@ -18,8 +18,13 @@ export async function getChatResponse(message: string, history: any[] = []) {
     clearTimeout(timeoutId);
 
     if (!response.ok) {
-      const errorData = await response.json().catch(() => null);
-      const detail = errorData?.detail || 'Network response was not ok';
+      let detail = 'Network response was not ok';
+      try {
+        const errorData = await response.json();
+        detail = errorData?.detail || detail;
+      } catch (e) {
+        detail = `${response.status} ${response.statusText}`;
+      }
       throw new Error(detail);
     }
 

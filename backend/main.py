@@ -86,6 +86,9 @@ from contextlib import asynccontextmanager
 # Cache monster names for entity extraction
 ALL_MONSTERS = []
 
+# Lista unificada de saudações para evitar inconsistências
+GREETINGS = ["olá", "oi", "bom dia", "boa tarde", "boa noite", "e aí", "opa", "hello", "hi", "eae"]
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global ALL_MONSTERS
@@ -103,6 +106,18 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+from fastapi.responses import JSONResponse
+import traceback
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request, exc):
+    print(f"🔥 UNHANDLED ERROR: {exc}")
+    traceback.print_exc()
+    return JSONResponse(
+        status_code=500,
+        content={"detail": f"Internal Server Error: {str(exc)}"}
+    )
 
 class ChatRequest(BaseModel):
     message: str
@@ -152,8 +167,7 @@ def anti_hallucination_middleware(user_message: str, local_context: str):
     Middleware que decide o prompt do sistema com base na presença de dados.
     """
     user_lower = user_message.lower()
-    greetings = ["olá", "oi", "bom dia", "boa tarde", "boa noite", "e aí", "opa", "hello", "hi"]
-    is_greeting = any(g in user_lower for g in greetings) and len(user_lower.split()) < 4
+    is_greeting = any(g in user_lower for g in GREETINGS) and len(user_lower.split()) < 4
     
     db_found = len(local_context.strip()) > 0
     
@@ -195,13 +209,16 @@ async def chat(request: ChatRequest):
     found_monster = next((str(m) for m in sorted_monsters if str(m).lower() in user_lower), None)
 
     # Verificar se é cumprimento simples
-    greetings = ["olá", "oi", "bom dia", "boa tarde", "boa noite", "e aí", "opa", "hello", "hi"]
-    is_greeting = any(g in user_lower for g in greetings) and len(user_lower.split()) < 4
+    is_greeting = any(g in user_lower for g in GREETINGS) and len(user_lower.split()) < 4
 
-    if not is_greeting:
-        local_context = await asyncio.to_thread(mhw_rag.get_rag_context, user_message)
-    else:
-        local_context = ""
+    try:
+        if not is_greeting:
+            local_context = await asyncio.to_thread(mhw_rag.get_rag_context, user_message)
+        else:
+            local_context = ""
+    except Exception as e:
+        print(f"❌ Erro ao recuperar contexto RAG: {e}")
+        local_context = "" # Fallback para continuar sem contexto em vez de 500
 
     # APLICAR MIDDLEWARE ANTI-ALUCINAÇÃO
     system_instruction, has_data = anti_hallucination_middleware(user_message, local_context)

@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Sword } from 'lucide-react';
 
 interface InputBarProps {
@@ -9,6 +9,7 @@ interface InputBarProps {
 
 const InputBar: React.FC<InputBarProps> = ({ onSendMessage, disabled }) => {
   const [input, setInput] = useState('');
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const handleSend = () => {
     if (input.trim() && !disabled) {
@@ -17,12 +18,23 @@ const InputBar: React.FC<InputBarProps> = ({ onSendMessage, disabled }) => {
     }
   };
 
+  // Auto-focus input when enabled (after bot response)
+  useEffect(() => {
+    if (!disabled) {
+      // Small timeout ensures the DOM is fully ready and prevents race conditions
+      setTimeout(() => {
+        textareaRef.current?.focus();
+      }, 10);
+    }
+  }, [disabled]);
+
   return (
     <div className="h-24 bg-[#111] border-t border-[#2a2a2a] flex items-center px-6 gap-6 shadow-[0_-10px_30px_rgba(0,0,0,0.5)]">
 
 
       <div className="flex-1 relative flex items-center">
         <textarea
+          ref={textareaRef}
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {

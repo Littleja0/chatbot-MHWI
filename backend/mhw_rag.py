@@ -18,7 +18,13 @@ from llama_index.embeddings.nvidia import NVIDIAEmbedding  # type: ignore
 from dotenv import load_dotenv  # type: ignore
 
 # Localizar .env na raiz do projeto
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import sys
+if getattr(sys, 'frozen', False):
+    # No PyInstaller, o .env costuma ser colocado na raiz do _MEIPASS
+    ROOT_DIR = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+else:
+    ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 load_dotenv(os.path.join(ROOT_DIR, ".env"))
 
 # Configurações do NVIDIA AI Foundation
