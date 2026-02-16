@@ -14,6 +14,7 @@ from pathlib import Path
 from llama_index.core import VectorStoreIndex, StorageContext, load_index_from_storage, Settings  # type: ignore
 from llama_index.llms.nvidia import NVIDIA  # type: ignore
 from llama_index.embeddings.nvidia import NVIDIAEmbedding  # type: ignore
+from typing import List, Any, Optional, Union
 
 from dotenv import load_dotenv  # type: ignore
 
@@ -76,8 +77,8 @@ def setup_rag_engine(progress_callback=None):
         Executa task_fn em thread separada e envia heartbeats periódicos
         para o callback de progresso, evitando que o usuário pense que travou.
         """
-        result = [None]
-        error = [None]
+        result: List[Optional[Any]] = [None]
+        error: List[Optional[Exception]] = [None]
         done = threading.Event()
 
         def worker():
@@ -91,20 +92,21 @@ def setup_rag_engine(progress_callback=None):
         t = threading.Thread(target=worker, daemon=True)
         t.start()
 
-        elapsed = 0.0
+        elapsed: float = 0.0
         dots = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"]
         while not done.is_set():
             done.wait(interval)
             if not done.is_set():
-                elapsed += interval
+                elapsed = elapsed + interval  # type: ignore
                 frac = min(elapsed / 30.0, 0.9)
                 pct = int(start_pct + frac * (end_pct - start_pct))
                 dot = dots[int(elapsed / interval) % len(dots)]
                 report(f"{dot} {base_msg} ({int(elapsed)}s)", pct)
 
         t.join()
-        if error[0] is not None:
-            raise error[0]
+        err = error[0]
+        if err is not None:
+            raise err
         return result[0]
 
     if not RAG_PATH.exists():
@@ -163,14 +165,16 @@ def setup_rag_engine(progress_callback=None):
 
         report("💾 Salvando base de dados para uso futuro...", 97)
         STORAGE_PATH.mkdir(exist_ok=True)
-        index.storage_context.persist(persist_dir=str(STORAGE_PATH))
+        if index is not None:
+            index.storage_context.persist(persist_dir=str(STORAGE_PATH))
 
         # Salvar manifesto com hashes dos XMLs atuais
         rag_pipeline.save_manifest()
         report("✅ Base de dados pronta! Manifesto salvo.", 98)
 
     report("⚔️ Preparando assistente...", 99)
-    _query_engine = index.as_query_engine(similarity_top_k=15)
+    if index is not None:
+        _query_engine = index.as_query_engine(similarity_top_k=15)
     return _query_engine
 
 
@@ -276,13 +280,28 @@ def _expand_queries(prompt: str) -> list[str]:
     if re.search(r'\brm\b', lower):
         queries.append(re.sub(r'\brm\b', 'MR', prompt, flags=re.IGNORECASE))
 
+    # Tópicos manuais (Mantos, Joias, Farm)
+    if any(k in lower for k in ["manto", "mantle", "ferramenta", "obter", "desbloquear"]):
+        queries.append("Como Obter os Mantos de High Rank")
+        queries.append("FERRAMENTA:")
+    
+    if any(k in lower for k in ["joia", "jewel", "adorno", "decoration", "drop", "farm", "taxa"]):
+        queries.append("Farming de Joias (Adornos) - Drop Rates e Melhores Quests")
+        queries.append("DECORAÇÃO:")
+
+    # Detecção de Build / Amuleto
+    is_build = any(k in lower for k in ["build", "setup", "equipo", "equipar", "peças", "montar"])
+    if is_build or "amuleto" in lower or "talismã" in lower or "charm" in lower:
+        queries.append("AMULETO:")
+        queries.append("Amuletos e Talismãs recomendados")
+
     return list(dict.fromkeys(queries))  # Deduplica mantendo ordem
 
 
-def get_rag_context(prompt: str) -> str:
+async def get_rag_context(prompt: str) -> str:
     """
-    Recupera contexto relevante usando multi-query expansion.
-    Faz múltiplas buscas no índice para maximizar o recall.
+    Recupera contexto relevante usando multi-query expansion de forma ASSÍNCRONA.
+    Faz múltiplas buscas paralelas no índice para maximizar o recall e performance.
     """
     global _query_engine
     if _query_engine is None:
@@ -291,28 +310,41 @@ def get_rag_context(prompt: str) -> str:
     if not _query_engine:
         return ""
 
+    import asyncio
     retriever = _query_engine._retriever
 
     # Expandir prompt em múltiplas queries
     queries = _expand_queries(prompt)
 
-    # Coletar todos os nodes únicos de todas as queries
+    # Coletar todos os nodes únicos de todas as queries em paralelo
+    async def retrieve_task(q):
+        try:
+            # Tentar versão assíncrona do retriever (LlamaIndex)
+            if hasattr(retriever, "aretrieve"):
+                return await retriever.aretrieve(q)
+            else:
+                return retriever.retrieve(q)
+        except Exception as e:
+            print(f"  ⚠️ Erro na query '{q[:50]}': {e}")
+            return []
+
+    # Disparar todas as buscas ao mesmo tempo
+    from typing import cast
+    tasks = [retrieve_task(q) for q in queries]
+    results = cast(List[Any], await asyncio.gather(*tasks))
+
+    # Deduplicar e juntar conteúdos
     seen_keys: set = set()
     all_contents: list = []
 
-    for q in queries:
-        try:
-            nodes = retriever.retrieve(q)
-            for node in nodes:
-                content = node.get_content()
-                # Deduplica por início do conteúdo
-                key = content[:200]
-                if key not in seen_keys:
-                    seen_keys.add(key)
-                    all_contents.append(content)
-        except Exception as e:
-            print(f"  ⚠️ Erro na query '{q[:50]}': {e}")
-            continue
+    for nodes in results:
+        for node in nodes:
+            content = node.get_content()
+            # Deduplica por início do conteúdo
+            key = content[:200]
+            if key not in seen_keys:
+                seen_keys.add(key)
+                all_contents.append(content)
 
     return "\n\n".join(all_contents)
 

@@ -1,61 +1,119 @@
 
 import React from 'react';
-import { MessageSquare, Pin, Plus } from 'lucide-react';
+import { MessageSquare, Pin, Plus, Trash2 } from 'lucide-react';
+import { Chat } from '../types';
 
-const Sidebar: React.FC = () => {
-  const recentChats = [
-    "Dual Blades Build for Safi'jiiva",
-    "Alatreon Strategy",
-    "Nest sorter Build for MHW:B...",
-    "Alatreon Information Tips"
-  ];
+interface SidebarProps {
+  chats: Chat[];
+  activeChatId: string | null;
+  onSelectChat: (id: string) => void;
+  onCreateChat: () => void;
+  onDeleteChat: (id: string) => void;
+  onTogglePin: (id: string) => void;
+}
 
-  const pinnedGuides = [
-    "Fatalis Strategy",
-    "Alatreon Elemental Tips",
-    "Alatreon Concept Elements",
-    "Pinned Guide: Strategy"
-  ];
+const Sidebar: React.FC<SidebarProps> = ({
+  chats,
+  activeChatId,
+  onSelectChat,
+  onCreateChat,
+  onDeleteChat,
+  onTogglePin
+}) => {
+  const recentChats = chats.filter(c => !c.is_pinned);
+  const pinnedChats = chats.filter(c => c.is_pinned);
 
   return (
     <div className="w-64 bg-[#141414] border-r border-[#2a2a2a] flex flex-col h-full overflow-hidden">
       <div className="p-4 flex items-center gap-2 border-b border-[#2a2a2a]">
         <div className="w-8 h-8 bg-[#3d3d3d] rounded flex items-center justify-center">
-           <span className="text-sm font-bold cinzel-font">MH</span>
+          <span className="text-sm font-bold cinzel-font text-white">MH</span>
         </div>
-        <h1 className="text-lg cinzel-font font-bold tracking-tight">MHW:I AI Hub</h1>
+        <h1 className="text-lg cinzel-font font-bold tracking-tight text-white">MHW:I AI Hub</h1>
       </div>
 
-      <div className="flex-1 overflow-y-auto px-2 py-4 space-y-6">
+      <div className="flex-1 overflow-y-auto px-2 py-4 space-y-6 scrollbar-thin">
         <section>
           <div className="flex items-center justify-between px-2 mb-2 text-xs font-semibold uppercase text-gray-500 tracking-wider">
             <span>Recent Chats</span>
-            <button className="hover:text-white transition-colors"><Plus size={14} /></button>
+            <button
+              onClick={onCreateChat}
+              className="hover:text-white transition-colors p-1"
+            >
+              <Plus size={14} />
+            </button>
           </div>
           <ul className="space-y-1">
-            {recentChats.map((chat, idx) => (
-              <li key={idx} className={`flex items-center gap-2 px-3 py-2 text-sm rounded cursor-pointer transition-colors group ${idx === 0 ? 'bg-[#222] text-white border border-[#333]' : 'text-gray-400 hover:bg-[#1a1a1a] hover:text-gray-200'}`}>
-                <MessageSquare size={14} className="opacity-60" />
-                <span className="truncate">{chat}</span>
+            {recentChats.map((chat) => (
+              <li
+                key={chat.id}
+                onClick={() => onSelectChat(chat.id)}
+                className={`flex items-center justify-between gap-2 px-3 py-2 text-sm rounded cursor-pointer transition-all group ${activeChatId === chat.id
+                    ? 'bg-[#222] text-white border border-[#333]'
+                    : 'text-gray-400 hover:bg-[#1a1a1a] hover:text-gray-200'
+                  }`}
+              >
+                <div className="flex items-center gap-2 truncate">
+                  <MessageSquare size={14} className="opacity-60 flex-shrink-0" />
+                  <span className="truncate">{chat.title}</span>
+                </div>
+                <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <button
+                    onClick={(e) => { e.stopPropagation(); onTogglePin(chat.id); }}
+                    className="p-1 hover:text-yellow-500 transition-colors"
+                  >
+                    <Pin size={12} className="rotate-45" />
+                  </button>
+                  <button
+                    onClick={(e) => { e.stopPropagation(); onDeleteChat(chat.id); }}
+                    className="p-1 hover:text-red-500 transition-colors"
+                  >
+                    <Trash2 size={12} />
+                  </button>
+                </div>
               </li>
             ))}
           </ul>
         </section>
 
-        <section>
-          <div className="flex items-center justify-between px-2 mb-2 text-xs font-semibold uppercase text-gray-500 tracking-wider">
-            <span>Pinned Guides</span>
-            <button className="hover:text-white transition-colors"><Plus size={14} /></button>
-          </div>
-          <ul className="space-y-1">
-            {pinnedGuides.map((guide, idx) => (
-              <li key={idx} className="flex items-center gap-2 px-3 py-2 text-sm text-gray-400 hover:bg-[#1a1a1a] hover:text-gray-200 cursor-pointer transition-colors">
-                <Pin size={14} className="opacity-60 rotate-45" />
-                <span className="truncate underline decoration-gray-700 underline-offset-4">{guide}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
+        {pinnedChats.length > 0 && (
+          <section>
+            <div className="flex items-center justify-between px-2 mb-2 text-xs font-semibold uppercase text-gray-500 tracking-wider">
+              <span>Pinned Guides</span>
+            </div>
+            <ul className="space-y-1">
+              {pinnedChats.map((chat) => (
+                <li
+                  key={chat.id}
+                  onClick={() => onSelectChat(chat.id)}
+                  className={`flex items-center justify-between gap-2 px-3 py-2 text-sm rounded cursor-pointer transition-all group ${activeChatId === chat.id
+                      ? 'bg-[#222] text-white border border-[#333]'
+                      : 'text-gray-400 hover:bg-[#1a1a1a] hover:text-gray-200'
+                    }`}
+                >
+                  <div className="flex items-center gap-2 truncate">
+                    <Pin size={14} className="opacity-60 rotate-45 text-yellow-600 flex-shrink-0" />
+                    <span className="truncate underline decoration-gray-700 underline-offset-4">{chat.title}</span>
+                  </div>
+                  <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <button
+                      onClick={(e) => { e.stopPropagation(); onTogglePin(chat.id); }}
+                      className="p-1 hover:text-yellow-500 transition-colors"
+                    >
+                      <Pin size={12} className="rotate-0" />
+                    </button>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); onDeleteChat(chat.id); }}
+                      className="p-1 hover:text-red-500 transition-colors"
+                    >
+                      <Trash2 size={12} />
+                    </button>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </div>
   );

@@ -51,7 +51,7 @@ echo.
 echo.
 echo [INFO] Iniciando servidor...
 echo [INFO] Acesse em: http://localhost:8000
-echo [INFO] Pressione Ctrl+C para parar o servidor
+echo [INFO] Pressione Ctrl+C no terminal para encerrar o processo.
 echo.
 python backend/main.py
 pause

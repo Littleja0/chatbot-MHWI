@@ -1,5 +1,4 @@
 
-// Fix: Added React import to resolve namespace error for React.ReactNode
 import React from 'react';
 
 export interface Message {
@@ -7,6 +6,14 @@ export interface Message {
   role: 'user' | 'assistant';
   content: string;
   timestamp: number;
+}
+
+export interface Chat {
+  id: string;
+  title: string;
+  is_pinned: boolean;
+  created_at: string;
+  updated_at: string;
 }
 
 export interface Reward {

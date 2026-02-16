@@ -1,7 +1,7 @@
+
 const API_URL = import.meta.env.VITE_API_URL || '';
 
-export async function getChatResponse(message: string, history: any[] = []) {
-  // Timeout de 90s para evitar loading infinito
+export async function getChatResponse(message: string, chatId: string | null = null) {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), 90000);
 
@@ -11,7 +11,7 @@ export async function getChatResponse(message: string, history: any[] = []) {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ message }),
+      body: JSON.stringify({ message, chat_id: chatId }),
       signal: controller.signal,
     });
 
@@ -33,36 +33,53 @@ export async function getChatResponse(message: string, history: any[] = []) {
   } catch (error: any) {
     clearTimeout(timeoutId);
     if (error.name === 'AbortError') {
-      console.error("Request timed out after 90s");
       return "⏰ A requisição demorou demais e foi cancelada. Tente novamente com uma pergunta mais simples.";
     }
-    console.error("Backend Error:", error);
-    return error.message || "The Scoutflies are confused... I couldn't reach the Research Center (Backend). Please ensure the backend is running.";
+    return error.message || "Error connecting to backend.";
   }
+}
+
+export async function getChats() {
+  const res = await fetch(`${API_URL}/chats`);
+  return res.json();
+}
+
+export async function createChat(title?: string) {
+  const res = await fetch(`${API_URL}/chats`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ title })
+  });
+  return res.json();
+}
+
+export async function getHistory(chatId: string) {
+  const res = await fetch(`${API_URL}/chats/${chatId}/history`);
+  return res.json();
+}
+
+export async function deleteChat(chatId: string) {
+  await fetch(`${API_URL}/chats/${chatId}`, { method: 'DELETE' });
+}
+
+export async function pinChat(chatId: string) {
+  await fetch(`${API_URL}/chats/${chatId}/pin`, { method: 'PATCH' });
+}
+
+export async function renameChat(chatId: string, title: string) {
+  await fetch(`${API_URL}/chats/${chatId}/title`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ title })
+  });
 }
 
 export async function getMonsterIntel(monsterName: string) {
   try {
     const response = await fetch(`${API_URL}/monster/${monsterName}`);
-
-    if (!response.ok) {
-      if (response.status === 404) {
-        console.warn(`Monster ${monsterName} not found.`);
-        return null;
-      }
-      throw new Error('Network response was not ok');
-    }
-
-    const data = await response.json();
-    return {
-      weakness: data.weakness || [],
-      resistances: data.resistances || [],
-      breakableParts: data.breakableParts || [],
-      rewards: data.rewards || {},
-      image: data.image
-    };
+    if (!response.ok) return null;
+    return response.json();
   } catch (error) {
-    console.error("Intel Error:", error);
     return null;
   }
 }

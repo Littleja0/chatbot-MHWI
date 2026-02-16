@@ -28,9 +28,12 @@ if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
 # Agora os imports funcionam independente do local
+import mhw_api # type: ignore
 import mhw_rag # type: ignore
 import rag_pipeline # type: ignore
 import updater # type: ignore
+from typing import List, Any, Optional, Union, cast
+import chat_db # type: ignore
 import json
 import asyncio
 import httpx  # type: ignore
@@ -77,6 +80,7 @@ class SplashStdout:
         self.original.flush()
 
 from fastapi import FastAPI, HTTPException  # type: ignore
+from fastapi.responses import JSONResponse # type: ignore
 from fastapi.middleware.cors import CORSMiddleware  # type: ignore
 from fastapi.staticfiles import StaticFiles  # type: ignore
 from pydantic import BaseModel  # type: ignore
@@ -107,7 +111,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from fastapi.responses import JSONResponse
 import traceback
 
 @app.exception_handler(Exception)
@@ -121,6 +124,8 @@ async def global_exception_handler(request, exc):
 
 class ChatRequest(BaseModel):
     message: str
+    chat_id: Optional[str] = None
+    history: list = []
 
 from dotenv import load_dotenv # type: ignore
 # Localizar .env na raiz do projeto (um nível acima de /backend)
@@ -138,29 +143,74 @@ OS_NVIDIA_KEY = NVIDIA_API_KEY.replace("Bearer ", "").strip()
 
 @app.get("/monster/{name}")
 async def get_monster(name: str):
-    # Usamos o RAG para extrair os detalhes específicos em formato JSON
-    # Isso elimina a necessidade de queries SQL complexas
-    prompt = (
-        f"Extraia os detalhes do monstro '{name}' no seguinte formato JSON estrito: "
-        '{"name": "nome", "species": "espécie", "description": "descrição", '
-        '"weakness": ["lista"], "resistances": ["lista"], "breakableParts": ["lista"], '
-        '"rewards": {"Rank": [{"item": "nome", "condition": "condição", "chance": "20%", "stack": 1}]}}'
-        "Responda APENAS o JSON."
-    )
-    
-    import json
+    # Tentar buscar dados diretamente do banco de dados (muito mais rápido e preciso)
     try:
-        raw_response = mhw_rag.get_rag_response(prompt)
-        # Limpa possíveis formatações de markdown do LLM
-        json_str = raw_response.strip().replace("```json", "").replace("```", "")
-        monster_data = json.loads(json_str)
+        data_list = mhw_api.get_monster_data(name)
+        if not data_list:
+            raise HTTPException(status_code=404, detail="Monstro não encontrado no banco de dados.")
         
-        # Adiciona a imagem (fallback para imagem aleatória se não tiver scraper)
-        monster_data["image"] = f"https://picsum.photos/seed/{name}/800/600"
-        return monster_data
+        # Pegar o primeiro resultado (mais relevante)
+        m = data_list[0]
+        
+        # Buscar imagem via scraping (ou cache)
+        image_url = mhw_api.get_monster_image_url(m['name'])
+        
+        # Formatar para o frontend
+        monster_intel = {
+            "name": m['name'],
+            "species": m['species'],
+            "description": m['description'],
+            "weakness": m['weaknesses'],
+            "resistances": [], # O banco de dados atual foca em fraquezas
+            "breakableParts": m.get('breaks', []),
+            "rewards": m['rewards'],
+            "image": image_url or f"https://picsum.photos/seed/{m['name']}/800/600"
+        }
+        
+        return monster_intel
+        
     except Exception as e:
-        print(f"Erro ao parsear detalhes do monstro via RAG: {e}")
-        raise HTTPException(status_code=404, detail="Não foi possível recuperar os detalhes do monstro.")
+        print(f"Erro ao recuperar detalhes do monstro via API: {e}")
+        # Fallback para o RAG se o banco falhar por algum motivo (menos provável agora)
+        raise HTTPException(status_code=404, detail=f"Não foi possível recuperar os detalhes do monstro: {str(e)}")
+
+# --- NOVAS ROTAS DE SESSÃO ---
+
+@app.get("/chats")
+async def get_chats():
+    # Garantir que usamos o método correto do chat_db
+    try:
+        return chat_db.get_all_chats()
+    except Exception as e:
+        print(f"Erro ao buscar chats: {e}")
+        return []
+
+@app.post("/chats")
+async def create_new_chat(data: Optional[dict] = None):
+    title = (data or {}).get("title", "Nova Conversa")
+    chat_id = chat_db.create_chat(title)
+    return {"id": chat_id, "title": title}
+
+@app.get("/chats/{chat_id}/history")
+async def get_history(chat_id: str):
+    return chat_db.get_chat_messages(chat_id)
+
+@app.delete("/chats/{chat_id}")
+async def delete_chat(chat_id: str):
+    chat_db.delete_chat(chat_id)
+    return {"status": "deleted"}
+
+@app.patch("/chats/{chat_id}/pin")
+async def pin_chat(chat_id: str):
+    chat_db.toggle_pin(chat_id)
+    return {"status": "toggled"}
+
+@app.patch("/chats/{chat_id}/title")
+async def rename_chat(chat_id: str, data: dict):
+    title = data.get("title")
+    chat_id = chat_db.update_chat_title(chat_id, title)
+    return {"status": "renamed"}
+
 
 def anti_hallucination_middleware(user_message: str, local_context: str):
     """
@@ -188,11 +238,18 @@ def anti_hallucination_middleware(user_message: str, local_context: str):
     else:
         system_instruction = (
             "Você é o Especialista Supremo de Monster Hunter World Iceborne. "
-            "Siga estas REGRAS DE OURO para evitar alucinações:\n"
+            "Siga estas REGRAS DE OURO para completar sua missão e evitar alucinações:\n"
             "1. FONTE ÚNICA DA VERDADE: Use APENAS os dados fornecidos abaixo.\n"
             "2. PROIBIÇÃO DE CONHECIMENTO EXTERNO: Se uma skill, slot ou status não estiver nos dados, ignore-o ou diga que não consta.\n"
-            "3. LISTA ESTRUTURADA: Para builds, use o formato sugerido (Cabeça, Torso, Braços, Cintura, Pernas, Talismã).\n"
-            "4. VERACIDADE: Nunca invente valores numéricos.\n\n"
+            "3. ESTRUTURA COMPLETA DE BUILD: Sempre que sugerir uma build, você DEVE incluir: Arma, Cabeça, Torso, Braços, Cintura, Pernas e um Amuleto (Talismã). Nunca esqueça de sugerir um Amuleto que combine com as skills da build.\n"
+            "4. COBERTURA DE SLOTS E ADORNOS: Para cada peça (arma e armadura), recomende adornos/joias para TODOS os slots disponíveis. Não deixe slots vazios. Se sobrar espaço, sugira joias de utilidade/sobrevivência (ex: Joia de Vitalidade, Joia de Proteção Divina).\n"
+            "5. SUGESTÕES DE SUBSTITUIÇÃO: Para as joias mais raras (ex: Joias de nível 4, Joia de Ataque 1), ofereça sempre uma 'Opção Econômica' ou 'Substituição Amigável' caso o usuário não possua as joias ideais.\n"
+            "6. VERACIDADE: Nunca invente valores numéricos ou skills que não existam no contexto.\n"
+            "7. TRATAMENTO DE PERGUNTAS VAGAS: Se o usuário perguntar de forma genérica o que você tem (ex: 'Quais joias você tem?', 'Mostre os equipamentos'), NÃO liste tudo. "
+            "Reconheça o interesse e faça 2 ou 3 perguntas de qualificação: Rank desejado (MR/HR), tipo de habilidade (Ataque, Defesa, Utilidade) ou arma/estilo de jogo.\n"
+            "8. SOLICITAÇÃO DE CATÁLOGO COMPRETO: Se o usuário pedir explicitamente para 'ver tudo', 'tabela completa' ou 'catálogo completo', NÃO exiba o texto no chat. "
+            "Responda apenas: 'Como solicitado, aqui está o catálogo completo para sua análise detalhada: [Catálogo Completo de Joias](/catalogo_completo.md)'.\n"
+            "9. CONSULTAS ESPECÍFICAS: Se o usuário já deu detalhes, responda diretamente com as opções dos dados abaixo.\n\n"
             f"DADOS RECUPERADOS DO BANCO DE DADOS:\n{local_context}"
         )
     
@@ -204,25 +261,53 @@ async def chat(request: ChatRequest):
     user_message = request.message
     user_lower = user_message.lower()
 
-    # Detectar monstro mencionado (para metadata da resposta)
-    sorted_monsters = sorted(ALL_MONSTERS, key=len, reverse=True)
-    found_monster = next((str(m) for m in sorted_monsters if str(m).lower() in user_lower), None)
+    # --- IDENTIFICAR CONTEXTO DE MONSTRO (Cura para o 'Alzheimer') ---
+    chat_id = request.chat_id or "default_session"
+    db_history = chat_db.get_chat_messages(chat_id)
+    active_monster = None
+    
+    # 1. Procurar monstro no histórico (do mais recente para o mais antigo)
+    for msg in reversed(db_history):
+        content_low = msg['content'].lower()
+        matched = next((str(m) for m in ALL_MONSTERS if str(m).lower() in content_low), None)
+        if matched:
+            active_monster = matched
+            break
 
-    # Verificar se é cumprimento simples
+    # 2. Procurar monstro na mensagem ATUAL (sobrescreve o histórico se houver um novo)
+    found_now = next((str(m) for m in sorted(ALL_MONSTERS, key=len, reverse=True) if str(m).lower() in user_lower), None)
+    
+    monster_context = found_now or active_monster
+    if monster_context:
+        print(f"🔍 Monstro em foco: {monster_context}")
+
+    # --- RECUPERAR CONTEXTO RAG ---
     is_greeting = any(g in user_lower for g in GREETINGS) and len(user_lower.split()) < 4
-
+    
     try:
         if not is_greeting:
-            local_context = await asyncio.to_thread(mhw_rag.get_rag_context, user_message)
+            # Tentar RAG com a mensagem do usuário
+            local_context = await mhw_rag.get_rag_context(user_message)
+            
+            # Se a pergunta for vaga (ex: "o que ele dropa?") e tivermos um monstro no contexto, 
+            # forçar uma busca pelo monstro para alimentar o RAG
+            if len(local_context.strip()) < 100 and monster_context:
+                extra_context = await mhw_rag.get_rag_context(f"Detalhes, drops e fraquezas do {monster_context}")
+                local_context = (local_context + "\n" + extra_context).strip()
         else:
             local_context = ""
     except Exception as e:
         print(f"❌ Erro ao recuperar contexto RAG: {e}")
-        local_context = "" # Fallback para continuar sem contexto em vez de 500
+        local_context = ""
 
     # APLICAR MIDDLEWARE ANTI-ALUCINAÇÃO
     system_instruction, has_data = anti_hallucination_middleware(user_message, local_context)
     
+    # Injetar o monstro ativo no sistema para o LLM não se perder
+    if monster_context:
+        system_instruction += f"\n\nFOCO DA CONVERSA: Você está falando sobre o monstro '{monster_context}'. Mantenha o contexto técnico nele, a menos que eu peça sobre outro monstro explicitamente."
+        has_data = True # Se temos um monstro no contexto, podemos responder
+
     # Personalidade do Gojo (opcional, mantida se houver dados, senão bloqueada pelo middleware)
     if has_data:
         system_instruction += (
@@ -230,10 +315,17 @@ async def chat(request: ChatRequest):
             "mas mantenha a precisão técnica dos dados acima."
         )
 
-    messages = [
-        {"role": "system", "content": system_instruction},
-        {"role": "user", "content": user_message}
-    ]
+    # Construir mensagens para o LLM
+    llm_messages = [{"role": "system", "content": system_instruction}]
+    
+    # Adicionar histórico (últimas 10 mensagens para não estourar contexto)
+    if db_history:
+        history_slice = cast(list, db_history)[-10:]
+        for msg in history_slice:
+            llm_messages.append({"role": msg['role'], "content": msg['content']})
+        
+    # Adicionar mensagem atual
+    llm_messages.append({"role": "user", "content": user_message})
 
     # Usar AsyncOpenAI com timeout para não bloquear o event loop
     client = AsyncOpenAI(
@@ -245,15 +337,32 @@ async def chat(request: ChatRequest):
     try:
         completion = await client.chat.completions.create(
             model="moonshotai/kimi-k2-instruct-0905",
-            messages=messages,
+            messages=llm_messages,
             temperature=0.4, # Temperatura mais baixa para mais precisão
             max_tokens=2048,
             stream=False
         )
+        
+        response_text = completion.choices[0].message.content
+
+        # SALVAR NO BANCO SE TIVER CHAT_ID
+        if chat_id:
+            # Salvar pergunta do usuário
+            chat_db.add_message(chat_id, "user", user_message)
+            # Salvar resposta da IA
+            chat_db.add_message(chat_id, "assistant", response_text)
+            
+            # Se for a primeira mensagem, atualizar título baseado na pergunta
+            if not db_history:
+                msg_str = str(user_message)
+                new_title = msg_str[:30] + ("..." if len(msg_str) > 30 else "")
+                chat_db.update_chat_title(chat_id, new_title)
+
         return {
-            "response": completion.choices[0].message.content, 
-            "sources": ["MHW RAG (XMLs estruturados)"] if has_data else [],
-            "detected_monster": found_monster
+            "response": response_text, 
+            "sources": ["MHW RAG"] if has_data else [],
+            "detected_monster": monster_context,
+            "chat_id": chat_id
         }
     except httpx.TimeoutException:
         error_detail = "A API demorou demais para responder. Tente novamente."
@@ -264,21 +373,20 @@ async def chat(request: ChatRequest):
         print(f"❌ {error_detail}")
         raise HTTPException(status_code=500, detail=error_detail)
 
-# Mount the frontend directory to serve static files
-if getattr(sys, 'frozen', False):
-    frontend_dir = os.path.join(os.path.dirname(sys.executable), "frontend")
-else:
-    # Use absolute paths based on this file's location
-    backend_dir = os.path.dirname(os.path.abspath(__file__))
-    root_dir = os.path.dirname(backend_dir)
-    dist_dir = os.path.join(root_dir, "frontend", "dist")
-    
-    if os.path.isdir(dist_dir):
-        frontend_dir = dist_dir
-    else:
-        frontend_dir = os.path.join(root_dir, "frontend")
+# --- CONFIGURAÇÃO DE ARQUIVOS ESTÁTICOS ---
+# Definir caminhos fora de condicionais para evitar erros de escopo
+backend_dir_abs = os.path.dirname(os.path.abspath(__file__))
+root_dir_abs = os.path.dirname(backend_dir_abs)
+dist_dir_abs = os.path.join(root_dir_abs, "frontend", "dist")
 
-app.mount("/", StaticFiles(directory=frontend_dir, html=True), name="frontend")
+if os.path.exists(dist_dir_abs):
+    frontend_dir_final = dist_dir_abs
+    print(f"🚀 Servindo frontend a partir de: {frontend_dir_final}")
+else:
+    frontend_dir_final = os.path.join(root_dir_abs, "frontend")
+    print(f"⚠️ Atenção: 'dist' não encontrado. Servindo de: {frontend_dir_final}")
+
+app.mount("/", StaticFiles(directory=frontend_dir_final, html=True), name="frontend")
 
 if __name__ == "__main__":
 

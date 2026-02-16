@@ -135,10 +135,20 @@
             document.getElementById('version-tag').innerText = 'v' + v;
         }
 
-        // Simulação para o preview
-        // setTimeout(() => updateStatus('Buscando atualizações...', 20), 1000);
-        // setTimeout(() => updateStatus('Sincronizando banco de dados...', 50), 2500);
-        // setTimeout(() => updateStatus('Iniciando interface...', 90), 4000);
+        // Bind para fechar o processo (Ctrl+Q) também na Splash Screen
+        window.addEventListener('keydown', async (e) => {
+            if (e.ctrlKey && e.key.toLowerCase() === 'q') {
+                try {
+                    // Tenta encerrar o processo via API
+                    await fetch('http://127.0.0.1:8000/shutdown', { 
+                        method: 'POST',
+                        mode: 'no-cors' // Evita problemas de CORS já que estamos em um contexto de arquivo local
+                    });
+                } catch (err) {
+                    // Silencioso se der erro
+                }
+            }
+        });
     </script>
 </body>
 </html>

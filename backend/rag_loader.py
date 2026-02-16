@@ -672,10 +672,64 @@ def _load_decorations() -> list[Document]:
             if sname:
                 lines.append(f"Skill: {sname}")
 
+        # Drop rates (Feystones)
+        rates = []
+        for key, label in [
+            ("mysterious_feystone_percent", "Misteriosa"),
+            ("glowing_feystone_percent", "Cintilante"),
+            ("worn_feystone_percent", "Gasta"),
+            ("warped_feystone_percent", "Entalhada"),
+            ("ancient_feystone_percent", "Antiga"),
+            ("carved_feystone_percent", "Gravada"),
+            ("sealed_feystone_percent", "Selada")
+        ]:
+            val = d.get(key, "")
+            if val and val != "0.0" and val != "0":
+                rates.append(f"{label}: {val}%")
+        
+        if rates:
+            lines.append("Drop Rates (Chances por Pedra de Feitiço):")
+            for r in rates:
+                lines.append(f"  - {r}")
+
         docs.append(Document(
             text="\n".join(lines),
             metadata={"source": "decoration", "name": name},
         ))
+    return docs
+
+
+# ============================================================
+# CONHECIMENTO MANUAL (MANTOS, DROPS, ETC)
+# ============================================================
+def _load_manual_knowledge() -> list[Document]:
+    docs = []
+    records = _parse_xml("manual_knowledge.xml")
+    for rec in records:
+        content = rec.get("content", "")
+        topic = rec.get("topic", "")
+        if content:
+            docs.append(Document(
+                text=f"=== {topic} ===\n{content}",
+                metadata={"source": "manual", "topic": topic}
+            ))
+    return docs
+
+
+# ============================================================
+# CATÁLOGO DE JOIAS (ESTRUTURADO)
+# ============================================================
+def _load_jewel_catalog() -> list[Document]:
+    docs = []
+    records = _parse_xml("jewel_catalog.xml")
+    for rec in records:
+        content = rec.get("content", "")
+        topic = rec.get("topic", "")
+        if content:
+            docs.append(Document(
+                text=f"=== {topic} ===\n{content}",
+                metadata={"source": "jewel_catalog", "topic": topic}
+            ))
     return docs
 
 
@@ -1072,6 +1126,8 @@ def load_all_documents(progress_callback=None) -> list[Document]:
         ("Carregando kinsects...", _load_kinsects),
         ("Carregando ferramentas...", _load_tools),
         ("Carregando localizações...", _load_locations),
+        ("Carregando conhecimento manual...", _load_manual_knowledge),
+        ("Carregando catálogo de joias...", _load_jewel_catalog),
     ]
 
     for msg, loader_fn in loaders:

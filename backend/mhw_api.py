@@ -168,6 +168,7 @@ def get_monster_data(monster_name):
                 "description": monster['description'],
                 "weaknesses": weaknesses,
                 "hitzones": hitzones,
+                "breaks": get_monster_breaks(conn, monster_id),
                 "rewards": get_monster_rewards(conn, monster_id)
             })
         return all_monster_info
@@ -203,23 +204,60 @@ def get_monster_rewards(conn, monster_id):
              cursor = conn.execute(query_en, (monster_id,))
              rows = cursor.fetchall()
 
+        # Agrupar e deduplicar para mostrar itens únicos com a melhor chance
         rewards = {}
+        # (rank, item_name) -> melhor_recompensa
+        best_rewards = {}
+
         for row in rows:
             rank = row['rank']
+            item_name = row['item_name']
+            chance = row['percentage']
+            
+            key = (rank, item_name)
+            if key not in best_rewards or chance > best_rewards[key]['chance']:
+                best_rewards[key] = {
+                    "item": item_name,
+                    "condition": row['condition_name'],
+                    "chance": chance,
+                    "stack": row['stack']
+                }
+
+        # Organizar de volta no dicionário por Rank
+        for (rank, item_name), data in best_rewards.items():
             if rank not in rewards:
                 rewards[rank] = []
+            rewards[rank].append(data)
             
-            rewards[rank].append({
-                "item": row['item_name'],
-                "condition": row['condition_name'],
-                "chance": row['percentage'],
-                "stack": row['stack']
-            })
+        # Ordenar por maior chance dentro de cada Rank
+        for r in rewards:
+            rewards[r].sort(key=lambda x: x['chance'], reverse=True)
             
         return rewards
     except Exception as e:
         print(f"Erro rewards: {e}")
         return {}
+
+def get_monster_breaks(conn, monster_id):
+    """
+    Busca partes quebráveis/cortáveis do monstro.
+    """
+    try:
+        query = """
+            SELECT bt.name
+            FROM monster_break b
+            JOIN monster_break_text bt ON b.id = bt.id
+            WHERE b.monster_id = ? AND bt.lang_id = 'pt'
+        """
+        cursor = conn.execute(query, (monster_id,))
+        rows = cursor.fetchall()
+        if not rows:
+             rows = conn.execute(query.replace("'pt'", "'en'"), (monster_id,)).fetchall()
+        
+        return [row[0] for row in rows]
+    except Exception as e:
+        print(f"Erro breaks: {e}")
+        return []
 
 def get_item_info(item_name):
     """
