@@ -378,16 +378,14 @@ def _load_weapons() -> list[Document]:
         # Skills embutidas
         wskills = wskill_by_weapon.get(wid, [])
         if wskills:
-            skill_names = []
+            lines.append("Habilidades da Arma:")
             for ws in wskills:
                 st_id = ws.get("skilltree_id", "")
                 level = ws.get("level", "1")
                 st = skilltree_text.get(st_id, {})
                 sname = _display_name(st)
                 if sname:
-                    skill_names.append(f"{sname} +{level}")
-            if skill_names:
-                lines.append(f"Skills: {', '.join(skill_names)}")
+                    lines.append(f"  - {sname}: Nível {level}")
 
         # Ammo (bowgun)
         ammos = ammo_by_weapon.get(wid, [])
@@ -417,91 +415,116 @@ def _load_weapons() -> list[Document]:
 
 
 # ============================================================
-# ARMADURAS
+# ARMADURAS (AGRUPADAS POR SET)
 # ============================================================
 def _load_armor() -> list[Document]:
     docs = []
     armors = _parse_xml("armor.xml")
     armor_text = _build_text_lookup("armor_text.xml")
+    armorset_text = _build_text_lookup("armorset_text.xml")
+    
+    # Dados de Bônus de Set
+    armorsets = _parse_xml("armorset.xml")
+    armorset_lookup = {aset.get("id"): aset for aset in armorsets}
+    bonus_text_lookup = _build_text_lookup("armorset_bonus_text.xml")
+    bonus_skills = _parse_xml("armorset_bonus_skill.xml")
+    bonus_skill_by_set = _group_by(bonus_skills, "setbonus_id")
+
     armor_skills = _parse_xml("armor_skill.xml")
     skilltree_text = _build_text_lookup("skilltree_text.xml")
     skill_by_armor = _group_by(armor_skills, "armor_id")
     item_text = _build_text_lookup("item_text.xml")
     recipe_lookup = _build_recipe_lookup(item_text)
 
-    for a in armors:
-        aid = a.get("id", "")
-        texts = armor_text.get(aid, {})
-        name_pt, name_en = _get_name(texts)
-        if not name_pt and not name_en:
+    # Agrupar peças por armorset_id
+    armor_grouped_by_set = _group_by(armors, "armorset_id")
+
+    for aset_id, pieces in armor_grouped_by_set.items():
+        aset_info = armorset_text.get(aset_id, {})
+        set_name = _display_name(aset_info) or f"Set #{aset_id}"
+        
+        # Filtro: Pular sets técnicos ou sem nome
+        if not set_name or "Set #" in set_name:
             continue
 
-        name = name_pt or name_en
-        lines = [f"=== ARMADURA: {name} ==="]
-        if name_pt and name_en and name_pt != name_en:
-            lines.append(f"Nome (EN): {name_en}")
+        lines = [f"=== CONJUNTO DE ARMADURA: {set_name} ==="]
+        
+        # Injetar Bônus de Set se existir
+        aset_data = armorset_lookup.get(aset_id, {})
+        bonus_id = aset_data.get("armorset_bonus_id", "")
+        if bonus_id:
+            bt = bonus_text_lookup.get(bonus_id, {})
+            bname = _display_name(bt)
+            if bname:
+                lines.append(f"Habilidade Especial de Set: {bname}")
+                bdesc = _display_name(bt, "description")
+                if bdesc: lines.append(f"Descrição do Bônus: {bdesc}")
+                
+                # Listar skills do bônus
+                bskills = bonus_skill_by_set.get(bonus_id, [])
+                for bs in bskills:
+                    required = bs.get("required", "")
+                    st_id = bs.get("skilltree_id", "")
+                    st = skilltree_text.get(st_id, {})
+                    sname = _display_name(st)
+                    if sname:
+                        lines.append(f"  - {required} peças: Ativa {sname}")
+        
+        # Ordenar peças por tipo
+        type_order = {"head": 1, "chest": 2, "arms": 3, "waist": 4, "legs": 5}
+        sorted_pieces = sorted(pieces, key=lambda p: type_order.get(p.get("armor_type", ""), 99))
 
-        rank = a.get("rank", "")
-        rarity = a.get("rarity", "")
-        atype = a.get("armor_type", "")
-        armorset_id = a.get("armorset_id", "")
+        for a in sorted_pieces:
+            aid = a.get("id", "")
+            texts = armor_text.get(aid, {})
+            pname = _display_name(texts)
+            if not pname: continue
 
-        if rank:
-            lines.append(f"Rank: {rank}")
-        if rarity:
-            lines.append(f"Raridade: {rarity}")
-        if atype:
-            lines.append(f"Tipo: {atype}")
+            lines.append(f"\n  > PEÇA: {pname} ({a.get('armor_type', 'desconhecido')})")
+            
+            rank = a.get("rank", "")
+            rarity = a.get("rarity", "")
+            if rank: lines.append(f"    Rank: {rank} | Raridade: {rarity}")
+            
+            # Defesa e Slots
+            def_base = a.get("defense_base", "0")
+            def_max = a.get("defense_max", "0")
+            def_aug = a.get("defense_augment_max", "0")
+            
+            slots = [a.get(f"slot_{i}", "0") for i in range(1, 4)]
+            slots = [s for s in slots if s and s != "0"]
+            slot_str = f"Slots: [{', '.join(slots)}]" if slots else "Slots: Nenhum"
+            
+            lines.append(f"    Defesa: Base {def_base} | Máx {def_max} | Aum. Máx {def_aug}")
+            lines.append(f"    {slot_str}")
 
-        defense = a.get("defense_base", "")
-        defense_max = a.get("defense_max", "")
-        defense_aug = a.get("defense_augment_max", "")
-        if defense:
-            parts = [f"Defesa: {defense}"]
-            if defense_max:
-                parts.append(f"máx {defense_max}")
-            if defense_aug:
-                parts.append(f"aug {defense_aug}")
-            lines.append(" → ".join(parts))
-
-        # Resistências
-        res_parts = []
-        for elem, key in [("Fogo", "fire"), ("Água", "water"), ("Gelo", "ice"),
-                          ("Trovão", "thunder"), ("Dragão", "dragon")]:
-            val = a.get(key, "0")
-            if val and val != "0":
+            # Resistências
+            res_parts = []
+            for elem, key in [("Fogo", "fire"), ("Água", "water"), ("Raio", "thunder"), ("Gelo", "ice"), ("Dragão", "dragon")]:
+                val = a.get(key, "0")
                 res_parts.append(f"{elem}={val}")
-        if res_parts:
-            lines.append(f"Resistências: {', '.join(res_parts)}")
+            lines.append(f"    Resistências: {', '.join(res_parts)}")
 
-        # Slots
-        slots = [a.get(f"slot_{i}", "0") for i in range(1, 4)]
-        slots = [s for s in slots if s and s != "0"]
-        if slots:
-            lines.append(f"Slots: [{', '.join(slots)}]")
+            # Materiais
+            rid = a.get("recipe_id", "")
+            if rid and rid in recipe_lookup:
+                lines.append(f"    Materiais de Forja: {recipe_lookup[rid]}")
 
-        # Skills
-        skills = skill_by_armor.get(aid, [])
-        if skills:
-            skill_names = []
-            for s in skills:
-                st_id = s.get("skilltree_id", "")
-                level = s.get("level", "1")
-                st = skilltree_text.get(st_id, {})
-                sname = _display_name(st)
-                if sname:
-                    skill_names.append(f"{sname} +{level}")
-            if skill_names:
-                lines.append(f"Skills: {', '.join(skill_names)}")
-
-        # Receitas de crafting
-        create_rid = a.get("recipe_id", "")
-        if create_rid and create_rid in recipe_lookup:
-            lines.append(f"Materiais: {recipe_lookup[create_rid]}")
+            # Skills
+            skills = skill_by_armor.get(aid, [])
+            if skills:
+                lines.append("    Habilidades:")
+                for s in skills:
+                    st_id = s.get("skilltree_id", "")
+                    level = s.get("level", "1")
+                    st = skilltree_text.get(st_id, {})
+                    sname = _display_name(st)
+                    if sname:
+                        lines.append(f"      - {sname}: Nível {level}")
 
         docs.append(Document(
             text="\n".join(lines),
-            metadata={"source": "armor", "name": name, "armorset_id": armorset_id},
+            metadata={"source": "armor_set", "name": set_name, "armorset_id": aset_id},
         ))
     return docs
 
@@ -1117,7 +1140,6 @@ def load_all_documents(progress_callback=None) -> list[Document]:
         ("Carregando monstros...", _load_monsters),
         ("Carregando armas...", _load_weapons),
         ("Carregando armaduras...", _load_armor),
-        ("Carregando sets de armadura...", _load_armorsets),
         ("Carregando amuletos...", _load_charms),
         ("Carregando decorações...", _load_decorations),
         ("Carregando itens...", _load_items),

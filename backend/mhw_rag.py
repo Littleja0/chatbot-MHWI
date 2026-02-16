@@ -174,7 +174,7 @@ def setup_rag_engine(progress_callback=None):
 
     report("⚔️ Preparando assistente...", 99)
     if index is not None:
-        _query_engine = index.as_query_engine(similarity_top_k=15)
+        _query_engine = index.as_query_engine(similarity_top_k=30)
     return _query_engine
 
 
@@ -227,20 +227,27 @@ MONSTER_ABBREVIATIONS = {
 }
 
 
-def _expand_queries(prompt: str) -> list[str]:
+def _expand_queries(prompt: str, history_text: str = "") -> list[str]:
     """
     Expande o prompt do usuário em múltiplas sub-queries para melhorar o recall.
     Lida com abreviações de armaduras/armas e conversões α/β/γ.
+    Usa history_text para pegar o monstro do contexto anterior se o prompt for vago.
     """
     queries = [prompt]
     lower = prompt.lower()
+    full_search_text = (lower + " " + history_text.lower()).strip()
 
     # Detectar nomes de monstros — processa os mais longos primeiro (evita match parcial)
     for monster_name, abbrev in sorted(
         MONSTER_ABBREVIATIONS.items(), key=lambda x: len(x[0]), reverse=True
     ):
-        if monster_name in lower:
-            is_armor = "armadura" in lower or "armor" in lower or "set" in lower
+        if monster_name in full_search_text:
+            # Se o monstro está no prompt atual, damos prioridade. 
+            # Se está só no histórico, só usamos se o prompt atual for "vago" (não tem monstro)
+            if monster_name not in lower and any(m in lower for m in MONSTER_ABBREVIATIONS.keys()):
+                continue
+
+            is_armor = "armadura" in lower or "armor" in lower or "set" in lower or "peça" in lower
             is_weapon = (
                 "arma " in lower or "weapon" in lower or "espada" in lower
                 or lower.startswith("arma") or "sword" in lower or "hammer" in lower
@@ -251,14 +258,16 @@ def _expand_queries(prompt: str) -> list[str]:
             )
 
             if is_armor:
-                queries.append(f"{abbrev} armadura set")
-                queries.append(f"SET DE ARMADURA: {abbrev}")
+                queries.append(f"CONJUNTO DE ARMADURA: {monster_name}")
+                queries.append(f"CONJUNTO DE ARMADURA: {abbrev}")
+                queries.append(f"ARMADURA: {monster_name}")
                 queries.append(f"ARMADURA: {abbrev}")
-                queries.append(f"ARMADURA: Elmo de {abbrev}")
-                queries.append(f"Cinturão de {abbrev} Grevas de {abbrev}")
+                queries.append(f"SET: {monster_name}")
             if is_weapon and not is_armor:
+                queries.append(f"ARMA: {monster_name}")
                 queries.append(f"ARMA: {abbrev}")
             if is_craft or is_armor:
+                queries.append(f"Materiais {monster_name}")
                 queries.append(f"Materiais {abbrev}")
             if "fraqueza" in lower or "weakness" in lower:
                 queries.append(f"MONSTRO: {monster_name} fraquezas elementais")
@@ -266,7 +275,7 @@ def _expand_queries(prompt: str) -> list[str]:
             queries.append(f"MONSTRO: {monster_name}")
             break
 
-    # Conversões de símbolos gregos
+    # Conversões de símbolos gregos (agora preservando o contexto do set)
     alpha_beta = {
         "a+": "α+", "alpha+": "α+", "alpha +": "α+",
         "b+": "β+", "beta+": "β+", "beta +": "β+",
@@ -274,31 +283,66 @@ def _expand_queries(prompt: str) -> list[str]:
     }
     for term, replacement in alpha_beta.items():
         if term in lower:
-            queries.append(prompt.lower().replace(term, replacement))
+            fixed_term = prompt.lower().replace(term, replacement)
+            queries.append(fixed_term)
+            if "armadura" in lower or "set" in lower:
+                # Se falou em set e alpha/beta, tenta buscar o conjunto com o símbolo correto
+                for monster_name in MONSTER_ABBREVIATIONS.keys():
+                    if monster_name in lower:
+                        queries.append(f"CONJUNTO DE ARMADURA: {monster_name} {replacement}")
 
-    # Termos MR / HR / RM (apenas palavra inteira)
-    if re.search(r'\brm\b', lower):
-        queries.append(re.sub(r'\brm\b', 'MR', prompt, flags=re.IGNORECASE))
+    # Detecção de Elemento para Builds
+    if "gelo" in lower or "ice" in lower:
+        queries.append("CONJUNTO DE ARMADURA: Barioth")
+        queries.append("CONJUNTO DE ARMADURA: Beotodus")
+        queries.append("CONJUNTO DE ARMADURA: Velkhana")
+        queries.append("Armas de Gelo recomendadas")
+    if "fogo" in lower or "fire" in lower:
+        queries.append("CONJUNTO DE ARMADURA: Rathalos")
+        queries.append("CONJUNTO DE ARMADURA: Anjanath")
+        queries.append("CONJUNTO DE ARMADURA: Teostra")
+    if "trovão" in lower or "thunder" in lower or "raio" in lower:
+        queries.append("CONJUNTO DE ARMADURA: Zinogre")
+        queries.append("CONJUNTO DE ARMADURA: Tobi-Kadachi")
+        queries.append("CONJUNTO DE ARMADURA: Fulgur Anja")
 
-    # Tópicos manuais (Mantos, Joias, Farm)
-    if any(k in lower for k in ["manto", "mantle", "ferramenta", "obter", "desbloquear"]):
-        queries.append("Como Obter os Mantos de High Rank")
-        queries.append("FERRAMENTA:")
+    # Detecção de Rank/Raridade nas queries
+    is_mr = "mr " in lower or " rm" in lower or "rank m" in lower or lower.endswith(" mr") or lower.endswith(" rm")
+    if is_mr:
+        queries.append("CONJUNTO DE ARMADURA: Master Rank (MR)")
+        queries.append("CONJUNTO DE ARMADURA: RM")
     
-    if any(k in lower for k in ["joia", "jewel", "adorno", "decoration", "drop", "farm", "taxa"]):
-        queries.append("Farming de Joias (Adornos) - Drop Rates e Melhores Quests")
-        queries.append("DECORAÇÃO:")
+    if "rank" in lower:
+         queries.append("Master Rank (MR)")
 
-    # Detecção de Build / Amuleto
-    is_build = any(k in lower for k in ["build", "setup", "equipo", "equipar", "peças", "montar"])
-    if is_build or "amuleto" in lower or "talismã" in lower or "charm" in lower:
-        queries.append("AMULETO:")
-        queries.append("Amuletos e Talismãs recomendados")
+    if "r9" in lower or "raridade 9" in lower:
+        queries.append("Raridade 9")
+    if "r10" in lower or "raridade 10" in lower:
+        queries.append("Raridade 10")
+
+    # Keywords de sets comuns (não vinculados a monstros)
+    common_sets = {
+        "óssea": ["Óssea", "Bone"],
+        "bone": ["Bone", "Óssea"],
+        "osso": ["Osso", "Bone"],
+        "liga": ["Liga Leve", "Alloy"],
+        "alloy": ["Alloy", "Liga Leve"],
+        "couro": ["Couro", "Leather"],
+        "leather": ["Leather", "Couro"],
+        "metal": ["Metal", "Alloy", "Liga Leve"],
+    }
+    for kw, targets in common_sets.items():
+        if kw in lower:
+            for t in targets:
+                queries.append(f"CONJUNTO DE ARMADURA: {t}")
+                if is_mr:
+                    queries.append(f"CONJUNTO DE ARMADURA: {t} α+")
+                    queries.append(f"CONJUNTO DE ARMADURA: {t} β+")
 
     return list(dict.fromkeys(queries))  # Deduplica mantendo ordem
 
 
-async def get_rag_context(prompt: str) -> str:
+async def get_rag_context(prompt: str, history: Optional[List[dict]] = None) -> str:
     """
     Recupera contexto relevante usando multi-query expansion de forma ASSÍNCRONA.
     Faz múltiplas buscas paralelas no índice para maximizar o recall e performance.
@@ -313,8 +357,14 @@ async def get_rag_context(prompt: str) -> str:
     import asyncio
     retriever = _query_engine._retriever
 
-    # Expandir prompt em múltiplas queries
-    queries = _expand_queries(prompt)
+    # Extrair texto do histórico para contexto (últimas 2 mensagens do usuário)
+    history_text = ""
+    if history:
+        user_msgs: List[str] = [m["content"] for m in history if m["role"] == "user"]
+        history_text = " ".join(user_msgs[-2:]) if user_msgs else "" # type: ignore
+
+    # Expandir prompt em múltiplas queries usando também o histórico
+    queries = _expand_queries(prompt, history_text)
 
     # Coletar todos os nodes únicos de todas as queries em paralelo
     async def retrieve_task(q):
@@ -340,8 +390,8 @@ async def get_rag_context(prompt: str) -> str:
     for nodes in results:
         for node in nodes:
             content = node.get_content()
-            # Deduplica por início do conteúdo
-            key = content[:200]
+            # Deduplica por início do conteúdo (expandido para 400 chars para evitar falsos positivos em headers similares)
+            key = content[:400]
             if key not in seen_keys:
                 seen_keys.add(key)
                 all_contents.append(content)

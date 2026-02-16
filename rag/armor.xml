@@ -26369,7 +26369,7 @@
     <recipe_id>1.147</recipe_id>
     <male>1</male>
     <female>1</female>
-    <slot_1>2</slot_1>
+    <slot_1>3</slot_1>
     <slot_2>0</slot_2>
     <slot_3>0</slot_3>
     <defense_base>140</defense_base>
@@ -26415,7 +26415,7 @@
     <recipe_id>1.149</recipe_id>
     <male>1</male>
     <female>1</female>
-    <slot_1>1</slot_1>
+    <slot_1>2</slot_1>
     <slot_2>0</slot_2>
     <slot_3>0</slot_3>
     <defense_base>140</defense_base>
@@ -26852,7 +26852,7 @@
     <recipe_id>1.168</recipe_id>
     <male>1</male>
     <female>1</female>
-    <slot_1>1</slot_1>
+    <slot_1>2</slot_1>
     <slot_2>1</slot_2>
     <slot_3>0</slot_3>
     <defense_base>140</defense_base>

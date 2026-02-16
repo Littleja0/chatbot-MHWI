@@ -11,3 +11,4 @@ llama-index-readers-file
 llama-index-llms-nvidia
 llama-index-embeddings-nvidia
 watchdog
+pymem

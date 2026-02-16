@@ -1,6 +1,16 @@
 @echo off
 setlocal
+cd /d "%~dp0"
 
+:: Testar Admin
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    echo [INFO] Solicitando acesso de Administrador...
+    powershell -Command "Start-Process '%~f0' -Verb RunAs"
+    exit /b
+)
+
+echo [OK] Rodando como Administrador!
 :: ============================================
 :: Monster Hunter World Chatbot - Launcher
 :: ============================================
@@ -43,6 +53,7 @@ pip install -q -r requirements.txt
 echo.
 echo ============================================
 echo   Monster Hunter World: Iceborne Chatbot
+echo   [Modular Architecture v2.0]
 echo ============================================
 echo.
 
@@ -53,6 +64,13 @@ echo [INFO] Iniciando servidor...
 echo [INFO] Acesse em: http://localhost:8000
 echo [INFO] Pressione Ctrl+C no terminal para encerrar o processo.
 echo.
-python backend/main.py
-pause
 
+:: IMPORTANTE: Manter CWD na raiz do projeto para que caminhos relativos
+:: (rag/, storage/, backend/) funcionem corretamente nos módulos originais.
+:: Usar caminho absoluto para o novo main.py.
+if exist "apps\backend\src\main.py" (
+    python apps\backend\src\main.py
+) else (
+    python backend\main.py
+)
+pause

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <armorset_bonus_skill>
   <DATA_RECORD>
     <setbonus_id>1</setbonus_id>
@@ -203,11 +203,6 @@
   <DATA_RECORD>
     <setbonus_id>34</setbonus_id>
     <skilltree_id>127</skilltree_id>
-    <required>3</required>
-  </DATA_RECORD>
-  <DATA_RECORD>
-    <setbonus_id>35</setbonus_id>
-    <skilltree_id>129</skilltree_id>
     <required>3</required>
   </DATA_RECORD>
   <DATA_RECORD>
@@ -480,4 +475,4 @@
     <skilltree_id>175</skilltree_id>
     <required>5</required>
   </DATA_RECORD>
-</armorset_bonus_skill>
+<DATA_RECORD><setbonus_id>35</setbonus_id><skilltree_id>128</skilltree_id><required>2</required></DATA_RECORD><DATA_RECORD><setbonus_id>35</setbonus_id><skilltree_id>129</skilltree_id><required>4</required></DATA_RECORD></armorset_bonus_skill>

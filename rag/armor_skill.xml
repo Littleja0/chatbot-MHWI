@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <armor_skill>
   <DATA_RECORD>
     <armor_id>1</armor_id>
@@ -8328,7 +8328,7 @@
   <DATA_RECORD>
     <armor_id>1.167</armor_id>
     <skilltree_id>26</skilltree_id>
-    <level>2</level>
+    <level>1</level>
   </DATA_RECORD>
   <DATA_RECORD>
     <armor_id>1.167</armor_id>

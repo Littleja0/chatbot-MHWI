@@ -15,6 +15,8 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [monsterIntel, setMonsterIntel] = useState<MonsterIntelType | null>(null);
 
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+
   // Carregar lista de chats ao iniciar
   const fetchChats = useCallback(async () => {
     try {
@@ -156,7 +158,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex h-screen bg-black text-gray-100 overflow-hidden select-none">
+    <div className="flex h-screen bg-black text-gray-100 overflow-hidden">
       <Sidebar
         chats={chats}
         activeChatId={activeChatId}
@@ -164,6 +166,8 @@ const App: React.FC = () => {
         onCreateChat={handleCreateChat}
         onDeleteChat={handleDeleteChat}
         onTogglePin={handleTogglePin}
+        isCollapsed={isSidebarCollapsed}
+        onToggleCollapse={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
       />
 
       <main className="flex-1 flex flex-col relative overflow-hidden">
@@ -179,6 +183,7 @@ const App: React.FC = () => {
         </div>
       </main>
     </div>
+
   );
 };
 

@@ -34,6 +34,13 @@ def init_db():
             FOREIGN KEY (chat_id) REFERENCES chats (id) ON DELETE CASCADE
         )
     """)
+    # Tabela de Configuração do Usuário (Profile)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS user_config (
+            id TEXT PRIMARY KEY,
+            value TEXT
+        )
+    """)
     conn.commit()
     conn.close()
 
@@ -88,6 +95,28 @@ def update_chat_title(chat_id, title):
     conn.execute("UPDATE chats SET title = ? WHERE id = ?", (title, chat_id))
     conn.commit()
     conn.close()
+
+def set_user_config(config_id, value):
+    conn = get_db_connection()
+    if isinstance(value, (dict, list)):
+        import json
+        value = json.dumps(value)
+    conn.execute("INSERT OR REPLACE INTO user_config (id, value) VALUES (?, ?)", (config_id, value))
+    conn.commit()
+    conn.close()
+
+def get_user_config(config_id, default=None):
+    conn = get_db_connection()
+    row = conn.execute("SELECT value FROM user_config WHERE id = ?", (config_id,)).fetchone()
+    conn.close()
+    if row:
+        val = row['value']
+        try:
+            import json
+            return json.loads(val)
+        except:
+            return val
+    return default
 
 # Inicializar ao importar
 init_db()
