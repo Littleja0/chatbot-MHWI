@@ -40,7 +40,7 @@ if ROOT_DIR not in sys.path:
 import mhw_api # type: ignore
 import mhw_rag # type: ignore
 import chat_db # type: ignore
-import memory_reader # type: ignore
+import chat_db # type: ignore
 import httpx  # type: ignore
 import uvicorn  # type: ignore
 import webview  # type: ignore
@@ -184,120 +184,6 @@ async def sync_save():
     # O usuário pediu para desfazer a leitura de save.
     return {"status": "manual_only", "message": "Sincronização automática desativada temporariamente. Atualize seu perfil manualmente."}
 
-# --- MEMORY READER API ---
-
-@app.get("/memory/status")
-async def memory_status():
-    reader = memory_reader.get_reader()
-    return {
-        "connected": reader.is_connected(),
-        "pymem_available": memory_reader.PYMEM_AVAILABLE,
-    }
-
-@app.post("/memory/connect")
-async def memory_connect():
-    reader = memory_reader.get_reader()
-    success = reader.connect()
-    return {"connected": success, "error": None if success else "MHW não encontrado. Abra o jogo primeiro."}
-
-@app.post("/memory/disconnect")
-async def memory_disconnect():
-    reader = memory_reader.get_reader()
-    reader.disconnect()
-    return {"connected": False}
-
-@app.get("/memory/snapshot")
-async def memory_snapshot():
-    reader = memory_reader.get_reader()
-    return reader.get_full_snapshot()
-
-@app.get("/memory/fresh")
-async def memory_fresh_snapshot():
-    """Retorna snapshot FRESCO (sem cache) — detecta mudanças em tempo real."""
-    reader = memory_reader.get_reader()
-    return reader.get_fresh_snapshot()
-
-@app.get("/memory/player")
-async def memory_player():
-    reader = memory_reader.get_reader()
-    if not reader.is_connected():
-        return {"connected": False}
-    data = reader.get_player_info()
-    data["connected"] = True
-    return data
-
-@app.get("/memory/weapon")
-async def memory_weapon():
-    reader = memory_reader.get_reader()
-    if not reader.is_connected():
-        return {"connected": False}
-    data = reader.get_weapon_info()
-    # Traduzir ID para nome
-    wid = data.get("id")
-    if wid and wid > 0:
-        data["name"] = memory_reader._lookup_name("weapon", wid)
-    data["connected"] = True
-    return data
-
-@app.get("/memory/equipment")
-async def memory_equipment():
-    reader = memory_reader.get_reader()
-    if not reader.is_connected():
-        return {"connected": False}
-    raw = reader.get_equipment_info()
-    # Traduzir IDs para nomes
-    result = {"connected": True, "pieces": {}}
-    slot_labels = {"head_id": "Elmo", "chest_id": "Torso", "arms_id": "Braços", "waist_id": "Cinturão", "legs_id": "Grevas", "charm_id": "Amuleto"}
-    for key, label in slot_labels.items():
-        eid = raw.get(key)
-        if eid and eid > 0:
-            table = "charm" if "charm" in key else "armor"
-            result["pieces"][label] = {"id": eid, "name": memory_reader._lookup_name(table, eid)}
-    return result
-
-@app.get("/memory/monsters")
-async def memory_monsters():
-    reader = memory_reader.get_reader()
-    if not reader.is_connected():
-        return {"connected": False, "monsters": []}
-    monsters = reader.get_monsters()
-    for m in monsters:
-        m["name"] = memory_reader._lookup_monster_name(m["id"])
-    return {"connected": True, "monsters": monsters}
-
-@app.get("/memory/skills")
-async def memory_skills():
-    reader = memory_reader.get_reader()
-    if not reader.is_connected():
-        return {"connected": False, "skills": []}
-    skills = reader.get_active_skills()
-    for s in skills:
-        s["name"] = memory_reader._lookup_skill_name(s["id"])
-    return {"connected": True, "skills": skills}
-
-@app.get("/memory/damage")
-async def memory_damage():
-    reader = memory_reader.get_reader()
-    if not reader.is_connected():
-        return {"connected": False, "players": [], "total_damage": 0}
-    players = reader.get_party_damage()
-    total = sum(p["damage"] for p in players) if players else 0
-    return {"connected": True, "players": players, "total_damage": total}
-
-@app.get("/memory/abnormalities")
-async def memory_abnormalities():
-    reader = memory_reader.get_reader()
-    if not reader.is_connected():
-        return {"connected": False}
-    data = reader.get_abnormalities()
-    data["connected"] = True
-    return data
-
-@app.get("/overlay/damage")
-async def overlay_damage_page():
-    overlay_path = os.path.join(BASE_DIR, "overlay_damage.html")
-    return FileResponse(overlay_path, media_type="text/html")
-
 # --- CHAT LOGIC ---
 
 def anti_hallucination_middleware(user_message: str, local_context: str):
@@ -338,17 +224,16 @@ def anti_hallucination_middleware(user_message: str, local_context: str):
         f"PERFIL REGISTRADO: Rank {user_mr} (Master Rank).\n"
         f"INVENTÁRIO DE JOIAS: {json.dumps(user_jewels) if user_jewels else 'Desconhecido'}.\n\n"
         "REGRAS DE OURO (MANDATÓRIAS):\n"
-        "1. RESPEITE O RANK: Se o Rank acima for diferente de 1, NÃO pergunte novamente.\n"
+        "1. RESPEITE O RANK: Sempre use o MR do perfil para sugerir builds compatíveis.\n"
         "2. DETALHES TÉCNICOS: Agora os dados de armadura (especialmente Lavasioth e Odogaron) foram CORRIGIDOS.\n"
         "   - Lavasioth a+: O peito tem slots [2, 1] e o set fecha Ataque de Fogo no Nível 6 (CAP).\n"
         "   - Odogaron a+/b+: O bônus 'Essência de Odogaron' agora exige 2 peças (Punishing Draw) e 4 peças (Protective Polish).\n"
-        "   - Sempre cite a Defesa Base e Máxima de cada peça.\n"
         "3. RESPEITE OS LIMITES DE SKILL (CAPS): Jamais sugira níveis acima do máximo.\n"
         f"   - Caps Atuais: {caps_str}.\n"
         "4. MAPEAMENTO DE PEÇAS: Seja rígido ao atribuir habilidades a cada peça.\n"
-        "5. VERIFICAÇÃO DE RANK: Ignore dados de High/Low Rank se houver Master Rank (RM/MR) disponível.\n\n"
-        "🔥 IMPORTANTE: Se o contexto abaixo estiver VAZIO ou não contiver a peça exata, diga que não tem a informação técnica precisa.\n\n"
-        f"DADOS TÉCNICOS (RAG):\n{local_context if local_context else '--- NENHUM DADO ENCONTRADO NO BANCO DE DADOS ---'}"
+        "5. VERIFICAÇÃO DE RANK: Use o Master Rank (MR) registrado no Perfil do Usuário como verdade absoluta.\n\n"
+        "🔥 IMPORTANTE: Você NÃO tem mais acesso à memória viva ou automática do jogo. Confie apenas nos dados do RAG abaixo e no Perfil do Usuário.\n\n"
+        f"DADOS TÉCNICOS (RAG):\n{local_context if local_context else '--- NENHUM DADO ENCONTRADA NO BANCO DE DADOS ---'}"
     )
     
     return system_instruction, True
@@ -371,41 +256,7 @@ async def chat(request: ChatRequest):
         local_context = await mhw_rag.get_rag_context(user_message, history=history)
     except: pass
 
-    # Injetar dados em tempo real da memória do jogo (DESATIVADO A PEDIDO DO USUÁRIO)
-    memory_context = ""
-    
-    # Auto-update MR if detected in message
-    mr_match = re.search(r'(?:mr|rm|rank|master rank)\s*(\d+)', user_message.lower())
-    if mr_match:
-        try:
-            new_mr = int(mr_match.group(1))
-            chat_db.set_user_config("mr", new_mr)
-        except: pass
-
-    # Combinar contexto RAG + memória + Enciclopédia de Armas (DESATIVADO A PEDIDO DO USUÁRIO)
-    weapon_knowledge = ""
-    # try:
-    #     reader = memory_reader.get_reader()
-    #     snapshot = reader.get_full_snapshot()
-    #     w_info = snapshot.get("weapon", {})
-    #     tid = w_info.get("type_id")
-    #     
-    #     if tid is not None:
-    #         # Procurar o arquivo da categoria
-    #         kb_dir = os.path.join(ROOT_DIR, "knowledge", "weapons")
-    #         files = [f for f in os.listdir(kb_dir) if f.startswith(f"{tid}_")]
-    #         if files:
-    #             with open(os.path.join(kb_dir, files[0]), "r", encoding="utf-8") as f:
-    #                 weapon_knowledge = f"\n\n--- ENCICLOPÉDIA DA CATEGORIA {w_info.get('type')} ---\n"
-    #                 weapon_knowledge += f.read()
-    # except Exception as e:
-    #     print(f"[CHAT] ❌ Erro ao carregar enciclopédia: {e}")
-
     combined_context = local_context
-    if memory_context:
-        combined_context = local_context + "\n\n" + memory_context if local_context else memory_context
-    if weapon_knowledge:
-        combined_context += weapon_knowledge
 
     system_instruction, has_data = anti_hallucination_middleware(user_message, combined_context)
     
@@ -414,7 +265,7 @@ async def chat(request: ChatRequest):
         system_instruction += (
             "\nESTILO: Personalidade Satoru Gojo ATIVADA. Seja confiante, levemente arrogante (de forma carismática) e didático.\n"
             "   - Use metáforas do universo Jujutsu se encaixar, mas foque em explicar MHW.\n"
-            "   - Se faltar informação (como o Rank), provoque o usuário (ex: 'Você acha que aguenta essa build? Qual seu Rank de verdade?').\n"
+            "   - Como você não lê mais a memória, se precisar de informações específicas (como Rank ou Arma atual), peça ao usuário de forma estilizada.\n"
             "   - CRIATIVIDADE é essencial. Não dê respostas secas."
         )
 
