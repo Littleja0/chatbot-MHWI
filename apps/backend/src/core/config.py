@@ -23,16 +23,16 @@ if getattr(sys, 'frozen', False):
     BASE_DIR = Path(getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__))))
     ROOT_DIR = BASE_DIR
 else:
-    # apps/backend/src/core/config.py -> apps/backend/src -> apps/backend -> apps -> ROOT
-    BASE_DIR = Path(__file__).resolve().parent.parent  # apps/backend/src
-    ROOT_DIR = BASE_DIR.parent.parent.parent           # project root
+    # Este arquivo: apps/backend/src/core/config.py
+    # BASE_DIR será: apps/backend
+    BASE_DIR = Path(__file__).resolve().parent.parent.parent
+    ROOT_DIR = BASE_DIR.parent.parent
 
-# Fallback paths for backward compatibility
-BACKEND_DIR = BASE_DIR
-TEMPLATES_DIR = BASE_DIR.parent / "templates"
+# --- Directories ---
+TEMPLATES_DIR = BASE_DIR / "templates"
 DATA_DIR = ROOT_DIR / "data"
-RAG_DIR = ROOT_DIR / "rag"
-STORAGE_DIR = ROOT_DIR / "storage"
+RAG_DIR = DATA_DIR / "rag"
+STORAGE_DIR = DATA_DIR / "storage"
 KNOWLEDGE_DIR = DATA_DIR / "knowledge_base"
 
 # --- Environment ---
@@ -53,16 +53,12 @@ LLM_TEMPERATURE = 0.3
 LLM_MAX_TOKENS = 2048
 
 # --- DB Paths ---
-MHW_DB_PATH = str(BASE_DIR / "data" / "mhw.db")
-SESSIONS_DB_PATH = str(BASE_DIR / "data" / "sessions.db")
+MHW_DB_PATH = str(DATA_DIR / "mhw.db")
+SESSIONS_DB_PATH = str(DATA_DIR / "sessions.db")
 
-# Fallback: check if DB is in old backend location
+# Logic to enforce SSoT: files must exist in ROOT_DIR / data
 if not os.path.exists(MHW_DB_PATH):
-    _old_backend = ROOT_DIR / "backend"
-    if (_old_backend / "mhw.db").exists():
-        MHW_DB_PATH = str(_old_backend / "mhw.db")
-    if (_old_backend / "sessions.db").exists():
-        SESSIONS_DB_PATH = str(_old_backend / "sessions.db")
+    print(f"CRITICAL ERROR: {MHW_DB_PATH} not found.")
 
 # --- Constants ---
 GREETINGS = ["olá", "oi", "bom dia", "boa tarde", "boa noite", "e aí", "opa", "hello", "hi", "eae"]

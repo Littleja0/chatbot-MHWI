@@ -1,7 +1,9 @@
 schema: spec-driven
 
 context: |
-  Language: Português (pt-BR)
+  Language: Portuguese (pt-BR)
   All artifacts must be written in Brazilian Portuguese.
-  Tech stack: Python, FastAPI, SQLite, HTML, CSS, JavaScript
-  Domain: Monster Hunter World: Iceborne modding tools
+
+  # Your other project context below...
+  Tech stack: Python, FastAPI, SQLite, React, Node.js
+  architecture: Monorepo Modular

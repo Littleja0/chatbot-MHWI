@@ -2,11 +2,16 @@
 
 
 a = Analysis(
-    ['backend\\main.py'],
-    pathex=['backend'],
+    ['apps/backend/src/main.py'],
+    pathex=['apps/backend/src'],
     binaries=[],
-    datas=[('backend/splash.html', 'backend'), ('.env', '.')],
-    hiddenimports=['rag_pipeline', 'rag_loader'],
+    datas=[
+        ('apps/backend/templates', 'templates'),
+        ('apps/frontend/dist', 'apps/frontend/dist'),
+        ('data', 'data'),
+        ('.env', '.')
+    ],
+    hiddenimports=['jinja2', 'aiohttp', 'sqlite3', 'webview'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

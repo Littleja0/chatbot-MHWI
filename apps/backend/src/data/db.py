@@ -13,32 +13,7 @@ import json
 from datetime import datetime
 from typing import Any, Optional
 
-
-# --- Dynamically resolve DB paths ---
-def _resolve_db_path(filename: str) -> str:
-    """Resolve o caminho do DB com fallback para o backend original."""
-    import sys
-    if getattr(sys, 'frozen', False):
-        return os.path.join(os.path.dirname(sys.executable), filename)
-    
-    # Tentar apps/backend/src/data/ primeiro
-    local_path = os.path.join(os.path.dirname(__file__), filename)
-    if os.path.exists(local_path):
-        return local_path
-    
-    # Fallback: backend/ (estrutura antiga)
-    root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
-    old_backend = os.path.join(root_dir, "backend", filename)
-    if os.path.exists(old_backend):
-        return old_backend
-    
-    # Default: usar caminho local (será criado se necessário)
-    return local_path
-
-
-SESSIONS_DB_PATH = _resolve_db_path("sessions.db")
-MHW_DB_PATH = _resolve_db_path("mhw.db")
-
+from core.config import SESSIONS_DB_PATH, MHW_DB_PATH
 
 def get_sessions_db() -> sqlite3.Connection:
     """Retorna conexão ao banco de sessões."""
@@ -47,13 +22,11 @@ def get_sessions_db() -> sqlite3.Connection:
     conn.execute("PRAGMA journal_mode=WAL")
     return conn
 
-
 def get_mhw_db() -> sqlite3.Connection:
     """Retorna conexão ao banco de dados do jogo."""
     conn = sqlite3.connect(MHW_DB_PATH)
     conn.row_factory = sqlite3.Row
     return conn
-
 
 def init_sessions_db():
     """Inicializa tabelas do banco de sessões."""
@@ -86,7 +59,6 @@ def init_sessions_db():
     conn.commit()
     conn.close()
 
-
 # --- Chat Operations ---
 
 def create_chat(title: str = "Nova Conversa") -> str:
@@ -97,13 +69,11 @@ def create_chat(title: str = "Nova Conversa") -> str:
     conn.close()
     return chat_id
 
-
 def get_all_chats() -> list[dict]:
     conn = get_sessions_db()
     chats = conn.execute("SELECT * FROM chats ORDER BY updated_at DESC").fetchall()
     conn.close()
     return [dict(chat) for chat in chats]
-
 
 def get_chat_messages(chat_id: str) -> list[dict]:
     conn = get_sessions_db()
@@ -112,7 +82,6 @@ def get_chat_messages(chat_id: str) -> list[dict]:
     ).fetchall()
     conn.close()
     return [dict(msg) for msg in messages]
-
 
 def add_message(chat_id: str, role: str, content: str) -> str:
     msg_id = str(uuid.uuid4())
@@ -127,7 +96,6 @@ def add_message(chat_id: str, role: str, content: str) -> str:
     conn.close()
     return msg_id
 
-
 def delete_chat(chat_id: str):
     conn = get_sessions_db()
     conn.execute("DELETE FROM messages WHERE chat_id = ?", (chat_id,))
@@ -135,20 +103,17 @@ def delete_chat(chat_id: str):
     conn.commit()
     conn.close()
 
-
 def toggle_pin(chat_id: str):
     conn = get_sessions_db()
     conn.execute("UPDATE chats SET is_pinned = 1 - is_pinned WHERE id = ?", (chat_id,))
     conn.commit()
     conn.close()
 
-
 def update_chat_title(chat_id: str, title: str):
     conn = get_sessions_db()
     conn.execute("UPDATE chats SET title = ? WHERE id = ?", (title, chat_id))
     conn.commit()
     conn.close()
-
 
 # --- User Config ---
 
@@ -159,7 +124,6 @@ def set_user_config(config_id: str, value: Any):
     conn.execute("INSERT OR REPLACE INTO user_config (id, value) VALUES (?, ?)", (config_id, value))
     conn.commit()
     conn.close()
-
 
 def get_user_config(config_id: str, default: Any = None) -> Any:
     conn = get_sessions_db()
@@ -172,7 +136,6 @@ def get_user_config(config_id: str, default: Any = None) -> Any:
         except (json.JSONDecodeError, TypeError):
             return val
     return default
-
 
 # Inicializar ao importar
 init_sessions_db()

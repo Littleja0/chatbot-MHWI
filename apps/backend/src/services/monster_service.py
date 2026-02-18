@@ -4,20 +4,8 @@ monster_service.py — Serviço de dados de monstros.
 Wrapper limpo sobre mhw_api e mhw_rag, expondo apenas o necessário.
 """
 
-import sys
-import os
-
-# Garantir que o backend original está acessível (para mhw_api/mhw_rag originais)
-_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
-_old_backend = os.path.join(_root, "backend")
-if _old_backend not in sys.path:
-    sys.path.insert(0, _old_backend)
-if _root not in sys.path:
-    sys.path.insert(0, _root)
-
-# Import dos módulos originais (que ficam em backend/)
-import mhw_api  # type: ignore
-import mhw_rag  # type: ignore
+from core.mhw import mhw_api
+from core.mhw import mhw_rag
 
 
 def get_all_monster_names() -> list[str]:

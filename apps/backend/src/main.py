@@ -13,15 +13,12 @@ import os
 import threading
 import time
 import traceback
+from pathlib import Path
 
-# Garantir imports funcionem a partir desta localização
-_this_dir = os.path.dirname(os.path.abspath(__file__))
-_apps_dir = os.path.dirname(os.path.dirname(_this_dir))
-_root_dir = os.path.dirname(_apps_dir)
-
-for p in [_this_dir, _apps_dir, _root_dir, os.path.join(_root_dir, "backend")]:
-    if p not in sys.path:
-        sys.path.insert(0, p)
+# Garantir que o diretório 'src' esteja no path para imports relativos funcionarem
+_src_dir = str(Path(__file__).resolve().parent)
+if _src_dir not in sys.path:
+    sys.path.insert(0, _src_dir)
 
 from contextlib import asynccontextmanager
 
@@ -34,7 +31,6 @@ from fastapi.staticfiles import StaticFiles  # type: ignore
 from core.config import HOST, PORT, ROOT_DIR
 from core.logging import log
 from api.routers.chat import router as chat_router, init_skill_caps
-from api.routers.memory import router as memory_router
 from api.routers.monsters import router as monsters_router
 from services.monster_service import get_all_monster_names, get_all_skill_caps
 
@@ -80,20 +76,16 @@ async def global_exception_handler(request, exc):
 
 # --- Mount Routers ---
 
+
 app.include_router(chat_router)
-app.include_router(memory_router)
 app.include_router(monsters_router)
 
 
 # --- Static Files (Frontend) ---
+frontend_dist = ROOT_DIR / "apps" / "frontend" / "dist"
 
-# Tentar novo caminho primeiro, fallback para antigo
-frontend_dist = os.path.join(_apps_dir, "frontend", "dist")
-if not os.path.exists(frontend_dist):
-    frontend_dist = os.path.join(_root_dir, "frontend", "dist")
-
-if os.path.exists(frontend_dist):
-    app.mount("/", StaticFiles(directory=frontend_dist, html=True), name="static")
+if frontend_dist.exists():
+    app.mount("/", StaticFiles(directory=str(frontend_dist), html=True), name="static")
 else:
     log.warning(f"Frontend not found at {frontend_dist}")
 

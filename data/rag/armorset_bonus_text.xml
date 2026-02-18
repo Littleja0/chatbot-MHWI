@@ -1,0 +1,4971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<armorset_bonus_text>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>en</lang_id>
+    <name>Anjanath Power</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ja</lang_id>
+    <name>蛮顎竜の力</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>fr</lang_id>
+    <name>Pouvoir de l'Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>it</lang_id>
+    <name>Forza dell'Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>de</lang_id>
+    <name>Anjanath-Macht</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>es</lang_id>
+    <name>Poder de Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>pt</lang_id>
+    <name>Poder de Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>pl</lang_id>
+    <name>Moc Anjanatha</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ru</lang_id>
+    <name>Сила аньяната</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ko</lang_id>
+    <name>만악룡의 힘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>zh</lang_id>
+    <name>蠻顎龍之力</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>1</id>
+    <lang_id>ar</lang_id>
+    <name>قوة أنجاناث</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>en</lang_id>
+    <name>Legiana Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ja</lang_id>
+    <name>風漂竜の恩恵</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>fr</lang_id>
+    <name>Bénédiction du Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>it</lang_id>
+    <name>Benedizione del Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>de</lang_id>
+    <name>Legiana-Segen</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>es</lang_id>
+    <name>Bendición de Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>pt</lang_id>
+    <name>Bênção de Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>pl</lang_id>
+    <name>Błogosławieństwo Legiany</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ru</lang_id>
+    <name>Благословение Легианы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ko</lang_id>
+    <name>풍표룡의 은혜</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>zh</lang_id>
+    <name>風漂龍之恩惠</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>2</id>
+    <lang_id>ar</lang_id>
+    <name>مباركة ليغيانا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>en</lang_id>
+    <name>Odogaron Power</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ja</lang_id>
+    <name>惨爪竜の力</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>fr</lang_id>
+    <name>Pouvoir de l'Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>it</lang_id>
+    <name>Forza dell'Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>de</lang_id>
+    <name>Odogaron-Macht</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>es</lang_id>
+    <name>Poder de Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>pt</lang_id>
+    <name>Poder de Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>pl</lang_id>
+    <name>Moc Odogarona</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ru</lang_id>
+    <name>Сила одогарона</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ko</lang_id>
+    <name>참조룡의 힘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>zh</lang_id>
+    <name>慘爪龍之力</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>3</id>
+    <lang_id>ar</lang_id>
+    <name>قوة أودوغارون</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>en</lang_id>
+    <name>Rathalos Power</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ja</lang_id>
+    <name>火竜の力</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>fr</lang_id>
+    <name>Pouvoir du Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>it</lang_id>
+    <name>Forza del Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>de</lang_id>
+    <name>Rathalos-Macht</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>es</lang_id>
+    <name>Poder de Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>pt</lang_id>
+    <name>Poder de Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>pl</lang_id>
+    <name>Moc Rathalosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ru</lang_id>
+    <name>Сила раталоса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ko</lang_id>
+    <name>화룡의 힘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>zh</lang_id>
+    <name>火龍之力</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>4</id>
+    <lang_id>ar</lang_id>
+    <name>قوة راذالوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>en</lang_id>
+    <name>Diablos Power</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ja</lang_id>
+    <name>角竜の力</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>fr</lang_id>
+    <name>Pouvoir du Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>it</lang_id>
+    <name>Forza del Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>de</lang_id>
+    <name>Diablos-Kraft</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>es</lang_id>
+    <name>Poder de Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>pt</lang_id>
+    <name>Poder de Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>pl</lang_id>
+    <name>Moc Diablosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ru</lang_id>
+    <name>Сила диаблоса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ko</lang_id>
+    <name>각룡의 힘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>zh</lang_id>
+    <name>角龍之力</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>5</id>
+    <lang_id>ar</lang_id>
+    <name>قوة ديابلوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>en</lang_id>
+    <name>Kirin Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ja</lang_id>
+    <name>幻獣の恩恵</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>fr</lang_id>
+    <name>Bénédiction du Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>it</lang_id>
+    <name>Benedizione del Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>de</lang_id>
+    <name>Kirin-Segen</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>es</lang_id>
+    <name>Bendición de Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>pt</lang_id>
+    <name>Bênção de Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>pl</lang_id>
+    <name>Błogosławieństwo Kirina</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ru</lang_id>
+    <name>Благословение кирина</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ko</lang_id>
+    <name>환수의 은혜</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>zh</lang_id>
+    <name>麒麟之恩惠</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>6</id>
+    <lang_id>ar</lang_id>
+    <name>مباركة كيرين</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>en</lang_id>
+    <name>Anjanath Will</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ja</lang_id>
+    <name>蛮顎竜の闘志</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>fr</lang_id>
+    <name>Volonté de l'Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>it</lang_id>
+    <name>Volontà dell'Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>de</lang_id>
+    <name>Anjanath-Wille</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>es</lang_id>
+    <name>Voluntad de Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>pt</lang_id>
+    <name>Vontade de Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>pl</lang_id>
+    <name>Wola Anjanatha</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ru</lang_id>
+    <name>Воля аньяната</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ko</lang_id>
+    <name>만악룡의 투지</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>zh</lang_id>
+    <name>蠻顎龍之鬥志</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>7</id>
+    <lang_id>ar</lang_id>
+    <name>إرادة أنجاناث</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>en</lang_id>
+    <name>Pink Rathian Mastery</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ja</lang_id>
+    <name>桜火竜の奥義</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>fr</lang_id>
+    <name>Secret du Rathian sakura</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>it</lang_id>
+    <name>Esperto Rathian rosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>de</lang_id>
+    <name>RosaRathianMeisterung</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>es</lang_id>
+    <name>Maestría de Rathian Rosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>pt</lang_id>
+    <name>Domínio de Rathian Rosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>pl</lang_id>
+    <name>Mistrzostwo R. Rathiany</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ru</lang_id>
+    <name>Мастерство роз. ратианы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ko</lang_id>
+    <name>앵화룡의 비기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>zh</lang_id>
+    <name>櫻火龍之奧秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>8</id>
+    <lang_id>ar</lang_id>
+    <name>تفوق راثيان الوردية</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>en</lang_id>
+    <name>Zorah Magdaros Mastery</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ja</lang_id>
+    <name>熔山龍の奥義</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>fr</lang_id>
+    <name>Maîtrise du Zorah Magdaros</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>it</lang_id>
+    <name>Esperto Zorah Magdaros</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>de</lang_id>
+    <name>ZorahMagdarosMeisterung</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>es</lang_id>
+    <name>Maestría de Zorah</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>pt</lang_id>
+    <name>Domínio Zorah Magdaros</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>pl</lang_id>
+    <name>Mistrzostwo Zoraha</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ru</lang_id>
+    <name>Мастерство Дзоры</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ko</lang_id>
+    <name>용산룡의 비기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>zh</lang_id>
+    <name>熔山龍之奧秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>9</id>
+    <lang_id>ar</lang_id>
+    <name>تفوق زوراه ماغداروس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>en</lang_id>
+    <name>Legiana Favor</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ja</lang_id>
+    <name>風漂竜の恩寵</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>fr</lang_id>
+    <name>Grâce du Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>it</lang_id>
+    <name>Benevolenza del Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>de</lang_id>
+    <name>Legiana-Gefallen</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>es</lang_id>
+    <name>Favor de Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>pt</lang_id>
+    <name>Graça de Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>pl</lang_id>
+    <name>Łaska Legiany</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ru</lang_id>
+    <name>Благосклонность Легианы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ko</lang_id>
+    <name>풍표룡의 은총</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>zh</lang_id>
+    <name>風漂龍之恩寵</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>10</id>
+    <lang_id>ar</lang_id>
+    <name>خدمة ليغيانا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>en</lang_id>
+    <name>Odogaron Mastery</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ja</lang_id>
+    <name>惨爪竜の奥義</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>fr</lang_id>
+    <name>Maîtrise de l'Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>it</lang_id>
+    <name>Esperto Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>de</lang_id>
+    <name>Odogaron-Meisterung</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>es</lang_id>
+    <name>Maestría de Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>pt</lang_id>
+    <name>Domínio de Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>pl</lang_id>
+    <name>Mistrzostwo Odogarona</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ru</lang_id>
+    <name>Мастерство одогарона</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ko</lang_id>
+    <name>참조룡의 비기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>zh</lang_id>
+    <name>慘爪龍之奧秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>11</id>
+    <lang_id>ar</lang_id>
+    <name>إتقان أودوغارون</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>en</lang_id>
+    <name>Rathalos Mastery</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ja</lang_id>
+    <name>火竜の奥義</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>fr</lang_id>
+    <name>Secret du Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>it</lang_id>
+    <name>Esperto Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>de</lang_id>
+    <name>Rathalos-Meisterung</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>es</lang_id>
+    <name>Maestría de Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>pt</lang_id>
+    <name>Domínio de Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>pl</lang_id>
+    <name>Mistrzostwo Rathalosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ru</lang_id>
+    <name>Мастерство раталоса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ko</lang_id>
+    <name>화룡의 비기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>zh</lang_id>
+    <name>火龍之奧秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>12</id>
+    <lang_id>ar</lang_id>
+    <name>تفوق راذالوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>en</lang_id>
+    <name>Diablos Mastery</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ja</lang_id>
+    <name>角竜の奥義</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>fr</lang_id>
+    <name>Secret du Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>it</lang_id>
+    <name>Esperto Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>de</lang_id>
+    <name>Diablos-Meisterung</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>es</lang_id>
+    <name>Maestría de Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>pt</lang_id>
+    <name>Domínio de Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>pl</lang_id>
+    <name>Mistrzostwo Diablosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ru</lang_id>
+    <name>Мастерство диаблоса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ko</lang_id>
+    <name>각룡의 비기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>zh</lang_id>
+    <name>角龍之奧秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>13</id>
+    <lang_id>ar</lang_id>
+    <name>تفوق ديابلوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>en</lang_id>
+    <name>Uragaan Protection</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ja</lang_id>
+    <name>爆鎚竜の守護</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>fr</lang_id>
+    <name>Protection de l'Uragaan</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>it</lang_id>
+    <name>Protezione dell'Uragaan</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>de</lang_id>
+    <name>Uragaan-Schutz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>es</lang_id>
+    <name>Protección de Uragaan</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>pt</lang_id>
+    <name>Proteção de Uragaan</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>pl</lang_id>
+    <name>Ochrona Uragaana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ru</lang_id>
+    <name>Защита урагаана</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ko</lang_id>
+    <name>폭추룡의 수호</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>zh</lang_id>
+    <name>爆鎚龍之守護</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>14</id>
+    <lang_id>ar</lang_id>
+    <name>حماية أوراغان</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>en</lang_id>
+    <name>Bazelgeuse Protection</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ja</lang_id>
+    <name>爆鱗竜の守護</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>fr</lang_id>
+    <name>Protection de Bazelgeuse</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>it</lang_id>
+    <name>Protezione del Bazelgeuse</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>de</lang_id>
+    <name>Bazelgeuse-Schutz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>es</lang_id>
+    <name>Protección de Bazelgeuse</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>pt</lang_id>
+    <name>Proteção de Bazelgeuse</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>pl</lang_id>
+    <name>Ochrona Bazelgeza</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ru</lang_id>
+    <name>Защита базельгейса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ko</lang_id>
+    <name>폭린룡의 수호</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>zh</lang_id>
+    <name>爆鱗龍之守護</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>15</id>
+    <lang_id>ar</lang_id>
+    <name>حماية بازيلغيس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>en</lang_id>
+    <name>Nergigante Hunger</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ja</lang_id>
+    <name>滅尽龍の飢餓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>fr</lang_id>
+    <name>Faim du Nergigante</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>it</lang_id>
+    <name>Fame del Nergigante</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>de</lang_id>
+    <name>Nergigante-Hunger</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>es</lang_id>
+    <name>Hambre de Nergigante</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>pt</lang_id>
+    <name>Fome de Nergigante</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>pl</lang_id>
+    <name>Głód Nergiganta</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ru</lang_id>
+    <name>Голод нергиганта</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ko</lang_id>
+    <name>멸진룡의 굶주림</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>zh</lang_id>
+    <name>滅盡龍之飢餓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>16</id>
+    <lang_id>ar</lang_id>
+    <name>نهم النيرغي</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>en</lang_id>
+    <name>Teostra Technique</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ja</lang_id>
+    <name>炎王龍の武技</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>fr</lang_id>
+    <name>Technique du Teostra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>it</lang_id>
+    <name>Tecnica del Teostra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>de</lang_id>
+    <name>Teostra-Technik</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>es</lang_id>
+    <name>Técnica de Teostra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>pt</lang_id>
+    <name>Técnica de Teostra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>pl</lang_id>
+    <name>Technika Teostry</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ru</lang_id>
+    <name>Техника теостра</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ko</lang_id>
+    <name>염왕룡의 무예</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>zh</lang_id>
+    <name>炎王龍之武技</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>17</id>
+    <lang_id>ar</lang_id>
+    <name>أسلوب تيوسترا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>en</lang_id>
+    <name>Kushala Daora Flight</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ja</lang_id>
+    <name>鋼龍の飛翔</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>fr</lang_id>
+    <name>Envol du Kushala Daora</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>it</lang_id>
+    <name>Volo del Kushala Daora</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>de</lang_id>
+    <name>Kushala-Daora-Flug</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>es</lang_id>
+    <name>Vuelo de Kushala Daora</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>pt</lang_id>
+    <name>Voo de Kushala Daora</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>pl</lang_id>
+    <name>Lot Kushali Daory</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ru</lang_id>
+    <name>Полет кушала-даоры</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ko</lang_id>
+    <name>강룡의 비상</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>zh</lang_id>
+    <name>鋼龍之飛翔</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>18</id>
+    <lang_id>ar</lang_id>
+    <name>رحلة كوشالا داورا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>en</lang_id>
+    <name>Vaal Hazak Vitality</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ja</lang_id>
+    <name>屍套龍の命脈</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>fr</lang_id>
+    <name>Vitalité du Vaal Hazak</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>it</lang_id>
+    <name>Vitalità del Vaal Hazak</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>de</lang_id>
+    <name>Vaal-Hazak-Lebenskraft</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>es</lang_id>
+    <name>Vitalidad de Vaal Hazak</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>pt</lang_id>
+    <name>Vitalidade de Vaal Hazak</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>pl</lang_id>
+    <name>Witalność Vaal Hazaka</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ru</lang_id>
+    <name>Живучесть ваал-хазака</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ko</lang_id>
+    <name>시투룡의 명맥</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>zh</lang_id>
+    <name>屍套龍之命脈</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>19</id>
+    <lang_id>ar</lang_id>
+    <name>حيوية فال هازاك</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>en</lang_id>
+    <name>Kirin Favor</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ja</lang_id>
+    <name>幻獣の恩寵</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>fr</lang_id>
+    <name>Grâce du Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>it</lang_id>
+    <name>Benevolenza del Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>de</lang_id>
+    <name>Kirin-Gefallen</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>es</lang_id>
+    <name>Favor de Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>pt</lang_id>
+    <name>Graça de Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>pl</lang_id>
+    <name>Łaska Kirina</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ru</lang_id>
+    <name>Благосклонность кирина</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ko</lang_id>
+    <name>환수의 은총</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>zh</lang_id>
+    <name>麒麟之恩寵</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>20</id>
+    <lang_id>ar</lang_id>
+    <name>خدمة كيرين</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>en</lang_id>
+    <name>Xeno'jiiva Divinity</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ja</lang_id>
+    <name>冥灯龍の神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>fr</lang_id>
+    <name>Divinité du Xeno'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>it</lang_id>
+    <name>Spirito dello Xeno'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>de</lang_id>
+    <name>Xeno'jiiva-Göttlichkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>es</lang_id>
+    <name>Divinidad Xeno'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>pt</lang_id>
+    <name>Divindade de Xeno'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>pl</lang_id>
+    <name>Boskość Xeno'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ru</lang_id>
+    <name>Святость ксено'джиивы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ko</lang_id>
+    <name>명등룡의 신비</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>zh</lang_id>
+    <name>冥燈龍之神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>21</id>
+    <lang_id>ar</lang_id>
+    <name>عظمة زينوجيفا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>en</lang_id>
+    <name>Guild Guidance</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ja</lang_id>
+    <name>ギルドの導き</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>fr</lang_id>
+    <name>Guidance de la Guilde</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>it</lang_id>
+    <name>Assistenza della Gilda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>de</lang_id>
+    <name>Gildenführung</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>es</lang_id>
+    <name>Ayuda del gremio</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>pt</lang_id>
+    <name>Orientação da Guilda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>pl</lang_id>
+    <name>Opieka Gildii</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ru</lang_id>
+    <name>Руководство гильдии</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ko</lang_id>
+    <name>길드의 안내</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>zh</lang_id>
+    <name>公會之指引</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>22</id>
+    <lang_id>ar</lang_id>
+    <name>إرشاد النقابة</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>en</lang_id>
+    <name>Commission Guidance</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ja</lang_id>
+    <name>調査団の導き</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>fr</lang_id>
+    <name>Guidance de la Commission</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>it</lang_id>
+    <name>Assistenza della Commissione</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>de</lang_id>
+    <name>Kommissionsführung</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>es</lang_id>
+    <name>Ayuda de la comisión</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>pt</lang_id>
+    <name>Orientação da Comissão</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>pl</lang_id>
+    <name>Opieka Komisji</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ru</lang_id>
+    <name>Руководство экспедиции</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ko</lang_id>
+    <name>조사단의 안내</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>zh</lang_id>
+    <name>調查團之指引</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>23</id>
+    <lang_id>ar</lang_id>
+    <name>إرشاد اللجنة</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>en</lang_id>
+    <name>Lunastra Favor</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ja</lang_id>
+    <name>炎妃龍の恩寵</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>fr</lang_id>
+    <name>Grâce de la Lunastra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>it</lang_id>
+    <name>Auspicio della Lunastra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>de</lang_id>
+    <name>Lunastra-Vorteil</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>es</lang_id>
+    <name>Favor de Lunastra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>pt</lang_id>
+    <name>Graça de Lunastra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>pl</lang_id>
+    <name>Łaska Lunastry</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ru</lang_id>
+    <name>Услуга лунастры</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ko</lang_id>
+    <name>염비룡의 은총</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>zh</lang_id>
+    <name>炎妃龍之恩寵</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>24</id>
+    <lang_id>ar</lang_id>
+    <name>هدية لوناسترا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>en</lang_id>
+    <name>Astera Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ja</lang_id>
+    <name>アステラの祝福</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>fr</lang_id>
+    <name>Bénédiction d'Astera</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>it</lang_id>
+    <name>Benedizione di Astera</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>de</lang_id>
+    <name>Astera-Segen</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>es</lang_id>
+    <name>Bendición de Astera</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>pt</lang_id>
+    <name>Bênção de Astera</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>pl</lang_id>
+    <name>Błogosławieństwo Astery</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ru</lang_id>
+    <name>Благословение Астеры</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ko</lang_id>
+    <name>아스테라의 축복</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>zh</lang_id>
+    <name>星辰的祝福</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>25</id>
+    <lang_id>ar</lang_id>
+    <name>مباركة أستيرا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>en</lang_id>
+    <name>Soul of the Dragoon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ja</lang_id>
+    <name>竜騎士の証</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>fr</lang_id>
+    <name>Âme du chevalier dragon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>it</lang_id>
+    <name>Anima di Dragoon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>de</lang_id>
+    <name>Dragoon-Kristall</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>es</lang_id>
+    <name>Alma de caballero dragón</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>pt</lang_id>
+    <name>Alma do Dragoon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>pl</lang_id>
+    <name>Dusza Dragona</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ru</lang_id>
+    <name>Душа Драгуна</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ko</lang_id>
+    <name>용기사의 증표</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>zh</lang_id>
+    <name>龍騎士之證</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>26</id>
+    <lang_id>ar</lang_id>
+    <name>روح الرّماح</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>en</lang_id>
+    <name>Anjanath Dominance</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ja</lang_id>
+    <name>蛮顎竜の覇気</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>fr</lang_id>
+    <name>Dominance Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>it</lang_id>
+    <name>Dominio dell'Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>de</lang_id>
+    <name>Anjanath-Dominanz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>es</lang_id>
+    <name>Dominio de Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>pt</lang_id>
+    <name>Domínio de Anjanath</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>pl</lang_id>
+    <name>Dominacja Anjanatha</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ru</lang_id>
+    <name>Главенство аньяната</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ko</lang_id>
+    <name>만악룡의 패기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>zh</lang_id>
+    <name>蠻顎龍的霸氣</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>27</id>
+    <lang_id>ar</lang_id>
+    <name>سيطرة أنجاناث</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>en</lang_id>
+    <name>Rathian Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ja</lang_id>
+    <name>雌火竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Rathian</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>it</lang_id>
+    <name>Essenza della Rathian</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>de</lang_id>
+    <name>Rathian-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Rathian</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Rathian</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Rathiany</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность ратианы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ko</lang_id>
+    <name>자화룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>zh</lang_id>
+    <name>雌火龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>28</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة راثيان</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>en</lang_id>
+    <name>Ancient Divinity</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ja</lang_id>
+    <name>太古の神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>fr</lang_id>
+    <name>Divinité ancestrale</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>it</lang_id>
+    <name>Divinità antica</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>de</lang_id>
+    <name>Uralte Göttlichkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>es</lang_id>
+    <name>Divinidad primigenia</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>pt</lang_id>
+    <name>Divindade Ancestral</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>pl</lang_id>
+    <name>Boskość Prastarego</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ru</lang_id>
+    <name>Святость древнего</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ko</lang_id>
+    <name>태고의 신비</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>zh</lang_id>
+    <name>太古的神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>29</id>
+    <lang_id>ar</lang_id>
+    <name>عظمة قديمة</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>en</lang_id>
+    <name>Commission Alchemy</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ja</lang_id>
+    <name>調査団の錬金術</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>fr</lang_id>
+    <name>Alchimie Commission</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>it</lang_id>
+    <name>Alchimia della Commissione</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>de</lang_id>
+    <name>Kommissionsalchemie</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>es</lang_id>
+    <name>Alquimia de la comisión</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>pt</lang_id>
+    <name>Alquimia da Comissão</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>pl</lang_id>
+    <name>Alchemia Komisji</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ru</lang_id>
+    <name>Алхимия экспедиции</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ko</lang_id>
+    <name>조사단의 연금술</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>zh</lang_id>
+    <name>調查團的鍊金術</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>30</id>
+    <lang_id>ar</lang_id>
+    <name>كيمياء اللجنة</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>en</lang_id>
+    <name>Barioth Hidden Art</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ja</lang_id>
+    <name>氷牙竜の秘技</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>fr</lang_id>
+    <name>Pouvoir secret du Barioth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>it</lang_id>
+    <name>Arte nascosta del Barioth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>de</lang_id>
+    <name>Geheime Barioth-Kunst</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>es</lang_id>
+    <name>Arte oculto de Barioth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>pt</lang_id>
+    <name>Arte Oculta de Barioth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>pl</lang_id>
+    <name>Ukryta sztuka Bariotha</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ru</lang_id>
+    <name>Скрытое мастерство бариота</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ko</lang_id>
+    <name>빙아룡의 비기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>zh</lang_id>
+    <name>冰牙龍的秘技</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>31</id>
+    <lang_id>ar</lang_id>
+    <name>فن باريوث المخفي</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>en</lang_id>
+    <name>Rathalos Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ja</lang_id>
+    <name>火竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>it</lang_id>
+    <name>Essenza del Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>de</lang_id>
+    <name>Rathalos-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Rathalos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Rathalosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность раталоса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ko</lang_id>
+    <name>화룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>zh</lang_id>
+    <name>火龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>32</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة راذالوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>en</lang_id>
+    <name>Diablos Ambition</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ja</lang_id>
+    <name>角竜の覇気</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>fr</lang_id>
+    <name>Ambition de Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>it</lang_id>
+    <name>Ambizione del Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>de</lang_id>
+    <name>Diablos-Ehrgeiz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>es</lang_id>
+    <name>Ambición de Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>pt</lang_id>
+    <name>Ambição de Diablos</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>pl</lang_id>
+    <name>Ambicja Diablosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ru</lang_id>
+    <name>Стремление диаблос</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ko</lang_id>
+    <name>각룡의 패기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>zh</lang_id>
+    <name>角龍的霸氣</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>33</id>
+    <lang_id>ar</lang_id>
+    <name>طموح ديابلوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>en</lang_id>
+    <name>Legiana Ambition</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ja</lang_id>
+    <name>風漂竜の覇気</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>fr</lang_id>
+    <name>Ambition du Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>it</lang_id>
+    <name>Ambizione del Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>de</lang_id>
+    <name>Legiana-Ehrgeiz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>es</lang_id>
+    <name>Ambición de Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>pt</lang_id>
+    <name>Ambição de Legiana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>pl</lang_id>
+    <name>Ambicja Legiany</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ru</lang_id>
+    <name>Стремление легианы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ko</lang_id>
+    <name>풍표룡의 패기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>zh</lang_id>
+    <name>風漂龍的霸氣</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>34</id>
+    <lang_id>ar</lang_id>
+    <name>طموح ليغيانا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>en</lang_id>
+    <name>Odogaron Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ja</lang_id>
+    <name>惨爪竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>it</lang_id>
+    <name>Essenza dell'Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>de</lang_id>
+    <name>Odogaron-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Odogaron</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Odogarona</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность одогарона</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ko</lang_id>
+    <name>참조룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>zh</lang_id>
+    <name>慘爪龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>35</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة أودوغارون</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>en</lang_id>
+    <name>Uragaan Ambition</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ja</lang_id>
+    <name>爆鎚竜の覇気</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>fr</lang_id>
+    <name>Ambition de l'Uragaan</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>it</lang_id>
+    <name>Ambizione dell'Uragaan</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>de</lang_id>
+    <name>Uragaan-Ehrgeiz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>es</lang_id>
+    <name>Ambición de Uragaan</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>pt</lang_id>
+    <name>Ambição de Uragaan</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>pl</lang_id>
+    <name>Ambicja Uragaana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ru</lang_id>
+    <name>Стремление урагаана</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ko</lang_id>
+    <name>폭추룡의 패기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>zh</lang_id>
+    <name>爆鎚龍的霸氣</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>36</id>
+    <lang_id>ar</lang_id>
+    <name>طموح أوراغان</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>en</lang_id>
+    <name>Nargacuga Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ja</lang_id>
+    <name>迅竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Nargacuga</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>it</lang_id>
+    <name>Essenza del Nargacuga</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>de</lang_id>
+    <name>Nargacuga-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Nargacuga</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Nargacuga</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Nargacuga</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность наргакуги</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ko</lang_id>
+    <name>신룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>zh</lang_id>
+    <name>迅龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>37</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة نارغاكوغا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>en</lang_id>
+    <name>Glavenus Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ja</lang_id>
+    <name>斬竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Glavenus</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>it</lang_id>
+    <name>Essenza del Glavenus</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>de</lang_id>
+    <name>Glavenus-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Glavenus</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Glavenus</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Glavenusa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность главенуса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ko</lang_id>
+    <name>참룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>zh</lang_id>
+    <name>斬龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>38</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة غلافنيوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>en</lang_id>
+    <name>Brachydios Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ja</lang_id>
+    <name>砕竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Brachydios</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>it</lang_id>
+    <name>Essenza del Brachydios</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>de</lang_id>
+    <name>Brachydios-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Brachydios</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Brachydios</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Brachydiosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность брахидиоса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ko</lang_id>
+    <name>쇄룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>zh</lang_id>
+    <name>碎龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>39</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة براكيديوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>en</lang_id>
+    <name>Tigrex Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ja</lang_id>
+    <name>轟竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Tigrex</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>it</lang_id>
+    <name>Essenza del Tigrex</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>de</lang_id>
+    <name>Tigrex-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Tigrex</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Tigrex</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Tigrexa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность тигрекса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ko</lang_id>
+    <name>굉룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>zh</lang_id>
+    <name>轟龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>40</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة تغريكس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>en</lang_id>
+    <name>Instructor's Guidance</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ja</lang_id>
+    <name>教官の導き</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>fr</lang_id>
+    <name>Guidance Instructeur</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>it</lang_id>
+    <name>Assistenza istruttore</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>de</lang_id>
+    <name>Ausbilderführung</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>es</lang_id>
+    <name>Ayuda del instructor</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>pt</lang_id>
+    <name>Orientação do Instrutor</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>pl</lang_id>
+    <name>Opieka Instruktora</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ru</lang_id>
+    <name>Руководство инструктора</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ko</lang_id>
+    <name>교관의 지도</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>zh</lang_id>
+    <name>教官的引導</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>41</id>
+    <lang_id>ar</lang_id>
+    <name>إرشاد المُعلم</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>en</lang_id>
+    <name>Bazelgeuse Ambition</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ja</lang_id>
+    <name>爆鱗竜の覇気</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>fr</lang_id>
+    <name>Ambition de Bazelgeuse</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>it</lang_id>
+    <name>Ambizione del Bazelgeuse</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>de</lang_id>
+    <name>Bazelgeuse-Ehrgeiz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>es</lang_id>
+    <name>Ambición de Bazelgeuse</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>pt</lang_id>
+    <name>Ambição de Bazelgeuse</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>pl</lang_id>
+    <name>Ambicja Bazelgeza</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ru</lang_id>
+    <name>Стремление базельгейса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ko</lang_id>
+    <name>폭린룡의 패기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>zh</lang_id>
+    <name>爆鱗龍的霸氣</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>42</id>
+    <lang_id>ar</lang_id>
+    <name>طموح بازيلغيس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>en</lang_id>
+    <name>Deviljho Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ja</lang_id>
+    <name>恐暴竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Deviljho</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>it</lang_id>
+    <name>Essenza del Deviljho</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>de</lang_id>
+    <name>Dämonjho-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Deviljho</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Deviljho</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Deviljho</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность девильо</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ko</lang_id>
+    <name>공폭룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>zh</lang_id>
+    <name>恐暴龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>43</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة ديفيلجو</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>en</lang_id>
+    <name>Velkhana Divinity</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ja</lang_id>
+    <name>冰龍の神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>fr</lang_id>
+    <name>Divinité Velkhana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>it</lang_id>
+    <name>Divinità del Velkhana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>de</lang_id>
+    <name>Velkhana-Göttlichkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>es</lang_id>
+    <name>Divinidad Velkhana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>pt</lang_id>
+    <name>Divindade de Velkhana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>pl</lang_id>
+    <name>Boskość Velkhana</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ru</lang_id>
+    <name>Святость велханы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ko</lang_id>
+    <name>빙룡의 신비</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>zh</lang_id>
+    <name>冰呪龍的神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>44</id>
+    <lang_id>ar</lang_id>
+    <name>عظمة فيلكانا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>en</lang_id>
+    <name>Vaal Soulvein</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ja</lang_id>
+    <name>屍套龍の霊脈</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>fr</lang_id>
+    <name>Âme du Vaal Hazak</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>it</lang_id>
+    <name>Venanima del Vaal Hazak</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>de</lang_id>
+    <name>Vaal-Seelenader</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>es</lang_id>
+    <name>Psicovena de Vaal</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>pt</lang_id>
+    <name>Veialma de Vaal</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>pl</lang_id>
+    <name>Żyła duszy Vaala</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ru</lang_id>
+    <name>Жила души ваала</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ko</lang_id>
+    <name>시투룡의 영맥</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>zh</lang_id>
+    <name>屍套龍的靈脈</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>45</id>
+    <lang_id>ar</lang_id>
+    <name>عِرق فال</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>en</lang_id>
+    <name>Kirin Divinity</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ja</lang_id>
+    <name>幻獣の神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>fr</lang_id>
+    <name>Divinité du Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>it</lang_id>
+    <name>Spirito del Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>de</lang_id>
+    <name>Kirin-Göttlichkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>es</lang_id>
+    <name>Divinidad Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>pt</lang_id>
+    <name>Divindade de Kirin</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>pl</lang_id>
+    <name>Boskość Kirina</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ru</lang_id>
+    <name>Святость кирина</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ko</lang_id>
+    <name>환수의 신비</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>zh</lang_id>
+    <name>幻獸的神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>46</id>
+    <lang_id>ar</lang_id>
+    <name>عظمة كيرين</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>en</lang_id>
+    <name>Namielle Divinity</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ja</lang_id>
+    <name>溟龍の神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>fr</lang_id>
+    <name>Divinité Namielle</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>it</lang_id>
+    <name>Divinità del Namielle</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>de</lang_id>
+    <name>Namielle-Göttlichkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>es</lang_id>
+    <name>Divinidad Namielle</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>pt</lang_id>
+    <name>Divindade de Namielle</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>pl</lang_id>
+    <name>Boskość Namiella</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ru</lang_id>
+    <name>Святость намиэля</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ko</lang_id>
+    <name>명룡의 신비</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>zh</lang_id>
+    <name>溟波龍的神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>47</id>
+    <lang_id>ar</lang_id>
+    <name>عظمة ناميال</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>en</lang_id>
+    <name>Guild Pride</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ja</lang_id>
+    <name>ギルドの見識</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>fr</lang_id>
+    <name>Fierté de Guilde</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>it</lang_id>
+    <name>Alterigia della Gilda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>de</lang_id>
+    <name>Gildenstolz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>es</lang_id>
+    <name>Orgullo del gremio</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>pt</lang_id>
+    <name>Orgulho da Guilda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>pl</lang_id>
+    <name>Duma Gildii</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ru</lang_id>
+    <name>Гордость гильдии</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ko</lang_id>
+    <name>길드의 견식</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>zh</lang_id>
+    <name>公會的見識</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>48</id>
+    <lang_id>ar</lang_id>
+    <name>كبرياء النقابة</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>en</lang_id>
+    <name>Shara Ishvalda Divinity</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ja</lang_id>
+    <name>地啼龍の神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>fr</lang_id>
+    <name>Divinité Shara Ishvalda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>it</lang_id>
+    <name>Divinità dello Shara Ishvalda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>de</lang_id>
+    <name>Shara-Ishvalda-Göttlichkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>es</lang_id>
+    <name>Divinidad Shara Ishvalda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>pt</lang_id>
+    <name>Divindade de Shara Ishvalda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>pl</lang_id>
+    <name>Boskość Shar Ishvalda</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ru</lang_id>
+    <name>Святость шара-ишвалды</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ko</lang_id>
+    <name>지제룡의 신비</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>zh</lang_id>
+    <name>天地煌啼龍的神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>49</id>
+    <lang_id>ar</lang_id>
+    <name>عظمة شارا إشفالدا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>en</lang_id>
+    <name>Zorah Magdaros Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ja</lang_id>
+    <name>熔山龍の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Zorah Magdaros</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>it</lang_id>
+    <name>Essenza dello Zorah Magdaros</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>de</lang_id>
+    <name>Zorah-Magdaros-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Zorah Magdaros</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Zorah Magdaros</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Zoraha Magdarosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность Дзоры Магдароса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ko</lang_id>
+    <name>용산룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>zh</lang_id>
+    <name>熔山龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>50</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة زوراه ماغداروس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>en</lang_id>
+    <name>Zinogre Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ja</lang_id>
+    <name>雷狼竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Zinogre</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>it</lang_id>
+    <name>Essenza dello Zinogre</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>de</lang_id>
+    <name>Zinogre-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Zinogre</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Zinogre</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Zinogra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность зиногра</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ko</lang_id>
+    <name>뇌랑룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>zh</lang_id>
+    <name>雷狼龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>51</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة زينغر</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>en</lang_id>
+    <name>Gold Rathian Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ja</lang_id>
+    <name>金火竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Rathian d'or</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>it</lang_id>
+    <name>Essenza della Rathian dorata</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>de</lang_id>
+    <name>Goldene-Rathian-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Rathian Dorada</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Rathian Dourada</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Złotej Rathiany</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность золотой ратианы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ko</lang_id>
+    <name>금화룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>zh</lang_id>
+    <name>金火龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>52</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة راثيان ذهبية</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>en</lang_id>
+    <name>Silver Rathalos Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ja</lang_id>
+    <name>銀火竜の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Rathalos d'argent</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>it</lang_id>
+    <name>Essenza del Rathalos argentato</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>de</lang_id>
+    <name>Silberner-Rathalos-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Rathalos Plateado</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>pt</lang_id>
+    <name>Essência Rathalos Prateado</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Srebrnego Rathalosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность серебр. раталоса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ko</lang_id>
+    <name>은화룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>zh</lang_id>
+    <name>銀火龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>53</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة راذالوس فضي</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>en</lang_id>
+    <name>Lunastra Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ja</lang_id>
+    <name>炎妃龍の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>fr</lang_id>
+    <name>Esprit Lunastra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>it</lang_id>
+    <name>Essenza della Lunastra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>de</lang_id>
+    <name>Lunastra-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Lunastra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>pt</lang_id>
+    <name>Essência de Lunastra</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Lunastry</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность лунастры</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ko</lang_id>
+    <name>염비룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>zh</lang_id>
+    <name>炎妃龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>54</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة لوناسترا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>en</lang_id>
+    <name>Nergigante Ambition</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ja</lang_id>
+    <name>滅尽龍の覇気</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>fr</lang_id>
+    <name>Ambition du Nergigante</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>it</lang_id>
+    <name>Ambizione del Nergigante</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>de</lang_id>
+    <name>Nergigante-Ehrgeiz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>es</lang_id>
+    <name>Ambición de Nergigante</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>pt</lang_id>
+    <name>Ambição de Nergigante</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>pl</lang_id>
+    <name>Ambicja Nergiganta</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ru</lang_id>
+    <name>Стремление нергиганта</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ko</lang_id>
+    <name>멸진룡의 패기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>zh</lang_id>
+    <name>滅盡龍的霸氣</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>55</id>
+    <lang_id>ar</lang_id>
+    <name>طموح نيرغي</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>en</lang_id>
+    <name>Joyful Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ja</lang_id>
+    <name>万福の祝福</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>fr</lang_id>
+    <name>Bénédiction de prospérité</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>it</lang_id>
+    <name>Benedizione gioiosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>de</lang_id>
+    <name>Lunar-Dankbarkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>es</lang_id>
+    <name>Bendición lunar</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>pt</lang_id>
+    <name>Bênção Jovial</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>pl</lang_id>
+    <name>Radosne Błogosławieństwo</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ru</lang_id>
+    <name>Радостное благословение</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ko</lang_id>
+    <name>만복의 축복</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>zh</lang_id>
+    <name>萬福的祝福</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>56</id>
+    <lang_id>ar</lang_id>
+    <name>مباركة البهجة</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>en</lang_id>
+    <name>Appreciation Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>ja</lang_id>
+    <name>大感謝の祝福</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>fr</lang_id>
+    <name>Bénédiction d'anniversaire</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>it</lang_id>
+    <name>Benedizione astrale</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>de</lang_id>
+    <name>Astral-Dankbarkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>es</lang_id>
+    <name>Bendición astral</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>pt</lang_id>
+    <name>Benção da Apreciação</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>pl</lang_id>
+    <name>Błogosław. Wdzięczności</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>ru</lang_id>
+    <name>Благословение благодарности</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>ko</lang_id>
+    <name>대감사의 축복</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>zh</lang_id>
+    <name>大感謝的祝福</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>57</id>
+    <lang_id>ar</lang_id>
+    <name>مباركة التقدير</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>en</lang_id>
+    <name>Rajang's Rage</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>ja</lang_id>
+    <name>金獅子の怒気</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>fr</lang_id>
+    <name>Colère du Rajang</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>it</lang_id>
+    <name>Furia del Rajang</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>de</lang_id>
+    <name>Rajangs Rage</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>es</lang_id>
+    <name>Ira de Rajang</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>pt</lang_id>
+    <name>Raiva do Rajang</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>pl</lang_id>
+    <name>Gniew Rajanga</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>ru</lang_id>
+    <name>Ярость раянга</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>ko</lang_id>
+    <name>금사자의 분노</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>zh</lang_id>
+    <name>金獅子的怒氣</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>58</id>
+    <lang_id>ar</lang_id>
+    <name>غيظ راجانغ</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>en</lang_id>
+    <name>Rajang Will</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>ja</lang_id>
+    <name>金獅子の闘志</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>fr</lang_id>
+    <name>Volonté du Rajang</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>it</lang_id>
+    <name>Volontà del Rajang</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>de</lang_id>
+    <name>Rajang-Wille</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>es</lang_id>
+    <name>Voluntad de Rajang</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>pt</lang_id>
+    <name>Vontade de Rajang</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>pl</lang_id>
+    <name>Wola Rajanga</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>ru</lang_id>
+    <name>Воля раянга</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>ko</lang_id>
+    <name>금사자의 투지</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>zh</lang_id>
+    <name>金獅子之鬥志</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>59</id>
+    <lang_id>ar</lang_id>
+    <name>إرادة راجانغ</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>en</lang_id>
+    <name>Safi'jiiva Seal</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>ja</lang_id>
+    <name>赤龍の封印</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>fr</lang_id>
+    <name>Sceau Safi'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>it</lang_id>
+    <name>Sigillo Safi'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>de</lang_id>
+    <name>Safi'jiiva-Siegel</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>es</lang_id>
+    <name>Sello de Safi'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>pt</lang_id>
+    <name>Selo de Safi'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>pl</lang_id>
+    <name>Pieczęć Safi'jiiva</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>ru</lang_id>
+    <name>Печать сафи'джиивы</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>ko</lang_id>
+    <name>명적룡의 봉인</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>zh</lang_id>
+    <name>冥赤龍的封印</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>60</id>
+    <lang_id>ar</lang_id>
+    <name>ختم صافيجيفا</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>en</lang_id>
+    <name>Brachydios Will</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>ja</lang_id>
+    <name>砕竜の闘志</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>fr</lang_id>
+    <name>Volonté du Brachydios</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>it</lang_id>
+    <name>Volontà del Brachydios</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>de</lang_id>
+    <name>Brachydios-Wille</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>es</lang_id>
+    <name>Voluntad de Brachydios</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>pt</lang_id>
+    <name>Vontade de Brachydios</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>pl</lang_id>
+    <name>Wola Brachydiosa</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>ru</lang_id>
+    <name>Воля брахидиоса</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>ko</lang_id>
+    <name>쇄룡의 투지</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>zh</lang_id>
+    <name>碎龍之鬥志</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>61</id>
+    <lang_id>ar</lang_id>
+    <name>إرادة براكيديوس</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>en</lang_id>
+    <name>Full Bloom Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>ja</lang_id>
+    <name>満開の祝福</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>fr</lang_id>
+    <name>Bénédiction de la floraison</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>it</lang_id>
+    <name>Benedizione della fioritura</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>de</lang_id>
+    <name>Flor-Segen</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>es</lang_id>
+    <name>Bendición floral</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>pt</lang_id>
+    <name>Bênção Florescente</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>pl</lang_id>
+    <name>Błogosł. Rozkwitu</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>ru</lang_id>
+    <name>Благословение Полноцветия</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>ko</lang_id>
+    <name>만개의 축복</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>zh</lang_id>
+    <name>盛放之祝福</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>62</id>
+    <lang_id>ar</lang_id>
+    <name>مباركة الازدهار الكامل</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>en</lang_id>
+    <name>Alatreon Divinity</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>ja</lang_id>
+    <name>煌黒龍の神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>fr</lang_id>
+    <name>Divinité Alatreon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>it</lang_id>
+    <name>Divinità dell'Alatreon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>de</lang_id>
+    <name>Alatreon-Göttlichkeit</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>es</lang_id>
+    <name>Divinidad Alatreon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>pt</lang_id>
+    <name>Divindade de Alatreon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>pl</lang_id>
+    <name>Boskość Alatreona</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>ru</lang_id>
+    <name>Божество-алатреон</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>ko</lang_id>
+    <name>황흑룡의 신비</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>zh</lang_id>
+    <name>煌黑龍的神秘</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>63</id>
+    <lang_id>ar</lang_id>
+    <name>عظمة ألاتريون</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>en</lang_id>
+    <name>Kulve Taroth Essence</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>ja</lang_id>
+    <name>爛輝龍の真髄</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>fr</lang_id>
+    <name>Essence Kulve Taroth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>it</lang_id>
+    <name>Essenza di Kulve Taroth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>de</lang_id>
+    <name>Kulve-Taroth-Essenz</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>es</lang_id>
+    <name>Esencia Kulve Taroth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>pt</lang_id>
+    <name>Essência Kulve Taroth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>pl</lang_id>
+    <name>Esencja Kulve Taroth</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>ru</lang_id>
+    <name>Сущность кулве тарот</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>ko</lang_id>
+    <name>난휘룡의 진수</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>zh</lang_id>
+    <name>絢輝龍的真髓</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>64</id>
+    <lang_id>ar</lang_id>
+    <name>عصارة كولف تاروث</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>en</lang_id>
+    <name>Frostfang Absolute Art</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>ja</lang_id>
+    <name>氷牙竜の絶技</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>fr</lang_id>
+    <name>Pouvoir absolu du crocgivre</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>it</lang_id>
+    <name>Arte assoluta assiderata</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>de</lang_id>
+    <name>Frosthauer-Absolutkunst</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>es</lang_id>
+    <name>Arte absoluto de Cynodon</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>pt</lang_id>
+    <name>Arte Absoluta de Presagélida</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>pl</lang_id>
+    <name>Absolut. sztuka Mrozokła</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>ru</lang_id>
+    <name>Соверш. ледозубое искусство</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>ko</lang_id>
+    <name>빙아룡의 절기</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>zh</lang_id>
+    <name>冰牙龍的絕技</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>65</id>
+    <lang_id>ar</lang_id>
+    <name>فن مطلق لأنياب الصقيع</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>en</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>ja</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>fr</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>it</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>de</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>es</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>pt</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>pl</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>ru</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>ko</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>zh</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>66</id>
+    <lang_id>ar</lang_id>
+    <name>New World</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>en</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>ja</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>fr</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>it</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>de</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>es</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>pt</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>pl</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>ru</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>ko</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>zh</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>67</id>
+    <lang_id>ar</lang_id>
+    <name>Fatalis Legend</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>en</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>ja</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>fr</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>it</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>de</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>es</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>pt</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>pl</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>ru</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>ko</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>zh</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>68</id>
+    <lang_id>ar</lang_id>
+    <name>Fun Fright Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>en</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>ja</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>fr</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>it</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>de</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>es</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>pt</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>pl</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>ru</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>ko</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>zh</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>69</id>
+    <lang_id>ar</lang_id>
+    <name>Sizzling Blessing</name>
+    <description></description>
+  </DATA_RECORD>
+</armorset_bonus_text>
