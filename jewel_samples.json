@@ -1,0 +1,226 @@
+{
+  "decoration": [
+    {
+      "id": 1,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "Violet",
+      "skilltree_id": 1,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 2,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "LightBeige",
+      "skilltree_id": 87,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 3,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "Gray",
+      "skilltree_id": 62,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 4,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "Beige",
+      "skilltree_id": 67,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 5,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "LightBeige",
+      "skilltree_id": 74,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 6,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "Blue",
+      "skilltree_id": 84,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 7,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "LightBeige",
+      "skilltree_id": 85,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 8,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "Lime",
+      "skilltree_id": 86,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 9,
+      "slot": 1,
+      "rarity": 5,
+      "icon_color": "Gray",
+      "skilltree_id": 90,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    },
+    {
+      "id": 10,
+      "slot": 2,
+      "rarity": 5,
+      "icon_color": "Blue",
+      "skilltree_id": 50,
+      "skilltree_level": 1,
+      "skilltree2_id": null,
+      "skilltree2_level": null,
+      "mysterious_feystone_percent": 3.03571,
+      "glowing_feystone_percent": 2.32143,
+      "worn_feystone_percent": 0.35714,
+      "warped_feystone_percent": 0.0,
+      "ancient_feystone_percent": 0.0,
+      "carved_feystone_percent": 0.0,
+      "sealed_feystone_percent": 0.0
+    }
+  ],
+  "decoration_text": [
+    {
+      "id": 1,
+      "lang_id": "en",
+      "name": "Antidote Jewel 1"
+    },
+    {
+      "id": 1,
+      "lang_id": "ja",
+      "name": "耐毒珠【１】"
+    },
+    {
+      "id": 1,
+      "lang_id": "fr",
+      "name": "Joyau antidote [1]"
+    },
+    {
+      "id": 1,
+      "lang_id": "it",
+      "name": "Gioiello resistenza veleno 1"
+    },
+    {
+      "id": 1,
+      "lang_id": "de",
+      "name": "Gegengift-Juwel 1"
+    },
+    {
+      "id": 1,
+      "lang_id": "es",
+      "name": "Joya antídoto 1"
+    },
+    {
+      "id": 1,
+      "lang_id": "pt",
+      "name": "Joia Antídoto 1"
+    },
+    {
+      "id": 1,
+      "lang_id": "pl",
+      "name": "Klejnot antidotum 1"
+    },
+    {
+      "id": 1,
+      "lang_id": "ru",
+      "name": "Самоцвет-противоядие 1"
+    },
+    {
+      "id": 1,
+      "lang_id": "ko",
+      "name": "내독주【1】"
+    }
+  ]
+}

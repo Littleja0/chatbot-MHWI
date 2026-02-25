@@ -31,7 +31,7 @@ const AppLayout: React.FC = () => {
 
   const {
     chats, activeChatId, isSidebarCollapsed,
-    selectChat, createChat, deleteChat, togglePin, toggleSidebar
+    selectChat, createChat, deleteChat, togglePin, renameChat, toggleSidebar
   } = useChatManager();
 
   const { messages, isLoading, sendMessage } = useChat();
@@ -46,6 +46,7 @@ const AppLayout: React.FC = () => {
         onCreateChat={createChat}
         onDeleteChat={deleteChat}
         onTogglePin={togglePin}
+        onRenameChat={renameChat}
         isCollapsed={isSidebarCollapsed}
         onToggleCollapse={toggleSidebar}
       />

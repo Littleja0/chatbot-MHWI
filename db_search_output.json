@@ -1,0 +1,3731 @@
+{
+  "item_text": [
+    {
+      "id": 328,
+      "lang_id": "en",
+      "name": "Odogaron Scale",
+      "description": "Odogaron material. Mostly obtained by carving. Broadly used for many purposes."
+    },
+    {
+      "id": 328,
+      "lang_id": "fr",
+      "name": "Écaille Odogaron",
+      "description": "Matériau Odogaron. Sert à de nombreux usages. (Dépeçage)"
+    },
+    {
+      "id": 328,
+      "lang_id": "it",
+      "name": "Odogaron: scaglia",
+      "description": "Materiale di Odogaron. Spesso ottenuto tramite il ricavo. Dall'ampio utilizzo."
+    },
+    {
+      "id": 328,
+      "lang_id": "de",
+      "name": "Odogaron-Schuppe",
+      "description": "Odogaron-Material, meist durch Zerlegen erhalten; für eine Vielzahl von Dingen verwendet."
+    },
+    {
+      "id": 328,
+      "lang_id": "es",
+      "name": "Escama de Odogaron",
+      "description": "Material de Odogaron, obtenido sobre todo cortándolo tras abatirlo. Tiene usos muy diversos."
+    },
+    {
+      "id": 328,
+      "lang_id": "pt",
+      "name": "Escama de Odogaron",
+      "description": "Material de Odogaron. Obtida principalmente ao talhar. Usada amplamente para muitos fins."
+    },
+    {
+      "id": 328,
+      "lang_id": "pl",
+      "name": "Łuska Odogarona",
+      "description": "Materiał z Odogarona. Zdobywany głównie przez wycięcie. Ma bardzo wiele zastosowań."
+    },
+    {
+      "id": 334,
+      "lang_id": "en",
+      "name": "Odogaron Scale+",
+      "description": "Rare Odogaron material. Mostly obtained by carving. Broadly used for many purposes."
+    },
+    {
+      "id": 334,
+      "lang_id": "fr",
+      "name": "Écaille Odogaron +",
+      "description": "Matériau Odogaron rare. Sert à de nombreux usages. (Dépeçage)"
+    },
+    {
+      "id": 334,
+      "lang_id": "it",
+      "name": "Odogaron: scaglia+",
+      "description": "Materiale raro di Odogaron. Spesso ottenuto tramite il ricavo. Dall'ampio utilizzo."
+    },
+    {
+      "id": 334,
+      "lang_id": "de",
+      "name": "Odogaron-Schuppe+",
+      "description": "Seltenes Odogaron-Material, meist durch Zerlegen erhalten; für eine Vielzahl von Dingen verwendet."
+    },
+    {
+      "id": 334,
+      "lang_id": "es",
+      "name": "Escama de Odogaron+",
+      "description": "Raro material de Odogaron, obtenido sobre todo cortándolo tras abatirlo. Tiene usos muy diversos."
+    },
+    {
+      "id": 334,
+      "lang_id": "pt",
+      "name": "Escama de Odogaron+",
+      "description": "Material raro de Odogaron. Obtida principalmente ao talhar. Usada amplamente para muitos fins."
+    },
+    {
+      "id": 334,
+      "lang_id": "pl",
+      "name": "Łuska Odogarona+",
+      "description": "Rzadki materiał z Odogarona. Zdobywany głównie przez wycięcie. Ma bardzo wiele zastosowań."
+    },
+    {
+      "id": 781,
+      "lang_id": "en",
+      "name": "Odogaron Shard",
+      "description": "Very rare Odogaron material. Mostly obtained by carving. Broadly used for many purposes."
+    },
+    {
+      "id": 781,
+      "lang_id": "fr",
+      "name": "Éclat Odogaron",
+      "description": "Matériau Odogaron très rare. Sert à de nombreux usages. (Dépeçage)"
+    },
+    {
+      "id": 781,
+      "lang_id": "it",
+      "name": "Odogaron: frammento",
+      "description": "Materiale raro di Odogaron. Spesso ottenuto tramite il ricavo. Dall'ampio utilizzo."
+    },
+    {
+      "id": 781,
+      "lang_id": "de",
+      "name": "Odogaron-Scherbe",
+      "description": "Sehr seltenes Odogaron-Material, meist durch Zerlegen erhalten; für eine Vielzahl von Dingen verwendet."
+    },
+    {
+      "id": 781,
+      "lang_id": "es",
+      "name": "Esquirla de Odogaron",
+      "description": "Material muy raro de Odogaron, obtenido sobre todo cortándolo tras abatirlo. Tiene usos muy diversos."
+    },
+    {
+      "id": 781,
+      "lang_id": "pt",
+      "name": "Fragmento de Odogaron",
+      "description": "Material de Odogaron raríssimo. Obtido principalmente ao talhar. Usado amplamente para muitos fins."
+    },
+    {
+      "id": 781,
+      "lang_id": "pl",
+      "name": "Okruch Odogarona",
+      "description": "Bardzo rzadki materiał z Odogarona. Zdobywany głównie przez wycięcie. Ma bardzo wiele zastosowań."
+    },
+    {
+      "id": 329,
+      "lang_id": "en",
+      "name": "Odogaron Sinew",
+      "description": "Odogaron material. Mostly obtained as a reward. Solid, used to craft gear."
+    },
+    {
+      "id": 329,
+      "lang_id": "fr",
+      "name": "Tendon Odogaron",
+      "description": "Matériau Odogaron. Solide, utilisé pour les armures. (Récompense de quête)"
+    },
+    {
+      "id": 329,
+      "lang_id": "it",
+      "name": "Odogaron: tendine",
+      "description": "Materiale di Odogaron. Spesso ottenuto tramite le ricompense. Solido, usato nelle armature."
+    },
+    {
+      "id": 329,
+      "lang_id": "de",
+      "name": "Odogaron-Sehne",
+      "description": "Odogaron-Material, meist als Belohnung erhalten. Stabil, für die Herstellung von Ausrüstung."
+    },
+    {
+      "id": 329,
+      "lang_id": "es",
+      "name": "Tendón de Odogaron",
+      "description": "Material de Odogaron, obtenido sobre todo como recompensa. Sólido, útil para crear equipo."
+    },
+    {
+      "id": 329,
+      "lang_id": "pt",
+      "name": "Tendão de Odogaron",
+      "description": "Material de Odogaron. Obtido principalmente como prêmio. Sólido, usado para criar equipamentos."
+    },
+    {
+      "id": 329,
+      "lang_id": "pl",
+      "name": "Ścięgno Odogarona",
+      "description": "Materiał z Odogarona. Zdobywany głównie w nagrodę. Trwały, służy do wyrobu wyposażenia."
+    },
+    {
+      "id": 335,
+      "lang_id": "en",
+      "name": "Odogaron Sinew+",
+      "description": "Rare Odogaron material. Mostly obtained as a reward. Solid, used to craft gear."
+    },
+    {
+      "id": 335,
+      "lang_id": "fr",
+      "name": "Tendon Odogaron +",
+      "description": "Matériau Odogaron rare. Solide, utilisé pour les armures. (Récompense de quête)"
+    },
+    {
+      "id": 335,
+      "lang_id": "it",
+      "name": "Odogaron: tendine+",
+      "description": "Materiale raro di Odogaron. Spesso ottenuto tramite le ricompense. Solido, usato nelle armature."
+    },
+    {
+      "id": 335,
+      "lang_id": "de",
+      "name": "Odogaron-Sehne+",
+      "description": "Seltenes Odogaron-Material, meist als Belohnung erhalten. Stabil, für die Herstellung von Ausrüstung."
+    },
+    {
+      "id": 335,
+      "lang_id": "es",
+      "name": "Tendón de Odogaron+",
+      "description": "Raro material de Odogaron, obtenido sobre todo como recompensa. Sólido, útil para crear equipo."
+    },
+    {
+      "id": 335,
+      "lang_id": "pt",
+      "name": "Tendão de Odogaron+",
+      "description": "Material raro de Odogaron. Obtido principalmente como prêmio. Sólido, usado para criar equipamentos."
+    },
+    {
+      "id": 335,
+      "lang_id": "pl",
+      "name": "Ścięgno Odogarona+",
+      "description": "Rzadki materiał z Odogarona. Zdobywany głównie w nagrodę. Trwały, służy do wyrobu wyposażenia."
+    },
+    {
+      "id": 829,
+      "lang_id": "en",
+      "name": "Hard Odogaron Sinew",
+      "description": "Very rare Odogaron material. Mostly obtained as a reward. Solid, used to craft gear."
+    },
+    {
+      "id": 829,
+      "lang_id": "fr",
+      "name": "Tendon Odogaron dur",
+      "description": "Matériau Odogaron très rare. Solide, utilisé pour les armures. (Récompense de quête)"
+    },
+    {
+      "id": 829,
+      "lang_id": "it",
+      "name": "Odogaron: tendine duro",
+      "description": "Materiale raro di Odogaron. Spesso ottenuto tramite le ricompense. Solido, usato nelle armature."
+    },
+    {
+      "id": 829,
+      "lang_id": "de",
+      "name": "Harte Odogaron-Sehne",
+      "description": "Sehr seltenes Odogaron-Material, meist als Belohnung erhalten. Stabil, für die Herstellung von Ausrüstung."
+    },
+    {
+      "id": 829,
+      "lang_id": "es",
+      "name": "Tendón duro de Odogaron",
+      "description": "Material muy raro de Odogaron, obtenido sobre todo como recompensa. Sólido, útil para crear equipo."
+    },
+    {
+      "id": 829,
+      "lang_id": "pt",
+      "name": "Tendão Duro de Odogaron",
+      "description": "Material de Odogaron raríssimo. Obtido principalmente como prêmio. Sólido, usado em equipamentos."
+    },
+    {
+      "id": 829,
+      "lang_id": "pl",
+      "name": "Twarde ścięgno Odogarona",
+      "description": "Bardzo rzadki materiał z Odogarona. Zdobywany głównie w nagrodę. Trwały, służy do wyrobu wyposażenia."
+    },
+    {
+      "id": 330,
+      "lang_id": "en",
+      "name": "Odogaron Claw",
+      "description": "Odogaron material. Obtained by breaking its forelegs. Sharp, used in many weapons."
+    },
+    {
+      "id": 330,
+      "lang_id": "fr",
+      "name": "Griffe Odogaron",
+      "description": "Matériau Odogaron. Très acéré, utilisé pour les armes. (Destruction des pattes antérieures)"
+    },
+    {
+      "id": 330,
+      "lang_id": "it",
+      "name": "Odogaron: artiglio",
+      "description": "Materiale di Odogaron. Ottenuto rompendone le zampe anteriori. Leggero e affilato, usato in molte armi."
+    },
+    {
+      "id": 330,
+      "lang_id": "de",
+      "name": "Odogaron-Klaue",
+      "description": "Odogaron-Material, erhalten durch das Brechen seiner Vorderbeine. Scharf, für viele Waffen verwendet."
+    },
+    {
+      "id": 330,
+      "lang_id": "es",
+      "name": "Garra de Odogaron",
+      "description": "Material de Odogaron, obtenido al romperle las patas delanteras. Afilado y útil para crear armas."
+    },
+    {
+      "id": 330,
+      "lang_id": "pt",
+      "name": "Garra de Odogaron",
+      "description": "Material de Odogaron. Obtida ao quebrar suas pernas dianteiras. Afiada, usada em muitas armas."
+    },
+    {
+      "id": 330,
+      "lang_id": "pl",
+      "name": "Pazur Odogarona",
+      "description": "Materiał z Odogarona. Uzyskiwany przez połamanie przednich nóg. Ostry, często używany w broni."
+    },
+    {
+      "id": 336,
+      "lang_id": "en",
+      "name": "Odogaron Claw+",
+      "description": "Rare Odogaron material. Obtained by breaking its forelegs. Sharp, used in many weapons."
+    },
+    {
+      "id": 336,
+      "lang_id": "fr",
+      "name": "Griffe Odogaron +",
+      "description": "Matériau Odogaron rare. Très acéré, utilisé pour les armes. (Destruction des pattes antérieures)"
+    },
+    {
+      "id": 336,
+      "lang_id": "it",
+      "name": "Odogaron: artiglio+",
+      "description": "Materiale raro di Odogaron. Ottenuto rompendone le zampe anteriori. Leggero e affilato, usato in molte armi."
+    },
+    {
+      "id": 336,
+      "lang_id": "de",
+      "name": "Odogaron-Klaue+",
+      "description": "Seltenes Odogaron-Material, erhalten durch das Brechen seiner Vorderbeine. Scharf, für viele Waffen verwendet."
+    },
+    {
+      "id": 336,
+      "lang_id": "es",
+      "name": "Garra de Odogaron+",
+      "description": "Raro material de Odogaron, obtenido al romperle las patas delanteras. Afilado y útil para crear armas."
+    },
+    {
+      "id": 336,
+      "lang_id": "pt",
+      "name": "Garra de Odogaron+",
+      "description": "Material raro de Odogaron. Obtida ao quebrar suas pernas dianteiras. Afiada, usada em muitas armas."
+    },
+    {
+      "id": 336,
+      "lang_id": "pl",
+      "name": "Pazur Odogarona+",
+      "description": "Rzadki materiał z Odogarona. Uzyskiwany przez połamanie przednich nóg. Ostry, często używany w broni."
+    },
+    {
+      "id": 830,
+      "lang_id": "en",
+      "name": "Odogaron Hardclaw",
+      "description": "Very rare Odogaron material. Obtained by breaking its forelegs. Sharp, used in many weapons."
+    },
+    {
+      "id": 830,
+      "lang_id": "fr",
+      "name": "Serre Odogaron",
+      "description": "Matériau Odogaron très rare. Très acéré, utilisé pour les armes. (Destruction des pattes antérieures)"
+    },
+    {
+      "id": 830,
+      "lang_id": "it",
+      "name": "Odogaron: artiglio duro",
+      "description": "Materiale raro di Odogaron. Ottenuto rompendone le zampe anteriori. Leggero e affilato, usato in molte armi."
+    },
+    {
+      "id": 830,
+      "lang_id": "de",
+      "name": "Odogaron-Hartklaue",
+      "description": "Sehr seltenes Odogaron-Material, erhalten durch Brechen der Vorderbeine. Scharf, für viele Waffen."
+    },
+    {
+      "id": 830,
+      "lang_id": "es",
+      "name": "Garra dura de Odogaron",
+      "description": "Material muy raro de Odogaron, obtenido de sus patas delanteras. Afilado y útil para crear armas."
+    },
+    {
+      "id": 830,
+      "lang_id": "pt",
+      "name": "Garrígida de Odogaron",
+      "description": "Material de Odogaron raríssimo. Obtido ao quebrar suas pernas dianteiras. Usado em muitas armas."
+    },
+    {
+      "id": 830,
+      "lang_id": "pl",
+      "name": "Pazurzysko Odogarona",
+      "description": "Bardzo rzadki materiał z Odogarona. Uzyskiwany przez połamanie przednich nóg. Ostry, często używany w broni."
+    },
+    {
+      "id": 331,
+      "lang_id": "en",
+      "name": "Odogaron Fang",
+      "description": "Odogaron material. Obtained by breaking its head. Sharp, used in many weapons."
+    },
+    {
+      "id": 331,
+      "lang_id": "fr",
+      "name": "Croc Odogaron",
+      "description": "Matériau Odogaron. Très acéré, utilisé pour les armes. (Destruction de la tête)"
+    },
+    {
+      "id": 331,
+      "lang_id": "it",
+      "name": "Odogaron: zanna",
+      "description": "Materiale di Odogaron. Ottenuto rompendone la testa. Affilato, usato in molte armi."
+    },
+    {
+      "id": 331,
+      "lang_id": "de",
+      "name": "Odogaron-Reißzahn",
+      "description": "Odogaron-Material, erhalten durch das Brechen seines Kopfs. Scharf, für viele Waffen verwendet."
+    },
+    {
+      "id": 331,
+      "lang_id": "es",
+      "name": "Colmillo de Odogaron",
+      "description": "Material de Odogaron, obtenido al romperle el cráneo. Afilado y útil para crear armas."
+    },
+    {
+      "id": 331,
+      "lang_id": "pt",
+      "name": "Presa de Odogaron",
+      "description": "Material de Odogaron. Obtida ao quebrar sua cabeça. Afiada, usada em muitas armas."
+    },
+    {
+      "id": 331,
+      "lang_id": "pl",
+      "name": "Kieł Odogarona",
+      "description": "Materiał z Odogarona. Zdobywany przez rozbicie mu głowy. Ostry, często używany w broni."
+    },
+    {
+      "id": 337,
+      "lang_id": "en",
+      "name": "Odogaron Fang+",
+      "description": "Rare Odogaron material. Obtained by breaking its head. Sharp, used in many weapons."
+    },
+    {
+      "id": 337,
+      "lang_id": "fr",
+      "name": "Croc Odogaron +",
+      "description": "Matériau Odogaron rare. Très acéré, utilisé pour les armes. (Destruction de la tête)"
+    },
+    {
+      "id": 337,
+      "lang_id": "it",
+      "name": "Odogaron: zanna+",
+      "description": "Materiale raro di Odogaron. Ottenuto rompendone la testa. Affilato, usato in molte armi."
+    },
+    {
+      "id": 337,
+      "lang_id": "de",
+      "name": "Odogaron-Reißzahn+",
+      "description": "Seltenes Odogaron-Material, erhalten durch das Brechen seines Kopfs. Scharf, für viele Waffen verwendet."
+    },
+    {
+      "id": 337,
+      "lang_id": "es",
+      "name": "Colmillo de Odogaron+",
+      "description": "Raro material de Odogaron, obtenido al romperle el cráneo. Afilado y útil para crear armas."
+    },
+    {
+      "id": 337,
+      "lang_id": "pt",
+      "name": "Presa de Odogaron+",
+      "description": "Material raro de Odogaron. Obtida ao quebrar sua cabeça. Afiada, usada em muitas armas."
+    },
+    {
+      "id": 337,
+      "lang_id": "pl",
+      "name": "Kieł Odogarona+",
+      "description": "Rzadki materiał z Odogarona. Zdobywany przez rozbicie mu głowy. Ostry, często używany w broni."
+    },
+    {
+      "id": 831,
+      "lang_id": "en",
+      "name": "Odogaron Hardfang",
+      "description": "Very rare Odogaron material. Obtained by breaking its head. Sharp, used in many weapons."
+    },
+    {
+      "id": 831,
+      "lang_id": "fr",
+      "name": "Croc lourd Odogaron",
+      "description": "Matériau Odogaron très rare. Très acéré, utilisé pour les armes. (Destruction de la tête)"
+    },
+    {
+      "id": 831,
+      "lang_id": "it",
+      "name": "Odogaron: zanna dura",
+      "description": "Materiale raro di Odogaron. Ottenuto rompendone la testa. Affilato, usato in molte armi."
+    },
+    {
+      "id": 831,
+      "lang_id": "de",
+      "name": "Odogaron-Hartreißzahn",
+      "description": "Sehr seltenes Odogaron-Material, erhalten durch Brechen des Kopfs. Scharf, für viele Waffen verwendet."
+    },
+    {
+      "id": 831,
+      "lang_id": "es",
+      "name": "Colmillo duro de Odogaron",
+      "description": "Material muy raro de Odogaron, obtenido al romperle el cráneo. Afilado y útil para crear armas."
+    },
+    {
+      "id": 831,
+      "lang_id": "pt",
+      "name": "Presadura de Odogaron",
+      "description": "Material de Odogaron raríssimo. Obtido ao quebrar sua cabeça. Afiado, usada em muitas armas."
+    },
+    {
+      "id": 831,
+      "lang_id": "pl",
+      "name": "Klisko Odogarona",
+      "description": "Bardzo rzadki materiał z Odogarona. Zdobywany przez rozbicie mu głowy. Ostry, często używany w broni."
+    },
+    {
+      "id": 332,
+      "lang_id": "en",
+      "name": "Odogaron Tail",
+      "description": "Odogaron material. Obtained by carving its severed tail. Stiff, used to craft gear."
+    },
+    {
+      "id": 332,
+      "lang_id": "fr",
+      "name": "Queue Odogaron",
+      "description": "Matériau Odogaron. Très durable, utilisé pour les armures. (Dépeçage de queue)"
+    },
+    {
+      "id": 332,
+      "lang_id": "it",
+      "name": "Odogaron: coda",
+      "description": "Materiale di Odogaron. Ottenuto tramite il ricavo. Rigido, usato nelle armature."
+    },
+    {
+      "id": 332,
+      "lang_id": "de",
+      "name": "Odogaron-Schwanz",
+      "description": "Odogaron-Material, erhalten durch das Zerlegen des abgetrennten Schwanzes; für stabile Ausrüstung."
+    },
+    {
+      "id": 332,
+      "lang_id": "es",
+      "name": "Cola de Odogaron",
+      "description": "Material de Odogaron, obtenido cortando su cola cercenada. Rígido y útil para crear equipo."
+    },
+    {
+      "id": 332,
+      "lang_id": "pt",
+      "name": "Cauda de Odogaron",
+      "description": "Material de Odogaron. Obtida ao talhar sua cauda decepada. Dura, usada para criar equipamentos."
+    },
+    {
+      "id": 332,
+      "lang_id": "pl",
+      "name": "Ogon Odogarona",
+      "description": "Materiał z Odogarona. Wycinany z oderwanego ogona. Sztywny, służy do wyrobu wyposażenia."
+    },
+    {
+      "id": 832,
+      "lang_id": "en",
+      "name": "Odogaron Lash",
+      "description": "Very rare Odogaron material. Obtained by carving its severed tail. Stiff, used to craft gear."
+    },
+    {
+      "id": 832,
+      "lang_id": "fr",
+      "name": "Fouet Odogaron",
+      "description": "Matériau Odogaron très rare. Très durable, utilisé pour les armures. (Dépeçage de queue)"
+    },
+    {
+      "id": 832,
+      "lang_id": "it",
+      "name": "Odogaron: frusta",
+      "description": "Materiale raro di Odogaron. Ottenuto tramite il ricavo della coda mozzata. Rigido, usato nelle armature."
+    },
+    {
+      "id": 832,
+      "lang_id": "de",
+      "name": "Odogaron-Peitsche",
+      "description": "Sehr seltenes Odogaron-Material, erhalten durch Zerlegen des abgetrennten Schwanzes; für Ausrüstung."
+    },
+    {
+      "id": 832,
+      "lang_id": "es",
+      "name": "Látigo de Odogaron",
+      "description": "Material muy raro de Odogaron, obtenido cortando su cola cercenada. Rígido y útil para crear equipo."
+    },
+    {
+      "id": 832,
+      "lang_id": "pt",
+      "name": "Relho de Odogaron",
+      "description": "Material de Odogaron raríssimo. Obtido ao talhar sua cauda decepada. Duro, usado para criar equipamentos."
+    },
+    {
+      "id": 832,
+      "lang_id": "pl",
+      "name": "Chlast Odogarona",
+      "description": "B. rzadki mat. z Odogarona. Wycinany z oderwanego ogona. Sztywny, służy do wyrobu wyposażenia."
+    },
+    {
+      "id": 333,
+      "lang_id": "en",
+      "name": "Odogaron Plate",
+      "description": "Odogaron material. A valuable find, used to fortify gear. Said to be quite hard to come by."
+    },
+    {
+      "id": 333,
+      "lang_id": "fr",
+      "name": "Plaque Odogaron",
+      "description": "Matériau Odogaron. Indispensable pour les améliorations. (Objet très rare)"
+    },
+    {
+      "id": 333,
+      "lang_id": "it",
+      "name": "Odogaron: piastra",
+      "description": "Materiale di Odogaron. Molto raro, usato per migliorare le armature. Difficile da reperire."
+    },
+    {
+      "id": 333,
+      "lang_id": "de",
+      "name": "Odogaron-Platte",
+      "description": "Odogaron-Material. Schwer zu beschaffen und wertvoll, wird zum Verstärken von Ausrüstung genutzt."
+    },
+    {
+      "id": 333,
+      "lang_id": "es",
+      "name": "Placa de Odogaron",
+      "description": "Material de Odogaron. Un hallazgo útil, ya que es difícil de encontrar y se usa para fortificar equipo."
+    },
+    {
+      "id": 333,
+      "lang_id": "pt",
+      "name": "Placa de Odogaron",
+      "description": "Material de Odogaron. Valiosa, usada para fortificar equipamentos. Bem difícil de conseguir."
+    },
+    {
+      "id": 333,
+      "lang_id": "pl",
+      "name": "Płytka Odogarona",
+      "description": "Materiał z Odogarona. Cenne znalezisko, służy do wzmacniania wyposażenia. Trudne do zdobycia."
+    },
+    {
+      "id": 338,
+      "lang_id": "en",
+      "name": "Odogaron Gem",
+      "description": "A rare gem said to have formed within Odogaron tissue. Used to dramatically improve gear."
+    },
+    {
+      "id": 338,
+      "lang_id": "fr",
+      "name": "Gemme Odogaron",
+      "description": "Une pierre précieuse formée à l'intérieur d'un Odogaron. Améliore grandement les équipements."
+    },
+    {
+      "id": 338,
+      "lang_id": "it",
+      "name": "Odogaron: gemma",
+      "description": "Gemma preziosa che si forma all'interno del tessuto dell'Odogaron. Migliora notevolmente le armature."
+    },
+    {
+      "id": 338,
+      "lang_id": "de",
+      "name": "Odogaron-Edelstein",
+      "description": "Ein seltener Edelstein, der sich in Odogaron-Gewebe gebildet haben soll. Verbessert Ausrüstung enorm."
+    },
+    {
+      "id": 338,
+      "lang_id": "es",
+      "name": "Gema de Odogaron",
+      "description": "Una rara gema formada entre los tejidos de un Odogaron. Se usa para grandes mejoras de equipo."
+    },
+    {
+      "id": 338,
+      "lang_id": "pt",
+      "name": "Gema de Odogaron",
+      "description": "Gema rara supostamente formada dentro do tecido de Odogaron. Aprimora drasticamente equipamentos."
+    },
+    {
+      "id": 338,
+      "lang_id": "pl",
+      "name": "Klejnot Odogarona",
+      "description": "Rzadki klejnot, który powstaje w tkankach Odogarona. Znakomicie ulepsza wyposażenie."
+    },
+    {
+      "id": 833,
+      "lang_id": "en",
+      "name": "Odogaron Mantle",
+      "description": "Very rare Odogaron material. Used to craft weapons powerful enough to take over the world."
+    },
+    {
+      "id": 833,
+      "lang_id": "fr",
+      "name": "Mante Odogaron",
+      "description": "Matériau Odogaron très rare. Utilisé pour forger des armes assez puissantes pour conquérir le monde."
+    },
+    {
+      "id": 833,
+      "lang_id": "it",
+      "name": "Odogaron: mantello",
+      "description": "Materiale raro di Odogaron. Usato per realizzare armi incredibilmente potenti."
+    },
+    {
+      "id": 833,
+      "lang_id": "de",
+      "name": "Odogaron-Hülle",
+      "description": "Sehr seltenes Odogaron-Material. Wird für mächtige Waffen verwendet, mit denen man die Welt erobern kann."
+    },
+    {
+      "id": 833,
+      "lang_id": "es",
+      "name": "Manto de Odogaron",
+      "description": "Material muy raro de Odogaron. Se usa para armas tan poderosas que podrían conquistar el mundo."
+    },
+    {
+      "id": 833,
+      "lang_id": "pt",
+      "name": "Manto de Odogaron",
+      "description": "Material de Odogaron raríssimo. Usado para criar armas poderosas o bastante para dominar o mundo."
+    },
+    {
+      "id": 833,
+      "lang_id": "pl",
+      "name": "Opończa Odogarona",
+      "description": "Bardzo rzadki materiał z Odogarona. Używany do tworzenia broni tak potężnej, że nie ma sobie równych."
+    },
+    {
+      "id": 834,
+      "lang_id": "en",
+      "name": "Ebony Odogaron Shard",
+      "description": "Very rare Ebony Odogaron material. Mostly obtained by carving. Broadly used for many purposes."
+    },
+    {
+      "id": 834,
+      "lang_id": "fr",
+      "name": "Éclat Odoga désastre",
+      "description": "Matériau Odogaron ébène très rare. Sert à de nombreux usages. (Dépeçage)"
+    },
+    {
+      "id": 834,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano: frammento",
+      "description": "Materiale raro di Odogaron. Spesso ottenuto tramite il ricavo. Dall'ampio utilizzo."
+    },
+    {
+      "id": 834,
+      "lang_id": "de",
+      "name": "Vulkan-Odogaron-Scherbe",
+      "description": "Sehr seltenes Vulkan-Odogaron-Material, meist durch Zerlegen erhalten; für eine Vielzahl von Dingen verwendet."
+    },
+    {
+      "id": 834,
+      "lang_id": "es",
+      "name": "Esquirla de Odogaron Ébano",
+      "description": "Material muy raro de Odogaron Ébano, obtenido sobre todo cortándolo tras abatirlo. Tiene usos muy diversos."
+    },
+    {
+      "id": 834,
+      "lang_id": "pt",
+      "name": "Fragmento de Odogaron Negro",
+      "description": "Material de Odogaron Negro raríssimo. Obtido principalmente ao talhar. Usado para muitos fins."
+    },
+    {
+      "id": 834,
+      "lang_id": "pl",
+      "name": "Okruch Hebanowego Odogarona",
+      "description": "B. rzadki mat. z Heban. Odogarona. Zdobywany głównie przez wycięcie. Ma bardzo wiele zastosowań."
+    },
+    {
+      "id": 835,
+      "lang_id": "en",
+      "name": "Hard Ebony Odogaron Sinew",
+      "description": "Very rare Ebony Odogaron material. Mostly obtained as a reward. Solid, used to craft gear."
+    },
+    {
+      "id": 835,
+      "lang_id": "fr",
+      "name": "Tendon Odogaron désastre dur",
+      "description": "Matériau Odogaron ébène très rare. Solide, utilisé pour les armures. (Récompense de quête)"
+    },
+    {
+      "id": 835,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano: tendine duro",
+      "description": "Materiale raro di Odogaron d'ebano. Spesso ottenuto tramite le ricompense. Solido, usato nelle armature."
+    },
+    {
+      "id": 835,
+      "lang_id": "de",
+      "name": "Feste Vulkan-Odogaron-Sehne",
+      "description": "Sehr seltenes Vulkan-Odogaron-Material, meist als Belohnung. Stabil, für die Herstellung von Ausrüstung."
+    },
+    {
+      "id": 835,
+      "lang_id": "es",
+      "name": "Tendón duro de Odogaron Ébano",
+      "description": "Material muy raro de Odogaron Ébano, obtenido sobre todo como recompensa. Sólido, útil para crear equipo."
+    },
+    {
+      "id": 835,
+      "lang_id": "pt",
+      "name": "Tendão Duro de Odogaron Negro",
+      "description": "Material de Odogaron Negro raríssimo. Obtido principalmente como prêmio. Usado em equipamentos."
+    },
+    {
+      "id": 835,
+      "lang_id": "pl",
+      "name": "Twarde ścięgno Heban. Odogarona",
+      "description": "B. rzadki mat. z Heban. Odogarona. Zdobywany głównie w nagrodę. Trwały, służy do wyrobu wyposażenia."
+    },
+    {
+      "id": 836,
+      "lang_id": "en",
+      "name": "Ebony Odogaron Hardclaw",
+      "description": "Very rare Ebony Odogaron material. Obtained by breaking its forelegs. Sharp, used in many weapons."
+    },
+    {
+      "id": 836,
+      "lang_id": "fr",
+      "name": "Serre Odogaron désastre",
+      "description": "Matériau Odogaron ébène très rare. Très acéré, utilisé pour les armes. (Destruction des pattes antérieures)"
+    },
+    {
+      "id": 836,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano: artiglio",
+      "description": "Materiale raro di Odogaron d'ebano. Ottenuto rompendone le zampe anteriori. Affilato, usato in molte armi."
+    },
+    {
+      "id": 836,
+      "lang_id": "de",
+      "name": "Vulkan-Odogaron-Hartklaue",
+      "description": "Sehr seltenes Vulkan-Odogaron-Material, erhalten durch Brechen der Vorderbeine. Scharf, für viele Waffen."
+    },
+    {
+      "id": 836,
+      "lang_id": "es",
+      "name": "Garra dura de Odogaron Ébano",
+      "description": "Material muy raro de Odogaron Ébano, obtenido de sus patas delanteras. Afilado y útil para crear armas."
+    },
+    {
+      "id": 836,
+      "lang_id": "pt",
+      "name": "Garrígida de Odogaron Negro",
+      "description": "Material de Odogaron Negro raríssimo. Obtido ao quebrar suas pernas dianteiras. Usado em armas."
+    },
+    {
+      "id": 836,
+      "lang_id": "pl",
+      "name": "Pazurzysko Hebanowego Odogarona",
+      "description": "B. rzadki mat. z Heban. Odogarona. Uzyskiwany przez połamanie przednich nóg. Ostry, często używany w broni."
+    },
+    {
+      "id": 837,
+      "lang_id": "en",
+      "name": "Ebony Odogaron Hardfang",
+      "description": "Very rare Ebony Odogaron material. Obtained by breaking its head. Sharp, used in many weapons."
+    },
+    {
+      "id": 837,
+      "lang_id": "fr",
+      "name": "Croc lourd Odogaron désastre",
+      "description": "Matériau Odogaron ébène très rare. Très acéré, utilisé pour les armes. (Destruction de la tête)"
+    },
+    {
+      "id": 837,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano: zanna dura",
+      "description": "Materiale raro di Odogaron d'ebano. Ottenuto rompendone la testa. Affilato, usato in molte armi."
+    },
+    {
+      "id": 837,
+      "lang_id": "de",
+      "name": "Vulkan-Odogaron-Hartreißzahn",
+      "description": "Sehr seltenes Vulkan-Odogaron-Material, erhalten durch Brechen des Kopfs. Scharf, für viele Waffen verwendet."
+    },
+    {
+      "id": 837,
+      "lang_id": "es",
+      "name": "Colmillo duro de Odogaron Ébano",
+      "description": "Material muy raro de Odogaron Ébano, obtenido al romperle el cráneo. Afilado y útil para crear armas."
+    },
+    {
+      "id": 837,
+      "lang_id": "pt",
+      "name": "Presadura de Odogaron Negro",
+      "description": "Material de Odogaron Negro raríssimo. Obtido ao quebrar sua cabeça. Usado em muitas armas."
+    },
+    {
+      "id": 837,
+      "lang_id": "pl",
+      "name": "Klisko Hebanowego Odogarona",
+      "description": "B. rzadki mat. z Heban. Odogarona. Zdobywany przez rozbicie mu głowy. Ostry, często używany w broni."
+    },
+    {
+      "id": 838,
+      "lang_id": "en",
+      "name": "Ebony Odogaron Lash",
+      "description": "Very rare Ebony Odogaron material. Obtained by carving its severed tail. Stiff, used to craft gear."
+    },
+    {
+      "id": 838,
+      "lang_id": "fr",
+      "name": "Fouet Odogaron désastre",
+      "description": "Matériau Odogaron ébène très rare. Très durable, utilisé pour les armures. (Dépeçage de queue)"
+    },
+    {
+      "id": 838,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano: frusta",
+      "description": "Materiale raro di Odogaron d'ebano. Ottenuto tramite il ricavo della coda mozzata. Rigido, usato nelle armature."
+    },
+    {
+      "id": 838,
+      "lang_id": "de",
+      "name": "Vulkan-Odogaron-Peitsche",
+      "description": "Sehr seltenes Vulkan-Odogaron-Material, erhalten durch Zerlegen des Schwanzes; für Ausrüstung."
+    },
+    {
+      "id": 838,
+      "lang_id": "es",
+      "name": "Látigo de Odogaron Ébano",
+      "description": "Material muy raro de Odogaron Ébano, obtenido cortando su cola cercenada. Rígido y útil para crear equipo."
+    },
+    {
+      "id": 838,
+      "lang_id": "pt",
+      "name": "Relho de Odogaron Negro",
+      "description": "Material de Odogaron Negro raríssimo. Obtido ao talhar a cauda decepada. Usado em equipamentos."
+    },
+    {
+      "id": 838,
+      "lang_id": "pl",
+      "name": "Chlast Hebanowego Odogarona",
+      "description": "B. rzadki mat. z Heban. Odogarona. Z oderwanego ogona. Sztywny, służy do wyrobu wyposażenia."
+    },
+    {
+      "id": 839,
+      "lang_id": "en",
+      "name": "Ebony Odogaron Mantle",
+      "description": "Very rare Ebony Odogaron material. Used to craft weapons powerful enough to take over the world."
+    },
+    {
+      "id": 839,
+      "lang_id": "fr",
+      "name": "Mante Odogaron désastre",
+      "description": "Matériau Odogaron désastre très rare. Utilisé pour forger des armes assez puissantes pour conquérir le monde."
+    },
+    {
+      "id": 839,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano: mantello",
+      "description": "Materiale raro di Odogaron d'ebano. Usato per creare armi temute in tutto il mondo."
+    },
+    {
+      "id": 839,
+      "lang_id": "de",
+      "name": "Vulkan-Odogaron-Hülle",
+      "description": "Sehr seltenes Vulkan-Odogaron-Material – für mächtige Waffen, mit denen man die Welt erobern kann."
+    },
+    {
+      "id": 839,
+      "lang_id": "es",
+      "name": "Manto de Odogaron Ébano",
+      "description": "Raro material de Odogaron Ébano. Se usa para crear armas tan poderosas como para conquistar el mundo."
+    },
+    {
+      "id": 839,
+      "lang_id": "pt",
+      "name": "Manto de Odogaron Negro",
+      "description": "Material de Odogaron Negro raríssimo. Usado para criar armas capazes de dominar o mundo."
+    },
+    {
+      "id": 839,
+      "lang_id": "pl",
+      "name": "Opończa Hebanowego Odogarona",
+      "description": "B. rzadki mat. z Heban. Odogarona. Używany do tworzenia broni tak potężnej, że nie ma sobie równych."
+    },
+    {
+      "id": 1128,
+      "lang_id": "en",
+      "name": "Fatal Rendclaw",
+      "description": "Very rare Odogaron material. The Guiding Lands' energy fortifies the monsters living there."
+    },
+    {
+      "id": 1128,
+      "lang_id": "fr",
+      "name": "Griffe du désastre",
+      "description": "Matériau Odogaron très rare. L'énergie du Fief glorieux fortifie les monstres du territoire."
+    },
+    {
+      "id": 1128,
+      "lang_id": "it",
+      "name": "Artiglio letale",
+      "description": "Materiale raro di Odogaron. L'energia delle Terre guida fortifica i mostri."
+    },
+    {
+      "id": 1128,
+      "lang_id": "de",
+      "name": "Tödliche Reißklaue",
+      "description": "Odogaron-Material, sehr selten. Die Energie der Leitlande stärkt die dort lebenden Monster."
+    },
+    {
+      "id": 1128,
+      "lang_id": "es",
+      "name": "Garra guadaña mortífera",
+      "description": "Material de Odogaron muy raro. La energía de las Tierras Destino da fuerza a los monstruos que allí habitan."
+    },
+    {
+      "id": 1128,
+      "lang_id": "pt",
+      "name": "Garrasgadora Fatal",
+      "description": "Material de Odogaron raríssimo. A energia das Terras-Guias fortalece os monstros locais."
+    },
+    {
+      "id": 1128,
+      "lang_id": "pl",
+      "name": "Zabójczy pazur tnący",
+      "description": "Bardzo rzadki materiał z Odogarona. Energia Ziem Przewodnich wzmacnia potwory, które tam żyją."
+    },
+    {
+      "id": 1129,
+      "lang_id": "en",
+      "name": "Tempered Rendclaw",
+      "description": "Very rare Tempered Odogaron material. A product of the brutal power struggle in the Guiding Lands."
+    },
+    {
+      "id": 1129,
+      "lang_id": "fr",
+      "name": "Griffe du désastre alpha",
+      "description": "Matériau Odogaron alpha. Le symbole d'une lutte de pouvoir dans le Fief glorieux. (Rang Maître)"
+    },
+    {
+      "id": 1129,
+      "lang_id": "it",
+      "name": "Artiglio letale temprato",
+      "description": "Materiale raro di Odogaron temprato. Un residuo delle lotte nelle Terre guida."
+    },
+    {
+      "id": 1129,
+      "lang_id": "de",
+      "name": "Gehärtete Reißklaue",
+      "description": "Gehärteter-Odogaron-Material, sehr selten. Produkt des brutalen Machtkampfs in den Leitlanden."
+    },
+    {
+      "id": 1129,
+      "lang_id": "es",
+      "name": "Garra guadaña curtida",
+      "description": "Material muy raro de Odogaron curtido. Producto de la despiadada lucha de poder de las Tierras Destino."
+    },
+    {
+      "id": 1129,
+      "lang_id": "pt",
+      "name": "Garrasgadora Aguerrida",
+      "description": "Material de Odogaron Aguerrido raríssimo. Produto dos conflitos brutais das Terras-Guias."
+    },
+    {
+      "id": 1129,
+      "lang_id": "pl",
+      "name": "Zahartowany pazur tnący",
+      "description": "B. rzadki materiał z zahartowanego Odogarona. Produkt brutalnej walki o panowanie nad Ziemiami Przewodnimi."
+    },
+    {
+      "id": 1130,
+      "lang_id": "en",
+      "name": "Soulrender Talon",
+      "description": "Very rare Ebony Odogaron material. The Guiding Lands' energy fortifies the monsters living there."
+    },
+    {
+      "id": 1130,
+      "lang_id": "fr",
+      "name": "Serre des âmes déchirées",
+      "description": "Matériau Odogaron désastre très rare. L'énergie du Fief glorieux fortifie les monstres du territoire."
+    },
+    {
+      "id": 1130,
+      "lang_id": "it",
+      "name": "Tallone sventranime",
+      "description": "Materiale raro di Odogaron d'ebano. L'energia delle Terre guida fortifica i mostri."
+    },
+    {
+      "id": 1130,
+      "lang_id": "de",
+      "name": "Veelenverkünder-Kralle",
+      "description": "Vulkan-Odogaron-Material, sehr selten. Die Energie der Leitlande stärkt die dort lebenden Monster."
+    },
+    {
+      "id": 1130,
+      "lang_id": "es",
+      "name": "Garra segadora de almas",
+      "description": "Material de Odogaron Ébano muy raro. La energía de las Tierras Destino da fuerza a los monstruos que allí habitan."
+    },
+    {
+      "id": 1130,
+      "lang_id": "pt",
+      "name": "Garra Rasgalma",
+      "description": "Material raríssimo de Odogaron Negro. A energia das Terras-Guias fortalece os monstros locais."
+    },
+    {
+      "id": 1130,
+      "lang_id": "pl",
+      "name": "Szpon rozdzieracza dusz",
+      "description": "Bardzo rzadki materiał z Hebanowego Odogarona. Energia Ziem Przewodnich wzmacnia potwory, które tam żyją."
+    },
+    {
+      "id": 1131,
+      "lang_id": "en",
+      "name": "Tempered Talon",
+      "description": "Very rare Tempered Ebony Odogaron material. A product of the brutal power struggle in the Guiding Lands."
+    },
+    {
+      "id": 1131,
+      "lang_id": "fr",
+      "name": "Serre alpha",
+      "description": "Matériau Odogaron désastre alpha. Le symbole d'une lutte de pouvoir dans le Fief glorieux. (Rang Maître)"
+    },
+    {
+      "id": 1131,
+      "lang_id": "it",
+      "name": "Tallone sventranime temprato",
+      "description": "Materiale raro di Odogaron d'ebano temprato. Un residuo delle lotte nelle Terre guida."
+    },
+    {
+      "id": 1131,
+      "lang_id": "de",
+      "name": "Gehärtete Kralle",
+      "description": "Gehärteter-Vulkan-Odogaron-Material, sehr selten. Produkt des brutalen Machtkampfs der Leitlande."
+    },
+    {
+      "id": 1131,
+      "lang_id": "es",
+      "name": "Garra curtida",
+      "description": "Material muy raro de Odogaron Ébano curtido. Producto de la despiadada lucha de poder de las Tierras Destino."
+    },
+    {
+      "id": 1131,
+      "lang_id": "pt",
+      "name": "Garra Aguerrida",
+      "description": "Material de Odogaron Negro Aguerrido raríssimo. Produto dos conflitos brutais das Terras-Guias."
+    },
+    {
+      "id": 1131,
+      "lang_id": "pl",
+      "name": "Zahartowany szpon",
+      "description": "B. rzadki materiał z zah. Hebanowego Odogarona. Produkt brutalnej walki o panowanie nad Ziemiami Przew."
+    },
+    {
+      "id": 1040,
+      "lang_id": "en",
+      "name": "Odogaron Coin",
+      "description": "A coin given to those who have bested a Odogaron in the master rank Arena."
+    },
+    {
+      "id": 1040,
+      "lang_id": "fr",
+      "name": "Pièce Odogaron",
+      "description": "Une pièce offerte à ceux qui ont vaincu un Odogaron dans l'Arène en Rang Maître."
+    },
+    {
+      "id": 1040,
+      "lang_id": "it",
+      "name": "Moneta Odogaron",
+      "description": "Moneta assegnata a chi sconfigge un Odogaron nell'arena di grado maestro."
+    },
+    {
+      "id": 1040,
+      "lang_id": "de",
+      "name": "Odogaron-Münze",
+      "description": "Eine Münze, die all jene erhalten, die einen Odogaron in der Meisterrang-Arena besiegt haben."
+    },
+    {
+      "id": 1040,
+      "lang_id": "es",
+      "name": "Moneda Odogaron",
+      "description": "Una moneda otorgada a aquellos que han vencido a un Odogaron en la Arena de rango maestro."
+    },
+    {
+      "id": 1040,
+      "lang_id": "pt",
+      "name": "Moeda Odogaron",
+      "description": "Moeda concedida àqueles que derrotaram um Odogaron na Arena ranque mestre."
+    },
+    {
+      "id": 1040,
+      "lang_id": "pl",
+      "name": "Moneta Odogarona",
+      "description": "Moneta wręczana tym, którzy na Arenie mistrzowskiej pokonali Odogarona."
+    }
+  ],
+  "monster_text": [
+    {
+      "id": 30,
+      "lang_id": "en",
+      "name": "Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "A terrifying monster that scours the Rotten Vale for carrion. Its highly aggressive nature means that anything, be it monster or man, is a potential meal.",
+      "alt_state_description": null
+    },
+    {
+      "id": 30,
+      "lang_id": "fr",
+      "name": "Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "Un monstre terrifiant qui se nourrit de charognes dans le Val putride. De nature très agressive, il s'attaque à quiconque lui semble comestible.",
+      "alt_state_description": null
+    },
+    {
+      "id": 30,
+      "lang_id": "it",
+      "name": "Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "Un terrificante mostro che si aggira per la Valle putrefatta in cerca di carcasse. La sua natura aggressiva lo rende estremamente pericoloso per gli umani e per i mostri.",
+      "alt_state_description": null
+    },
+    {
+      "id": 30,
+      "lang_id": "de",
+      "name": "Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "Ein entsetzliches Monster, das im Tal der Verwesung nach Aas sucht. Dank seiner hochaggressiven Natur ist alles und jeder eine potentielle Mahlzeit.",
+      "alt_state_description": null
+    },
+    {
+      "id": 30,
+      "lang_id": "es",
+      "name": "Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "Terrorífico monstruo que recorre el Valle Putrefacto en busca de carroña. Su naturaleza agresiva convierte a cualquiera, sea monstruo o persona, en una cena potencial.",
+      "alt_state_description": null
+    },
+    {
+      "id": 30,
+      "lang_id": "pt",
+      "name": "Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "Um monstro aterrorizante que voa sobre o Vale em busca de carniça. Sua natureza agressiva considera tudo uma refeição.",
+      "alt_state_description": null
+    },
+    {
+      "id": 30,
+      "lang_id": "pl",
+      "name": "Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "Przerażający potwór, przemierzający Gnijącą Dolinę w poszukiwaniu padliny. I potwór, i człowiek może stać się jego posiłkiem.",
+      "alt_state_description": null
+    },
+    {
+      "id": 124,
+      "lang_id": "en",
+      "name": "Ebony Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "This Odogaron subspecies is forever on the prowl for its next meal, and is often seen carrying fresh kills in its mouth. Reports indicate it goes into a frenzy upon eating.",
+      "alt_state_description": null
+    },
+    {
+      "id": 124,
+      "lang_id": "fr",
+      "name": "Odogaron désastre",
+      "ecology": "Fanged Wyvern",
+      "description": "Sous-espèce Odogaron toujours affamée. Transporte souvent des proies fraîches dans sa gueule. Devient fou lorsqu'il mange.",
+      "alt_state_description": null
+    },
+    {
+      "id": 124,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano",
+      "ecology": "Fanged Wyvern",
+      "description": "Sottospecie di Odogaron, perennemente affamato. Trasporta le prede appena uccise nella bocca e va in frenesia quando mangia.",
+      "alt_state_description": null
+    },
+    {
+      "id": 124,
+      "lang_id": "de",
+      "name": "Vulkan-Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "Diese Odogaron-Unterart ist immer auf der Suche nach Fressen, und oft trägt sie Beute im Maul herum. Verfällt in Fressraserei.",
+      "alt_state_description": null
+    },
+    {
+      "id": 124,
+      "lang_id": "es",
+      "name": "Odogaron Ébano",
+      "ecology": "Fanged Wyvern",
+      "description": "Esta subespecie de Odogaron siempre busca nuevas presas, y a menudo se les ha avistado con una en sus fauces. Al parecer, entran en un frenesí enloquecido mientras se alimentan.",
+      "alt_state_description": null
+    },
+    {
+      "id": 124,
+      "lang_id": "pt",
+      "name": "Odogaron Negro",
+      "ecology": "Fanged Wyvern",
+      "description": "Essa subespécie de Odogaron é vista com frequência com carne fresca na boca. Segundo informes, entra em frenesi ao comer.",
+      "alt_state_description": null
+    },
+    {
+      "id": 124,
+      "lang_id": "pl",
+      "name": "Hebanowy Odogaron",
+      "ecology": "Fanged Wyvern",
+      "description": "Ten podgatunek Odogarona stale tropi kolejny posiłek; często spotykany ze świeżą zdobyczą w pysku. Podobno przy jedzeniu wpada w szał.",
+      "alt_state_description": null
+    }
+  ],
+  "armorset_bonus_text": [
+    {
+      "id": 3,
+      "lang_id": "en",
+      "name": "Odogaron Power",
+      "description": null
+    },
+    {
+      "id": 3,
+      "lang_id": "fr",
+      "name": "Pouvoir de l'Odogaron",
+      "description": null
+    },
+    {
+      "id": 3,
+      "lang_id": "it",
+      "name": "Forza dell'Odogaron",
+      "description": null
+    },
+    {
+      "id": 3,
+      "lang_id": "de",
+      "name": "Odogaron-Macht",
+      "description": null
+    },
+    {
+      "id": 3,
+      "lang_id": "es",
+      "name": "Poder de Odogaron",
+      "description": null
+    },
+    {
+      "id": 3,
+      "lang_id": "pt",
+      "name": "Poder de Odogaron",
+      "description": null
+    },
+    {
+      "id": 3,
+      "lang_id": "pl",
+      "name": "Moc Odogarona",
+      "description": null
+    },
+    {
+      "id": 11,
+      "lang_id": "en",
+      "name": "Odogaron Mastery",
+      "description": null
+    },
+    {
+      "id": 11,
+      "lang_id": "fr",
+      "name": "Maîtrise de l'Odogaron",
+      "description": null
+    },
+    {
+      "id": 11,
+      "lang_id": "it",
+      "name": "Esperto Odogaron",
+      "description": null
+    },
+    {
+      "id": 11,
+      "lang_id": "de",
+      "name": "Odogaron-Meisterung",
+      "description": null
+    },
+    {
+      "id": 11,
+      "lang_id": "es",
+      "name": "Maestría de Odogaron",
+      "description": null
+    },
+    {
+      "id": 11,
+      "lang_id": "pt",
+      "name": "Domínio de Odogaron",
+      "description": null
+    },
+    {
+      "id": 11,
+      "lang_id": "pl",
+      "name": "Mistrzostwo Odogarona",
+      "description": null
+    },
+    {
+      "id": 35,
+      "lang_id": "en",
+      "name": "Odogaron Essence",
+      "description": null
+    },
+    {
+      "id": 35,
+      "lang_id": "fr",
+      "name": "Esprit Odogaron",
+      "description": null
+    },
+    {
+      "id": 35,
+      "lang_id": "it",
+      "name": "Essenza dell'Odogaron",
+      "description": null
+    },
+    {
+      "id": 35,
+      "lang_id": "de",
+      "name": "Odogaron-Essenz",
+      "description": null
+    },
+    {
+      "id": 35,
+      "lang_id": "es",
+      "name": "Esencia Odogaron",
+      "description": null
+    },
+    {
+      "id": 35,
+      "lang_id": "pt",
+      "name": "Essência de Odogaron",
+      "description": null
+    },
+    {
+      "id": 35,
+      "lang_id": "pl",
+      "name": "Esencja Odogarona",
+      "description": null
+    }
+  ],
+  "armorset_text": [
+    {
+      "id": 29,
+      "lang_id": "en",
+      "name": "Odogaron"
+    },
+    {
+      "id": 29,
+      "lang_id": "fr",
+      "name": "Odogaron"
+    },
+    {
+      "id": 29,
+      "lang_id": "it",
+      "name": "Odogaron"
+    },
+    {
+      "id": 29,
+      "lang_id": "de",
+      "name": "Odogaron-Set"
+    },
+    {
+      "id": 29,
+      "lang_id": "es",
+      "name": "Odogaron"
+    },
+    {
+      "id": 29,
+      "lang_id": "pt",
+      "name": "Odogaron"
+    },
+    {
+      "id": 29,
+      "lang_id": "pl",
+      "name": "Odogarona"
+    },
+    {
+      "id": 108,
+      "lang_id": "en",
+      "name": "Odogaron α"
+    },
+    {
+      "id": 108,
+      "lang_id": "fr",
+      "name": "Odogaron α"
+    },
+    {
+      "id": 108,
+      "lang_id": "it",
+      "name": "Odogaron α"
+    },
+    {
+      "id": 108,
+      "lang_id": "de",
+      "name": "Odogaron-Set α"
+    },
+    {
+      "id": 108,
+      "lang_id": "es",
+      "name": "Odogaron α"
+    },
+    {
+      "id": 108,
+      "lang_id": "pt",
+      "name": "Odogaron α"
+    },
+    {
+      "id": 108,
+      "lang_id": "pl",
+      "name": "Odogarona α"
+    },
+    {
+      "id": 109,
+      "lang_id": "en",
+      "name": "Odogaron β"
+    },
+    {
+      "id": 109,
+      "lang_id": "fr",
+      "name": "Odogaron β"
+    },
+    {
+      "id": 109,
+      "lang_id": "it",
+      "name": "Odogaron β"
+    },
+    {
+      "id": 109,
+      "lang_id": "de",
+      "name": "Odogaron-Set β"
+    },
+    {
+      "id": 109,
+      "lang_id": "es",
+      "name": "Odogaron β"
+    },
+    {
+      "id": 109,
+      "lang_id": "pt",
+      "name": "Odogaron β"
+    },
+    {
+      "id": 109,
+      "lang_id": "pl",
+      "name": "Odogarona β"
+    },
+    {
+      "id": 259,
+      "lang_id": "en",
+      "name": "Odogaron α+"
+    },
+    {
+      "id": 259,
+      "lang_id": "fr",
+      "name": "Odogaron α+"
+    },
+    {
+      "id": 259,
+      "lang_id": "it",
+      "name": "Odogaron α+"
+    },
+    {
+      "id": 259,
+      "lang_id": "de",
+      "name": "Odogaron-Set α+"
+    },
+    {
+      "id": 259,
+      "lang_id": "es",
+      "name": "Odogaron α+"
+    },
+    {
+      "id": 259,
+      "lang_id": "pt",
+      "name": "Odogaron α+"
+    },
+    {
+      "id": 259,
+      "lang_id": "pl",
+      "name": "Odogarona α+"
+    },
+    {
+      "id": 260,
+      "lang_id": "en",
+      "name": "Odogaron β+"
+    },
+    {
+      "id": 260,
+      "lang_id": "fr",
+      "name": "Odogaron β+"
+    },
+    {
+      "id": 260,
+      "lang_id": "it",
+      "name": "Odogaron β+"
+    },
+    {
+      "id": 260,
+      "lang_id": "de",
+      "name": "Odogaron-Set β+"
+    },
+    {
+      "id": 260,
+      "lang_id": "es",
+      "name": "Odogaron β+"
+    },
+    {
+      "id": 260,
+      "lang_id": "pt",
+      "name": "Odogaron β+"
+    },
+    {
+      "id": 260,
+      "lang_id": "pl",
+      "name": "Odogarona β+"
+    },
+    {
+      "id": 261,
+      "lang_id": "fr",
+      "name": "Odogaron désastre α+"
+    },
+    {
+      "id": 261,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano α+"
+    },
+    {
+      "id": 262,
+      "lang_id": "fr",
+      "name": "Odogaron désastre β+"
+    },
+    {
+      "id": 262,
+      "lang_id": "it",
+      "name": "Odogaron d'ebano β+"
+    }
+  ],
+  "armor_text": [
+    {
+      "id": 134,
+      "lang_id": "en",
+      "name": "Odogaron Helm"
+    },
+    {
+      "id": 134,
+      "lang_id": "fr",
+      "name": "Masque Odogaron"
+    },
+    {
+      "id": 134,
+      "lang_id": "it",
+      "name": "Elmo di Odogaron"
+    },
+    {
+      "id": 134,
+      "lang_id": "de",
+      "name": "Odogaron-Helm"
+    },
+    {
+      "id": 134,
+      "lang_id": "es",
+      "name": "Yelmo de Odogaron"
+    },
+    {
+      "id": 134,
+      "lang_id": "pt",
+      "name": "Elmo de Odogaron"
+    },
+    {
+      "id": 134,
+      "lang_id": "pl",
+      "name": "Hełm z Odogarona"
+    },
+    {
+      "id": 135,
+      "lang_id": "en",
+      "name": "Odogaron Mail"
+    },
+    {
+      "id": 135,
+      "lang_id": "fr",
+      "name": "Cotte Odogaron"
+    },
+    {
+      "id": 135,
+      "lang_id": "it",
+      "name": "Cotta di Odogaron"
+    },
+    {
+      "id": 135,
+      "lang_id": "de",
+      "name": "Odogaron-Panzerung"
+    },
+    {
+      "id": 135,
+      "lang_id": "es",
+      "name": "Cota de Odogaron"
+    },
+    {
+      "id": 135,
+      "lang_id": "pt",
+      "name": "Armadura de Odogaron"
+    },
+    {
+      "id": 135,
+      "lang_id": "pl",
+      "name": "Zbroja z Odogarona"
+    },
+    {
+      "id": 136,
+      "lang_id": "en",
+      "name": "Odogaron Vambraces"
+    },
+    {
+      "id": 136,
+      "lang_id": "fr",
+      "name": "Avant-bras Odogaron"
+    },
+    {
+      "id": 136,
+      "lang_id": "it",
+      "name": "Parabraccia di Odogaron"
+    },
+    {
+      "id": 136,
+      "lang_id": "de",
+      "name": "Odogaron-Armschienen"
+    },
+    {
+      "id": 136,
+      "lang_id": "es",
+      "name": "Brazales de Odogaron"
+    },
+    {
+      "id": 136,
+      "lang_id": "pt",
+      "name": "Avambraços de Odogaron"
+    },
+    {
+      "id": 136,
+      "lang_id": "pl",
+      "name": "Zarękawia z Odogarona"
+    },
+    {
+      "id": 137,
+      "lang_id": "en",
+      "name": "Odogaron Coil"
+    },
+    {
+      "id": 137,
+      "lang_id": "fr",
+      "name": "Obi Odogaron"
+    },
+    {
+      "id": 137,
+      "lang_id": "it",
+      "name": "Spira di Odogaron"
+    },
+    {
+      "id": 137,
+      "lang_id": "de",
+      "name": "Odogaron-Hüftring"
+    },
+    {
+      "id": 137,
+      "lang_id": "es",
+      "name": "Faja de Odogaron"
+    },
+    {
+      "id": 137,
+      "lang_id": "pt",
+      "name": "Cinturão de Odogaron"
+    },
+    {
+      "id": 137,
+      "lang_id": "pl",
+      "name": "Pas z Odogarona"
+    },
+    {
+      "id": 138,
+      "lang_id": "en",
+      "name": "Odogaron Greaves"
+    },
+    {
+      "id": 138,
+      "lang_id": "fr",
+      "name": "Cuissards Odogaron"
+    },
+    {
+      "id": 138,
+      "lang_id": "it",
+      "name": "Schinieri di Odogaron"
+    },
+    {
+      "id": 138,
+      "lang_id": "de",
+      "name": "Odogaron-Beinschienen"
+    },
+    {
+      "id": 138,
+      "lang_id": "es",
+      "name": "Grebas de Odogaron"
+    },
+    {
+      "id": 138,
+      "lang_id": "pt",
+      "name": "Grevas de Odogaron"
+    },
+    {
+      "id": 138,
+      "lang_id": "pl",
+      "name": "Nagolenice z Odogarona"
+    },
+    {
+      "id": 462,
+      "lang_id": "en",
+      "name": "Odogaron Helm α"
+    },
+    {
+      "id": 462,
+      "lang_id": "fr",
+      "name": "Masque Odogaron α"
+    },
+    {
+      "id": 462,
+      "lang_id": "it",
+      "name": "Elmo di Odogaron α"
+    },
+    {
+      "id": 462,
+      "lang_id": "de",
+      "name": "Odogaron-Helm α"
+    },
+    {
+      "id": 462,
+      "lang_id": "es",
+      "name": "Yelmo de Odogaron α"
+    },
+    {
+      "id": 462,
+      "lang_id": "pt",
+      "name": "Elmo de Odogaron α"
+    },
+    {
+      "id": 462,
+      "lang_id": "pl",
+      "name": "Hełm z Odogarona α"
+    },
+    {
+      "id": 463,
+      "lang_id": "en",
+      "name": "Odogaron Mail α"
+    },
+    {
+      "id": 463,
+      "lang_id": "fr",
+      "name": "Cotte Odogaron α"
+    },
+    {
+      "id": 463,
+      "lang_id": "it",
+      "name": "Cotta di Odogaron α"
+    },
+    {
+      "id": 463,
+      "lang_id": "de",
+      "name": "Odogaron-Panzerung α"
+    },
+    {
+      "id": 463,
+      "lang_id": "es",
+      "name": "Cota de Odogaron α"
+    },
+    {
+      "id": 463,
+      "lang_id": "pt",
+      "name": "Armadura de Odogaron α"
+    },
+    {
+      "id": 463,
+      "lang_id": "pl",
+      "name": "Zbroja z Odogarona α"
+    },
+    {
+      "id": 464,
+      "lang_id": "en",
+      "name": "Odogaron Vambraces α"
+    },
+    {
+      "id": 464,
+      "lang_id": "fr",
+      "name": "Avant-bras Odogaron α"
+    },
+    {
+      "id": 464,
+      "lang_id": "it",
+      "name": "Parabraccia di Odogaron α"
+    },
+    {
+      "id": 464,
+      "lang_id": "de",
+      "name": "Odogaron-Armschienen α"
+    },
+    {
+      "id": 464,
+      "lang_id": "es",
+      "name": "Brazales Odogaron α"
+    },
+    {
+      "id": 464,
+      "lang_id": "pt",
+      "name": "Avambraços de Odogaron α"
+    },
+    {
+      "id": 464,
+      "lang_id": "pl",
+      "name": "Zarękawia z Odogarona α"
+    },
+    {
+      "id": 465,
+      "lang_id": "en",
+      "name": "Odogaron Coil α"
+    },
+    {
+      "id": 465,
+      "lang_id": "fr",
+      "name": "Obi Odogaron α"
+    },
+    {
+      "id": 465,
+      "lang_id": "it",
+      "name": "Spira di Odogaron α"
+    },
+    {
+      "id": 465,
+      "lang_id": "de",
+      "name": "Odogaron-Hüftring α"
+    },
+    {
+      "id": 465,
+      "lang_id": "es",
+      "name": "Faja de Odogaron α"
+    },
+    {
+      "id": 465,
+      "lang_id": "pt",
+      "name": "Cinturão de Odogaron α"
+    },
+    {
+      "id": 465,
+      "lang_id": "pl",
+      "name": "Pas z Odogarona α"
+    },
+    {
+      "id": 466,
+      "lang_id": "en",
+      "name": "Odogaron Greaves α"
+    },
+    {
+      "id": 466,
+      "lang_id": "fr",
+      "name": "Cuissards Odogaron α"
+    },
+    {
+      "id": 466,
+      "lang_id": "it",
+      "name": "Schinieri di Odogaron α"
+    },
+    {
+      "id": 466,
+      "lang_id": "de",
+      "name": "Odogaron-Beinschienen α"
+    },
+    {
+      "id": 466,
+      "lang_id": "es",
+      "name": "Grebas de Odogaron α"
+    },
+    {
+      "id": 466,
+      "lang_id": "pt",
+      "name": "Grevas de Odogaron α"
+    },
+    {
+      "id": 466,
+      "lang_id": "pl",
+      "name": "Nagolenice z Odogarona α"
+    },
+    {
+      "id": 467,
+      "lang_id": "en",
+      "name": "Odogaron Helm β"
+    },
+    {
+      "id": 467,
+      "lang_id": "fr",
+      "name": "Masque Odogaron β"
+    },
+    {
+      "id": 467,
+      "lang_id": "it",
+      "name": "Elmo di Odogaron β"
+    },
+    {
+      "id": 467,
+      "lang_id": "de",
+      "name": "Odogaron-Helm β"
+    },
+    {
+      "id": 467,
+      "lang_id": "es",
+      "name": "Yelmo de Odogaron β"
+    },
+    {
+      "id": 467,
+      "lang_id": "pt",
+      "name": "Elmo de Odogaron β"
+    },
+    {
+      "id": 467,
+      "lang_id": "pl",
+      "name": "Hełm z Odogarona β"
+    },
+    {
+      "id": 468,
+      "lang_id": "en",
+      "name": "Odogaron Mail β"
+    },
+    {
+      "id": 468,
+      "lang_id": "fr",
+      "name": "Cotte Odogaron β"
+    },
+    {
+      "id": 468,
+      "lang_id": "it",
+      "name": "Cotta di Odogaron β"
+    },
+    {
+      "id": 468,
+      "lang_id": "de",
+      "name": "Odogaron-Panzerung β"
+    },
+    {
+      "id": 468,
+      "lang_id": "es",
+      "name": "Cota de Odogaron β"
+    },
+    {
+      "id": 468,
+      "lang_id": "pt",
+      "name": "Armadura de Odogaron β"
+    },
+    {
+      "id": 468,
+      "lang_id": "pl",
+      "name": "Zbroja z Odogarona β"
+    },
+    {
+      "id": 469,
+      "lang_id": "en",
+      "name": "Odogaron Vambraces β"
+    },
+    {
+      "id": 469,
+      "lang_id": "fr",
+      "name": "Avant-bras Odogaron β"
+    },
+    {
+      "id": 469,
+      "lang_id": "it",
+      "name": "Parabraccia di Odogaron β"
+    },
+    {
+      "id": 469,
+      "lang_id": "de",
+      "name": "Odogaron-Armschienen β"
+    },
+    {
+      "id": 469,
+      "lang_id": "es",
+      "name": "Brazales Odogaron β"
+    },
+    {
+      "id": 469,
+      "lang_id": "pt",
+      "name": "Avambraços de Odogaron β"
+    },
+    {
+      "id": 469,
+      "lang_id": "pl",
+      "name": "Zarękawia z Odogarona β"
+    },
+    {
+      "id": 470,
+      "lang_id": "en",
+      "name": "Odogaron Coil β"
+    },
+    {
+      "id": 470,
+      "lang_id": "fr",
+      "name": "Obi Odogaron β"
+    },
+    {
+      "id": 470,
+      "lang_id": "it",
+      "name": "Spira di Odogaron β"
+    },
+    {
+      "id": 470,
+      "lang_id": "de",
+      "name": "Odogaron-Hüftring β"
+    },
+    {
+      "id": 470,
+      "lang_id": "es",
+      "name": "Faja de Odogaron β"
+    },
+    {
+      "id": 470,
+      "lang_id": "pt",
+      "name": "Cinturão de Odogaron β"
+    },
+    {
+      "id": 470,
+      "lang_id": "pl",
+      "name": "Pas z Odogarona β"
+    },
+    {
+      "id": 471,
+      "lang_id": "en",
+      "name": "Odogaron Greaves β"
+    },
+    {
+      "id": 471,
+      "lang_id": "fr",
+      "name": "Cuissards Odogaron β"
+    },
+    {
+      "id": 471,
+      "lang_id": "it",
+      "name": "Schinieri di Odogaron β"
+    },
+    {
+      "id": 471,
+      "lang_id": "de",
+      "name": "Odogaron-Beinschienen β"
+    },
+    {
+      "id": 471,
+      "lang_id": "es",
+      "name": "Grebas de Odogaron β"
+    },
+    {
+      "id": 471,
+      "lang_id": "pt",
+      "name": "Grevas de Odogaron β"
+    },
+    {
+      "id": 471,
+      "lang_id": "pl",
+      "name": "Nagolenice z Odogarona β"
+    },
+    {
+      "id": 1147,
+      "lang_id": "en",
+      "name": "Odogaron Helm α+"
+    },
+    {
+      "id": 1147,
+      "lang_id": "fr",
+      "name": "Masque Odogaron α+"
+    },
+    {
+      "id": 1147,
+      "lang_id": "it",
+      "name": "Elmo di Odogaron α+"
+    },
+    {
+      "id": 1147,
+      "lang_id": "de",
+      "name": "Odogaron-Helm α+"
+    },
+    {
+      "id": 1147,
+      "lang_id": "es",
+      "name": "Yelmo de Odogaron α+"
+    },
+    {
+      "id": 1147,
+      "lang_id": "pt",
+      "name": "Elmo de Odogaron α+"
+    },
+    {
+      "id": 1147,
+      "lang_id": "pl",
+      "name": "Hełm z Odogarona α+"
+    },
+    {
+      "id": 1148,
+      "lang_id": "en",
+      "name": "Odogaron Mail α+"
+    },
+    {
+      "id": 1148,
+      "lang_id": "fr",
+      "name": "Cotte Odogaron α+"
+    },
+    {
+      "id": 1148,
+      "lang_id": "it",
+      "name": "Cotta di Odogaron α+"
+    },
+    {
+      "id": 1148,
+      "lang_id": "de",
+      "name": "Odogaron-Panzerung α+"
+    },
+    {
+      "id": 1148,
+      "lang_id": "es",
+      "name": "Cota de Odogaron α+"
+    },
+    {
+      "id": 1148,
+      "lang_id": "pt",
+      "name": "Armadura de Odogaron α+"
+    },
+    {
+      "id": 1148,
+      "lang_id": "pl",
+      "name": "Zbroja z Odogarona α+"
+    },
+    {
+      "id": 1149,
+      "lang_id": "en",
+      "name": "Odogaron Vambraces α+"
+    },
+    {
+      "id": 1149,
+      "lang_id": "fr",
+      "name": "Avant-bras Odogaron α+"
+    },
+    {
+      "id": 1149,
+      "lang_id": "it",
+      "name": "Parabraccia di Odogaron α+"
+    },
+    {
+      "id": 1149,
+      "lang_id": "de",
+      "name": "Odogaron-Armschienen α+"
+    },
+    {
+      "id": 1149,
+      "lang_id": "es",
+      "name": "Brazales Odogaron α+"
+    },
+    {
+      "id": 1149,
+      "lang_id": "pt",
+      "name": "Avambraços Odogaron α+"
+    },
+    {
+      "id": 1149,
+      "lang_id": "pl",
+      "name": "Zaręk. z Odogarona α+"
+    },
+    {
+      "id": 1150,
+      "lang_id": "en",
+      "name": "Odogaron Coil α+"
+    },
+    {
+      "id": 1150,
+      "lang_id": "fr",
+      "name": "Obi Odogaron α+"
+    },
+    {
+      "id": 1150,
+      "lang_id": "it",
+      "name": "Spira di Odogaron α+"
+    },
+    {
+      "id": 1150,
+      "lang_id": "de",
+      "name": "Odogaron-Hüftring α+"
+    },
+    {
+      "id": 1150,
+      "lang_id": "es",
+      "name": "Faja de Odogaron α+"
+    },
+    {
+      "id": 1150,
+      "lang_id": "pt",
+      "name": "Cinturão de Odogaron α+"
+    },
+    {
+      "id": 1150,
+      "lang_id": "pl",
+      "name": "Pas z Odogarona α+"
+    },
+    {
+      "id": 1151,
+      "lang_id": "en",
+      "name": "Odogaron Greaves α+"
+    },
+    {
+      "id": 1151,
+      "lang_id": "fr",
+      "name": "Cuissards Odogaron α+"
+    },
+    {
+      "id": 1151,
+      "lang_id": "it",
+      "name": "Schinieri di Odogaron α+"
+    },
+    {
+      "id": 1151,
+      "lang_id": "de",
+      "name": "Odogaron-Beinschienen α+"
+    },
+    {
+      "id": 1151,
+      "lang_id": "es",
+      "name": "Grebas de Odogaron α+"
+    },
+    {
+      "id": 1151,
+      "lang_id": "pt",
+      "name": "Grevas de Odogaron α+"
+    },
+    {
+      "id": 1151,
+      "lang_id": "pl",
+      "name": "Nagol. z Odogarona α+"
+    },
+    {
+      "id": 1152,
+      "lang_id": "en",
+      "name": "Odogaron Helm β+"
+    },
+    {
+      "id": 1152,
+      "lang_id": "fr",
+      "name": "Masque Odogaron β+"
+    },
+    {
+      "id": 1152,
+      "lang_id": "it",
+      "name": "Elmo di Odogaron β+"
+    },
+    {
+      "id": 1152,
+      "lang_id": "de",
+      "name": "Odogaron-Helm β+"
+    },
+    {
+      "id": 1152,
+      "lang_id": "es",
+      "name": "Yelmo de Odogaron β+"
+    },
+    {
+      "id": 1152,
+      "lang_id": "pt",
+      "name": "Elmo de Odogaron β+"
+    },
+    {
+      "id": 1152,
+      "lang_id": "pl",
+      "name": "Hełm z Odogarona β+"
+    },
+    {
+      "id": 1153,
+      "lang_id": "en",
+      "name": "Odogaron Mail β+"
+    },
+    {
+      "id": 1153,
+      "lang_id": "fr",
+      "name": "Cotte Odogaron β+"
+    },
+    {
+      "id": 1153,
+      "lang_id": "it",
+      "name": "Cotta di Odogaron β+"
+    },
+    {
+      "id": 1153,
+      "lang_id": "de",
+      "name": "Odogaron-Panzerung β+"
+    },
+    {
+      "id": 1153,
+      "lang_id": "es",
+      "name": "Cota de Odogaron β+"
+    },
+    {
+      "id": 1153,
+      "lang_id": "pt",
+      "name": "Armadura de Odogaron β+"
+    },
+    {
+      "id": 1153,
+      "lang_id": "pl",
+      "name": "Zbroja z Odogarona β+"
+    },
+    {
+      "id": 1154,
+      "lang_id": "en",
+      "name": "Odogaron Vambraces β+"
+    },
+    {
+      "id": 1154,
+      "lang_id": "fr",
+      "name": "Avant-bras Odogaron β+"
+    },
+    {
+      "id": 1154,
+      "lang_id": "it",
+      "name": "Parabraccia di Odogaron β+"
+    },
+    {
+      "id": 1154,
+      "lang_id": "de",
+      "name": "Odogaron-Armschienen β+"
+    },
+    {
+      "id": 1154,
+      "lang_id": "es",
+      "name": "Brazales Odogaron β+"
+    },
+    {
+      "id": 1154,
+      "lang_id": "pt",
+      "name": "Avambraços Odogaron β+"
+    },
+    {
+      "id": 1154,
+      "lang_id": "pl",
+      "name": "Zaręk. z Odogarona β+"
+    },
+    {
+      "id": 1155,
+      "lang_id": "en",
+      "name": "Odogaron Coil β+"
+    },
+    {
+      "id": 1155,
+      "lang_id": "fr",
+      "name": "Obi Odogaron β+"
+    },
+    {
+      "id": 1155,
+      "lang_id": "it",
+      "name": "Spira di Odogaron β+"
+    },
+    {
+      "id": 1155,
+      "lang_id": "de",
+      "name": "Odogaron-Hüftring β+"
+    },
+    {
+      "id": 1155,
+      "lang_id": "es",
+      "name": "Faja de Odogaron β+"
+    },
+    {
+      "id": 1155,
+      "lang_id": "pt",
+      "name": "Cinturão de Odogaron β+"
+    },
+    {
+      "id": 1155,
+      "lang_id": "pl",
+      "name": "Pas z Odogarona β+"
+    },
+    {
+      "id": 1156,
+      "lang_id": "en",
+      "name": "Odogaron Greaves β+"
+    },
+    {
+      "id": 1156,
+      "lang_id": "fr",
+      "name": "Cuissards Odogaron β+"
+    },
+    {
+      "id": 1156,
+      "lang_id": "it",
+      "name": "Schinieri di Odogaron β+"
+    },
+    {
+      "id": 1156,
+      "lang_id": "de",
+      "name": "Odogaron-Beinschienen β+"
+    },
+    {
+      "id": 1156,
+      "lang_id": "es",
+      "name": "Grebas de Odogaron β+"
+    },
+    {
+      "id": 1156,
+      "lang_id": "pt",
+      "name": "Grevas de Odogaron β+"
+    },
+    {
+      "id": 1156,
+      "lang_id": "pl",
+      "name": "Nagol. z Odogarona β+"
+    }
+  ],
+  "weapon_text": [
+    {
+      "id": 2543,
+      "lang_id": "en",
+      "name": "Odogaron's Misery I"
+    },
+    {
+      "id": 2543,
+      "lang_id": "fr",
+      "name": "Supplice Odogaron"
+    },
+    {
+      "id": 2543,
+      "lang_id": "it",
+      "name": "Sventura di Odogaron I"
+    },
+    {
+      "id": 2543,
+      "lang_id": "de",
+      "name": "Odogarons Elend I"
+    },
+    {
+      "id": 2543,
+      "lang_id": "es",
+      "name": "Calamidad Odogaron I"
+    },
+    {
+      "id": 2543,
+      "lang_id": "pt",
+      "name": "Penúria de Odogaron I"
+    },
+    {
+      "id": 2543,
+      "lang_id": "pl",
+      "name": "Boleść Odogarona I"
+    },
+    {
+      "id": 2544,
+      "lang_id": "en",
+      "name": "Odogaron's Misery II"
+    },
+    {
+      "id": 2544,
+      "lang_id": "fr",
+      "name": "Supplice Odogaron II"
+    },
+    {
+      "id": 2544,
+      "lang_id": "it",
+      "name": "Sventura di Odogaron II"
+    },
+    {
+      "id": 2544,
+      "lang_id": "de",
+      "name": "Odogarons Elend II"
+    },
+    {
+      "id": 2544,
+      "lang_id": "es",
+      "name": "Calamidad Odogaron II"
+    },
+    {
+      "id": 2544,
+      "lang_id": "pt",
+      "name": "Penúria de Odogaron II"
+    },
+    {
+      "id": 2544,
+      "lang_id": "pl",
+      "name": "Boleść Odogarona II"
+    },
+    {
+      "id": 2545,
+      "lang_id": "fr",
+      "name": "Repos éternel Odogaron"
+    },
+    {
+      "id": 10099,
+      "lang_id": "es",
+      "name": "Dagas Taroth (Odogaron)"
+    },
+    {
+      "id": 10577,
+      "lang_id": "es",
+      "name": "Dagas Taroth (Odogaron) (RM)"
+    },
+    {
+      "id": 10165,
+      "lang_id": "es",
+      "name": "Lanza Áurea (Odogaron)"
+    },
+    {
+      "id": 10174,
+      "lang_id": "es",
+      "name": "Pica Taroth (Odogaron)"
+    },
+    {
+      "id": 10664,
+      "lang_id": "es",
+      "name": "Lanza Áurea (Odogaron) (RM)"
+    },
+    {
+      "id": 10673,
+      "lang_id": "es",
+      "name": "Pica Taroth (Odogaron) (RM)"
+    },
+    {
+      "id": 10243,
+      "lang_id": "es",
+      "name": "Machado Áureo (Odogaron)"
+    },
+    {
+      "id": 10252,
+      "lang_id": "es",
+      "name": "Segur Taroth (Odogaron)"
+    },
+    {
+      "id": 10763,
+      "lang_id": "es",
+      "name": "Machado Áureo (Odogaron) (RM)"
+    },
+    {
+      "id": 10772,
+      "lang_id": "es",
+      "name": "Segur Taroth (Odogaron) (RM)"
+    },
+    {
+      "id": 10268,
+      "lang_id": "es",
+      "name": "Glaive Áureo (Odogaron)"
+    },
+    {
+      "id": 10277,
+      "lang_id": "es",
+      "name": "Guja Taroth (Odogaron)"
+    },
+    {
+      "id": 10795,
+      "lang_id": "es",
+      "name": "Glaive Áureo (Odogaron) (RM)"
+    },
+    {
+      "id": 10804,
+      "lang_id": "es",
+      "name": "Guja Taroth (Odogaron) (RM)"
+    },
+    {
+      "id": 10294,
+      "lang_id": "es",
+      "name": "Saeta Áurea (Odogaron)"
+    },
+    {
+      "id": 10304,
+      "lang_id": "es",
+      "name": "Rifle Taroth (Odogaron)"
+    },
+    {
+      "id": 10441,
+      "lang_id": "es",
+      "name": "Rifle Kjárr (Odogaron)"
+    },
+    {
+      "id": 10828,
+      "lang_id": "es",
+      "name": "Saeta Áurea (Odogaron) (RM)"
+    },
+    {
+      "id": 10838,
+      "lang_id": "es",
+      "name": "Rifle Taroth (Odogaron) (RM)"
+    },
+    {
+      "id": 10848,
+      "lang_id": "es",
+      "name": "Rifle Kjárr (Odogaron) (RM)"
+    }
+  ],
+  "quest_text": [
+    {
+      "id": 581,
+      "lang_id": "en",
+      "name": "Scratching the Itch",
+      "objective": "Hunt an Odogaron",
+      "description": "This morning I awoke to a brilliant epiphany! I have an idea for something every hunter needs after a long day out in the field...Odogaron backscratchers!"
+    },
+    {
+      "id": 581,
+      "lang_id": "fr",
+      "name": "Soulagement",
+      "objective": "Chasser un Odogaron",
+      "description": "J'ai eu une illumination ce matin ! Je sais exactement de quoi un chasseur a besoin après une longue journée sur le terrain... D'un gratte-dos en Odogaron !"
+    },
+    {
+      "id": 581,
+      "lang_id": "it",
+      "name": "Un'idea pruriginosa",
+      "objective": "Caccia un Odogaron",
+      "description": "Questa mattina, al risveglio, sono stato colto da un'epifania! Ho capito cosa serve ai cacciatori dopo una giornata in missione... Un grattaschiena di Odogaron!"
+    },
+    {
+      "id": 581,
+      "lang_id": "de",
+      "name": "Wen es juckt",
+      "objective": "Erjage einen Odogaron.",
+      "description": "Diesen Morgen hatte ich eine Erleuchtung! Ich weiß, was jeder Jäger nach einem langen Tag unterwegs braucht... Odogaron-Rückenkratzer!"
+    },
+    {
+      "id": 581,
+      "lang_id": "es",
+      "name": "Rascarse la picadura",
+      "objective": "Caza un Odogaron",
+      "description": "¡Esta mañana he tenido una idea brillante! Se me ha ocurrido qué es lo que necesita todo cazador después de un largo día en el campo... ¡Un rascaespaldas de Odogaron!"
+    },
+    {
+      "id": 581,
+      "lang_id": "pt",
+      "name": "Matando a Vontade",
+      "objective": "Cace um Odogaron",
+      "description": "Essa manhã eu tive uma epifania brilhante! Tive uma ideia de algo que todos os caçadores precisam depois de um longo e cansativo dia no campo... Coçador de costas Odogaron!"
+    },
+    {
+      "id": 581,
+      "lang_id": "pl",
+      "name": "Swędzące miejsce",
+      "objective": "Upoluj Odogarona",
+      "description": "Z rana miałem genialne objawienie! Przyszło mi do głowy coś, co przyda się każdemu łowcy po długim dniu w terenie... Drapaczka do pleców z Odogarona!"
+    },
+    {
+      "id": 582,
+      "lang_id": "en",
+      "name": "Man's Best Fiend",
+      "objective": "Capture an Odogaron",
+      "description": "I really miss my old pet. The days we spent going to the park, playing fetch. I long for that companionship... that loyalty. Please go out and find me a new one."
+    },
+    {
+      "id": 582,
+      "lang_id": "fr",
+      "name": "Le meilleur ennemi de l'homme",
+      "objective": "Capturer un Odogaron",
+      "description": "Mon ancien animal de compagnie me manque... J'adorais jouer des heures au parc avec lui, sa loyauté indéfectible... S'il te plaît, trouve-m'en un autre !"
+    },
+    {
+      "id": 582,
+      "lang_id": "it",
+      "name": "Il mostruoso amico dell'uomo",
+      "objective": "Cattura un Odogaron",
+      "description": "Mi manca il mio amico a quattro zampe... Passavamo intere giornate al parco. Voglio assaporare di nuovo quel legame, quella fedeltà... Ti prego, trovami un altro cucciolotto!"
+    },
+    {
+      "id": 582,
+      "lang_id": "de",
+      "name": "Das beste Monster des Menschen",
+      "objective": "Fange einen Odogaron.",
+      "description": "Ich vermisse mein Haustier. Wir sind in den Park gegangen und haben Apportieren gespielt. Mir fehlt die Gesellschaft, die Loyalität. Bitte geh los und besorg mir ein neues."
+    },
+    {
+      "id": 582,
+      "lang_id": "es",
+      "name": "El mejor enemigo del hombre",
+      "objective": "Captura un Odogaron",
+      "description": "Echo de menos mi antigua mascota. Los días que pasamos en el parque jugando. Necesito su compañía, su lealtad... ¿Podrías encontrarme una nueva mascota? Por favor..."
+    },
+    {
+      "id": 582,
+      "lang_id": "pt",
+      "name": "O Melhor Demônio do Homem",
+      "objective": "Capture um Odogaron",
+      "description": "Eu sinto muita falta do meu bicho de estimação, de quando brincávamos no parque... Sinto falta de uma companhia leal como essa. Por favor, encontre um novo bichinho para mim."
+    },
+    {
+      "id": 582,
+      "lang_id": "pl",
+      "name": "Przyjaciel człowieka",
+      "objective": "Złap Odogarona",
+      "description": "Tęsknię za swoim dawnym pupilkiem. Chodziliśmy do parku, ćwiczyliśmy aportowanie. Brakuje mi tego towarzystwa... tego przywiązania. Znajdź mi nowe zwierzątko."
+    },
+    {
+      "id": 532,
+      "lang_id": "en",
+      "name": "Special Arena: Odogaron",
+      "objective": "Hunt an Odogaron",
+      "description": "A new challenger: Odogaron, the Muscle Mutt, the Rex Who Wrecks! He'll bite your leg to fetch the stick inside! Think you can go toe-to-toe—er, toe-to-claw with this heavy hitter!?"
+    },
+    {
+      "id": 532,
+      "lang_id": "fr",
+      "name": "Arène spéciale : Odogaron",
+      "objective": "Chasser un Odogaron",
+      "description": "Nouvel adversaire : l'Odogaron, le Cabot costaud, Médor le cador ! Son péché mignon ? Les mollets de ses adversaires. Qui osera affronter ce champion incontesté ?"
+    },
+    {
+      "id": 532,
+      "lang_id": "it",
+      "name": "Arena speciale: Odogaron",
+      "objective": "Caccia un Odogaron",
+      "description": "Il nuovo sfidante è un Odogaron, il mastino muscoloso, lo sfasciabudella! Usa gli avversari come stuzzicadenti! Chi sarà così audace da affrontarlo?"
+    },
+    {
+      "id": 532,
+      "lang_id": "de",
+      "name": "Spezialarena: Odogaron",
+      "objective": "Erjage einen Odogaron.",
+      "description": "Ein neuer Herausforderer: Odogaron – der Muskelprotz, der Meister der Zerstörung! Er will dir ans Leder! Nimm dieses Schwergewicht nicht auf die leichte Schulter!"
+    },
+    {
+      "id": 532,
+      "lang_id": "es",
+      "name": "Arena especial: Odogaron",
+      "objective": "Caza un Odogaron",
+      "description": "Un nuevo adversario: ¡Odogaron, el musculoso, el demoledor canino! ¡Se muere por tus huesos y no en el buen sentido! ¿Crees que podrás dar la talla contra este peso pesado?"
+    },
+    {
+      "id": 532,
+      "lang_id": "pt",
+      "name": "Arena Especial: Odogaron",
+      "objective": "Cace um Odogaron",
+      "description": "Um novo desafiante: Odogaron, o Muscãoloso, o Apex Rex! Ele vai puxar sua perna pelo osso! Vai no mano a mano, ou pata a pata com esse peso-pesado?"
+    },
+    {
+      "id": 532,
+      "lang_id": "pl",
+      "name": "Specjalna Arena: Odogaron",
+      "objective": "Upoluj Odogarona",
+      "description": "Nowy konkurent! Odogaron, Bycze Psisko, Reks Rozgryzacz! Przegryzie ci nogę, żeby wyciągnąć ze środka patyk! Kto zmierzy się z nim, używając ustalonej broni i pancerza?"
+    },
+    {
+      "id": 773,
+      "lang_id": "en",
+      "name": "A Sore Site",
+      "objective": "Hunt an Odogaron",
+      "description": "Ugh! Every time I go out to the highlands to observe my beloved Paolumu, that gnarly monster is there! Please do something! *Unlocks a new Canteen ingredient on first time completion."
+    },
+    {
+      "id": 773,
+      "lang_id": "fr",
+      "name": "Gros casse-pied",
+      "objective": "Chasser un Odogaron",
+      "description": "Grrr ! À chaque fois que je vais sur le plateau pour observer mon cher Paolumu, ce gros balèze est là. Aide-moi ! <STYL MOJI_LIGHTGREEN_DEFAULT>Première complétion : Nouvel ingrédient à la Cantine"
+    },
+    {
+      "id": 773,
+      "lang_id": "it",
+      "name": "Incontri indesiderati",
+      "objective": "Caccia un Odogaron",
+      "description": "Ugh! Ogni volta che raggiungo gli altipiani per osservare il mio amato Paolumu, quel mostro m'importuna! Aiutami! <STYL MOJI_ORANGE_DEFAULT>Sblocca un ingrediente per la mensa al primo completamento."
+    },
+    {
+      "id": 773,
+      "lang_id": "de",
+      "name": "Eine wunde Stelle",
+      "objective": "Erjage einen Odogaron.",
+      "description": "Uff! Immer, wenn ich im Hochland meinen geliebten Paolumu beobachten will, ist da dieses fiese Monster! Bitte tu was! *Der 1. Abschluss schaltet eine neue Kantinenzutat frei."
+    },
+    {
+      "id": 773,
+      "lang_id": "es",
+      "name": "Un lugar doloroso",
+      "objective": "Caza un Odogaron",
+      "description": "¡Uf! ¡Cada vez que salgo a los altiplanos a observar a los Paolumu, ese monstruo asqueroso está allí! ¡Haz algo! *Desbloquea nuevo ingrediente de la cantina la primera vez."
+    },
+    {
+      "id": 773,
+      "lang_id": "pt",
+      "name": "Um Local Dolorido",
+      "objective": "Cace um Odogaron",
+      "description": "Argh! Toda vez que vou até o planalto observar meu amado Paolumu, aquele monstro nojento está lá! Faça alguma coisa! *Libera novo ingrediente da Cantina na 1a conclusão."
+    },
+    {
+      "id": 773,
+      "lang_id": "pl",
+      "name": "Bolesne miejsce",
+      "objective": "Upoluj Odogarona",
+      "description": "Ugh! Zawsze jak wychodzę na pogórze, żeby popatrzeć na ulu-bionego Paolumu, siedzi tam ten paskudny potwór! Zrób coś! *Pierwsze ukończenie odblokowuje nowy składnik w Kantynie."
+    },
+    {
+      "id": 781,
+      "lang_id": "en",
+      "name": "Odogaron Unleashed",
+      "objective": "Hunt an Odogaron",
+      "description": "We've gotten a disturbing report of an unusually powerful Odogaron appearing in the Rotten Vale. Begin your investigation ASAP, but beware of its powerful claws!"
+    },
+    {
+      "id": 781,
+      "lang_id": "fr",
+      "name": "Odogaron en vadrouille",
+      "objective": "Chasser un Odogaron",
+      "description": "On nous a signalé la présence d'un Odogaron particulièrement puissant dans le Val putride. Va vite voir ça. Attention à ses griffes acérées !"
+    },
+    {
+      "id": 781,
+      "lang_id": "it",
+      "name": "Odogaron a piede libero",
+      "objective": "Caccia un Odogaron",
+      "description": "Secondo un inquietante rapporto, un Odogaron dalla forza inusuale è apparso nella Valle putrefatta. Avvia subito le indagini, ma occhio ai suoi temibili artigli!"
+    },
+    {
+      "id": 781,
+      "lang_id": "de",
+      "name": "Odogaron auf freiem Fuß",
+      "objective": "Erjage einen Odogaron.",
+      "description": "Wir haben einen beunruhigenden Bericht über einen besonders starken Odogaron im Tal der Verwesung erhalten. Nimm schnell die Untersuchung auf, aber Vorsicht vor seinen Krallen!"
+    },
+    {
+      "id": 781,
+      "lang_id": "es",
+      "name": "Odogaron desatado",
+      "objective": "Caza un Odogaron",
+      "description": "Hemos recibido un informe inquietante sobre un Odogaron que ha aparecido en el Valle Putrefacto. Empieza a investigar ya, ¡pero cuidado con sus potentes garras!"
+    },
+    {
+      "id": 781,
+      "lang_id": "pt",
+      "name": "Odogaron à Solta",
+      "objective": "Cace um Odogaron",
+      "description": "Recebemos um informe preocupante apontando a presença de um Odogaron poderoso no Vale Putrefato. Vá investigar, mas tome cuidado com suas garras poderosas!"
+    },
+    {
+      "id": 781,
+      "lang_id": "pl",
+      "name": "Odogaron na wolności",
+      "objective": "Upoluj Odogarona",
+      "description": "Otrzymaliśmy niepokojący raport dotyczący wyjątkowo silnego Odogarona, który pojawił się w Gnijącej Dolinie. Natychmiast rozpocznij śledztwo, tylko uważaj na te pazury!"
+    },
+    {
+      "id": 733,
+      "lang_id": "en",
+      "name": "Special Arena: HR Odogaron",
+      "objective": "Hunt an Odogaron",
+      "description": "A new challenger: Odogaron, the Muscle Mutt, the Rex Who Wrecks! He'll bite your leg to fetch the stick inside! The gloves are off—not that we have gloves that big..."
+    },
+    {
+      "id": 733,
+      "lang_id": "fr",
+      "name": "Arène spéciale : Odogaron",
+      "objective": "Chasser un Odogaron",
+      "description": "Nouvel adversaire : l'Odogaron, le Cabot costaud, Médor le cador ! Son péché mignon ? Les mollets de ses adversaires. Qui osera l'affronter avec armes et armure prédéfinies ?"
+    },
+    {
+      "id": 733,
+      "lang_id": "it",
+      "name": "Arena speciale: Odogaron AG",
+      "objective": "Caccia un Odogaron",
+      "description": "Il nuovo sfidante è un Odogaron, il mastino muscoloso, lo sfasciabudella! Usa gli avversari come stuzzicadenti! Chi sarà così audace da affrontarlo?"
+    },
+    {
+      "id": 733,
+      "lang_id": "de",
+      "name": "Spezialarena: HR Odogaron",
+      "objective": "Erjage einen Odogaron.",
+      "description": "Ein neuer Herausforderer: Odogaron – der Muskelprotz, der Meister der Zerstörung! Er will dir ans Leder! Hier steht mehr als nur Ruhm und Ehre auf dem Spiel!"
+    },
+    {
+      "id": 733,
+      "lang_id": "es",
+      "name": "Arena especial: Odogaron RA",
+      "objective": "Caza un Odogaron",
+      "description": "Un nuevo adversario: ¡Odogaron, el musculoso, el demoledor canino! ¡Se muere por tus huesos y no en el buen sentido! ¿Vas a recoger el guante que te lanza esta bestia?"
+    },
+    {
+      "id": 733,
+      "lang_id": "pt",
+      "name": "Arena Especial: Odogaron RE",
+      "objective": "Cace um Odogaron",
+      "description": "Um novo desafiante: Odogaron, o Muscãoloso, o Apex Rex! Ele vai puxar sua perna pelo osso! Agora sim, no mano a mano — como se existisse luva desse tamanho..."
+    },
+    {
+      "id": 733,
+      "lang_id": "pl",
+      "name": "Specjalna Arena: WO Odogaron",
+      "objective": "Upoluj Odogarona",
+      "description": "Nowy konkurent! Odogaron, Bycze Psisko, Reks Rozgryzacz! Przegryzie ci nogę, żeby zrobić z niej patyk! Szykuj się na walkę, i to na gołą klatę..."
+    },
+    {
+      "id": 67103,
+      "lang_id": "en",
+      "name": "A Rush of Blood",
+      "objective": "Hunt 2 Odogaron",
+      "description": "Oh no! There's this big ol' monster that looks a lot like our Rush! Someone's gotta calm the big boy down! Help us out, and we'll give you some special gear for your Palico!"
+    },
+    {
+      "id": 67103,
+      "lang_id": "fr",
+      "name": "Sang pour Sang",
+      "objective": "Chasser 2 Odogaron",
+      "description": "Oh, non ! Il y a un gros monstre qui ressemble à notre compagnon Rush ! Quelqu'un doit aller calmer ce vilain garçon ! Aide-nous, et on te donnera un équipement spécial pour ton Palico !"
+    },
+    {
+      "id": 67103,
+      "lang_id": "it",
+      "name": "A cuccia, Rush!",
+      "objective": "Caccia due Odogaron",
+      "description": "C'è questo bel cagnolino rosso che mi ricorda molto il nostro Rush! Qualcuno deve metterlo a cuccia però! Posso offrire dell'equipaggiamento speciale per compagni come ricompensa."
+    },
+    {
+      "id": 67103,
+      "lang_id": "de",
+      "name": "Rushs Blutrausch",
+      "objective": "Erjage zwei Odogaron.",
+      "description": "Oh nein! Da ist ein ziemlich fieses Monster, das wie unser Rush aussieht! Jemand muss den großen Jungen beruhigen! Hilf uns, dann bekommt dein Palico Spezialausrüstung."
+    },
+    {
+      "id": 67103,
+      "lang_id": "es",
+      "name": "Buen perro, perro malo",
+      "objective": "Caza 2 Odogaron",
+      "description": "¡Oh, no! Hemos encontrado un monstruo que se parece a nuestro querido Rush. ¡Alguien va a tener que calmar a ese grandullón! ¡Ayúdanos y te daremos equipo para tu camarada!"
+    },
+    {
+      "id": 67103,
+      "lang_id": "pt",
+      "name": "Rush de Sangue",
+      "objective": "Cace 2 Odogarons",
+      "description": "Essa não! Tem um monstrengo muito parecido com o Rush! Alguém tem que acalmar esse meninão! Se você nos ajudar, a gente vai te dar uns equipamentos especiais de Amigato!"
+    },
+    {
+      "id": 67103,
+      "lang_id": "pl",
+      "name": "Przypływ krwi",
+      "objective": "Upoluj 2 Odogarony",
+      "description": "O nie! Tam jest wielki potwór, który wygląda jak nasz Rush! Ktoś musi uspokoić tego olbrzyma! Pomóż nam, a damy ci specjalne wyposażenie dla koleżkota!"
+    },
+    {
+      "id": 63104,
+      "lang_id": "pt",
+      "name": "Evento Mate Legiana e Odogaron 1",
+      "objective": "Mate todos os monstros-alvo",
+      "description": "Para os caçadores que conquistaram o Novo Mundo usando tudo à sua disposição, os saudamos com uma missão que vai nos mostrar por que os chamamos de Estrela Safira!"
+    },
+    {
+      "id": 63105,
+      "lang_id": "pt",
+      "name": "Evento Mate Legiana e Odogaron 2",
+      "objective": "Mate todos os monstros-alvo",
+      "description": "Para os caçadores que conquistaram o Novo Mundo usando tudo à sua disposição, os saudamos com uma missão que vai nos mostrar por que os chamamos de Estrela Safira!"
+    },
+    {
+      "id": 63106,
+      "lang_id": "pt",
+      "name": "Evento Mate Legiana e Odogaron 3",
+      "objective": "Mate todos os monstros-alvo",
+      "description": "Para os caçadores que conquistaram o Novo Mundo usando tudo à sua disposição, os saudamos com uma missão que vai nos mostrar por que os chamamos de Estrela Safira!"
+    },
+    {
+      "id": 63032,
+      "lang_id": "en",
+      "name": "Challenge Quest 2: Intermediate",
+      "objective": "Slay 2 Odogaron",
+      "description": "In the monster corner: A double dose of Odogaron! Any hunter brave enough to step into their penitentiary should prepare for the most brutal of sentences!"
+    },
+    {
+      "id": 63032,
+      "lang_id": "fr",
+      "name": "Quête Défi 2 : Intermédiaire",
+      "objective": "Tuer 2 Odogaron",
+      "description": "En face, une double dose d'Odogaron ! Un chasseur assez brave pour pénétrer dans l'Arène doit se préparer à la plus brutale des sentences !"
+    },
+    {
+      "id": 63032,
+      "lang_id": "it",
+      "name": "Sfida 2: normale",
+      "objective": "Uccidi 2 Odogaron",
+      "description": "Nell'angolo dei mostri: una doppia dose di Odogaron! Il cacciatore che avrà il coraggio di mettere piede nel loro penitenziario dovrà aspettarsi una sentenza brutale!"
+    },
+    {
+      "id": 63032,
+      "lang_id": "de",
+      "name": "Herausforderung 2: Fortgeschrittene",
+      "objective": "Töte 2 Odogaron.",
+      "description": "In der Monsterecke: ein Odogaron-Doppelpack! Wer sich in ihren Einflussbereich begibt, muss sich auf gnadenlose Bestrafungen gefasst machen!"
+    },
+    {
+      "id": 63032,
+      "lang_id": "es",
+      "name": "Misión desafío 2: intermedio",
+      "objective": "Abate 2 Odogaron",
+      "description": "En el rincón de los monstruos: ¡una ración doble de Odogaron! ¡Cualquier cazador lo bastante valiente como para meterse en su cerca debe prepararse para ver a la muerte de cerca!"
+    },
+    {
+      "id": 63032,
+      "lang_id": "pt",
+      "name": "Missão de Desafio 2: Intermed.",
+      "objective": "Mate 2 Odogaron",
+      "description": "No corner monstro: uma dose dupla de Odogaron! Qualquer um com coragem suficiente pra entrar na penitenciária deles deve se preparar pra uma sentença brutal!"
+    },
+    {
+      "id": 63032,
+      "lang_id": "pl",
+      "name": "Wyzwanie 2: średnio zaawansowany",
+      "objective": "Zabij 2 Odogarony",
+      "description": "W narożniku potworów: podwójna dawka Odogaronów! Łowca, który odważy się wejść do klatki z nimi, powinien się przygotować na najsroższy z wyroków!"
+    },
+    {
+      "id": 1403,
+      "lang_id": "en",
+      "name": "Bad Friends, Great Enemies",
+      "objective": "Hunt an Ebony Odogaron",
+      "description": "As soon as Velkhana left, monsters everywhere started getting riled up. We're short on manpower, and we need a hunter to secure the defense convoy's route to Seliana. Start by taking out the Odogaron subspecies!"
+    },
+    {
+      "id": 1403,
+      "lang_id": "fr",
+      "name": "Mauvais amis, bons ennemis",
+      "objective": "Chasser un Odogaron désastre",
+      "description": "Depuis le départ du Velkhana, les monstres pullulent dans le coin. Nous manquons d'hommes pour sécuriser la route des convois à destination de Seliana. Tu peux nous aider en chassant la sous-espèce d'Odogaron !"
+    },
+    {
+      "id": 1403,
+      "lang_id": "it",
+      "name": "Pessimi amici",
+      "objective": "Caccia un Odogaron d'ebano",
+      "description": "Appena il Velkhana ha tolto le tende, ogni genere di mostro si è imbizzarrito. Siamo a corto di uomini, e serve qualcuno che metta in sicurezza la rotta del convoglio per Seliana. Occupati della sottospecie di Odogaron!"
+    },
+    {
+      "id": 1403,
+      "lang_id": "de",
+      "name": "Schlechte Freunde, gute Feinde",
+      "objective": "Erjage einen Vulkan-Odogaron.",
+      "description": "Seit der Velkhana weg ist, drehen die Monster durch. Wir sind dünn besetzt und brauchen <LSNR {einen Jäger, der} {eine Jägerin, die}> die Verteidigungskonvoi-Route nach Seliana sichert. Du kannst helfen, indem du die Odogaron-Unterart beseitigst."
+    },
+    {
+      "id": 1403,
+      "lang_id": "es",
+      "name": "Malos amigos, grandes enemigos",
+      "objective": "Caza un Odogaron Ébano",
+      "description": "En cuanto se fue Velkhana, todos los monstruos empezaron a volverse locos. Andamos cortos de personal y necesitamos un cazador que asegure la defensa de la ruta del convoy hasta Seliana. ¡Puedes ayudar si acabas con la subespecie de Odogaron!"
+    },
+    {
+      "id": 1403,
+      "lang_id": "pt",
+      "name": "Maus Amigos, Ótimos Inimigos",
+      "objective": "Cace um Odogaron Negro",
+      "description": "Assim que Velkhana foi embora, monstros de toda parte começaram a ficar agitados. Temos pouca gente e precisamos de um caçador para proteger a rota do comboio para Seliana. Comece eliminando a subespécie de Odogaron!"
+    },
+    {
+      "id": 1403,
+      "lang_id": "pl",
+      "name": "Źli przyjaciele, świetni wrogowie",
+      "objective": "Upoluj Hebanowego Odogarona",
+      "description": "Kiedy Velkhan odszedł, potwory wszędzie zaczęły wariować. Nie mamy ludzi, a potrzebujemy łowcy do ochrony konwoju obronnego do Seliany. Upoluj podgatunek Odogarona!"
+    },
+    {
+      "id": 1332,
+      "lang_id": "en",
+      "name": "Special Arena: MR Odogaron",
+      "objective": "Hunt an Odogaron",
+      "description": "A new challenger: Odogaron, the Muscle Mutt, the Rex Who Wrecks! He'll bite your leg to fetch the stick inside! Two fighters enter the Special Arena, but only one leaves!"
+    },
+    {
+      "id": 1332,
+      "lang_id": "fr",
+      "name": "Arène spéciale : Odogaron",
+      "objective": "Chasser un Odogaron",
+      "description": "Nouvel adversaire : l'Odogaron, le Cabot costaud, Médor le cador ! Son péché mignon ? Les mollets de ses adversaires. Deux guerriers entrent dans l'Arène, un seul sort !"
+    },
+    {
+      "id": 1332,
+      "lang_id": "it",
+      "name": "Arena speciale: Odogaron GM",
+      "objective": "Caccia un Odogaron",
+      "description": "Il nuovo sfidante è un Odogaron, il mastino muscoloso, lo sfasciabudella! Usa gli avversari come stuzzicadenti! Due lottatori entrano nell'arena speciale, solo uno ne uscirà!"
+    },
+    {
+      "id": 1332,
+      "lang_id": "de",
+      "name": "Spezialarena: MR Odogaron",
+      "objective": "Erjage einen Odogaron.",
+      "description": "Ein neuer Herausforderer: Odogaron – der Muskelprotz, der Meister der Zerstörung! Er will dir ans Leder! Zwei Kämpfer betreten die Spezialarena, nur einer kommt raus!"
+    },
+    {
+      "id": 1332,
+      "lang_id": "es",
+      "name": "Arena especial: Odogaron RM",
+      "objective": "Caza un Odogaron",
+      "description": "Próximo rival: ¡Odogaron, el can musculoso, las mandíbulas del infierno! ¡Te arrancará los huesos y los roerá un ratito! ¡En la Arena especial entráis dos, pero solo puede salir uno!"
+    },
+    {
+      "id": 1332,
+      "lang_id": "pt",
+      "name": "Arena Especial: Odogaron RM",
+      "objective": "Cace um Odogaron",
+      "description": "Um novo desafiante: Odogaron, o Vira-lata Vigoroso, o Totó que Trucida! Ele vai morder sua perna só pra roer o osso! Dois lutadores entram na Arena Especial, mas só um sai!"
+    },
+    {
+      "id": 1332,
+      "lang_id": "pl",
+      "name": "Specjalna Arena: Odogaron RM",
+      "objective": "Upoluj Odogarona",
+      "description": "Nowy konkurent: Odogaron, Bycze Psisko, Reks Rozgryzacz! Przegryzie ci nogę, żeby wyciągnąć ze środka patyk! Na Specjalną Arenę wychodzą dwaj zawodnicy, ale zejdzie z niej jeden!"
+    },
+    {
+      "id": 1373,
+      "lang_id": "en",
+      "name": "A Nasty Flesh Wound",
+      "objective": "Hunt an Odogaron",
+      "description": "I've been going bonkers thinkin' about how I can upgrade your specialized tools. You go out and snatch the materials I need and I'll sneak an upgrade into your tools! (Upgrades the Bandit Mantle upon first completion.)"
+    },
+    {
+      "id": 1373,
+      "lang_id": "fr",
+      "name": "Le temps des malheurs",
+      "objective": "Chasser un Odogaron",
+      "description": "Je me creuse la tête pour trouver le moyen d'améliorer tes outils de survie. Apporte-moi les matériaux dont j'ai besoin et je te bricolerai quelque chose ! <STYL MOJI_LIGHTGREEN_DEFAULT>Première complétion : Amélioration de la cape du voleur"
+    },
+    {
+      "id": 1373,
+      "lang_id": "it",
+      "name": "L'ora del dolore",
+      "objective": "Caccia un Odogaron",
+      "description": "Mi è venuto il ghiribizzo di migliorare i tuoi strumenti dedicati. Portami i materiali e ti passerò sottobanco una bella sorpresa! <STYL MOJI_LIGHTGREEN_DEFAULT>(Migliora il mantello furfante al primo completamento.)"
+    },
+    {
+      "id": 1373,
+      "lang_id": "de",
+      "name": "Eine eklige Fleischwunde",
+      "objective": "Erjage einen Odogaron.",
+      "description": "Ich drehe noch durch beim Gedanken daran, wie ich deine Spezialwerkzeuge verbessern kann. Hol mir die Materialien, dann verbessere ich heimlich deine Werkzeuge! *Der 1. Abschluss verbessert den Banditen-Mantel."
+    },
+    {
+      "id": 1373,
+      "lang_id": "es",
+      "name": "La hora de la calamidad",
+      "objective": "Caza un Odogaron",
+      "description": "He estado dándole al coco pensando cómo podría mejorar tus herramientas especializadas. ¡Si me traes los materiales que necesito, te recompensaré con una mejora! (Mejora el manto de bandido al completarla por primera vez)."
+    },
+    {
+      "id": 1373,
+      "lang_id": "pt",
+      "name": "Uma Ferida Repugnante",
+      "objective": "Cace um Odogaron",
+      "description": "Venho quebrando a cabeça pensando em como melhorar suas ferramentas especiais. Vá pegar os materiais e eu darei uma melhorada sorrateira nas suas ferramentas! (Melhora o Manto de Bandido na primeira conclusão.)"
+    },
+    {
+      "id": 1373,
+      "lang_id": "pl",
+      "name": "Wstrętna rana powierzchowna",
+      "objective": "Upoluj Odogarona",
+      "description": "Wariuję już, próbując wymyślić, jak rozwinąć twoje narzędzia specjalistyczne. Załatw mi te materiały, a ja przemycę ci jakieś ulepszonko! (Ulepsza opończę bandyty po pierwszym ukończeniu)."
+    },
+    {
+      "id": 1381,
+      "lang_id": "en",
+      "name": "Don't be a Jerk with the Jerky",
+      "objective": "Hunt an Odogaron",
+      "description": "One of my less forward-thinking researchers has quite an affinity for snacks, especially Astera jerky. I've told him time and again to only eat them when necessary but now he's really in trouble. An Odogaron has attacked him and without any jerky, I'm afraid he may be done for..."
+    },
+    {
+      "id": 1381,
+      "lang_id": "fr",
+      "name": "Les yeux plus gros que le ventre",
+      "objective": "Chasser un Odogaron",
+      "description": "L'un de mes chercheurs a une petite faiblesse pour la viande d'Astera. Je lui ai déjà dit de ne pas s'empiffrer inutilement, et maintenant il est dans le pétrin ! Il s'est fait attaquer par un Odogaron, et sans viande d'Astera..."
+    },
+    {
+      "id": 1381,
+      "lang_id": "it",
+      "name": "Delusione nera",
+      "objective": "Caccia un Odogaron",
+      "description": "Uno dei miei ricercatori adora gli spuntini, specialmente quelli a base di carne di Astera! Gli ho sempre detto di tener d'occhio le scorte, ma continua a mangiare. Ora che un Odogaron è nei paraggi e non ha carne per tenerlo a bada, puoi immaginare cosa potrebbe accadere..."
+    },
+    {
+      "id": 1381,
+      "lang_id": "de",
+      "name": "Jerky schmeckt, Forscher auch",
+      "objective": "Erjage einen Odogaron.",
+      "description": "Einer meiner Forscher hat ein Faible für Snacks, ganz besonders für Astera-Jerky. Ich hab ihm gesagt, er soll es nur wenn nötig essen... Und jetzt versucht ein Odogaron an IHM zu knabbern."
+    },
+    {
+      "id": 1381,
+      "lang_id": "es",
+      "name": "Esa cecina es cosa fina",
+      "objective": "Caza un Odogaron",
+      "description": "Le tengo dicho a cierto erudito que se modere con la cecina de Astera, pero ni caso... ¡hasta que se ha liado! Un Odogaron le ha robado las provisiones, ¡y ahora amenaza con dejarlo todo!"
+    },
+    {
+      "id": 1381,
+      "lang_id": "pt",
+      "name": "Por Baixo da Carne Seca",
+      "objective": "Cace um Odogaron",
+      "description": "Um dos meus pesquisadores menos visionários gosta muito de lanchar, especialmente carne seca de Astera. Já falei para ele só comer quando for preciso, e ele se meteu em confusão. Um Odogaron o atacou, e sem a carne seca, temo pelo pior..."
+    },
+    {
+      "id": 1381,
+      "lang_id": "pl",
+      "name": "Ostrożnie z suszonym mięsem",
+      "objective": "Upoluj Odogarona",
+      "description": "Mam takiego mało rozgarniętego badacza, który lubi suszone mięso z Astery. Miał nie ruszać swojej racji, dopóki nie było takiej potrzeby, ale nie posłuchał. Teraz ma poważne kłopoty. Zaatakował go Odogaron i bez jedzenia może zginąć..."
+    },
+    {
+      "id": 1434,
+      "lang_id": "en",
+      "name": "Special Arena: MR Ebony Odogaron",
+      "objective": "Hunt an Ebony Odogaron",
+      "description": "A new challenger: Ebony Odogaron, the Overlord of Onyx, the Hell-hound that Pounds! He'll teach you to sit, roll over, and play dead! Two fighters enter the Special Arena, but only one leaves!"
+    },
+    {
+      "id": 1434,
+      "lang_id": "fr",
+      "name": "Arène spéciale : Odogaron désastre",
+      "objective": "Chasser un Odogaron désastre",
+      "description": "Nouvel adversaire : l'Odogaron désastre, le Seigneur d'onyx, le Toutou infernal ! Il va t'apprendre le \"pan, t'es mort\" ! Deux guerriers entrent dans l'Arène, un seul sort !"
+    },
+    {
+      "id": 1434,
+      "lang_id": "it",
+      "name": "Arena speciale: Odogaron d'ebano GM",
+      "objective": "Caccia un Odogaron d'ebano",
+      "description": "Il nuovo sfidante è un Odogaron d'ebano, il signore dell'onice, il mastino infernale! Ti addestrerà a stare seduto, rotolare e fare il morto! Due lottatori entrano nell'arena speciale, solo uno ne uscirà!"
+    },
+    {
+      "id": 1434,
+      "lang_id": "de",
+      "name": "Spezialarena: MR Vulkan-Odogaron",
+      "objective": "Erjage einen Vulkan-Odogaron.",
+      "description": "Ein neuer Herausforderer: Vulkan-Odogaron, der Höllenhund auf dem Weg zum Himmel; stell dich tot, bevor du es wirklich bist! Zwei Kämpfer betreten die Spezialarena, nur einer kommt raus!"
+    },
+    {
+      "id": 1434,
+      "lang_id": "es",
+      "name": "Arena especial: Odogaron Ébano RM",
+      "objective": "Caza un Odogaron Ébano",
+      "description": "Próximo rival: ¡Odogaron Ébano, perro del averno, el can volcán! ¡Te enseñará a sentarte, a echarte al suelo y a hacerte el muerto! ¡En la Arena especial entráis dos, pero solo puede salir uno!"
+    },
+    {
+      "id": 1434,
+      "lang_id": "pt",
+      "name": "Arena Especial: Odogaron Negro RM",
+      "objective": "Cace um Odogaron Negro",
+      "description": "Um novo desafiante: Odogaron Negro, o Soberano do Ônix, o Cão Infernal Letal! Ele vai te ensinar uns truques! Dois lutadores entram na Arena Especial, mas só um sai!"
+    },
+    {
+      "id": 1434,
+      "lang_id": "pl",
+      "name": "Specjalna Arena: Hebanowy Odogaron RM",
+      "objective": "Upoluj Hebanowego Odogarona",
+      "description": "Nowy konkurent: Hebanowy Odogaron, Onyksowy Władca, Piekielny Ogar o Potężnym Uderzeniu! Nauczy cię wielu sztuczek! Na Specjalną Arenę wychodzą dwaj zawodnicy, ale zejdzie z niej jeden!"
+    },
+    {
+      "id": 1452,
+      "lang_id": "en",
+      "name": "Misfortune in the Forest",
+      "objective": "Hunt an Ebony Odogaron",
+      "description": "Some of the newly discovered monsters in the New World have been sighted in other locales. The shift in surroundings will most likely have a significant effect on their behavior, head to their location and investigate immediately."
+    },
+    {
+      "id": 1452,
+      "lang_id": "fr",
+      "name": "Malchance forestière",
+      "objective": "Chasser un Odogaron désastre",
+      "description": "Quelques nouvelles espèces du Nouveau Monde ont été aperçues dans d'autres régions. Elles ont dû s'adapter à leur nouvel environnement. Rends-toi sur place pour enquêter !"
+    },
+    {
+      "id": 1452,
+      "lang_id": "it",
+      "name": "La foresta delle sventure",
+      "objective": "Caccia un Odogaron d'ebano",
+      "description": "Alcuni dei mostri scoperti di recente nel Nuovo Mondo sono stati avvistati in altre regioni. Probabile che il nuovo habitat abbia mutato il loro comportamento. Raggiungi la loro posizione e indaga immediatamente su questo fenomeno!"
+    },
+    {
+      "id": 1452,
+      "lang_id": "de",
+      "name": "Pech im Walde",
+      "objective": "Erjage einen Vulkan-Odogaron.",
+      "description": "Einige der neu entdeckten Monster der Neuen Welt wurden an anderen Orten gesichtet. In ihrer neuen Heimat verhalten sie sich wohl anders, also mach dich auf und finde mehr heraus!"
+    },
+    {
+      "id": 1452,
+      "lang_id": "es",
+      "name": "Infortunio en el bosque",
+      "objective": "Caza un Odogaron Ébano",
+      "description": "Algunos monstruos recién descubiertos en el Nuevo Mundo están apareciendo en otras zonas, y es probable que el cambio de ecosistema afecte a su comportamiento: ¡ve a investigarlos!"
+    },
+    {
+      "id": 1452,
+      "lang_id": "pt",
+      "name": "Infortúnio na Floresta",
+      "objective": "Cace um Odogaron Negro",
+      "description": "Alguns dos monstros recém-descobertos no Novo Mundo foram vistos em outros locais. A mudança de ambiente deve causar um efeito significativo no comportamento deles, então vá onde eles estão e investigue imediatamente!"
+    },
+    {
+      "id": 1452,
+      "lang_id": "pl",
+      "name": "Pech w lesie",
+      "objective": "Upoluj Hebanowego Odogarona",
+      "description": "Niektóre z odkrytych w Nowym Świecie potworów pojawiają się w innych lokacjach. Zmiana otoczenia zapewne będzie mieć duży wpływ na ich zachowanie. Natychmiast udaj się na miejsce i zbadaj sprawę."
+    },
+    {
+      "id": 1471,
+      "lang_id": "en",
+      "name": "A Shadowy Offender",
+      "objective": "Hunt an Ebony Odogaron",
+      "description": "\"I'm on the trail of an Ebony Odogaron. It's a ferocious monster that seems to have a thirst for battle. I must take care not—\" (the rest of the note is torn...)"
+    },
+    {
+      "id": 1471,
+      "lang_id": "fr",
+      "name": "Offense ténébreuse",
+      "objective": "Chasser un Odogaron désastre",
+      "description": "Je suis sur la piste d'un Odogaron désastre. Un monstre féroce assoiffé de combats. Je dois faire attention à... (la page a été déchirée)"
+    },
+    {
+      "id": 1471,
+      "lang_id": "it",
+      "name": "Un tenebroso avversario",
+      "objective": "Caccia un Odogaron d'ebano",
+      "description": "\"Sono sulle tracce di un Odogaron d'ebano. È un mostro feroce, perennemente assetato di sangue. Meglio stare attenti a...\" (la pagina è strappata...)"
+    },
+    {
+      "id": 1471,
+      "lang_id": "de",
+      "name": "Ein schattenhafter Angreifer",
+      "objective": "Erjage einen Vulkan-Odogaron.",
+      "description": "\"Ich bin einem Vulkan-Odogaron auf der Spur. Er ist ein wildes Monster, das sehr kampfeslustig zu sein scheint. Ich muss aufpassen, dass ich ni...\" (Der Rest der Nachricht ist zerfetzt...)"
+    },
+    {
+      "id": 1471,
+      "lang_id": "es",
+      "name": "Criminal de las sombras",
+      "objective": "Caza un Odogaron Ébano",
+      "description": "\"Sigo el rastro de un Odogaron Ébano. Es un monstruo feroz que parece sediento de batalla. Debo procurar no...\" (El resto de la nota está arrancado...)."
+    },
+    {
+      "id": 1471,
+      "lang_id": "pt",
+      "name": "Um Transgressor Sombrio",
+      "objective": "Cace um Odogaron Negro",
+      "description": "\"Estou atrás de um Odogaron Negro. É um monstro feroz que parece ter sede de combate. Preciso tomar cuidado para não...\" (o resto da nota está rasgada...)"
+    },
+    {
+      "id": 1471,
+      "lang_id": "pl",
+      "name": "Ukryty przestępca",
+      "objective": "Upoluj Hebanowego Odogarona",
+      "description": "„Jestem na tropie Hebanowego Odogarona. To wściekły potwór pragnący bitwy. Nie mogę...” (reszta notatki jest wyrwana)"
+    },
+    {
+      "id": 3074,
+      "lang_id": "en",
+      "name": "Arena Master Quest 05",
+      "objective": "Slay all target monsters",
+      "description": "In the monster corner: An Odogaron-Ebony Odogaron tag team! The hounds are out, and you're about to get woofed! You ready to duke it out with set weapons and armor?"
+    },
+    {
+      "id": 3074,
+      "lang_id": "fr",
+      "name": "Quête Arène 05 - Rang Maître",
+      "objective": "Tuer tous les monstres",
+      "description": "En face : un duo Odogaron et Odogaron désastre ! Nom d'un chien ! Qui a lâché les toutous ? Et pas question d'utiliser ton propre équipement !"
+    },
+    {
+      "id": 3074,
+      "lang_id": "it",
+      "name": "Missione arena (maestro) 05",
+      "objective": "Uccidi tutti i mostri assegnati",
+      "description": "Nell'angolo dei mostri: il dinamico duo Odogaron e Odogaron d'ebano! Non solo abbaiano, ma mordono anche! Chi oserà affrontarli con armi e armatura assegnate?"
+    },
+    {
+      "id": 3074,
+      "lang_id": "de",
+      "name": "Arena-Meister-Quest 05",
+      "objective": "Töte alle Zielmonster.",
+      "description": "In der Monsterecke: Ein Duo – Odogaron und Vulkan-Odogaron! Die Hunde sind von der Leine und nicht nur zum Bellen hier! Bist du bereit für einen Kampf mit festen Waffen und Rüstung?"
+    },
+    {
+      "id": 3074,
+      "lang_id": "es",
+      "name": "Misión de maestro de la Arena 05",
+      "objective": "Abate a todos los objetivos",
+      "description": "En el rincón de los monstruos: ¡el dúo Odogaron-Odogaron Ébano! ¿Quién dejó sueltos a los perros? ¡Cuidado, que muerden! ¿Qué valiente se enfrentará a ellos con este equipo?"
+    },
+    {
+      "id": 3074,
+      "lang_id": "pt",
+      "name": "Missão Mestre da Arena 05",
+      "objective": "Mate todos os monstros-alvo",
+      "description": "No canto dos monstros: a dupla Odogaron e Odogaron Negro! A cachorrada tá à solta e vai morder todo mundo! Consegue encará-los com armas e armadura fixas?"
+    },
+    {
+      "id": 3074,
+      "lang_id": "pl",
+      "name": "Zadanie mistrzowskie areny 05",
+      "objective": "Zabij wszystkie cele",
+      "description": "W narożniku potworów: Odogaron i Hebanowy Odogaron! Nie daj się ponieść tym psom wojny! Stawisz im czoło, używając ustalonej broni i pancerza?"
+    }
+  ],
+  "wiki_armor": [
+    {
+      "id": 78,
+      "name": "Odogaron Helm Alpha +",
+      "type": "Head",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 2,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 79,
+      "name": "Odogaron Helm Beta +",
+      "type": "Head",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 4,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 246,
+      "name": "Odogaron Mail Alpha +",
+      "type": "Chest",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 3,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 247,
+      "name": "Odogaron Mail Beta +",
+      "type": "Chest",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 4,
+      "slot_2": 1,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 409,
+      "name": "Odogaron Vambraces Alpha +",
+      "type": "Arms",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 1,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 410,
+      "name": "Odogaron Vambraces Beta +",
+      "type": "Arms",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 4,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 571,
+      "name": "Odogaron Coil Alpha +",
+      "type": "Waist",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 2,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 572,
+      "name": "Odogaron Coil Beta +",
+      "type": "Waist",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 4,
+      "slot_2": 2,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 732,
+      "name": "Odogaron Greaves Alpha +",
+      "type": "Legs",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 1,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 733,
+      "name": "Odogaron Greaves Beta +",
+      "type": "Legs",
+      "rank": "MR",
+      "rarity": 10,
+      "defense_base": 140,
+      "defense_max": 140,
+      "slot_1": 4,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 0
+    },
+    {
+      "id": 951,
+      "name": "Odogaron Helm",
+      "type": "Head",
+      "rank": "HR/LR",
+      "rarity": 4,
+      "defense_base": 30,
+      "defense_max": 30,
+      "slot_1": 0,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 2
+    },
+    {
+      "id": 952,
+      "name": "Odogaron Helm Alpha",
+      "type": "Head",
+      "rank": "HR/LR",
+      "rarity": 6,
+      "defense_base": 54,
+      "defense_max": 54,
+      "slot_1": 0,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 2
+    },
+    {
+      "id": 953,
+      "name": "Odogaron Helm Beta",
+      "type": "Head",
+      "rank": "HR/LR",
+      "rarity": 6,
+      "defense_base": 54,
+      "defense_max": 54,
+      "slot_1": 2,
+      "slot_2": 0,
+      "slot_3": 0,
+      "fire": 2,
+      "water": 2,
+      "thunder": -2,
+      "ice": -3,
+      "dragon": 2
+    }
+  ],
+  "wiki_weapon": [
+    {
+      "id": 525,
+      "name": "Odogaron's Misery I",
+      "type": "Lance",
+      "rank": "MR",
+      "rarity": 10,
+      "attack": "506",
+      "affinity": "30%",
+      "element": "(Fire300)",
+      "slot_1": 0,
+      "slot_2": 0,
+      "slot_3": 0
+    },
+    {
+      "id": 526,
+      "name": "Odogaron's Misery II",
+      "type": "Lance",
+      "rank": "MR",
+      "rarity": 10,
+      "attack": "529",
+      "affinity": "35%",
+      "element": "Fire330",
+      "slot_1": 0,
+      "slot_2": 0,
+      "slot_3": 0
+    }
+  ]
+}

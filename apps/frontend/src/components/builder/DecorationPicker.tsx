@@ -124,6 +124,11 @@ const DecorationPicker: React.FC<DecorationPickerProps> = ({
                                                 </span>
                                             ))}
                                         </div>
+                                        {deco.skills?.[0]?.description && (
+                                            <div className="picker-item__skill-desc">
+                                                {deco.skills[0].description}
+                                            </div>
+                                        )}
                                     </div>
                                     <span className="picker-item__stat" style={{ color: TIER_COLORS[deco.tier] }}>
                                         [{deco.tier}]

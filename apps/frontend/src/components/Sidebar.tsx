@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MessageSquare, Pin, Plus, Trash2, PanelLeftClose, PanelLeftOpen } from 'lucide-react';
+import { MessageSquare, Pin, Plus, Trash2, PanelLeftClose, PanelLeftOpen, Pencil } from 'lucide-react';
 import { Chat } from '../types';
 
 interface SidebarProps {
@@ -10,6 +10,7 @@ interface SidebarProps {
   onCreateChat: () => void;
   onDeleteChat: (id: string) => void;
   onTogglePin: (id: string) => void;
+  onRenameChat: (id: string, title: string) => void;
   isCollapsed: boolean;
   onToggleCollapse: () => void;
 }
@@ -21,11 +22,33 @@ const Sidebar: React.FC<SidebarProps> = ({
   onCreateChat,
   onDeleteChat,
   onTogglePin,
+  onRenameChat,
   isCollapsed,
   onToggleCollapse
 }) => {
+  const [editingId, setEditingId] = React.useState<string | null>(null);
+  const [editTitle, setEditTitle] = React.useState("");
+
   const recentChats = chats.filter(c => !c.is_pinned);
   const pinnedChats = chats.filter(c => c.is_pinned);
+
+  const startEditing = (e: React.MouseEvent, chat: Chat) => {
+    e.stopPropagation();
+    setEditingId(chat.id);
+    setEditTitle(chat.title);
+  };
+
+  const handleRename = (id: string) => {
+    if (editTitle.trim()) {
+      onRenameChat(id, editTitle.trim());
+    }
+    setEditingId(null);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent, id: string) => {
+    if (e.key === 'Enter') handleRename(id);
+    if (e.key === 'Escape') setEditingId(null);
+  };
 
   return (
     <div className={`${isCollapsed ? 'w-16' : 'w-64'} bg-[#141414] border-r border-[#2a2a2a] flex flex-col h-full overflow-hidden transition-all duration-300 ease-in-out relative`}>
@@ -68,12 +91,33 @@ const Sidebar: React.FC<SidebarProps> = ({
                   }`}
                 title={isCollapsed ? chat.title : ""}
               >
-                <div className="flex items-center gap-2 truncate">
+                <div className="flex items-center gap-2 truncate flex-1">
                   <MessageSquare size={isCollapsed ? 18 : 14} className="opacity-60 flex-shrink-0" />
-                  {!isCollapsed && <span className="truncate">{chat.title}</span>}
+                  {!isCollapsed && (
+                    editingId === chat.id ? (
+                      <input
+                        autoFocus
+                        className="bg-[#333] border-none text-white text-xs px-1 py-0.5 rounded w-full outline-none focus:ring-1 focus:ring-blue-500"
+                        value={editTitle}
+                        onChange={(e) => setEditTitle(e.target.value)}
+                        onBlur={() => handleRename(chat.id)}
+                        onKeyDown={(e) => handleKeyDown(e, chat.id)}
+                        onClick={(e) => e.stopPropagation()}
+                      />
+                    ) : (
+                      <span className="truncate">{chat.title}</span>
+                    )
+                  )}
                 </div>
                 {!isCollapsed && (
                   <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <button
+                      onClick={(e) => startEditing(e, chat)}
+                      className="p-1 hover:text-blue-400 transition-colors"
+                      title="Renomear"
+                    >
+                      <Pencil size={12} />
+                    </button>
                     <button
                       onClick={(e) => { e.stopPropagation(); onTogglePin(chat.id); }}
                       className="p-1 hover:text-yellow-500 transition-colors"
@@ -109,12 +153,33 @@ const Sidebar: React.FC<SidebarProps> = ({
                     }`}
                   title={isCollapsed ? chat.title : ""}
                 >
-                  <div className="flex items-center gap-2 truncate">
+                  <div className="flex items-center gap-2 truncate flex-1">
                     <Pin size={isCollapsed ? 18 : 14} className="opacity-60 rotate-45 text-yellow-600 flex-shrink-0" />
-                    {!isCollapsed && <span className="truncate underline decoration-gray-700 underline-offset-4">{chat.title}</span>}
+                    {!isCollapsed && (
+                      editingId === chat.id ? (
+                        <input
+                          autoFocus
+                          className="bg-[#333] border-none text-white text-xs px-1 py-0.5 rounded w-full outline-none focus:ring-1 focus:ring-blue-500"
+                          value={editTitle}
+                          onChange={(e) => setEditTitle(e.target.value)}
+                          onBlur={() => handleRename(chat.id)}
+                          onKeyDown={(e) => handleKeyDown(e, chat.id)}
+                          onClick={(e) => e.stopPropagation()}
+                        />
+                      ) : (
+                        <span className="truncate underline decoration-gray-700 underline-offset-4">{chat.title}</span>
+                      )
+                    )}
                   </div>
                   {!isCollapsed && (
                     <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <button
+                        onClick={(e) => startEditing(e, chat)}
+                        className="p-1 hover:text-blue-400 transition-colors"
+                        title="Renomear"
+                      >
+                        <Pencil size={12} />
+                      </button>
                       <button
                         onClick={(e) => { e.stopPropagation(); onTogglePin(chat.id); }}
                         className="p-1 hover:text-yellow-500 transition-colors"

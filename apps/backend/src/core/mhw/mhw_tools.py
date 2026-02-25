@@ -444,7 +444,8 @@ def get_armor_details(armor_name: str) -> Optional[dict]:
         "alpha": "α", "beta": "β", "gamma": "γ",
         " a+": " α+", " b+": " β+", " g+": " γ+",
         " a ": " α ", " b ": " β ",
-        "a+": "α+", "b+": "β+", "g+": "γ+"
+        "a+": "α+", "b+": "β+", "g+": "γ+",
+        "cintura": "cinturão"
     }
     for k, v in replacements.items():
         if k in search_name:
@@ -452,8 +453,11 @@ def get_armor_details(armor_name: str) -> Optional[dict]:
     
     # Lista de variantes para tentar busca exata
     variants = [search_name]
-    # Substituições de monstros (Anjanath -> Anja, etc)
-    for full, short in MONSTER_EQUIPMENT_MAP.items():
+    # Substituições de monstros (Anjanath -> Anja, Odogaron -> Odo, etc)
+    mon_map_expanded = MONSTER_EQUIPMENT_MAP.copy()
+    mon_map_expanded.update({"odogaron": "Odo", "nargacuga": "Narga", "legiana": "Legia"})
+    
+    for full, short in mon_map_expanded.items():
         if full in search_name:
             variants.append(search_name.replace(full, short))
         if short.lower() in search_name and short.lower() != full:
@@ -473,41 +477,69 @@ def get_armor_details(armor_name: str) -> Optional[dict]:
     
     found_id = row_id[0] if row_id else None
     
-    # 2. Busca na wiki_armor (onde estão os slots de Iceborne)
-    # Tenta por Nome da Wiki (Inglês) ou por Nome PT
-    wiki_sql = """
-        SELECT wa.id, wa.name, wa.slot_1, wa.slot_2, wa.slot_3, a.armorset_id
-        FROM wiki_armor wa
-        LEFT JOIN armor_text at ON wa.id = at.id -- Tentativa de link por ID
-        LEFT JOIN armor a ON (wa.id = a.id OR at.id = a.id)
-        WHERE (wa.name IN ({vars}) OR wa.name LIKE ?)
-        OR (at.name IN ({vars}) OR at.name LIKE ?)
-        ORDER BY CASE WHEN wa.name LIKE ? THEN 0 ELSE 1 END
+    # 2. Busca na armor_text para encontrar o ID e o nome em Inglês (ponte para Wiki)
+    cursor.execute("""
+        SELECT id FROM armor_text 
+        WHERE (name IN ({vars}) OR name LIKE ?) 
+        AND lang_id IN ('pt', 'en')
         LIMIT 1
-    """.replace('{vars}', placeholders)
+    """.replace('{vars}', placeholders), variants + [f"%{search_name}%"])
+    row_found = cursor.fetchone()
     
-    wiki_params = variants + [f"%{search_name}%"] + variants + [f"%{search_name}%"] + [f"%{search_name}%"]
-    cursor.execute(wiki_sql, wiki_params)
-    wiki_row = cursor.fetchone()
+    found_id = row_found[0] if row_found else None
+    en_name = None
+    if found_id:
+        cursor.execute("SELECT name FROM armor_text WHERE id = ? AND lang_id = 'en'", (found_id,))
+        en_row = cursor.fetchone()
+        if en_row:
+            en_name = en_row[0]
+
+    # 3. Busca na wiki_armor (onde estão os slots de Iceborne)
+    # Procuramos pelo nome em Inglês (exato) para ter certeza dos slots
+    wiki_row = None
+    if en_name:
+        cursor.execute("SELECT id, name, slot_1, slot_2, slot_3 FROM wiki_armor WHERE name = ?", (en_name,))
+        wiki_row = cursor.fetchone()
     
     if not wiki_row:
-        # Se não achou na Wiki, tenta na tabela Armor padrão (fallback)
-        if found_id:
-            cursor.execute("SELECT id, slot_1, slot_2, slot_3, armorset_id FROM armor WHERE id = ?", (found_id,))
-            std_row = cursor.fetchone()
-            if std_row:
-                # Ajuste de nomes se veio da tabela padrão
-                cursor.execute("SELECT name FROM armor_text WHERE id = ? AND lang_id = 'pt'", (found_id,))
-                pt_name_row = cursor.fetchone()
-                name = pt_name_row[0] if pt_name_row else f"Armor #{found_id}"
-                # Formato esperado: (id, name, slot_1, slot_2, slot_3, armorset_id)
-                wiki_row = (std_row[0], name, std_row[1], std_row[2], std_row[3], std_row[4])
+        # Fallback: busca por nome parcial na wiki_armor
+        wiki_sql = """
+            SELECT wa.id, wa.name, wa.slot_1, wa.slot_2, wa.slot_3
+            FROM wiki_armor wa
+            WHERE (wa.name IN ({vars}) OR wa.name LIKE ?)
+            ORDER BY CASE WHEN wa.name LIKE ? THEN 0 ELSE 1 END
+            LIMIT 1
+        """.replace('{vars}', placeholders)
+        cursor.execute(wiki_sql, variants + [f"%{search_name}%"] + [f"%{search_name}%"])
+        wiki_row = cursor.fetchone()
+    
+    # Tentativa de encontrar o ID padrão (armor table) para skills e set bonus
+    std_row = None
+    if found_id:
+        cursor.execute("SELECT id, slot_1, slot_2, slot_3, armorset_id FROM armor WHERE id = ?", (found_id,))
+        std_row = cursor.fetchone()
         
-    if not wiki_row:
+    if not wiki_row and not std_row:
         conn.close()
         return None
         
-    armor_id, name, s1, s2, s3, set_id = wiki_row
+    # Prioridade de Slots: Wiki (Iceborne) > Padrão
+    if wiki_row:
+        wid, wname, s1, s2, s3 = wiki_row
+        set_id = std_row[4] if std_row else None
+        name = wname
+        # Se temos nome PT, usamos ele
+        if found_id:
+            cursor.execute("SELECT name FROM armor_text WHERE id = ? AND lang_id = 'pt'", (found_id,))
+            pt_name_row = cursor.fetchone()
+            if pt_name_row: name = pt_name_row[0]
+        armor_id = found_id if found_id else wid
+    else:
+        aid, s1, s2, s3, set_id = std_row
+        cursor.execute("SELECT name FROM armor_text WHERE id = ? AND lang_id = 'pt'", (aid,))
+        name_row = cursor.fetchone()
+        name = name_row[0] if name_row else f"Armor #{aid}"
+        armor_id = aid
     
     # 3. Skills (Prioriza tabela wiki_armor_skills se disponível, senão armor_skill)
     cursor.execute("SELECT COUNT(*) FROM wiki_armor_skills WHERE armor_id = ?", (armor_id,))

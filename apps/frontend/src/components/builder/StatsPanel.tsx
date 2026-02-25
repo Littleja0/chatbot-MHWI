@@ -2,6 +2,8 @@ import React from 'react';
 import { ComputedStats } from '../../types/builder';
 import { Swords, Target, Zap, Shield, Flame } from 'lucide-react';
 import SkillBar from './SkillBar';
+import { SKILL_SECRETS, SKILL_SECRET_MAX_LEVELS } from '../../data/skillSecrets';
+import { SKILL_BONUSES } from '../../data/skillBonuses';
 
 interface StatsPanelProps {
     stats: ComputedStats;
@@ -33,17 +35,44 @@ const StatsPanel: React.FC<StatsPanelProps> = ({ stats }) => {
                 </h3>
 
                 <div className="stats-grid">
-                    <StatItem
-                        icon={<Swords size={16} />}
-                        label="Ataque (True Raw)"
-                        value={stats.trueRaw}
-                    />
-                    <StatItem
-                        icon={<Target size={16} />}
-                        label="Afinidade"
-                        value={`${stats.affinity >= 0 ? '+' : ''}${stats.affinity}%`}
-                        color={affinityColor}
-                    />
+                    <div className="stat-item-with-breakdown">
+                        <StatItem
+                            icon={<Swords size={16} />}
+                            label="Ataque (True Raw)"
+                            value={stats.trueRaw}
+                        />
+                        <div className="stat-breakdown">
+                            <span className="stat-breakdown__base" title="Base da Arma">{stats.attackBreakdown.base}</span>
+                            <span className="stat-breakdown__plus">+</span>
+                            <span className="stat-breakdown__skills" title="Bônus de Skills">{stats.attackBreakdown.skills}</span>
+                            {stats.attackBreakdown.conditional > 0 && (
+                                <>
+                                    <span className="stat-breakdown__plus">+</span>
+                                    <span className="stat-breakdown__cond" title="Bônus Condicionais (Agitador, etc.)">({stats.attackBreakdown.conditional})</span>
+                                </>
+                            )}
+                        </div>
+                    </div>
+
+                    <div className="stat-item-with-breakdown">
+                        <StatItem
+                            icon={<Target size={16} />}
+                            label="Afinidade"
+                            value={`${stats.affinity >= 0 ? '+' : ''}${stats.affinity}% `}
+                            color={affinityColor}
+                        />
+                        <div className="stat-breakdown">
+                            <span className="stat-breakdown__base" title="Base da Arma">{stats.affinityBreakdown.base}%</span>
+                            <span className="stat-breakdown__plus">+</span>
+                            <span className="stat-breakdown__skills" title="Bônus de Skills">{stats.affinityBreakdown.skills}%</span>
+                            {stats.affinityBreakdown.conditional > 0 && (
+                                <>
+                                    <span className="stat-breakdown__plus">+</span>
+                                    <span className="stat-breakdown__cond" title="Bônus Condicionais (Agitador, WEX, etc.)">({stats.affinityBreakdown.conditional}%)</span>
+                                </>
+                            )}
+                        </div>
+                    </div>
                     <StatItem
                         icon={<Zap size={16} />}
                         label="EFR (Dano Efetivo)"

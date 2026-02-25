@@ -130,7 +130,5 @@ export function buildToReadableText(state: BuildState, stats: ComputedStats): st
             });
     }
 
-    lines.push('\n---\nAnalisar essa build. Sugestões de melhoria?');
-
     return lines.join('\n');
 }

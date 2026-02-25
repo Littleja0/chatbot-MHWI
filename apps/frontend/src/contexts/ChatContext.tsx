@@ -16,6 +16,7 @@ interface ChatContextType {
   handleDeleteChat: (id: string) => Promise<void>;
   handleTogglePin: (id: string) => Promise<void>;
   handleSendMessage: (text: string) => Promise<void>;
+  handleRenameChat: (id: string, title: string) => Promise<void>;
   toggleSidebar: () => void;
 }
 
@@ -163,6 +164,15 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
     }
   }, [activeChatId, fetchChats]);
 
+  const handleRenameChat = useCallback(async (id: string, title: string) => {
+    try {
+      await api.renameChat(id, title);
+      setChats(prev => prev.map(c => c.id === id ? { ...c, title } : c));
+    } catch (error) {
+      console.error("Error renaming chat:", error);
+    }
+  }, []);
+
   const toggleSidebar = useCallback(() => {
     setIsSidebarCollapsed(prev => !prev);
   }, []);
@@ -197,6 +207,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
       handleDeleteChat,
       handleTogglePin,
       handleSendMessage,
+      handleRenameChat,
       toggleSidebar,
     }}>
       {children}

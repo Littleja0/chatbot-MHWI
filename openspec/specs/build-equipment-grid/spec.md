@@ -57,3 +57,31 @@ O backend deve expor endpoints para fornecer dados completos de equipamento.
 #### Scenario: Listar Amuletos
 - **WHEN** o frontend faz `GET /equipment/charms`.
 - **THEN** retorna lista de amuletos com: nome, skill concedida e nível máximo.
+
+### Requirement: Renderização de Slots de Jóia Atualizada
+O componente `EquipmentSlot` usa um visual aprimorado para jóias preenchidas.
+
+#### Scenario: Jóia Equipada com Visual de Iniciais
+- **GIVEN** o componente `EquipmentSlot` renderiza slots de decoração.
+- **WHEN** um slot tem uma jóia equipada.
+- **THEN** renderiza o visual com iniciais da skill (ex: "At" para Reforço de Ataque) com fundo colorido no tier.
+- **AND** adiciona tooltip de hover com nome da jóia, skills e descrições.
+- **AND** mantém o comportamento de clique direito para remover.
+
+### Requirement: Slots com Tooltip Não Interferem no Layout
+Os tooltips de jóias não afetam o layout do EquipmentSlot.
+
+#### Scenario: Tooltip Aparece sem Empurrar
+- **GIVEN** o jogador hover sobre um slot de jóia em um equipamento.
+- **WHEN** o tooltip aparece.
+- **THEN** o tooltip usa `position: absolute` e não empurra outros elementos.
+- **AND** o tooltip é renderizado dentro do `deco-slot` button com overflow visible.
+
+### Requirement: Dados da Jóia para Tooltip
+O `EquipmentSlot` recebe os dados completos da jóia (incluindo descrição) para renderizar o tooltip.
+
+#### Scenario: Tooltip com Descrição
+- **GIVEN** o `BuilderView` passa a prop `decorations` para o `EquipmentSlot`.
+- **WHEN** as jóias incluem o campo `description` nas skills.
+- **THEN** o `EquipmentSlot` renderiza o tooltip com nome, nível e descrição.
+- **AND** se `description` não estiver presente, o tooltip mostra apenas nome e nível.

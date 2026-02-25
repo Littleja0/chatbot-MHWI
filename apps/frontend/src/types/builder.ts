@@ -16,6 +16,7 @@ export type SharpnessColor = 'red' | 'orange' | 'yellow' | 'green' | 'blue' | 'w
 export interface SkillRef {
     name: string;
     level: number;
+    description?: string;
 }
 
 export interface WeaponSlot {
@@ -59,6 +60,8 @@ export interface ArmorSlot {
     };
     slots: number[];
     skills: SkillRef[];
+    setBonusName?: string | null;
+    setBonusTiers?: { required: number; skill: string }[];
 }
 
 export interface CharmSlot {
@@ -146,6 +149,16 @@ export interface ComputedStats {
     displayAttack: number;
     affinity: number;
     effectiveAffinity: number;   // clamped to -100 ~ +100
+    affinityBreakdown: {
+        base: number;
+        skills: number;          // static skills like Critical Eye
+        conditional: number;     // conditional skills like Agitator, WEX
+    };
+    attackBreakdown: {
+        base: number;
+        skills: number;          // static skill raw
+        conditional: number;     // conditional skill raw
+    };
     efr: number;
     elementDamage: number;
     defense: number;
@@ -199,4 +212,14 @@ export interface CharmListItem {
 export interface SetBonusListItem {
     set_name: string;
     pieces: { required: number; bonus_name: string; description: string }[];
+}
+
+// --- Saved Builds ---
+
+export interface SavedBuild {
+    id: string;
+    name: string;
+    createdAt: string;
+    updatedAt: string;
+    buildState: BuildState;
 }

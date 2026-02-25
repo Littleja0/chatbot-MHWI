@@ -112,6 +112,11 @@ def _extract_and_verify_equipment(context: str, user_query: str = "") -> str:
     if not armor_pieces:
         armor_pieces = re.findall(r'> PEÇA:\s*(.*?)$', context, re.MULTILINE)
 
+    # 1.5. Extração da query do usuário (Build Exportada)
+    # Padrão: "Cintura: Nome da Peça [Skills]" ou "Elmo: Nome"
+    user_pieces = re.findall(r'(?:Elmo|Peito|Braços|Cintura|Pernas|Waist|Head|Chest|Arms|Legs):\s*(.*?)(?:\s*\[|$)', user_query)
+    user_weapons = re.findall(r'Arma:\s*(.*?)(?:\r?\n|$)', user_query, re.IGNORECASE)
+
     # 2. Busca Proativa baseada na mensagem do usuário
     from core.mhw.mhw_tools import MONSTER_TREE_MAP, MONSTER_EQUIPMENT_MAP, ELEMENT_MAP, WEAPON_MAP, search_equipment
     
@@ -157,7 +162,7 @@ def _extract_and_verify_equipment(context: str, user_query: str = "") -> str:
                 pass
 
     # Combinamos tudo para verificar outros itens citados ou encontrados via RAG
-    search_list = list(dict.fromkeys(armor_sets + armor_pieces + proactive_search_terms))
+    search_list = list(dict.fromkeys(armor_sets + armor_pieces + user_pieces + proactive_search_terms))
 
     # Processar Armaduras
     for name in search_list:
@@ -169,8 +174,8 @@ def _extract_and_verify_equipment(context: str, user_query: str = "") -> str:
             verified_entries.append(f"ARMADURA: {details['name']} -> {skills_str} | {slots_str}")
             seen_names.add(name)
 
-    # Processar Armas encontradas no RAG ou Termos Proativos
-    weapon_search_list = list(dict.fromkeys(weapons + proactive_search_terms))
+    # Processar Armas encontradas no RAG ou Termos Proativos ou Query
+    weapon_search_list = list(dict.fromkeys(weapons + user_weapons + proactive_search_terms))
     for name in weapon_search_list:
         if name in seen_names: continue
         details = get_weapon_details(name)
@@ -243,7 +248,11 @@ async def process_chat(
             "- Seja detalhado mas direto\n"
             "- Use a personalidade do Gojo (confiante, carismático)\n"
             "- Se a build for boa, elogie com empolgação\n"
-            "- Se tiver problemas, aponte com respeito mas firmeza\n"
+            "- Se tiver problemas, aponte com respeito mas firmeza\n\n"
+            "🔥 IMPORTANTE: O bloco 'DADOS TÉCNICOS VERIFICADOS (SQL)' é a sua ÚNICA FONTE DE VERDADE para slots e raridades.\n"
+            "NÃO INVENTE JOIAS. Se o SQL diz que a peça tem slots [4, 1], você não pode sugerir uma joia de nível 2 se não houver um slot compatível.\n"
+            "NÃO EXISTE 'Joia Ataque 2'. Joias de Ataque são nível 1 (Joia Ataque 1) ou nível 4 (Joia Ataque+ 4).\n\n"
+            "{sql_verified_data}"
         )
         system_instruction = _inject_personality(system_instruction)
         has_data = True

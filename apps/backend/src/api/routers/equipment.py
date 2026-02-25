@@ -35,6 +35,23 @@ def _get_text(conn, table: str, item_id: int, lang: str = 'pt') -> Optional[str]
     return row['name'] if row else None
 
 
+def _get_skill_info(conn, skilltree_id: int, lang: str = 'pt') -> dict:
+    """Get skill name and description with pt->en fallback."""
+    row = conn.execute(
+        "SELECT name, description FROM skilltree_text WHERE id = ? AND lang_id = ?",
+        (skilltree_id, lang)
+    ).fetchone()
+    if row:
+        return {"name": row['name'], "description": row['description'] or ""}
+    row = conn.execute(
+        "SELECT name, description FROM skilltree_text WHERE id = ? AND lang_id = 'en'",
+        (skilltree_id,)
+    ).fetchone()
+    if row:
+        return {"name": row['name'], "description": row['description'] or ""}
+    return {"name": None, "description": ""}
+
+
 # ============================================================
 # GET /equipment/weapons
 # ============================================================
@@ -164,7 +181,7 @@ async def list_armor(
                    a.defense_base, a.defense_max, a.defense_augment_max,
                    a.fire, a.water, a.thunder, a.ice, a.dragon,
                    a.slot_1, a.slot_2, a.slot_3,
-                   a.armorset_id
+                   a.armorset_id, a.armorset_bonus_id
             FROM armor a
             JOIN armor_text at ON a.id = at.id
             WHERE {where}
@@ -199,6 +216,26 @@ async def list_armor(
 
             slots = [s for s in [a['slot_1'], a['slot_2'], a['slot_3']] if s and s > 0]
 
+            # Set bonus info
+            set_bonus_name = None
+            set_bonus_tiers = []
+            if a['armorset_bonus_id']:
+                bonus_name_row = conn.execute("""
+                    SELECT name FROM armorset_bonus_text
+                    WHERE id = ? AND lang_id = 'pt'
+                """, (a['armorset_bonus_id'],)).fetchone()
+                if bonus_name_row:
+                    set_bonus_name = bonus_name_row['name']
+                # Get tiers
+                tier_rows = conn.execute("""
+                    SELECT abs.required, st.name AS skill_name
+                    FROM armorset_bonus_skill abs
+                    JOIN skilltree_text st ON abs.skilltree_id = st.id
+                    WHERE abs.setbonus_id = ? AND st.lang_id = 'pt'
+                    ORDER BY abs.required
+                """, (a['armorset_bonus_id'],)).fetchall()
+                set_bonus_tiers = [{"required": t['required'], "skill": t['skill_name']} for t in tier_rows]
+
             results.append({
                 "id": a['id'],
                 "name": a['name'],
@@ -206,6 +243,8 @@ async def list_armor(
                 "rank": a['rank'],
                 "rarity": a['rarity'],
                 "set_name": set_name,
+                "set_bonus_name": set_bonus_name,
+                "set_bonus_tiers": set_bonus_tiers,
                 "defense": {"base": a['defense_base'], "max": a['defense_max']},
                 "resistances": {
                     "fire": a['fire'], "water": a['water'], "thunder": a['thunder'],
@@ -259,16 +298,16 @@ async def list_decorations(
         for d in decos:
             skills = []
 
-            # Primary skill
-            skill_name = _get_text(conn, 'skilltree_text', d['skilltree_id'])
-            if skill_name:
-                skills.append({"name": skill_name, "level": d['skilltree_level']})
+            # Primary skill (with description)
+            skill_info = _get_skill_info(conn, d['skilltree_id'])
+            if skill_info['name']:
+                skills.append({"name": skill_info['name'], "level": d['skilltree_level'], "description": skill_info['description']})
 
             # Secondary skill (rare, e.g. Expert+ Jewel 4)
             if d['skilltree2_id']:
-                skill2_name = _get_text(conn, 'skilltree_text', d['skilltree2_id'])
-                if skill2_name:
-                    skills.append({"name": skill2_name, "level": d['skilltree2_level']})
+                skill2_info = _get_skill_info(conn, d['skilltree2_id'])
+                if skill2_info['name']:
+                    skills.append({"name": skill2_info['name'], "level": d['skilltree2_level'], "description": skill2_info['description']})
 
             results.append({
                 "id": d['id'],

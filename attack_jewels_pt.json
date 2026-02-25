@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Joia Ataque 1",
+    "slot": 1,
+    "skilltree_level": 1,
+    "skilltree2_level": null
+  },
+  {
+    "name": "Joia Ataque+ 4",
+    "slot": 4,
+    "skilltree_level": 2,
+    "skilltree2_level": null
+  },
+  {
+    "name": "Joia Ataque/Drenagem 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Fortitude 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Crise 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Muro de Ferro 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Amizade 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Saciedade 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Apedrejadora 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Resistor 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Voo 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Corredor 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Revigorante 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Salto 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Bainha 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Glutão 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Amolador 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Bombardeiro 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Fungiforme 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Deslizante 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  },
+  {
+    "name": "Joia Ataque/Guardiã 4",
+    "slot": 4,
+    "skilltree_level": 1,
+    "skilltree2_level": 1
+  }
+]

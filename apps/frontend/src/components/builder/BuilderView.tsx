@@ -6,6 +6,7 @@ import StatsPanel from './StatsPanel';
 import EquipmentPicker, { PickerMode } from './EquipmentPicker';
 import DecorationPicker from './DecorationPicker';
 import BuildExporter from './BuildExporter';
+import { SavedBuildsPanel } from './SavedBuildsPanel';
 import WeaponCustomizer from './WeaponCustomizer';
 import { ArmorType } from '../../types/builder';
 import { Sword, Shield, Shirt, Hand, CircleDot, Footprints, Link } from 'lucide-react';
@@ -82,6 +83,8 @@ const BuilderView: React.FC = () => {
                         skills: (item.skills || []).map((s: any) => ({ name: s.name, level: s.level })),
                         setId: item.armorset_id,
                         setName: item.set_name,
+                        setBonusName: item.set_bonus_name || null,
+                        setBonusTiers: (item.set_bonus_tiers || []).map((t: any) => ({ required: t.required, skill: t.skill })),
                     }
                 }
             });
@@ -176,6 +179,9 @@ const BuilderView: React.FC = () => {
 
                 {/* Build Exporter */}
                 <BuildExporter />
+
+                {/* Saved Builds */}
+                <SavedBuildsPanel />
             </div>
 
             {/* Right Column — Summary Cards */}

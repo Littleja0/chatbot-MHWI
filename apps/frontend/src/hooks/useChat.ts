@@ -33,6 +33,7 @@ export function useChatManager() {
         handleCreateChat,
         handleDeleteChat,
         handleTogglePin,
+        handleRenameChat,
         toggleSidebar,
     } = useChatContext();
 
@@ -44,6 +45,7 @@ export function useChatManager() {
         createChat: handleCreateChat,
         deleteChat: handleDeleteChat,
         togglePin: handleTogglePin,
+        renameChat: handleRenameChat,
         toggleSidebar,
     };
 }
