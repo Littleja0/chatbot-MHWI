@@ -32,6 +32,7 @@ from core.config import HOST, PORT, ROOT_DIR
 from core.logging import log
 from api.routers.chat import router as chat_router, init_skill_caps
 from api.routers.monsters import router as monsters_router
+from api.routers.equipment import router as equipment_router
 from services.monster_service import get_all_monster_names, get_all_skill_caps
 
 
@@ -79,6 +80,7 @@ async def global_exception_handler(request, exc):
 
 app.include_router(chat_router)
 app.include_router(monsters_router)
+app.include_router(equipment_router)
 
 
 # --- Static Files (Frontend) ---

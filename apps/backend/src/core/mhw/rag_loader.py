@@ -412,9 +412,27 @@ def _load_weapons() -> list[Document]:
         if upgrade_rid and upgrade_rid in recipe_lookup:
             lines.append(f"Materiais (Upgrade): {recipe_lookup[upgrade_rid]}")
 
+        # Tenta Associar Monstro
+        monster_found = None
+        # Simplified tree map for loading
+        TREES = {
+            "legiana": ["legia", "ladra", "glacial", "apsara", "glacia", "hoarcry", "shrieking", "larápia", "larapia", "grita-geada"],
+            "velkhana": ["velkhana", "rime", "elussalka", "seraphyd", "frost", "icebrink", "reverente", "friminência", "friminencia"],
+            "beotodus": ["beo", "beotodus", "mamute", "mammoth"],
+            "barioth": ["barioth", "amber", "frostfang", "adulária", "adularia", "âmbar", "presa", "gume", "caninâmbar", "caninambar"]
+        }
+        n_low = name.lower()
+        for m, kws in TREES.items():
+            if any(kw in n_low for kw in kws):
+                monster_found = m.capitalize()
+                break
+        
+        if monster_found:
+            lines.insert(1, f"Monstro: {monster_found}")
+
         docs.append(Document(
             text="\n".join(lines),
-            metadata={"source": "weapon", "weapon_type": wtype, "name": name},
+            metadata={"source": "weapon", "weapon_type": wtype, "name": name, "monster": monster_found},
         ))
     return docs
 

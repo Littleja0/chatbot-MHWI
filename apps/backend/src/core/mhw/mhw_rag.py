@@ -284,8 +284,9 @@ def _expand_queries(prompt: str, history_text: str = "") -> list[str]:
     if "gelo" in lower or "ice" in lower:
         queries.append("CONJUNTO DE ARMADURA: Barioth")
         queries.append("CONJUNTO DE ARMADURA: Beotodus")
+        queries.append("CONJUNTO DE ARMADURA: Legiana")
         queries.append("CONJUNTO DE ARMADURA: Velkhana")
-        queries.append("Armas de Gelo recomendadas")
+        queries.append("Armas de Gelo recomendadas: Legiana, Velkhana, Barioth, Beotodus")
     if "fogo" in lower or "fire" in lower:
         queries.append("CONJUNTO DE ARMADURA: Rathalos")
         queries.append("CONJUNTO DE ARMADURA: Anjanath")

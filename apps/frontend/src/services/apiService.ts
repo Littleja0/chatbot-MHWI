@@ -83,3 +83,51 @@ export async function getMonsterIntel(monsterName: string) {
     return null;
   }
 }
+
+// ============================================================
+// Equipment API — Builder endpoints
+// ============================================================
+
+export async function getWeapons(params?: { type?: string; element?: string; rank?: string; limit?: number; offset?: number }) {
+  const query = new URLSearchParams();
+  if (params?.type) query.set('type', params.type);
+  if (params?.element) query.set('element', params.element);
+  if (params?.rank) query.set('rank', params.rank);
+  if (params?.limit) query.set('limit', String(params.limit));
+  if (params?.offset) query.set('offset', String(params.offset));
+  const res = await fetch(`${API_URL}/equipment/weapons?${query}`);
+  return res.json();
+}
+
+export async function getArmor(params?: { type?: string; rank?: string; search?: string; limit?: number; offset?: number }) {
+  const query = new URLSearchParams();
+  if (params?.type) query.set('type', params.type);
+  if (params?.rank) query.set('rank', params.rank);
+  if (params?.search) query.set('search', params.search);
+  if (params?.limit) query.set('limit', String(params.limit));
+  if (params?.offset) query.set('offset', String(params.offset));
+  const res = await fetch(`${API_URL}/equipment/armor?${query}`);
+  return res.json();
+}
+
+export async function getDecorations(params?: { search?: string; limit?: number }) {
+  const query = new URLSearchParams();
+  if (params?.search) query.set('search', params.search);
+  if (params?.limit) query.set('limit', String(params.limit));
+  const res = await fetch(`${API_URL}/equipment/decorations?${query}`);
+  return res.json();
+}
+
+export async function getCharms(params?: { search?: string; limit?: number }) {
+  const query = new URLSearchParams();
+  if (params?.search) query.set('search', params.search);
+  if (params?.limit) query.set('limit', String(params.limit));
+  const res = await fetch(`${API_URL}/equipment/charms?${query}`);
+  return res.json();
+}
+
+export async function getSetBonuses() {
+  const res = await fetch(`${API_URL}/equipment/set-bonuses`);
+  return res.json();
+}
+
