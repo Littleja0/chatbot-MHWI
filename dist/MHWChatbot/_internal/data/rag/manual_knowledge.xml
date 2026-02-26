@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual_knowledge>
+  <DATA_RECORD>
+    <id>farming_decorations</id>
+    <topic>Farming de Joias (Adornos) - Drop Rates e Melhores Quests</topic>
+    <content>
+### Tabela de Drop Rates de Joias (Probabilidade por Pedra de Feitiço)
+| Raridade | Misteriosa | Cintilante | Gasta | Entalhada | Antiga | Gravada | Selada |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **R5** | 85.0% | 65.0% | 10.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| **R6** | 15.0% | 34.0% | 82.0% | 77.0% | 53.0% | 0.0% | 0.0% |
+| **R7** | 0.0% | 1.0% | 6.0% | 18.0% | 0.0% | 0.0% | 0.0% |
+| **R8** | 0.0% | 0.0% | 2.0% | 5.0% | 0.0% | 0.0% | 0.0% |
+| **R9 (MR)** | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 34.0% | 22.0% |
+| **R10 (MR)** | 0.0% | 0.0% | 0.0% | 0.0% | 33.0% | 21.0% | 0.0% |
+| **R11 (MR)** | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 37.0% | 55.0% |
+| **R12 (MR)**| 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 8.0% | 20.0% |
+
+### Como Farmar Joias (Melhores Quests)
+1. **High Rank (Base Game)**:
+   - **O Maior Jagras (Event)**: Melhor para joias de raridade baixa/média (R5-R7).
+   - **O Banquete do Nome (Event)**: Melhor para joias raras de High Rank (R8).
+   - **Investigações Temperadas (Tier 2 e 3)**: Boa alternativa fora de eventos.
+
+2. **Master Rank (Iceborne)**:
+   - **O Adeus ao Zinogre (Event)**: Dá Carvão de Dragão para a Usina de Vapor, que dá Bilhetes de Fusão (Aço, Prata, Ouro).
+   - **Bilhetes de Fusão (Usina de Vapor)**: Ouro = Joias Rarity 9-11; Prata = Joias Rarity 7-8.
+   - **O Lamento de Seliana (Tempered Mew are Number One)**: Melhor para Bilhetes de Fusão Astrais (Rarity 11-12).
+   - **Batida de Culinária (Event)**: Bom para joias de Master Rank iniciais.
+   - **Investigações Temperadas (Dragões Anciões)**: Melhor fonte de Pedras de Feitiço Seladas (Sealed Feystones) para joias Rarity 12.
+    </content>
+  </DATA_RECORD>
+
+  <DATA_RECORD>
+    <id>mantle_acquisition</id>
+    <topic>Como Obter os Mantos de High Rank (Evasão, Temporal, Rocha-firme)</topic>
+    <content>
+### Desbloqueio de Mantos (RNC / High Rank)
+- **Manto de Evasão (Evasion Mantle)**: 
+  - Complete a missão opcional de 7 estrelas "Céus de Mundo Novo, Flores de Mundo Novo" (Derrotar Rathalos Rosa e Rathian Rosa). 
+  - Requisito: Caçar 7 monstros temperados diferentes de Nível 2.
+- **Manto Temporal (Temporal Mantle)**: 
+  - Complete a linha de Tarefas Especiais da Lunastra (começando com "Uma Chama nas Areias", depois "Arena de Pandora" e por fim "Sem Remorso, Sem Rendição").
+- **Manto de Rocha-firme (Rocksteady Mantle)**: 
+  - Complete a missão opcional de 9 estrelas "Uma Chamada das Profundezas" (Derrotar Vaal Hazak e Odogaron Temperados).
+  - Requisito: Caçar 3 monstros Dragões Anciões Temperados diferentes.
+    </content>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>steamworks_info</id>
+    <topic>O que é a Usina de Vapor (Steamworks)?</topic>
+    <content>
+A **Usina de Vapor (Steamworks)** é uma instalação essencial de Seliana (Iceborne) que permite converter combustível em itens valiosos.
+
+### Como Funciona:
+1. **Combustível**: Você utiliza pontos de combustível que acumula ao minerar em missões/expedições ou ao entregar itens específicos como o **Carvão de Dragão**.
+2. **O Mini-game**: Trata-se de um jogo de adivinhação de botões. Ao acertar as sequências, você enche um medidor de vapor.
+3. **Sobrecarga (Overdrive)**: Ao completar o medidor, você ganha recompensas bônus raras (como Esferas de Armadura Reais ou Bilhetes de Estampa Celestial).
+4. **Recompensas Relevantes**:
+   - **Bilhetes de Fusão (Aço, Prata, Ouro, Astral)**: Durante festivais, você ganha esses bilhetes que podem ser trocados na Alquimia por **Joias (Adornos)**.
+   - **Consumíveis**: Esferas de armadura, poções, ovos de ouro (para vender por Zenny) e cupons de refeição.
+
+### Melhor forma de farmar combustível:
+A missão de evento de Rank Mestre **"O Adeus ao Zinogre"** é a fonte principal, fornecendo milhares de pontos de combustível via Carvão de Dragão em uma única caçada.
+    </content>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>elder_melder_alchemy</id>
+    <topic>Como Liberar a Alquimia da Guilda (Fundidora Anciã)</topic>
+    <content>
+A **Alquimia da Guilda** é uma opção na Fundidora Anciã que permite conseguir Joias raras em troca de Bilhetes de Fusão.
+
+### Requisitos e Funcionamento:
+1. **Ativação**: Essa opção aparece automaticamente assim que você possui pelo menos um **Bilhete de Fusão** (Aço, Prata, Ouro ou Astral) no seu inventário.
+2. **Como Obter os Bilhetes**:
+   - Eles são recompensas da **Usina de Vapor (Steamworks)** durante períodos de **Festivais Sazonais** (como o Festival de Gratidão, Flores, etc).
+   - O Bilhete Astral (mais raro) pode ser dropado em missões de evento específicas como "O Lamento de Seliana".
+3. **Alquimia da Veia de Espírito (Soulvein Melding)**:
+   - Esta é outra opção poderosa para joias. Ela é liberada logo após o fim da campanha principal do Iceborne (derrotar Shara Ishvalda), quando você libera as **Terras Guiadas (Guiding Lands)**.
+   - Ela utiliza matérias-primas raras das Terras Guiadas para criar joias de alta raridade (R11 e R12).
+
+### Resumo:
+Se a opção ainda não aparece para você, verifique se há um festival ativo no momento e vá jogar na **Usina de Vapor** para ganhar seus primeiros bilhetes!
+    </content>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <id>wyverian_prints_info</id>
+    <topic>Marcas de Serperiano vs Bilhetes de Fusão</topic>
+    <content>
+É importante não confundir as **Marcas (Prints) de Serperiano** com os **Bilhetes de Fusão**.
+
+### Marcas de Serperiano (Ouro, Prata, Celestial):
+- **O que fazem**: São usadas na Fundidora para **criar Materiais de Monstros** (Gemas, Mantos, Rubis).
+- **Prata**: Troca por Placas ou materiais de monstros de Rank Alto iniciais.
+- **Ouro**: Troca por **Gemas** de monstros de Rank Alto (ex: Gema de Rathalos).
+- **Celestial (Estampa Celestial)**: A mais valiosa; troca por **Mantos** de monstros do Rank Mestre (ex: Manto de Velkhana).
+- **Elas NÃO liberam a Alquimia da Guilda (Joias)**. Elas liberam a aba de "Fundir Itens".
+
+### Bilhetes de Fusão (Aço, Prata, Ouro, Astral):
+- **O que fazem**: São usados especificamente para a **Alquimia da Guilda** para gerar **Joias (Adornos)**.
+- **Como ganhar**: Principalmente na **Usina de Vapor** durante festivais.
+
+### Primeiro Serperiano:
+- No jogo, o "Primeiro Serperiano" é um NPC que você encontra nos mapas e ele te dá dicas sobre quais armas são as mais populares ou qual monstro é o mais caçado. Ele não é uma "marca" que você gasta na fundidora.
+    </content>
+  </DATA_RECORD>
+</manual_knowledge>

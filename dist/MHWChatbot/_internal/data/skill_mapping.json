@@ -1,0 +1,714 @@
+{
+  "poison resistance": {
+    "name_pt": "Resistência a Veneno",
+    "id": 1
+  },
+  "paralysis resistance": {
+    "name_pt": "Resistência a Paralisia",
+    "id": 2
+  },
+  "sleep resistance": {
+    "name_pt": "Resistência a Sono",
+    "id": 3
+  },
+  "stun resistance": {
+    "name_pt": "Resistência Atordoamento",
+    "id": 4
+  },
+  "muck resistance": {
+    "name_pt": "Resistência a Muco",
+    "id": 5
+  },
+  "blast resistance": {
+    "name_pt": "Resistência a Explosão",
+    "id": 6
+  },
+  "bleeding resistance": {
+    "name_pt": "Resistência Sangramento",
+    "id": 7
+  },
+  "iron skin": {
+    "name_pt": "Pele de Ferro",
+    "id": 8
+  },
+  "earplugs": {
+    "name_pt": "Tampões",
+    "id": 9
+  },
+  "windproof": {
+    "name_pt": "Antivento",
+    "id": 10
+  },
+  "tremor resistance": {
+    "name_pt": "Resistência a Tremor",
+    "id": 11
+  },
+  "dungmaster": {
+    "name_pt": "Mestre do Esterco",
+    "id": 12
+  },
+  "effluvial expert": {
+    "name_pt": "Especialista em Eflúvios",
+    "id": 13
+  },
+  "heat guard": {
+    "name_pt": "Bloqueio de Calor",
+    "id": 14
+  },
+  "attack boost": {
+    "name_pt": "Reforço de Ataque",
+    "id": 15
+  },
+  "defense boost": {
+    "name_pt": "Reforço de Defesa",
+    "id": 16
+  },
+  "health boost": {
+    "name_pt": "Reforço de Vida",
+    "id": 17
+  },
+  "recovery up": {
+    "name_pt": "Aumento de Regeneração",
+    "id": 18
+  },
+  "recovery speed": {
+    "name_pt": "Velocidade Regeneração",
+    "id": 19
+  },
+  "fire resistance": {
+    "name_pt": "Resistência a Fogo",
+    "id": 20
+  },
+  "water resistance": {
+    "name_pt": "Resistência a Água",
+    "id": 21
+  },
+  "ice resistance": {
+    "name_pt": "Resistência a Gelo",
+    "id": 22
+  },
+  "thunder resistance": {
+    "name_pt": "Resistência a Raio",
+    "id": 23
+  },
+  "dragon resistance": {
+    "name_pt": "Resistência a Dragão",
+    "id": 24
+  },
+  "blight resistance": {
+    "name_pt": "Resistência a Flagelo",
+    "id": 25
+  },
+  "fire attack": {
+    "name_pt": "Ataque de Fogo",
+    "id": 26
+  },
+  "water attack": {
+    "name_pt": "Ataque de Água",
+    "id": 27
+  },
+  "ice attack": {
+    "name_pt": "Ataque de Gelo",
+    "id": 28
+  },
+  "thunder attack": {
+    "name_pt": "Ataque de Raio",
+    "id": 29
+  },
+  "dragon attack": {
+    "name_pt": "Ataque de Dragão",
+    "id": 30
+  },
+  "poison attack": {
+    "name_pt": "Ataque de Veneno",
+    "id": 31
+  },
+  "paralysis attack": {
+    "name_pt": "Ataque de Paralisia",
+    "id": 32
+  },
+  "sleep attack": {
+    "name_pt": "Ataque de Sono",
+    "id": 33
+  },
+  "blast attack": {
+    "name_pt": "Ataque de Explosão",
+    "id": 34
+  },
+  "normal shots": {
+    "name_pt": "Disparos Normais",
+    "id": 35
+  },
+  "piercing shots": {
+    "name_pt": "Disparos Perfurantes",
+    "id": 36
+  },
+  "spread/power shots": {
+    "name_pt": "Disparo Potente/Disperso",
+    "id": 37
+  },
+  "free elem/ammo up": {
+    "name_pt": "Mais Munição/Elemento",
+    "id": 38
+  },
+  "critical eye": {
+    "name_pt": "Olho Crítico",
+    "id": 39
+  },
+  "critical boost": {
+    "name_pt": "Reforço Crítico",
+    "id": 40
+  },
+  "weakness exploit": {
+    "name_pt": "Exploração de Fraqueza",
+    "id": 41
+  },
+  "focus": {
+    "name_pt": "Foco",
+    "id": 42
+  },
+  "power prolonger": {
+    "name_pt": "Prolongar Poder",
+    "id": 43
+  },
+  "handicraft": {
+    "name_pt": "Artesanato",
+    "id": 44
+  },
+  "critical draw": {
+    "name_pt": "Saque Crítico",
+    "id": 45
+  },
+  "partbreaker": {
+    "name_pt": "Quebra-parte",
+    "id": 46
+  },
+  "slugger": {
+    "name_pt": "Atordoante",
+    "id": 47
+  },
+  "stamina thief": {
+    "name_pt": "Ladrão de Vigor",
+    "id": 48
+  },
+  "master mounter": {
+    "name_pt": "Mestre da Montaria",
+    "id": 49
+  },
+  "airborne": {
+    "name_pt": "No Ar",
+    "id": 50
+  },
+  "latent power": {
+    "name_pt": "Poder Latente",
+    "id": 51
+  },
+  "agitator": {
+    "name_pt": "Agitador",
+    "id": 52
+  },
+  "peak performance": {
+    "name_pt": "Desempenho Máximo",
+    "id": 53
+  },
+  "heroics": {
+    "name_pt": "Heroísmo",
+    "id": 54
+  },
+  "fortify": {
+    "name_pt": "Fortificar",
+    "id": 55
+  },
+  "resentment": {
+    "name_pt": "Indignação",
+    "id": 56
+  },
+  "resuscitate": {
+    "name_pt": "Ressuscitar",
+    "id": 57
+  },
+  "horn maestro": {
+    "name_pt": "Maestro de Sonoro",
+    "id": 58
+  },
+  "capacity boost": {
+    "name_pt": "Reforço de Capacidade",
+    "id": 59
+  },
+  "special ammo boost": {
+    "name_pt": "Reforço Munição Especial",
+    "id": 60
+  },
+  "artillery": {
+    "name_pt": "Artilharia",
+    "id": 61
+  },
+  "heavy artillery": {
+    "name_pt": "Artilharia Pesada",
+    "id": 62
+  },
+  "marathon runner": {
+    "name_pt": "Maratonista",
+    "id": 63
+  },
+  "constitution": {
+    "name_pt": "Constituição",
+    "id": 64
+  },
+  "leap of faith": {
+    "name_pt": "Salto de Fé",
+    "id": 65
+  },
+  "stamina surge": {
+    "name_pt": "Surto de Vigor",
+    "id": 66
+  },
+  "hunger resistance": {
+    "name_pt": "Resistência a Fome",
+    "id": 67
+  },
+  "evade window": {
+    "name_pt": "Tempo de Esquiva",
+    "id": 68
+  },
+  "evade extender": {
+    "name_pt": "Extensor de Esquiva",
+    "id": 69
+  },
+  "guard": {
+    "name_pt": "Bloqueio",
+    "id": 70
+  },
+  "quick sheath": {
+    "name_pt": "Bainha Rápida",
+    "id": 71
+  },
+  "wide-range": {
+    "name_pt": "Alcance Amplo",
+    "id": 72
+  },
+  "item prolonger": {
+    "name_pt": "Prolongar Item",
+    "id": 73
+  },
+  "free meal": {
+    "name_pt": "Refeição Grátis",
+    "id": 74
+  },
+  "speed eating": {
+    "name_pt": "Comer Rapidamente",
+    "id": 75
+  },
+  "speed sharpening": {
+    "name_pt": "Afiação Rápida",
+    "id": 76
+  },
+  "bombardier": {
+    "name_pt": "Bombardeiro",
+    "id": 77
+  },
+  "mushroomancer": {
+    "name_pt": "Cogumelaria",
+    "id": 78
+  },
+  "master fisher": {
+    "name_pt": "Mestre de Pescaria",
+    "id": 79
+  },
+  "pro transporter": {
+    "name_pt": "Transporte Profissional",
+    "id": 80
+  },
+  "master gatherer": {
+    "name_pt": "Mestre de Coleta",
+    "id": 81
+  },
+  "honey hunter": {
+    "name_pt": "Caçador de Mel",
+    "id": 82
+  },
+  "carving pro": {
+    "name_pt": "Profissional de Talho",
+    "id": 83
+  },
+  "divine blessing": {
+    "name_pt": "Bênção Divina",
+    "id": 84
+  },
+  "palico rally": {
+    "name_pt": "Reunir Amigatos",
+    "id": 85
+  },
+  "botanist": {
+    "name_pt": "Botânica",
+    "id": 86
+  },
+  "geologist": {
+    "name_pt": "Geologia",
+    "id": 87
+  },
+  "maximum might": {
+    "name_pt": "Poder Máximo",
+    "id": 88
+  },
+  "slinger capacity": {
+    "name_pt": "Capacidade da Atiradeira",
+    "id": 89
+  },
+  "stealth": {
+    "name_pt": "Furtividade",
+    "id": 90
+  },
+  "flinch free": {
+    "name_pt": "Sem Recuo",
+    "id": 91
+  },
+  "scoutfly range up": {
+    "name_pt": "Alcance de Guialumes",
+    "id": 92
+  },
+  "speed crawler": {
+    "name_pt": "Rastejador Ágil",
+    "id": 93
+  },
+  "jump master": {
+    "name_pt": "Mestre do Salto",
+    "id": 94
+  },
+  "survival expert": {
+    "name_pt": "Sobrevivente",
+    "id": 95
+  },
+  "aquatic/polar mobility": {
+    "name_pt": "Mobilidade Aquática/Polar",
+    "id": 96
+  },
+  "cliffhanger": {
+    "name_pt": "Suspensão",
+    "id": 97
+  },
+  "blindsider": {
+    "name_pt": "Ponto cego",
+    "id": 98
+  },
+  "scholar": {
+    "name_pt": "Cientista",
+    "id": 99
+  },
+  "entomologist": {
+    "name_pt": "Entomologista",
+    "id": 100
+  },
+  "effluvia resistance": {
+    "name_pt": "Resistência a Eflúvios",
+    "id": 101
+  },
+  "scenthound": {
+    "name_pt": "Sabujo",
+    "id": 102
+  },
+  "forager's luck": {
+    "name_pt": "Sorte do Forrageador",
+    "id": 103
+  },
+  "detector": {
+    "name_pt": "Detector",
+    "id": 104
+  },
+  "tool specialist": {
+    "name_pt": "Perícia em Ferramentas",
+    "id": 105
+  },
+  "affinity sliding": {
+    "name_pt": "Deslizada de Afinidade",
+    "id": 106
+  },
+  "intimidator": {
+    "name_pt": "Intimidação",
+    "id": 107
+  },
+  "hasten recovery": {
+    "name_pt": "Regeneração Veloz",
+    "id": 108
+  },
+  "super recovery": {
+    "name_pt": "Super-regeneração",
+    "id": 109
+  },
+  "poison duration up": {
+    "name_pt": "Mais Duração de Veneno",
+    "id": 110
+  },
+  "adrenaline": {
+    "name_pt": "Adrenalina",
+    "id": 111
+  },
+  "stamina cap up": {
+    "name_pt": "Mais Limite de Vigor",
+    "id": 112
+  },
+  "critical element": {
+    "name_pt": "Elemento Crítico",
+    "id": 113
+  },
+  "mind's eye/ballistics": {
+    "name_pt": "Olhos da Mente/Balística",
+    "id": 114
+  },
+  "bludgeoner": {
+    "name_pt": "Espancador",
+    "id": 115
+  },
+  "non-elemental boost": {
+    "name_pt": "Reforço Não Elemental",
+    "id": 116
+  },
+  "capture master": {
+    "name_pt": "Mestre da Captura",
+    "id": 117
+  },
+  "guard up": {
+    "name_pt": "Aumento de Bloqueio",
+    "id": 118
+  },
+  "guts": {
+    "name_pt": "Bravura",
+    "id": 119
+  },
+  "master's touch": {
+    "name_pt": "Toque de Mestre",
+    "id": 120
+  },
+  "nullify wind pressure": {
+    "name_pt": "Anular Pressão do Vento",
+    "id": 121
+  },
+  "razor sharp/spare shot": {
+    "name_pt": "Fio Nav./Tiro Extra",
+    "id": 122
+  },
+  "critical status": {
+    "name_pt": "Status Crítico",
+    "id": 123
+  },
+  "great luck": {
+    "name_pt": "Sorte Grande",
+    "id": 124
+  },
+  "carving master": {
+    "name_pt": "Mestre de Talho",
+    "id": 125
+  },
+  "good luck": {
+    "name_pt": "Boa Sorte",
+    "id": 126
+  },
+  "bow charge plus": {
+    "name_pt": "Energizar Mais o Arco",
+    "id": 127
+  },
+  "punishing draw": {
+    "name_pt": "Punição Imediata",
+    "id": 128
+  },
+  "protective polish": {
+    "name_pt": "Polimento Protetor",
+    "id": 129
+  },
+  "bbq master": {
+    "name_pt": "Maestria de Churrasco",
+    "id": 130
+  },
+  "blast functionality": {
+    "name_pt": "Adição de Explosão",
+    "id": 131
+  },
+  "elderseal boost": {
+    "name_pt": "Reforço de Selo Ancião",
+    "id": 132
+  },
+  "para functionality": {
+    "name_pt": "Adição de Paralisia",
+    "id": 133
+  },
+  "poison functionality": {
+    "name_pt": "Adição de Veneno",
+    "id": 134
+  },
+  "sleep functionality": {
+    "name_pt": "Adição de Sono",
+    "id": 135
+  },
+  "elemental airborne": {
+    "name_pt": "No Ar Elemental",
+    "id": 136
+  },
+  "true razor sharp/spare shot": {
+    "name_pt": "Fio Nav./Tiro Extra Real",
+    "id": 137
+  },
+  "offensive guard": {
+    "name_pt": "Bloqueio Ofensivo",
+    "id": 138
+  },
+  "coalescence": {
+    "name_pt": "Coalescência",
+    "id": 139
+  },
+  "frostcraft": {
+    "name_pt": "Frigidez",
+    "id": 140
+  },
+  "element acceleration": {
+    "name_pt": "Elemento Gradual",
+    "id": 141
+  },
+  "true element acceleration": {
+    "name_pt": "Elemento Gradual Real",
+    "id": 142
+  },
+  "gaia's veil": {
+    "name_pt": "Véu de Gaia",
+    "id": 143
+  },
+  "true gaia's veil": {
+    "name_pt": "Véu de Gaia Real",
+    "id": 144
+  },
+  "dragonvein awakening": {
+    "name_pt": "Despertar de Dragoveio",
+    "id": 145
+  },
+  "true dragonvein awakening": {
+    "name_pt": "Despertar de Dragoveio Real",
+    "id": 146
+  },
+  "free meal secret": {
+    "name_pt": "Segredo Refeição Grátis",
+    "id": 147
+  },
+  "maximum might secret": {
+    "name_pt": "Segredo Poder Máximo",
+    "id": 148
+  },
+  "bombardier secret": {
+    "name_pt": "Segredo Bombardeiro",
+    "id": 149
+  },
+  "slugger secret": {
+    "name_pt": "Segredo Atordoante",
+    "id": 150
+  },
+  "agitator secret": {
+    "name_pt": "Segredo Agitador",
+    "id": 151
+  },
+  "artillery secret": {
+    "name_pt": "Segredo Artilharia",
+    "id": 152
+  },
+  "stamina thief secret": {
+    "name_pt": "Segredo Ladrão de Vigor",
+    "id": 153
+  },
+  "tool specialist secret": {
+    "name_pt": "Segredo Perícia Ferramentas",
+    "id": 154
+  },
+  "latent power secret": {
+    "name_pt": "Segredo Poder Latente",
+    "id": 155
+  },
+  "divine blessing secret": {
+    "name_pt": "Segredo Bênção Divina",
+    "id": 156
+  },
+  "slinger ammo secret": {
+    "name_pt": "Segredo Munição Atiradeira",
+    "id": 157
+  },
+  "heroics secret": {
+    "name_pt": "Segredo Heroísmo",
+    "id": 158
+  },
+  "true critical status": {
+    "name_pt": "Status Crítico Real",
+    "id": 159
+  },
+  "true critical element": {
+    "name_pt": "Elemento Crítico Real",
+    "id": 160
+  },
+  "joy's gift": {
+    "name_pt": "Presente de Festas",
+    "id": 161
+  },
+  "joy's gratitude": {
+    "name_pt": "Gratidão das Festas",
+    "id": 162
+  },
+  "gratitude's gift": {
+    "name_pt": "Presente da Gratidão",
+    "id": 163
+  },
+  "gratitude's blessing": {
+    "name_pt": "Bênção da Gratidão",
+    "id": 164
+  },
+  "full bloom's gift": {
+    "name_pt": "Presente Florescente",
+    "id": 165
+  },
+  "full bloom gratitude": {
+    "name_pt": "Gratidão Florescente",
+    "id": 166
+  },
+  "element conversion": {
+    "name_pt": "Conversão de Elemento",
+    "id": 167
+  },
+  "all elemental resistance": {
+    "name_pt": "Toda Resistência Elemental",
+    "id": 168
+  },
+  "clutch claw boost": {
+    "name_pt": "Clutch Claw Boost",
+    "id": 169
+  },
+  "inheritance": {
+    "name_pt": "Inheritance",
+    "id": 170
+  },
+  "transcendance": {
+    "name_pt": "Transcendance",
+    "id": 171
+  },
+  "fun fright's gift": {
+    "name_pt": "Fun Fright's Gift",
+    "id": 172
+  },
+  "fun fright's gratitude": {
+    "name_pt": "Fun Fright's Gratitude",
+    "id": 173
+  },
+  "sizzling gift": {
+    "name_pt": "Sizzling Gift",
+    "id": 174
+  },
+  "sizzling gratitude": {
+    "name_pt": "Sizzling Gratitude",
+    "id": 175
+  },
+  "coldproof": {
+    "name_pt": "Coldproof",
+    "id": 176
+  },
+  "provoker": {
+    "name_pt": "Provoker",
+    "id": 177
+  },
+  "safe landing": {
+    "name_pt": "Safe Landing",
+    "id": 178
+  }
+}

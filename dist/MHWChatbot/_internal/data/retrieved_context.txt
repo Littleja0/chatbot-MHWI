@@ -1,0 +1,1260 @@
+=== CONJUNTO DE ARMADURA: Wulg α+ ===
+
+  > PEÇA: Echarpe de Wulg α+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [2, 1]
+    Resistências: Fogo=-3, Água=2, Gelo=3, Trovão=-2, Dragão=2
+    Habilidades:
+      - Resistência a Gelo: Nível 2
+      - Mestre da Montaria: Nível 1
+
+=== CONJUNTO DE ARMADURA: Dragão-rei α ===
+
+  > PEÇA: Tapa-olho Dragão-rei α (head)
+    Rank: HR | Raridade: 8
+    Defesa Base: 70 | Slots: [3]
+    Habilidades:
+      - Exploração de Fraqueza: Nível 2
+
+=== CONJUNTO DE ARMADURA: Orelhas Serperianas α+ ===
+
+  > PEÇA: Orelhas Serperianas α+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 140 | Slots: [4]
+    Resistências: Fogo=1, Água=1, Gelo=1, Trovão=1, Dragão=5
+    Habilidades:
+      - Cogumelaria: Nível 2
+      - Sobrevivente: Nível 1
+
+=== CONJUNTO DE ARMADURA: Estrategista α ===
+
+  > PEÇA: Óculos de Estrategista α (head)
+    Rank: HR | Raridade: 6
+    Defesa Base: 56 | Slots: [1]
+    Resistências: Fogo=2, Água=2, Gelo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Olho Crítico: Nível 2
+
+=== SET DE ARMADURA: Óssea α+ ===
+Nome (EN): Bone α+
+Rank: MR
+Peças: Elmo Ósseo α+, Armadura Óssea α+, Avambraços Ósseos α+, Cinturão Ósseo α+, Grevas Ósseas α+
+
+=== CONJUNTO DE ARMADURA: Máscara Musgoíno α ===
+
+  > PEÇA: Máscara Musgoíno α (head)
+    Rank: HR | Raridade: 5
+    Defesa Base: 40 | Slots: Nenhum
+    Resistências: Fogo=2, Água=2, Gelo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Cogumelaria: Nível 2
+
+=== CONJUNTO DE ARMADURA: Cabeça Treme-treme α ===
+
+  > PEÇA: Cabeça Treme-treme α (head)
+    Rank: HR | Raridade: 5
+    Defesa Base: 46 | Slots: [1, 1]
+    Resistências: Água=4, Dragão=4
+    Habilidades:
+      - Alcance Amplo: Nível 2
+
+=== SET DE ARMADURA: Rosa α+ ===
+Nome (EN): Rose α+
+Rank: MR
+Peças: Adorno de Rosa α+, Jaqueta de Rosa α+, Braços de Rosa α+, Cinto de Rosa α+, Botas de Rosa α+
+Bônus do Set: Bênção Florescente
+  3 peças → Presente Florescente
+  5 peças → Gratidão Florescente
+
+=== CONJUNTO DE ARMADURA: Gastodonte α+ ===
+
+  > PEÇA: Chifre de Gastodonte α+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [1]
+    Resistências: Fogo=3
+    Habilidades:
+      - Sem Recuo: Nível 2
+      - Resistência a Explosão: Nível 1
+
+=== CONJUNTO DE ARMADURA: Felyno Falso α ===
+
+  > PEÇA: Felyno Falso α (head)
+    Rank: HR | Raridade: 6
+    Defesa Base: 56 | Slots: Nenhum
+    Resistências: Fogo=2, Água=2, Gelo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Reunir Amigatos: Nível 3
+
+=== CONJUNTO DE ARMADURA: Wulg β+ ===
+
+  > PEÇA: Echarpe de Wulg β+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [4, 1]
+    Resistências: Fogo=-3, Água=2, Gelo=3, Trovão=-2, Dragão=2
+    Habilidades:
+      - Resistência a Gelo: Nível 1
+      - Mestre da Montaria: Nível 1
+
+=== CONJUNTO DE ARMADURA: Tapa-olho Selado α ===
+
+  > PEÇA: Tapa-olho Selado α (head)
+    Rank: HR | Raridade: 5
+    Defesa Base: 46 | Slots: [2, 1]
+    Resistências: Fogo=3, Água=2, Gelo=2
+    Habilidades:
+      - Resistência a Fogo: Nível 1
+
+=== CONJUNTO DE ARMADURA: Gastodonte α ===
+
+  > PEÇA: Chifre de Gastodonte α (head)
+    Rank: HR | Raridade: 5
+    Defesa Base: 48 | Slots: Nenhum
+    Resistências: Fogo=3
+    Habilidades:
+      - Sem Recuo: Nível 1
+      - Resistência a Explosão: Nível 1
+
+=== SET DE ARMADURA: Deviljho α ===
+Rank: HR
+Peças: Elmo de Vangis α, Armadura de Vangis α, Avambraços Vangis α, Espiral de Vangis α, Grevas de Vangis α
+
+=== CONJUNTO DE ARMADURA: Kestodonte α ===
+
+  > PEÇA: Ombreiras Kestodonte α (arms)
+    Rank: HR | Raridade: 5
+    Defesa Base: 40 | Slots: Nenhum
+    Resistências: Fogo=4
+    Habilidades:
+      - Deslizada de Afinidade: Nível 1
+      - Foco: Nível 1
+
+=== CONJUNTO DE ARMADURA: Kestodonte α+ ===
+
+  > PEÇA: Ombreiras Kestodonte α+ (arms)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [1, 1]
+    Resistências: Fogo=4
+    Habilidades:
+      - Deslizada de Afinidade: Nível 1
+      - Foco: Nível 2
+
+=== SET DE ARMADURA: Jyura ===
+Rank: LR
+Peças: Elmo de Jyura, Armadura de Jyura, Avambraços de Jyura, Cinturão de Jyura, Grevas de Jyura
+
+=== CONJUNTO DE ARMADURA: Fonte-pérola α+ ===
+
+  > PEÇA: Fonte-pérola α+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 120 | Slots: [2, 1]
+    Resistências: Gelo=5
+    Habilidades:
+      - Aumento de Regeneração: Nível 2
+
+=== SET DE ARMADURA: Artian α+ ===
+Rank: MR
+Peças: Elmo Artian α+, Armadura Artian α+, Avambraços Artian α+, Cinturão Artian α+, Grevas Artian α+
+Bônus do Set: Divindade Ancestral
+  2 peças → Status Crítico
+
+=== CONJUNTO DE ARMADURA: Tecido de Dragão Selado α+ ===
+
+  > PEÇA: Tecido de Dragão Selado α+ (head)
+    Rank: MR | Raridade: 12
+    Defesa Base: 152 | Slots: [4, 4]
+    Resistências: Fogo=-3, Gelo=1, Dragão=5
+    Habilidades:
+      - Indignação: Nível 1
+
+=== SET DE ARMADURA: Osso α ===
+Nome (EN): Bone α
+Rank: HR
+Peças: Elmo Ósseo α, Armadura Óssea α, Avambraços Ósseos α, Cinturão Ósseo α, Grevas Ósseas α
+
+=== SET DE ARMADURA: Mecânico α+ ===
+Nome (EN): Clockwork α+
+Rank: MR
+Peças: Elmo Mecânico α+, Armadura Mecânica α+, Braçadeiras Mecânicas α+, Cinturão Mecânico α+, Grevas Mecânicas α+
+Bônus do Set: Alquimia da Comissão
+  3 peças → Segredo Bombardeiro
+
+=== CONJUNTO DE ARMADURA: Caveira α ===
+
+  > PEÇA: Máscara Craniana α (head)
+    Rank: HR | Raridade: 7
+    Defesa Base: 64 | Slots: [2]
+    Resistências: Fogo=-3, Água=-1, Gelo=-1, Trovão=-1, Dragão=2
+    Habilidades:
+      - Artesanato: Nível 1
+
+=== SET DE ARMADURA: Dragon α+ ===
+Rank: MR
+Peças: Dragonhead α+, Dragonhide α+, Dragonclaws α+, Dragonbarbs α+, Dragonfeet α+
+Bônus do Set: Fatalis Legend
+  2 peças → Inheritance
+  4 peças → Transcendance
+
+=== SET DE ARMADURA: Astral α+ ===
+Rank: MR
+Peças: Véu Astral α+, Tecido Astral α+, Echarpe Astral α+, Saia Astral α+, Meias-calças Astral α+
+Bônus do Set: Benção da Apreciação
+  3 peças → Presente da Gratidão
+  5 peças → Bênção da Gratidão
+
+=== CONJUNTO DE ARMADURA: Kestodonte ===
+
+  > PEÇA: Cotoveleiras de Kestodonte (arms)
+    Rank: LR | Raridade: 1
+    Defesa Base: 12 | Slots: Nenhum
+    Resistências: Fogo=4
+    Habilidades:
+      - Deslizada de Afinidade: Nível 1
+
+=== CONJUNTO DE ARMADURA: Shamos ===
+
+  > PEÇA: Óculos de Shamos (head)
+    Rank: LR | Raridade: 3
+    Defesa Base: 22 | Slots: Nenhum
+    Resistências: Fogo=2, Água=2, Gelo=-3
+    Habilidades:
+      - Detector: Nível 1
+
+=== ARMA: Machado Kjárr do Rei (switch-axe) ===
+Nome (EN): Kjárr Axe "King"
+Ataque: 665
+Afinidade: 20%
+Elemento: Fire (300)
+Raridade: 8
+Slots: [1]
+Afiação: 80,60,60,100,70,30,0
+Habilidades da Arma:
+  - Elemento Crítico: Nível 1
+
+=== ARMA: Machado Kjárr do Rei (switch-axe) ===
+Nome (EN): Kjárr Axe "King" (MR)
+Ataque: 1.015
+Afinidade: 20%
+Elemento: Fire (480)
+Bônus Defesa: +20
+Raridade: 12
+Slots: [1]
+Afiação: 90,60,60,100,60,30,0
+Habilidades da Arma:
+  - Elemento Crítico: Nível 1
+
+=== CONJUNTO DE ARMADURA: Cortos α+ ===
+
+  > PEÇA: Capa de Cortos α+ (chest)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [1, 1]
+    Resistências: Fogo=-3, Água=2, Gelo=2
+    Habilidades:
+      - Resistência a Fome: Nível 2
+      - Mestre do Salto: Nível 1
+
+=== SET DE ARMADURA: Jyura α+ ===
+Rank: MR
+Peças: Elmo de Jyura α+, Armadura de Jyura α+, Avambraços de Jyura α+, Cinturão de Jyura α+, Grevas de Jyura α+
+
+=== SET DE ARMADURA: Baan α+ ===
+Rank: MR
+Peças: Elmo de Baan α+, Armadura de Baan α+, Avambraços de Baan α+, Cinturão de Baan α+, Grevas de Baan α+
+
+=== SET DE ARMADURA: Gajau α+ ===
+Rank: MR
+Peças: Botas de Gajau α+
+
+=== SET DE ARMADURA: Banbaro α+ ===
+Rank: MR
+Peças: Elmo de Banbaro α+, Armadura de Banbaro α+, Avambraços de Banbaro α+, Cinturão de Banbaro α+, Grevas de Banbaro α+
+
+=== SET DE ARMADURA: Damascus α+ ===
+Rank: MR
+Peças: Elmo de Damascus α+, Armadura de Damascus α+, Avambraços Damascus α+, Cinturão de Damascus α+, Grevas de Damascus α+
+
+=== SET DE ARMADURA: Yian Garuga α+ ===
+Rank: MR
+Peças: Elmo de Garuga α+, Armadura de Garuga α+, Avambraços de Garuga α+, Escarcela de Garuga α+, Grevas de Garuga α+
+
+=== SET DE ARMADURA: Barroth α+ ===
+Rank: MR
+Peças: Elmo de Barroth α+, Armadura de Barroth α+, Avambraços de Barroth α+, Cinturão de Barroth α+, Grevas de Barroth α+
+
+=== SET DE ARMADURA: Glavenus α+ ===
+Rank: MR
+Peças: Elmo de Glavenus α+, Armadura de Glavenus α+, Braçadeiras Glavenus α+, Fraldão de Glavenus α+, Grevas de Glavenus α+
+Bônus do Set: Essência de Glavenus
+  3 peças → Segredo Poder Máximo
+
+=== SET DE ARMADURA: Wulg α+ ===
+Rank: MR
+Peças: Echarpe de Wulg α+
+
+=== SET DE ARMADURA: Rathian α+ ===
+Rank: MR
+Peças: Elmo de Rathian α+, Armadura de Rathian α+, Avambraços de Rathian α+, Cinturão de Rathian α+, Grevas de Rathian α+
+Bônus do Set: Essência de Rathian
+  2 peças → Mais Duração de Veneno
+
+=== SET DE ARMADURA: Metal Denso α+ ===
+Nome (EN): High Metal α+
+Rank: MR
+Peças: Elmo de Metal Denso α+, Armadura Metal Denso α+, Braçad. Metal Denso α+, Cint. de Metal Denso α+, Grevas de Metal Denso α+
+
+=== SET DE ARMADURA: Beo α+ ===
+Rank: MR
+Peças: Elmo de Beo α+, Armadura de Beo α+, Avambraços de Beo α+, Cinturão de Beo α+, Grevas de Beo α+
+
+=== SET DE ARMADURA: Jyura β+ ===
+Rank: MR
+Peças: Elmo de Jyura β+, Armadura de Jyura β+, Avambraços de Jyura β+, Cinturão de Jyura β+, Grevas de Jyura β+
+
+=== SET DE ARMADURA: Jagras α+ ===
+Rank: MR
+Peças: Elmo de Jagras α+, Armadura de Jagras α+, Avambraços de Jagras α+, Cinturão de Jagras α+, Grevas de Jagras α+
+
+=== SET DE ARMADURA: Girros α+ ===
+Rank: MR
+Peças: Elmo de Girros α+, Armadura de Girros α+, Avambraços de Girros α+, Cinturão de Girros α+, Grevas de Girros α+
+
+=== SET DE ARMADURA: Artian β+ ===
+Rank: MR
+Peças: Elmo Artian β+, Armadura Artian β+, Avambraços Artian β+, Cinturão Artian β+, Grevas Artian β+
+Bônus do Set: Divindade Ancestral
+  2 peças → Status Crítico
+
+=== SET DE ARMADURA: Barnos α+ ===
+Rank: MR
+Peças: Jaqueta de Barnos α+
+
+=== SET DE ARMADURA: Dober α+ ===
+Rank: MR
+Peças: Elmo de Dober α+, Armadura de Dober α+, Avambraços de Dober α+, Cinturão de Dober α+, Grevas de Dober α+
+
+=== SET DE ARMADURA: Glavenus β+ ===
+Rank: MR
+Peças: Elmo de Glavenus β+, Armadura de Glavenus β+, Braçadeiras Glavenus β+, Fraldão de Glavenus β+, Grevas de Glavenus β+
+Bônus do Set: Essência de Glavenus
+  3 peças → Segredo Poder Máximo
+
+=== SET DE ARMADURA: Baan β+ ===
+Rank: MR
+Peças: Elmo de Baan β+, Armadura de Baan β+, Avambraços de Baan β+, Cinturão de Baan β+, Grevas de Baan β+
+
+=== SET DE ARMADURA: Legiana α+ ===
+Rank: MR
+Peças: Elmo de Legiana α+, Armadura de Legiana α+, Avambraços de Legiana α+, Cinturão de Legiana α+, Grevas de Legiana α+
+Bônus do Set: Ambição de Legiana
+  3 peças → Energizar Mais o Arco
+
+=== SET DE ARMADURA: Yian Garuga β+ ===
+Rank: MR
+Peças: Elmo de Garuga β+, Armadura de Garuga β+, Avambraços de Garuga β+, Escarcela de Garuga β+, Grevas de Garuga β+
+
+=== SET DE ARMADURA: Gajau β+ ===
+Rank: MR
+Peças: Botas de Gajau β+
+
+=== SET DE ARMADURA: Lumu α+ ===
+Rank: MR
+Peças: Chapéu de Lumu α+, Armadura de Lumu α+, Avambraços de Lumu α+, Cinturão de Lumu α+, Grevas de Lumu α+
+
+=== SET DE ARMADURA: Diablos α+ ===
+Rank: MR
+Peças: Elmo de Diablos α+, Armadura de Diablos α+, Avambraços de Diablos α+, Cinturão de Diablos α+, Grevas de Diablos α+
+Bônus do Set: Ambição de Diablos
+  3 peças → Segredo Atordoante
+
+=== SET DE ARMADURA: Damascus β+ ===
+Rank: MR
+Peças: Elmo de Damascus β+, Armadura de Damascus β+, Avambraços Damascus β+, Cinturão de Damascus β+, Grevas de Damascus β+
+
+=== SET DE ARMADURA: Cortos α+ ===
+Rank: MR
+Peças: Capa de Cortos α+
+
+=== SET DE ARMADURA: Pukei α+ ===
+Rank: MR
+Peças: Chapéu de Pukei α+, Armadura de Pukei α+, Avambraços de Pukei α+, Cinturão de Pukei α+, Grevas de Pukei α+
+
+=== SET DE ARMADURA: Dodogama α+ ===
+Rank: MR
+Peças: Elmo de Dodogama α+, Armadura de Dodogama α+, Avambraços Dodogama α+, Cinturão de Dodogama α+, Grevas de Dodogama α+
+
+=== ARMA: Kjárr Assalto Kadachi (heavy-bowgun) ===
+Nome (EN): Kjárr Assault "Spark"
+Ataque: 285
+Afinidade: 15%
+Raridade: 8
+Habilidades da Arma:
+  - Elemento Crítico: Nível 1
+
+=== ARMA: Machado Kjárr Raio (switch-axe) ===
+Nome (EN): Kjárr Axe "Thunder" (MR)
+Ataque: 945
+Afinidade: 15%
+Elemento: Thunder (510)
+Bônus Defesa: +20
+Raridade: 12
+Afiação: 110,30,60,80,40,80,0
+Habilidades da Arma:
+  - Elemento Crítico: Nível 1
+
+=== ARMA: Kjárr Assalto Kadachi (heavy-bowgun) ===
+Nome (EN): Kjárr Assault "Spark" (MR)
+Ataque: 375
+Afinidade: 15%
+Bônus Defesa: +20
+Raridade: 12
+Habilidades da Arma:
+  - Elemento Crítico: Nível 1
+
+ITEM: Munição Armadura
+Nome (EN): Armor Ammo
+Descrição: Munição que deixa a pele do alvo dura feito pedra. Capacidade: 5
+Raridade: 4
+Categoria: ammo
+Venda: 7z
+Combinação: Munição Normal 1 + Pele de Pedra = Munição Armadura x3
+
+=== ARMA: Rajada Gelada (light-bowgun) ===
+Nome (EN): Blizzard Gust
+Ataque: 338
+Afinidade: 15%
+Raridade: 11
+Materiais (Criar): Bilhete Presagélida x3, Presagélida Pratalvura x3, Garra Britagelo x2, Gema Grande de Serpe x1
+Materiais (Upgrade): Bilhete Presagélida x2, Presagélida Pratalvura x3, Garra Britagelo x1, Grácio x5
+
+=== ARMA: Malícia de Juba (hammer) ===
+Nome (EN): Mane Malice
+Ataque: 1.508
+Afinidade: -15%
+Elemento: Thunder (90)
+Raridade: 11
+Slots: [4]
+Afiação: 110,100,40,50,50,50,0
+Materiais (Criar): Chifroduro de Rajang x1, Garrígida de Rajang x1, Presadura de Rajang x2, Pelicabrava de Rajang x2
+
+=== ARMA: Espada Kjárr Kadachi (long-sword) ===
+Nome (EN): Kjárr Sword "Spark"
+Ataque: 627
+Afinidade: 20%
+Elemento: Thunder (330)
+Raridade: 8
+Slots: [1]
+Afiação: 130,100,30,30,80,30,0
+Habilidades da Arma:
+  - Elemento Crítico: Nível 1
+
+=== CONJUNTO DE ARMADURA: Kestodonte β+ ===
+
+  > PEÇA: Ombreiras Kestodonte β+ (arms)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [4, 1]
+    Resistências: Fogo=4
+    Habilidades:
+      - Deslizada de Afinidade: Nível 1
+      - Foco: Nível 1
+
+=== SET DE ARMADURA: Jyura α ===
+Rank: HR
+Peças: Elmo de Jyura α, Armadura de Jyura α, Avambraços de Jyura α, Cinturão de Jyura α, Grevas de Jyura α
+
+ITEM: Barbatana de Peixe-amola+
+Nome (EN): Whetfish Fin+
+Descrição: Usada para afiar armas. Funciona melhor que uma pedra de amolar. Pode ser reutilizada se tiver sorte.
+Raridade: 4
+Categoria: item
+Venda: 45z
+
+=== ARMA: Adagas Kjárr Kadachi (dual-blades) ===
+Nome (EN): Kjárr Daggers "Spark" (MR)
+Ataque: 406
+Afinidade: 15%
+Elemento: Thunder (360)
+Bônus Defesa: +20
+Raridade: 12
+Slots: [1]
+Afiação: 230,20,20,50,10,70,0
+Habilidades da Arma:
+  - Elemento Crítico: Nível 1
+
+=== CONJUNTO DE ARMADURA: Óssea α+ ===
+
+  > PEÇA: Elmo Ósseo α+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [3]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Reforço de Vida: Nível 2
+      - Quebra-parte: Nível 1
+
+  > PEÇA: Armadura Óssea α+ (chest)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [2]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Reforço de Ataque: Nível 2
+      - Reforço de Vida: Nível 1
+
+  > PEÇA: Avambraços Ósseos α+ (arms)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [2]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Atordoante: Nível 2
+      - Reforço de Ataque: Nível 1
+
+  > PEÇA: Cinturão Ósseo α+ (waist)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [3]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Maestro de Sonoro: Nível 1
+      - Quebra-parte: Nível 1
+
+  > PEÇA: Grevas Ósseas α+ (legs)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [3]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Atordoante: Nível 1
+      - Maestro de Sonoro: Nível 1
+
+=== ARMA: Ceifadora Óssea I (long-sword) ===
+Nome (EN): Bone Reaper I
+Ataque: 561
+Elemento: Sleep (240) (Oculto)
+Bônus Defesa: +10
+Raridade: 6
+Slots: [2]
+Afiação: 100,100,40,40,70,0,0
+Materiais (Upgrade): Osso Duro de Monstro x4, Incisivo de Monstro x6, Osso de Qualidade x10
+
+=== SET DE ARMADURA: Óssea β+ ===
+Nome (EN): Bone β+
+Rank: MR
+Peças: Elmo Ósseo β+, Armadura Óssea β+, Avambraços Ósseos β+, Cinturão Ósseo β+, Grevas Ósseas β+
+
+=== CONJUNTO DE ARMADURA: Óssea β+ ===
+
+  > PEÇA: Elmo Ósseo β+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [4]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Reforço de Vida: Nível 1
+      - Quebra-parte: Nível 1
+
+  > PEÇA: Armadura Óssea β+ (chest)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [4, 1]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Reforço de Ataque: Nível 1
+
+  > PEÇA: Avambraços Ósseos β+ (arms)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [4, 1]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Atordoante: Nível 1
+
+  > PEÇA: Cinturão Ósseo β+ (waist)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [4, 1]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Maestro de Sonoro: Nível 1
+
+  > PEÇA: Grevas Ósseas β+ (legs)
+    Rank: MR | Raridade: 9
+    Defesa Base: 114 | Slots: [4]
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Atordoante: Nível 1
+
+=== ARMA: Ceifadora Óssea II (long-sword) ===
+Nome (EN): Bone Reaper II
+Ataque: 627
+Elemento: Sleep (270) (Oculto)
+Bônus Defesa: +10
+Raridade: 6
+Slots: [3]
+Afiação: 100,120,40,50,90,0,0
+Materiais (Upgrade): Osso de Dragão Ancião x4, Osso Duro de Monstro x6, Osso de Qualidade x20, Relíquia Dragosso x1
+
+=== SET DE ARMADURA: Osso ===
+Nome (EN): Bone
+Rank: LR
+Peças: Elmo Ósseo, Armadura Óssea, Avambraços Ósseos, Cinturão Ósseo, Grevas Ósseas
+
+=== ARMA: Lança Óssea Pesada I (lance) ===
+Nome (EN): Heavy Bone Lance I
+Ataque: 391
+Elemento: Poison (210) (Oculto)
+Bônus Defesa: +10
+Raridade: 6
+Slots: [2]
+Afiação: 100,100,40,40,70,0,0
+Materiais (Upgrade): Osso Duro de Monstro x4, Incisivo de Monstro x6, Osso de Qualidade x10
+
+=== ARMA: Shotel Óssea Dura III (long-sword) ===
+Nome (EN): Hard Bone Shotel III
+Ataque: 528
+Elemento: Sleep (210) (Oculto)
+Raridade: 5
+Slots: [1]
+Afiação: 140,70,30,100,10,0,0
+Materiais (Upgrade): Incisivo de Monstro x2, Osso de Monstro+ x2, Osso de Qualidade x2
+
+=== ARMA: Shotel Óssea Dura I (long-sword) ===
+Nome (EN): Hard Bone Shotel I
+Ataque: 429
+Raridade: 3
+Afiação: 130,70,30,70,0,0,0
+Materiais (Upgrade): Osso de Monstro G x1, Osso de Monstro M x5, Osso Pedregulho x2
+
+=== ARMA: Shotel Óssea Dura II (long-sword) ===
+Nome (EN): Hard Bone Shotel II
+Ataque: 495
+Raridade: 4
+Afiação: 110,70,30,90,0,0,0
+Materiais (Upgrade): Osso de Monstro+ x2, Osso de Monstro G x1, Osso Robusto x4
+
+=== ARMA: Shotel Óssea III (long-sword) ===
+Nome (EN): Bone Shotel III
+Ataque: 396
+Raridade: 2
+Afiação: 70,60,60,60,0,0,0
+Materiais (Upgrade): Osso de Monstro M x2, Osso Ancião x1
+
+=== ARMA: Shotel Óssea II (long-sword) ===
+Nome (EN): Bone Shotel II
+Ataque: 330
+Raridade: 1
+Afiação: 90,50,80,30,0,0,0
+Materiais (Upgrade): Osso de Monstro P x2
+
+=== ARMA: Machadinhas Ósseas I (dual-blades) ===
+Nome (EN): Bone Hatchets I
+Ataque: 140
+Raridade: 1
+Afiação: 100,60,80,10,0,0,0
+Materiais (Criar): Osso de Monstro P x1
+
+=== ARMA: Lança Óssea I (lance) ===
+Nome (EN): Bone Lance I
+Ataque: 207
+Raridade: 1
+Afiação: 100,60,80,10,0,0,0
+Materiais (Criar): Osso de Monstro P x1
+
+=== ARMA: Lança Óssea III (lance) ===
+Nome (EN): Bone Lance III
+Ataque: 253
+Raridade: 2
+Afiação: 80,50,50,70,0,0,0
+Materiais (Upgrade): Osso de Monstro M x2, Osso Ancião x1
+
+=== SET DE ARMADURA: Osso β ===
+Nome (EN): Bone β
+Rank: HR
+Peças: Elmo Ósseo β, Armadura Óssea β, Avambraços Ósseos β, Cinturão Ósseo β, Grevas Ósseas β
+
+=== ARMA: Lança Óssea II (lance) ===
+Nome (EN): Bone Lance II
+Ataque: 230
+Raridade: 1
+Afiação: 90,50,80,30,0,0,0
+Materiais (Upgrade): Osso de Monstro P x2
+
+=== ARMA: Machadinhas Ósseas II (dual-blades) ===
+Nome (EN): Bone Hatchets II
+Ataque: 154
+Raridade: 1
+Afiação: 90,50,80,30,0,0,0
+Materiais (Upgrade): Osso de Monstro P x2
+
+=== ARMA: Shotel Óssea I (long-sword) ===
+Nome (EN): Bone Shotel I
+Ataque: 297
+Raridade: 1
+Afiação: 100,60,80,10,0,0,0
+Materiais (Criar): Osso de Monstro P x1
+
+=== ARMA: Lança Óssea Pesada II (lance) ===
+Nome (EN): Heavy Bone Lance II
+Ataque: 437
+Elemento: Poison (240) (Oculto)
+Bônus Defesa: +10
+Raridade: 6
+Slots: [3]
+Afiação: 100,120,40,50,90,0,0
+Materiais (Upgrade): Osso de Dragão Ancião x4, Osso Duro de Monstro x6, Osso de Qualidade x20, Relíquia Dragosso x1
+
+=== ARMA: Lança Óssea Dura II (lance) ===
+Nome (EN): Hard Bone Lance II
+Ataque: 345
+Raridade: 4
+Afiação: 110,70,30,90,0,0,0
+Materiais (Upgrade): Osso de Monstro+ x2, Osso de Monstro G x1, Osso Robusto x4
+
+=== ARMA: Machadinhas Ósseas III (dual-blades) ===
+Nome (EN): Bone Hatchets III
+Ataque: 168
+Raridade: 2
+Afiação: 80,70,30,70,0,0,0
+Materiais (Upgrade): Osso de Monstro M x2, Osso Ancião x1
+
+=== ARMA: Lança Óssea Dura I (lance) ===
+Nome (EN): Hard Bone Lance I
+Ataque: 322
+Raridade: 3
+Afiação: 120,70,30,80,0,0,0
+Materiais (Upgrade): Osso de Monstro G x1, Osso de Monstro M x5, Osso Pedregulho x2
+
+=== ARMA: Atirador Ósseo III (heavy-bowgun) ===
+Nome (EN): Bone Shooter III
+Ataque: 195
+Raridade: 2
+Materiais (Upgrade): Osso de Monstro M x2, Osso Ancião x1
+
+=== ARMA: Atirador Ósseo I (heavy-bowgun) ===
+Nome (EN): Bone Shooter I
+Ataque: 150
+Raridade: 1
+Materiais (Criar): Osso de Monstro P x1
+
+=== CONJUNTO DE ARMADURA: Shamos α+ ===
+
+  > PEÇA: Óculos de Shamos α+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [2, 1]
+    Resistências: Fogo=2, Água=2, Gelo=-3
+    Habilidades:
+      - Detector: Nível 1
+      - Geologia: Nível 2
+
+=== SET DE ARMADURA: Shamos α+ ===
+Rank: MR
+Peças: Óculos de Shamos α+
+
+=== SET DE ARMADURA: Fonte-pérola α+ ===
+Nome (EN): Pearlspring α+
+Rank: MR
+Peças: Fonte-pérola α+
+
+=== SET DE ARMADURA: Shamos α ===
+Rank: HR
+Peças: Óculos de Shamos α
+
+=== SET DE ARMADURA: Liga Leve α+ ===
+Nome (EN): Alloy α+
+Rank: MR
+Peças: Elmo de Liga Leve α+, Armadura de Liga Leve α+, Avambraços Liga Leve α+, Cinturão de Liga Leve α+, Grevas de Liga Leve α+
+
+=== CONJUNTO DE ARMADURA: Ócul. Esc. Sombrios α ===
+
+  > PEÇA: Óculos Escuros Sombrios α (head)
+    Rank: HR | Raridade: 5
+    Defesa Base: 46 | Slots: [1, 1, 1]
+    Resistências: Fogo=4, Gelo=2, Trovão=4
+    Habilidades:
+      - Resistência Atordoamento: Nível 1
+
+=== CONJUNTO DE ARMADURA: Osso α ===
+
+  > PEÇA: Elmo Ósseo α (head)
+    Rank: HR | Raridade: 5
+    Defesa Base: 36 | Slots: Nenhum
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Reforço de Vida: Nível 1
+      - Entomologista: Nível 1
+
+  > PEÇA: Armadura Óssea α (chest)
+    Rank: HR | Raridade: 5
+    Defesa Base: 36 | Slots: Nenhum
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Reforço de Ataque: Nível 2
+
+  > PEÇA: Avambraços Ósseos α (arms)
+    Rank: HR | Raridade: 5
+    Defesa Base: 36 | Slots: Nenhum
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Atordoante: Nível 1
+      - Reforço de Ataque: Nível 1
+
+  > PEÇA: Cinturão Ósseo α (waist)
+    Rank: HR | Raridade: 5
+    Defesa Base: 36 | Slots: Nenhum
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Maestro de Sonoro: Nível 1
+      - Mestre de Pescaria: Nível 1
+
+  > PEÇA: Grevas Ósseas α (legs)
+    Rank: HR | Raridade: 5
+    Defesa Base: 36 | Slots: Nenhum
+    Resistências: Fogo=2, Trovão=2, Dragão=2
+    Habilidades:
+      - Entomologista: Nível 2
+
+=== CONJUNTO DE ARMADURA: Shamos α ===
+
+  > PEÇA: Óculos de Shamos α (head)
+    Rank: HR | Raridade: 5
+    Defesa Base: 40 | Slots: Nenhum
+    Resistências: Fogo=2, Água=2, Gelo=-3
+    Habilidades:
+      - Detector: Nível 1
+      - Geologia: Nível 1
+
+=== SET DE ARMADURA: Estrategista α ===
+Nome (EN): Strategist α
+Rank: HR
+Peças: Óculos de Estrategista α
+
+=== SET DE ARMADURA: Liga Leve α ===
+Nome (EN): Alloy α
+Rank: HR
+Peças: Elmo de Liga Leve α, Armadura de Liga Leve α, Avambraços Liga Leve α, Cinturão de Liga Leve α, Grevas de Liga Leve α
+
+=== CONJUNTO DE ARMADURA: Shamos β+ ===
+
+  > PEÇA: Óculos de Shamos β+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [4, 2]
+    Resistências: Fogo=2, Água=2, Gelo=-3
+    Habilidades:
+      - Detector: Nível 1
+      - Geologia: Nível 1
+
+=== SET DE ARMADURA: Wulg β+ ===
+Rank: MR
+Peças: Echarpe de Wulg β+
+
+=== SET DE ARMADURA: Liga Leve β+ ===
+Nome (EN): Alloy β+
+Rank: MR
+Peças: Elmo de Liga Leve β+, Armadura de Liga Leve β+, Avambraços Liga Leve β+, Cinturão de Liga Leve β+, Grevas de Liga Leve β+
+
+=== SET DE ARMADURA: Shamos β+ ===
+Rank: MR
+Peças: Óculos de Shamos β+
+
+=== SET DE ARMADURA: Metal Denso β+ ===
+Nome (EN): High Metal β+
+Rank: MR
+Peças: Elmo de Metal Denso β+, Armadura Metal Denso β+, Braçad. Metal Denso β+, Cint. de Metal Denso β+, Grevas de Metal Denso β+
+
+=== SET DE ARMADURA: Barnos β+ ===
+Rank: MR
+Peças: Jaqueta de Barnos β+
+
+=== SET DE ARMADURA: Dodogama β+ ===
+Rank: MR
+Peças: Elmo de Dodogama β+, Armadura de Dodogama β+, Avambraços Dodogama β+, Cinturão de Dodogama β+, Grevas de Dodogama β+
+
+=== SET DE ARMADURA: Beo β+ ===
+Rank: MR
+Peças: Elmo de Beo β+, Armadura de Beo β+, Avambraços de Beo β+, Cinturão de Beo β+, Grevas de Beo β+
+
+=== CONJUNTO DE ARMADURA: Kestodonte β ===
+
+  > PEÇA: Ombreiras Kestodonte β (arms)
+    Rank: HR | Raridade: 5
+    Defesa Base: 40 | Slots: [1]
+    Resistências: Fogo=4
+    Habilidades:
+      - Deslizada de Afinidade: Nível 1
+
+=== CONJUNTO DE ARMADURA: Gastodonte β+ ===
+
+  > PEÇA: Chifre de Gastodonte β+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [4, 1]
+    Resistências: Fogo=3
+    Habilidades:
+      - Sem Recuo: Nível 1
+      - Resistência a Explosão: Nível 1
+
+=== SET DE ARMADURA: Ilusão Lumu β+ ===
+Nome (EN): Lumu Phantasm β+
+Rank: MR
+Peças: Capuz Ilusão Lumu β+, Armadura Ilusão Lumu β+, Braçadeiras Ilusão Lumu β+, Cinturão Ilusão Lumu β+, Grevas Ilusão Lumu β+
+
+=== SET DE ARMADURA: Barroth β+ ===
+Rank: MR
+Peças: Elmo de Barroth β+, Armadura de Barroth β+, Avambraços de Barroth β+, Cinturão de Barroth β+, Grevas de Barroth β+
+
+=== SET DE ARMADURA: Kushala β+ ===
+Rank: MR
+Peças: Fulgor de Kushala β+, Cista de Kushala β+, Garra de Kushala β+, Casulo de Kushala β+, Crurais de Kushala β+
+Bônus do Set: Voo de Kushala Daora
+  3 peças → Anular Pressão do Vento
+
+=== SET DE ARMADURA: Banbaro β+ ===
+Rank: MR
+Peças: Elmo de Banbaro β+, Armadura de Banbaro β+, Avambraços de Banbaro β+, Cinturão de Banbaro β+, Grevas de Banbaro β+
+
+=== CONJUNTO DE ARMADURA: Barnos β+ ===
+
+  > PEÇA: Jaqueta de Barnos β+ (chest)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [4, 2]
+    Resistências: Fogo=1, Água=1, Gelo=1, Dragão=-2
+    Habilidades:
+      - Bloqueio de Calor: Nível 1
+      - Pele de Ferro: Nível 1
+
+=== CONJUNTO DE ARMADURA: Cortos β+ ===
+
+  > PEÇA: Capa de Cortos β+ (chest)
+    Rank: MR | Raridade: 9
+    Defesa Base: 116 | Slots: [4]
+    Resistências: Fogo=-3, Água=2, Gelo=2
+    Habilidades:
+      - Resistência a Fome: Nível 1
+      - Mestre do Salto: Nível 1
+
+=== SET DE ARMADURA: Lingote β+ ===
+Nome (EN): Ingot β+
+Rank: MR
+Peças: Elmo de Lingote β+, Armadura de Lingote β+, Avambraços de Lingote β+, Cinturão de Lingote β+, Grevas de Lingote β+
+
+=== SET DE ARMADURA: Liga Leve β ===
+Nome (EN): Alloy β
+Rank: HR
+Peças: Elmo de Liga Leve β, Armadura de Liga Leve β, Avambraços Liga Leve β, Cinturão de Liga Leve β, Grevas de Liga Leve β
+
+=== SET DE ARMADURA: Cortos β+ ===
+Rank: MR
+Peças: Capa de Cortos β+
+
+=== ARMA: Espancador Fóssil I (hammer) ===
+Nome (EN): Fossil Bludgeon I
+Ataque: 728
+Raridade: 3
+Afiação: 130,70,30,70,0,0,0
+Materiais (Upgrade): Osso de Monstro G x1, Osso de Monstro M x5, Osso Pedregulho x2
+
+=== CONJUNTO DE ARMADURA: Gastodonte β ===
+
+  > PEÇA: Chifre de Gastodonte β (head)
+    Rank: HR | Raridade: 5
+    Defesa Base: 48 | Slots: [1]
+    Resistências: Fogo=3
+    Habilidades:
+      - Sem Recuo: Nível 1
+
+ITEM: Presa de Jyuratodus+
+Nome (EN): Jyuratodus Fang+
+Descrição: Material raro de Jyuratodus. Obtida ao quebrar sua cabeça. Afiada, usada em muitas armas.
+Raridade: 6
+Categoria: material
+Venda: 2.040z
+
+=== SET DE ARMADURA: Cabeça Treme-treme α ===
+Nome (EN): Wiggler Head α
+Rank: HR
+Peças: Cabeça Treme-treme α
+
+=== ARMA: Cravo Ósseo I (hammer) ===
+Nome (EN): Bone Spike I
+Ataque: 676
+Elemento: Sleep (150)
+Bônus Defesa: +15
+Raridade: 3
+Afiação: 120,70,30,80,0,0,0
+Materiais (Upgrade): Massosso de Serpe x2, Escama de Radobaan x4, Glândula de Sono x2
+
+=== ARMA: Kukri Ósseo I (sword-and-shield) ===
+Nome (EN): Bone Kukri I
+Ataque: 140
+Raridade: 1
+Afiação: 90,60,80,20,0,0,0
+Materiais (Criar): Osso de Monstro P x1
+
+=== ARMA: Atirador Ósseo II (heavy-bowgun) ===
+Nome (EN): Bone Shooter II
+Ataque: 165
+Raridade: 1
+Materiais (Upgrade): Osso de Monstro P x2
+
+=== SET DE ARMADURA: Caveira α ===
+Nome (EN): Skull α
+Rank: HR
+Peças: Máscara Craniana α
+
+=== CONJUNTO DE ARMADURA: Alma de Rath α+ ===
+
+  > PEÇA: Elmo Alma de Rath α+ (head)
+    Rank: MR | Raridade: 11
+    Defesa Base: 148 | Slots: [1, 1]
+    Resistências: Fogo=3, Água=2, Gelo=-3, Trovão=2, Dragão=-4
+    Habilidades:
+      - Reforço Crítico: Nível 1
+      - Suspensão: Nível 1
+
+  > PEÇA: Armadura Alma de Rath α+ (chest)
+    Rank: MR | Raridade: 11
+    Defesa Base: 148 | Slots: [2]
+    Resistências: Fogo=3, Água=2, Gelo=-3, Trovão=2, Dragão=-4
+    Habilidades:
+      - Mais Munição/Elemento: Nível 1
+      - Quebra-parte: Nível 1
+
+  > PEÇA: Braçadeiras Alma Rath α+ (arms)
+    Rank: MR | Raridade: 11
+    Defesa Base: 148 | Slots: [2]
+    Resistências: Fogo=3, Água=2, Gelo=-3, Trovão=2, Dragão=-4
+    Habilidades:
+      - Quebra-parte: Nível 2
+      - Antivento: Nível 1
+
+  > PEÇA: Cint. Alma de Rath α+ (waist)
+    Rank: MR | Raridade: 11
+    Defesa Base: 148 | Slots: [3]
+    Resistências: Fogo=3, Água=2, Gelo=-3, Trovão=2, Dragão=-4
+    Habilidades:
+      - Antivento: Nível 2
+      - Disparos Perfurantes: Nível 1
+
+  > PEÇA: Grevas Alma de Rath α+ (legs)
+    Rank: MR | Raridade: 11
+    Defesa Base: 148 | Slots: [1]
+    Resistências: Fogo=3, Água=2, Gelo=-3, Trovão=2, Dragão=-4
+    Habilidades:
+      - Reforço Crítico: Nível 1
+      - Antivento: Nível 2
+
+=== SET DE ARMADURA: Metal Denso α ===
+Nome (EN): High Metal α
+Rank: HR
+Peças: Elmo de Metal Denso α, Armadura Metal Denso α, Braçad. Metal Denso α, Cint. de Metal Denso α, Grevas de Metal Denso α
+
+=== CONJUNTO DE ARMADURA: Glavenus α+ ===
+
+  > PEÇA: Elmo de Glavenus α+ (head)
+    Rank: MR | Raridade: 10
+    Defesa Base: 142 | Slots: [1]
+    Resistências: Fogo=3, Água=-3, Gelo=-1, Trovão=1, Dragão=-1
+    Habilidades:
+      - Foco: Nível 2
+      - Artesanato: Nível 1
+
+  > PEÇA: Armadura de Glavenus α+ (chest)
+    Rank: MR | Raridade: 10
+    Defesa Base: 142 | Slots: [1]
+    Resistências: Fogo=3, Água=-3, Gelo=-1, Trovão=1, Dragão=-1
+    Habilidades:
+      - Prolongar Poder: Nível 2
+      - Poder Máximo: Nível 1
+
+  > PEÇA: Braçadeiras Glavenus α+ (arms)
+    Rank: MR | Raridade: 10
+    Defesa Base: 142 | Slots: [1]
+    Resistências: Fogo=3, Água=-3, Gelo=-1, Trovão=1, Dragão=-1
+    Habilidades:
+      - Poder Máximo: Nível 2
+      - Foco: Nível 1
+
+  > PEÇA: Fraldão de Glavenus α+ (waist)
+    Rank: MR | Raridade: 10
+    Defesa Base: 142 | Slots: [1, 1]
+    Resistências: Fogo=3, Água=-3, Gelo=-1, Trovão=1, Dragão=-1
+    Habilidades:
+      - Poder Máximo: Nível 2
+      - Disparos Normais: Nível 1
+
+  > PEÇA: Grevas de Glavenus α+ (legs)
+    Rank: MR | Raridade: 10
+    Defesa Base: 142 | Slots: [2]
+    Resistências: Fogo=3, Água=-3, Gelo=-1, Trovão=1, Dragão=-1
+    Habilidades:
+      - Artesanato: Nível 2
+      - Bloqueio de Calor: Nível 1
+
+=== SET DE ARMADURA: Baan α ===
+Rank: HR
+Peças: Elmo de Baan α, Armadura de Baan α, Avambraços de Baan α, Cinturão de Baan α, Grevas de Baan α
+
+=== CONJUNTO DE ARMADURA: Diablos α+ ===
+
+  > PEÇA: Elmo de Diablos α+ (head)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [2]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Saque Crítico: Nível 2
+      - Atordoante: Nível 1
+
+  > PEÇA: Armadura de Diablos α+ (chest)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [2]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Atordoante: Nível 2
+      - Heroísmo: Nível 2
+
+  > PEÇA: Avambraços de Diablos α+ (arms)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [2]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Heroísmo: Nível 3
+      - Resistência a Tremor: Nível 1
+
+  > PEÇA: Cinturão de Diablos α+ (waist)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [2]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Maratonista: Nível 2
+      - Saque Crítico: Nível 1
+
+  > PEÇA: Grevas de Diablos α+ (legs)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [1, 1]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Resistência a Tremor: Nível 2
+      - Atordoante: Nível 2
+
+=== CONJUNTO DE ARMADURA: Legia Estridente β+ ===
+
+  > PEÇA: Elmo Brado Glacial β+ (head)
+    Rank: MR | Raridade: 11
+    Defesa Base: 146 | Slots: [4, 1]
+    Resistências: Fogo=-3, Água=2, Gelo=3, Trovão=-1
+    Habilidades:
+      - Resistência a Fome: Nível 2
+
+  > PEÇA: Armad. Brado Glacial β+ (chest)
+    Rank: MR | Raridade: 11
+    Defesa Base: 146 | Slots: [4]
+    Resistências: Fogo=-3, Água=2, Gelo=3, Trovão=-1
+    Habilidades:
+      - Foco: Nível 2
+
+  > PEÇA: Avambr. Brado Glacial β+ (arms)
+    Rank: MR | Raridade: 11
+    Defesa Base: 146 | Slots: [4]
+    Resistências: Fogo=-3, Água=2, Gelo=3, Trovão=-1
+    Habilidades:
+      - Saque Crítico: Nível 2
+
+  > PEÇA: Cint. Brado Glacial β+ (waist)
+    Rank: MR | Raridade: 11
+    Defesa Base: 146 | Slots: [4]
+    Resistências: Fogo=-3, Água=2, Gelo=3, Trovão=-1
+    Habilidades:
+      - Extensor de Esquiva: Nível 2
+
+  > PEÇA: Grevas Brado Glacial β+ (legs)
+    Rank: MR | Raridade: 11
+    Defesa Base: 146 | Slots: [4, 2]
+    Resistências: Fogo=-3, Água=2, Gelo=3, Trovão=-1
+    Habilidades:
+      - Maratonista: Nível 2
+
+=== SET DE ARMADURA: Baan β ===
+Rank: HR
+Peças: Elmo de Baan β, Armadura de Baan β, Avambraços de Baan β, Cinturão de Baan β, Grevas de Baan β
+
+=== CONJUNTO DE ARMADURA: Diablos β+ ===
+
+  > PEÇA: Elmo de Diablos β+ (head)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [4]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Saque Crítico: Nível 2
+
+  > PEÇA: Armadura de Diablos β+ (chest)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [4, 1]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Atordoante: Nível 2
+      - Heroísmo: Nível 1
+
+  > PEÇA: Avambraços de Diablos β+ (arms)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [4, 1]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Heroísmo: Nível 2
+      - Resistência a Tremor: Nível 1
+
+  > PEÇA: Cinturão de Diablos β+ (waist)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [4, 1]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Maratonista: Nível 2
+
+  > PEÇA: Grevas de Diablos β+ (legs)
+    Rank: MR | Raridade: 10
+    Defesa Base: 140 | Slots: [4, 1]
+    Resistências: Fogo=3, Água=-2, Gelo=-3, Dragão=2
+    Habilidades:
+      - Resistência a Tremor: Nível 2
+      - Atordoante: Nível 1
+
+=== SET DE ARMADURA: Gastodonte β+ ===
+Nome (EN): Gastodon β+
+Rank: MR
+Peças: Chifre de Gastodonte β+
+
+=== SET DE ARMADURA: Kestodonte β+ ===
+Nome (EN): Kestodon β+
+Rank: MR
+Peças: Ombreiras Kestodonte β+
+
+=== CONJUNTO DE ARMADURA: Baan β+ ===
+
+  > PEÇA: Elmo de Baan β+ (head)
+    Rank: MR | Raridade: 9
+    Defesa Base: 134 | Slots: [4]
+    Resistências: Água=2, Gelo=-1, Dragão=-2
+    Habilidades:
+      - Resistência a Tremor: Nível 2
+
+  > PEÇA: Armadura de Baan β+ (chest)
+    Rank: MR | Raridade: 9
+    Defesa Base: 134 | Slots: [4]
+    Resistências: Água=2, Gelo=-1, Dragão=-2
+    Habilidades:
+      - Ataque de Sono: Nível 1
+
+  > PEÇA: Avambraços de Baan β+ (arms)
+    Rank: MR | Raridade: 9
+    Defesa Base: 134 | Slots: [4]
+    Resistências: Água=2, Gelo=-1, Dragão=-2
+    Habilidades:
+      - Ataque de Sono: Nível 1
+      - Bloqueio: Nível 1
+
+  > PEÇA: Cinturão de Baan β+ (waist)
+    Rank: MR | Raridade: 9
+    Defesa Base: 134 | Slots: [4]
+    Resistências: Água=2, Gelo=-1, Dragão=-2
+    Habilidades:
+      - Bloqueio: Nível 2
+
+  > PEÇA: Grevas de Baan β+ (legs)
+    Rank: MR | Raridade: 9
+    Defesa Base: 134 | Slots: [4, 1]
+    Resistências: Água=2, Gelo=-1, Dragão=-2
+    Habilidades:
+      - Resistência Sangramento: Nível 2
+
+=== SET DE ARMADURA: Metal Denso β ===
+Nome (EN): High Metal β
+Rank: HR
+Peças: Elmo de Metal Denso β, Armadura Metal Denso β, Braçad. Metal Denso β, Cint. de Metal Denso β, Grevas de Metal Denso β
