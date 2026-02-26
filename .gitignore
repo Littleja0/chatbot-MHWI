@@ -1,10 +1,9 @@
 *.pyc
 __pycache__/
 build/
-*.exe
-*.zip
+dist/
+_internal/
 *.pyd
-*.dll
 storage/
 .env
 .vscode/
@@ -17,3 +16,4 @@ frontend/dist/
 .venv/
 venv/
 .DS_Store
+*.spec

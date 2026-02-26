@@ -103,7 +103,14 @@ if __name__ == "__main__":
     t.daemon = True
     t.start()
 
-    time.sleep(1.5)
+    import socket
+    log.info("Waiting for server to start...")
+    for _ in range(60): # Aguarda até 30 segundos
+        try:
+            with socket.create_connection((HOST, PORT), timeout=1):
+                break
+        except OSError:
+            time.sleep(0.5)
 
     try:
         import webview  # type: ignore
