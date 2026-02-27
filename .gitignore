@@ -16,4 +16,4 @@ frontend/dist/
 .venv/
 venv/
 .DS_Store
-*.spec
+
