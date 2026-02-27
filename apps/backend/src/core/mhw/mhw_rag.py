@@ -6,18 +6,15 @@ Melhorias implementadas:
 - Rebuild automático quando XMLs são alterados (sem deletar storage manualmente)
 - Multi-query expansion para melhorar recall
 - Hot-reload do query engine sem reiniciar o servidor
+- Lazy initialization do NVIDIA SDK (não bloqueia import)
 """
 
 import os
 import re
 from pathlib import Path
-from llama_index.core import VectorStoreIndex, StorageContext, load_index_from_storage, Settings  # type: ignore
-from llama_index.llms.nvidia import NVIDIA  # type: ignore
-from llama_index.embeddings.nvidia import NVIDIAEmbedding  # type: ignore
 from typing import List, Any, Optional, Union
 
 from dotenv import load_dotenv  # type: ignore
-
 
 # Localizar .env na raiz do projeto
 import sys
@@ -25,16 +22,27 @@ from core.config import DATA_DIR, RAG_DIR, STORAGE_DIR, NVIDIA_API_KEY, LLM_MODE
 
 load_dotenv(ROOT_DIR / ".env")
 
-# Configurar o LlamaIndex para usar NVIDIA
-Settings.llm = NVIDIA(model=LLM_MODEL, base_url=LLM_BASE_URL, timeout=LLM_TIMEOUT)
-Settings.embed_model = NVIDIAEmbedding(model="nvidia/nv-embedqa-e5-v5", truncate="END")
-
 # Caminhos
 RAG_PATH = RAG_DIR
 STORAGE_PATH = STORAGE_DIR
 
 # Instância global do motor
 _query_engine = None
+_nvidia_initialized = False
+
+
+def _ensure_nvidia_settings():
+    """Inicializa o NVIDIA LLM/Embedding apenas na primeira chamada (lazy)."""
+    global _nvidia_initialized
+    if _nvidia_initialized:
+        return
+    from llama_index.core import Settings  # type: ignore
+    from llama_index.llms.nvidia import NVIDIA  # type: ignore
+    from llama_index.embeddings.nvidia import NVIDIAEmbedding  # type: ignore
+    Settings.llm = NVIDIA(model=LLM_MODEL, base_url=LLM_BASE_URL, timeout=LLM_TIMEOUT)
+    Settings.embed_model = NVIDIAEmbedding(model="nvidia/nv-embedqa-e5-v5", truncate="END")
+    _nvidia_initialized = True
+
 
 
 def setup_rag_engine(progress_callback=None):
@@ -49,6 +57,10 @@ def setup_rag_engine(progress_callback=None):
     global _query_engine
     if _query_engine is not None:
         return _query_engine
+
+    # Lazy init: imports e NVIDIA SDK só quando realmente necessário
+    _ensure_nvidia_settings()
+    from llama_index.core import VectorStoreIndex, StorageContext, load_index_from_storage  # type: ignore
 
 
     import threading
